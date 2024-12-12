@@ -1,0 +1,31 @@
+.ube-banner {
+	&:after {
+		background-color: transparent;
+	}
+	.ube-banner-title{
+		margin-bottom: 10px;
+		mark {
+			margin-top: 71px;
+			font-size: 16px;
+			font-weight: 500;
+			letter-spacing: 1.9px;
+			color: #9b9b9b;
+			background-color: transparent;
+		}
+	}
+}
+
+.ube-banner-has-effect:hover:after{
+	background-color: transparent;
+}
+
+.ube-banner-content {
+	color: var(--g5-color-heading);
+	padding: 55px 50px;
+}
+
+.ube-banner-title{
+	font-weight: 500;
+	font-size: 30px;
+	font-family: var(--g5-primary-font);
+}

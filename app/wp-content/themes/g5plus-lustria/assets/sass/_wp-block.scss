@@ -1,0 +1,138 @@
+.widget .wp-block-group__inner-container > h2 {
+	@include widget-title();
+}
+.wc-block-product-search form,
+.wp-block-search {
+	@include widget-search();
+	label {
+		display: none;
+	}
+
+	button[type=submit] {
+		font-size: 0;
+		outline: none;
+		margin: 0;
+		&:before {
+			content: '\f002';
+			font-family: var(--g5-font-icon);
+			font-weight: 400;
+			display: block;
+			position: absolute;
+			text-align: center;
+			font-size: 16px;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			line-height: 48px;
+		}
+	}
+}
+
+.wp-block-search {
+	.wp-block-search__input {
+		border-color: transparent;
+	}
+}
+
+.wc-block-product-search {
+	.wc-block-product-search__field {
+		padding: 0 40px 0 20px;
+	}
+	.wc-block-product-search__button {
+		margin: 0;
+		padding: 0;
+		overflow: unset;
+		svg {
+			display: none;
+		}
+	}
+}
+
+
+.wp-block-categories,
+.wp-block-archives {
+	select {
+		width: 100%;
+		max-width: 100%;
+	}
+
+}
+
+.wp-block-page-list,
+.wc-block-product-categories > ul,
+.wp-block-categories-list,
+.wp-block-archives {
+	@include widget-archive();
+}
+
+.wc-block-product-categories > ul li > span.wc-block-product-categories-list-item-count,
+.wp-block-categories-list li > span.count,
+.wp-block-archives li > span.count {
+	@include widget-archive-count();
+}
+
+.wp-block-categories-list,
+.wp-block-archives{
+	li {
+		> a {
+			&:hover,
+			&:focus,
+			&:active {
+				+ span.count {
+					color: var(--g5-color-accent);
+				}
+			}
+		}
+	}
+}
+
+.wp-block-categories-list .current-cat {
+	> a {
+		color: var(--g5-color-accent);
+		+ span.count {
+			color: var(--g5-color-accent);
+		}
+	}
+}
+
+.wc-block-product-categories{
+	li {
+		> a {
+			&:hover,
+			&:focus,
+			&:active {
+				+ span.wc-block-product-categories-list-item-count {
+					color: var(--g5-color-accent);
+				}
+			}
+		}
+	}
+}
+
+.wc-block-grid__product-title{
+	font-size: 17px;
+	font-weight: normal;
+}
+
+.wc-block-grid__product-rating .star-rating{
+	margin-bottom: 12px;
+}
+
+.wc-block-featured-product .wc-block-featured-product__price{
+	.woocommerce-Price-amount.amount{
+		color: #fff;
+	}
+}
+
+.wp-block-tag-cloud{
+	@include widget-tag();
+}
+
+.wp-block-loginout{
+	font-weight: 500;
+	a{
+		color: var(--g5-color-heading);
+	}
+}
+

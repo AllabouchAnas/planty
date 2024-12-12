@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'edmondsans';
+    src: url('edmondsans-regular-webfont.woff2') format('woff2'),
+         url('edmondsans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'edmondsans';
+    src: url('edmondsans-medium-webfont.woff2') format('woff2'),
+         url('edmondsans-medium-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'edmondsans';
+    src: url('edmondsans-bold-webfont.woff2') format('woff2'),
+         url('edmondsans-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+
+}

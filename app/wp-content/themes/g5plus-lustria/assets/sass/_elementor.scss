@@ -1,0 +1,29 @@
+@import "elementor/elementor";
+@import "base/custom-elementor";
+
+body.elementor-template-full-width {
+	#site-footer > .container,
+	#primary-content > .container{
+		max-width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+@media (min-width: 1025px) {
+	.custom-elementor-wrap-33 {
+		.elementor-container {
+			@include flex-wrap(wrap);
+		}
+
+		.elementor-column {
+			width: 33.33%;
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	body.admin-bar .custom-height-full-top-bar.elementor-section-height-full {
+		height: calc(100vh - 32px);
+	}
+}

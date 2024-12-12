@@ -1,0 +1,23 @@
+@import "base/page-title";
+
+ul.gf-breadcrumbs {
+	li {
+		color: var(--g5-color-muted);
+		font-size: 16px;
+		a {
+			@include gsf-link();
+			@include transition(all 0.3s);
+		}
+		&.breadcrumb-sep {
+			margin: 0 10px;
+		}
+		> span,
+		&.breadcrumb-leaf {
+			color: var(--g5-color-heading);
+		}
+	}
+}
+
+.gf-page-title-default {
+	background-color: var(--g5-background-color-contrast-06);
+}

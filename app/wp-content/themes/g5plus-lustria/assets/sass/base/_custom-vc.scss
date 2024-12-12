@@ -1,0 +1,385 @@
+#gf-wrapper {
+	.vc_col-has-fill > .vc_column-inner,
+	.vc_row-has-fill > .vc_column_container > .vc_column-inner {
+		padding-top: 0;
+	}
+
+	[class*="vc_column-gap-"] > .vc_column_container {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	.wpb_button, .wpb_content_element, ul.wpb_thumbnails-fluid>li {
+		margin-bottom: 0;
+	}
+}
+
+
+.container {
+	.container {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+
+
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1200px;
+	}
+}
+
+
+@media (min-width: 1600px) {
+	.container {
+		max-width: 1440px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.vc_section,
+	.vc_row {
+		margin-left: -20px;
+		margin-right: -20px;
+	}
+	.vc_column_container>.vc_column-inner {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+
+	.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+
+	.row:not(.no-gutters) {
+		margin-right: -20px;
+		margin-left: -20px;
+	}
+
+}
+
+
+@media (min-width: 1920px) {
+	.custom-container-1700 > .gf-row-inner{
+		max-width: 1700px;
+		margin: auto;
+	}
+}
+
+@media (min-width: 576px) {
+	#gf-wrapper {
+		.vc_row > .gf-container{
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+
+	/*#gf-wrapper {
+		#primary-content:not(.gf-content-full-width) .gf-container {
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}*/
+}
+
+.gf-container-fluid {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+@media (min-width: 576px) {
+	.gf-container-fluid {
+		max-width: 540px;
+	}
+}
+
+@media (min-width: 768px) {
+	.gf-container-fluid {
+		max-width: 720px;
+	}
+}
+
+@media (min-width: 992px) {
+	.gf-container-fluid {
+		max-width: 960px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.gf-container-fluid {
+		max-width: 100%;
+	}
+}
+
+
+
+
+
+.gf-bg-overlay-wrap {
+	position: relative !important;
+	z-index: 1;
+	.gf-bg-overlay {
+		position: absolute !important;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		display: block !important;
+		content: '';
+		z-index: 1;
+	}
+	.wpb_wrapper {
+		position: relative;
+		z-index: 2;
+	}
+}
+
+.gf-row-inner:after,
+.gf-container:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+
+
+// CUSTOM VC_ROW
+.vc_row.vc_row-flex .gf-row-inner {
+	box-sizing: border-box;
+	@include d-flex();
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.vc_row.vc_row-flex .gf-row-inner,
+.vc_row.vc_row-flex .gf-row-inner > .vc_column_container {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox
+}
+
+.vc_row.vc_row-flex .gf-row-inner > .vc_column_container {
+	@include d-flex();
+}
+
+.vc_ie-flexbox-fixer .gf-row-inner,
+.vc_row.vc_row-flex .gf-row-inner > .vc_column_container > .vc_column-inner {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal
+}
+
+.vc_row.vc_row-flex .gf-row-inner > .vc_column_container > .vc_column-inner {
+	-webkit-box-flex: 1;
+	-webkit-flex-grow: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	@include d-flex();
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	z-index: 1
+}
+
+@media (-ms-high-contrast: active),
+(-ms-high-contrast: none) {
+	.vc_row.vc_row-flex .gf-row-inner > .vc_column_container > .vc_column-inner > * {
+		min-height: 1em
+	}
+}
+
+.vc_row.vc_row-o-content-top .gf-row-inner > .vc_column_container > .vc_column-inner {
+	@include justify-content-start();
+}
+
+.vc_row.vc_row-o-content-top:not(.vc_row-o-equal-height) .gf-row-inner > .vc_column_container {
+	@include align-items-start();
+}
+
+.vc_row.vc_row-o-content-bottom .gf-row-inner > .vc_column_container > .vc_column-inner {
+	@include justify-content-end();
+}
+
+.vc_row.vc_row-o-content-bottom:not(.vc_row-o-equal-height) .gf-row-inner > .vc_column_container {
+	@include align-items-end();
+}
+
+.vc_row.vc_row-o-content-middle .gf-row-inner > .vc_column_container > .vc_column-inner {
+	@include justify-content-center();
+}
+
+.vc_row.vc_row-o-content-middle:not(.vc_row-o-equal-height) .gf-row-inner > .vc_column_container {
+	@include align-items-center();
+}
+
+.vc_row.vc_column-gap-1 .gf-row-inner > .vc_column_container {
+	padding: .5px
+}
+
+.vc_row.vc_column-gap-2 .gf-row-inner  > .vc_column_container {
+	padding: 1px
+}
+
+.vc_row.vc_column-gap-3 .gf-row-inner > .vc_column_container {
+	padding: 1.5px
+}
+
+.vc_row.vc_column-gap-4 .gf-row-inner > .vc_column_container {
+	padding: 2px
+}
+
+.vc_row.vc_column-gap-5 .gf-row-inner > .vc_column_container {
+	padding: 2.5px
+}
+
+.vc_row.vc_column-gap-10 .gf-row-inner > .vc_column_container {
+	padding: 5px
+}
+
+.vc_row.vc_column-gap-15 .gf-row-inner > .vc_column_container {
+	padding: 7.5px
+}
+
+.vc_row.vc_column-gap-20 .gf-row-inner > .vc_column_container {
+	padding: 10px
+}
+
+.vc_row.vc_column-gap-25 .gf-row-inner > .vc_column_container {
+	padding: 12.5px
+}
+
+.vc_row.vc_column-gap-30 .gf-row-inner > .vc_column_container {
+	padding: 15px
+}
+
+.vc_row.vc_column-gap-35 .gf-row-inner > .vc_column_container {
+	padding: 17.5px
+}
+
+.vc_row.vc_column-gap-1 > .vc_vc_column .gf-row-inner > .vc_column_container,
+.vc_row.vc_column-gap-1 > .vc_vc_column_inner .gf-row-inner > .vc_column_container {
+	padding-left: .5px;
+	padding-right: .5px
+}
+
+.vc_row.vc_column-gap-2 > .vc_vc_column .gf-row-inner > .vc_column_container,
+.vc_row.vc_column-gap-2 > .vc_vc_column_inner .gf-row-inner > .vc_column_container {
+	padding-left: 1px;
+	padding-right: 1px
+}
+
+.vc_row.vc_column-gap-3 > .vc_vc_column .gf-row-inner > .vc_column_container,
+.vc_row.vc_column-gap-3 > .vc_vc_column_inner .gf-row-inner > .vc_column_container {
+	padding-left: 1.5px;
+	padding-right: 1.5px
+}
+
+.vc_row.vc_column-gap-4 > .vc_vc_column .gf-row-inner > .vc_column_container,
+.vc_row.vc_column-gap-4 > .vc_vc_column_inner .gf-row-inner > .vc_column_container {
+	padding-left: 2px;
+	padding-right: 2px
+}
+
+.vc_row.vc_column-gap-5 > .vc_vc_column .gf-row-inner > .vc_column_container,
+.vc_row.vc_column-gap-5 > .vc_vc_column_inner .gf-row-inner > .vc_column_container {
+	padding-left: 2.5px;
+	padding-right: 2.5px
+}
+
+.vc_row.vc_column-gap-10 > .vc_vc_column .gf-row-inner > .vc_column_container,
+.vc_row.vc_column-gap-10 > .vc_vc_column_inner .gf-row-inner > .vc_column_container {
+	padding-left: 5px;
+	padding-right: 5px
+}
+
+.vc_row.vc_column-gap-15 > .vc_vc_column .gf-row-inner  > .vc_column_container,
+.vc_row.vc_column-gap-15 > .vc_vc_column_inner .gf-row-inner  > .vc_column_container {
+	padding-left: 7.5px;
+	padding-right: 7.5px
+}
+
+.vc_row.vc_column-gap-20 > .vc_vc_column .gf-row-inner > .vc_column_container,
+.vc_row.vc_column-gap-20 > .vc_vc_column_inner .gf-row-inner > .vc_column_container {
+	padding-left: 10px;
+	padding-right: 10px
+}
+
+.vc_row.vc_column-gap-25 > .vc_vc_column .gf-row-inner > .vc_column_container,
+.vc_row.vc_column-gap-25 > .vc_vc_column_inner .gf-row-inner > .vc_column_container {
+	padding-left: 12.5px;
+	padding-right: 12.5px
+}
+
+.vc_row.vc_column-gap-30 > .vc_vc_column .gf-row-inner > .vc_column_container,
+.vc_row.vc_column-gap-30 > .vc_vc_column_inner .gf-row-inner > .vc_column_container {
+	padding-left: 15px;
+	padding-right: 15px
+}
+
+.vc_row.vc_column-gap-35 > .vc_vc_column .gf-row-inner > .vc_column_container,
+.vc_row.vc_column-gap-35 > .vc_vc_column_inner .gf-row-inner > .vc_column_container {
+	padding-left: 17.5px;
+	padding-right: 17.5px
+}
+
+.vc_row.vc_row-flex > .vc_vc_column .gf-row-inner > .vc_column_container,
+.vc_row.vc_row-flex > .vc_vc_column_inner .gf-row-inner > .vc_column_container {
+	@include d-flex();
+	width: 100%
+}
+
+.vc_row.vc_row-flex > .vc_vc_column .gf-row-inner > .vc_column_container > .vc_column-inner,
+.vc_row.vc_row-flex > .vc_vc_column_inner .gf-row-inner > .vc_column_container > .vc_column-inner {
+	-webkit-box-flex: 1;
+	-webkit-flex-grow: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	@include d-flex();
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column
+}
+
+.vc_row.vc_row-o-equal-height .gf-row-inner > .vc_column_container {
+	@include align-items-stretch();
+}
+
+.vc_row.vc_row-o-content-top > .vc_vc_column .gf-row-inner > .vc_column_container > .vc_column-inner,
+.vc_row.vc_row-o-content-top > .vc_vc_column_inner .gf-row-inner > .vc_column_container > .vc_column-inner {
+	@include justify-content-start();
+}
+
+.vc_row.vc_row-o-content-top:not(.vc_row-o-equal-height) > .vc_vc_column .gf-row-inner > .vc_column_container,
+.vc_row.vc_row-o-content-top:not(.vc_row-o-equal-height) > .vc_vc_column_inner .gf-row-inner > .vc_column_container {
+	@include align-items-start();
+}
+
+.vc_row.vc_row-o-content-bottom > .vc_vc_column .gf-row-inner > .vc_column_container > .vc_column-inner,
+.vc_row.vc_row-o-content-bottom > .vc_vc_column_inner .gf-row-inner > .vc_column_container > .vc_column-inner {
+	@include justify-content-end();
+}
+
+.vc_row.vc_row-o-content-bottom:not(.vc_row-o-equal-height) > .vc_vc_column .gf-row-inner > .vc_column_container,
+.vc_row.vc_row-o-content-bottom:not(.vc_row-o-equal-height) > .vc_vc_column_inner .gf-row-inner > .vc_column_container {
+	@include align-items-end();
+}
+
+.vc_row.vc_row-o-content-middle > .vc_vc_column .gf-row-inner > .vc_column_container > .vc_column-inner,
+.vc_row.vc_row-o-content-middle > .vc_vc_column_inner .gf-row-inner > .vc_column_container > .vc_column-inner {
+	@include justify-content-center();
+}
+
+.vc_row.vc_row-o-content-middle:not(.vc_row-o-equal-height) > .vc_vc_column .gf-row-inner > .vc_column_container,
+.vc_row.vc_row-o-content-middle:not(.vc_row-o-equal-height) > .vc_vc_column_inner .gf-row-inner > .vc_column_container {
+	@include align-items-center();
+}

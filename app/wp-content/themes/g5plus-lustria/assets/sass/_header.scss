@@ -1,0 +1,133 @@
+@import "base/header";
+
+/**
+* Shopping Cart
+* ----------------------------------------------------------------------------
+*/
+.shopping-cart-list {
+	position: absolute;
+	top: 100%;
+	right: 0;
+	visibility: hidden;
+	opacity: 0;
+	z-index: 1000;
+	-webkit-transition-timing-function: cubic-bezier(.71,.75,.12,.18);
+	-moz-transition-timing-function: cubic-bezier(.71,.75,.12,.18);
+	-ms-transition-timing-function: cubic-bezier(.71,.75,.12,.18);
+	-o-transition-timing-function: cubic-bezier(.71,.75,.12,.18);
+	transition-timing-function: cubic-bezier(.71,.75,.12,.18);
+	transition-delay: 0.2s;
+	@include transition(all 0.3s);
+	width: 370px;
+	-webkit-box-shadow: 0 14px 24px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: 0 14px 24px rgba(0, 0, 0, 0.15);
+	box-shadow: 0 14px 24px rgba(0, 0, 0, 0.15);
+	background-color: #fff;
+	padding: 30px 30px 20px 30px;
+	font-size: 17px;
+	ul.product_list_widget {
+		max-height: 385px;
+		position: relative;
+		li {
+			position: relative;
+			padding: 0 20px 20px 0;
+			margin-bottom: 20px;
+			border-bottom: 1px solid #ededed;
+			img {
+				width: 80px;
+				float: left;
+				margin-left: 0;
+				margin-right: 20px;
+			}
+
+			a.remove {
+				position: absolute;
+				right: 0;
+				top: 0;
+			}
+
+			a.product-item-name {
+				font-weight: normal;
+				color: #282727;
+				margin-bottom: 6px;
+			}
+			&:last-of-type {
+				margin-bottom: 0;
+			}
+		}
+		li.empty {
+			border-bottom: none;
+			margin-bottom: 0;
+			padding: 0 0 10px 0;
+			text-align: center;
+			color: #323232;
+		}
+	}
+	.woocommerce-mini-cart__total {
+		text-align: center;
+		font-size: 18px;
+		margin: 10px 0;
+		strong,
+		.woocommerce-Price-amount.amount {
+			color: #323232;
+		}
+	}
+}
+
+
+.widget_shopping_cart_content {
+	position: relative;
+	text-align: left;
+}
+.widget_shopping_cart_content:hover .shopping-cart-list,
+.item-shopping-cart.show-cart .shopping-cart-list {
+	visibility: visible;
+	opacity: 1;
+	margin-top: 0;
+}
+
+
+// header customize
+
+.customize-custom-html {
+	.header-customize-info{
+		font-weight: 500;
+		letter-spacing: 0.7px;
+		i {
+			margin-right: 13px;
+			font-size: 20px;
+		}
+	}
+	a {
+		@include transition(all 0.3s);
+		color: inherit;
+		&:hover,
+		&:focus,
+		&:active {
+			text-decoration: none;
+			color: var(--g5-color-link-hover);
+		}
+	}
+}
+
+@media (max-width: 1439px) {
+	.customize-search {
+		.search-form {
+			width: 150px;
+		}
+	}
+}
+
+.top-bar {
+	.wpb_content_element {
+		margin-bottom: 0;
+	}
+	.widget {
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.widget + .widget {
+		margin-top: 0;
+		margin-left: 30px;
+	}
+}

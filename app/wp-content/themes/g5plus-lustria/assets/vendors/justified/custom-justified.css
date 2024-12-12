@@ -1,0 +1,7 @@
+.justified-gallery > article {
+    position: absolute;
+    display: inline-block;
+    overflow: hidden;
+    filter: "alpha(opacity=10)";
+    opacity: .1;
+}

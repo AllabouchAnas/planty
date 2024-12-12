@@ -1,0 +1,12 @@
+.ube-search-box .value-search{
+	border-radius: 0;
+	&:focus{
+		border: 1px solid var(--g5-color-accent);
+		box-shadow:none;
+	}
+}
+
+.ube-search-box-layout-02 button[type=submit],
+.ube-search-box-layout-03 button[type=submit] {
+	right: 20px;
+}

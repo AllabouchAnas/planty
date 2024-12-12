@@ -1,0 +1,37 @@
+.ube-testimonial {
+	--ube-testimonial-author-width: 100px;
+	--ube-testimonial-author-height: 100px;
+}
+
+.ube-testimonial-layout-05
+{
+	.ube-testimonial-avatar{
+		margin-right: 30px;
+	}
+
+	.ube-testimonial-content{
+		margin-bottom: 40px;
+	}
+
+	.ube-testimonial-author-name{
+		margin-bottom: 4px;
+	}
+}
+
+.ube-testimonial-client-say {
+	font-size: 18px;
+	line-height: 1.67;
+	opacity: .8;
+}
+
+.ube-testimonial-author-name {
+	font-size: 18px;
+	font-weight: 500;
+	color: #292929;
+}
+
+.ube-testimonial-author-job {
+	font-size: 16px;
+	font-weight: 400;
+	color: #7e7e7e;
+}

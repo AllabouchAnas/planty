@@ -1,0 +1,57 @@
+.ube-countdown {
+	@include flex-wrap();
+	.card-title {
+		font-size: 40px;
+		color: #292929;
+		font-weight: 400;
+	}
+
+	.card-text {
+		font-size: 14px;
+		font-weight: 500;
+		opacity: 0.7;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+		color: var(--g5-color-heading);
+	}
+
+	.card {
+		padding: 10px;
+	}
+
+	&.ube-countdown-show-separate .ube-countdown-separate {
+		font-size: 20px;
+		color: #292929;
+	}
+}
+
+.ube-countdown.ube-countdown-label-block .card-body .card-title {
+	margin-bottom: 10px;
+}
+
+.custom-countdown {
+	.card-title {
+		width: 98px;
+		height: 98px;
+		line-height: 98px;
+		background: #f8f8f8;
+		border-radius: 50%;
+	}
+	.ube-countdown-separate{
+		margin-bottom: 35px;
+	}
+}
+
+.custom-countdown-02 {
+	.card-title {
+		width: 60px;
+		height: 60px;
+		line-height: 60px;
+		background: #fff;
+		border-radius: 50%;
+	}
+
+	.ube-countdown-separate{
+		margin-bottom: 30px;
+	}
+}

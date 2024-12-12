@@ -1,0 +1,43 @@
+@media (min-width: 576px) {
+	.elementor-section.elementor-section.elementor-section-boxed > .elementor-container {
+		max-width: 540px;
+	}
+}
+
+@media (min-width: 768px) {
+	.elementor-section.elementor-section.elementor-section-boxed > .elementor-container {
+		max-width: 720px;
+	}
+
+	body.admin-bar .elementor-section.elementor-section-height-full {
+		height: calc(100vh - 32px);
+	}
+}
+
+@media (min-width: 992px) {
+	.elementor-section.elementor-section.elementor-section-boxed > .elementor-container {
+		max-width: 960px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.elementor-section.elementor-section.elementor-section-boxed > .elementor-container {
+		max-width: 1200px;
+	}
+}
+
+@media (min-width: 1600px) {
+	.elementor-section.elementor-section.elementor-section-boxed > .elementor-container {
+		max-width: 1440px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.g5__el-width-1725 {
+		&.elementor-section.elementor-section-boxed > .elementor-container {
+			max-width: 1725px !important;
+		}
+	}
+
+}
+

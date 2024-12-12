@@ -1,0 +1,52 @@
+.ube-tm-style-01 {
+	.ube-tm-name {
+		color: #282727;
+		margin-bottom: 0;
+	}
+
+	.ube-tm-image {
+		margin-bottom: 22px;
+		position: relative;
+		&:before {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			content: '';
+			@include transition(all 0.3s);
+			z-index: 1;
+			opacity: 0;
+			background-color: var(--g5-color-accent);
+		}
+		&:hover:before{
+			opacity: 0.5;
+		}
+	}
+
+	.ube-tm-pos {
+		color: var(--g5-color-accent);
+	}
+
+	.ube-tm-social .elementor-icon {
+		color: #bbb;
+	}
+
+}
+
+.ube-team-member .ube-tm-name {
+	font-size: 22px;
+	font-weight: 500;
+}
+
+.ube-tm-pos {
+	font-size: 17px;
+}
+
+.ube-tm-social .elementor-icon {
+	font-size: 18px;
+
+	+ .elementor-icon {
+		margin-left: 17px;
+	}
+}

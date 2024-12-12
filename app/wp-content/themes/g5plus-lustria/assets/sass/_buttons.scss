@@ -1,0 +1,206 @@
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+.btn {
+    font-family: var(--g5-primary-font);
+    display: inline-block;
+    font-weight: 500;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    @include button-size(50px, 35px, 16px);
+    @include border-radius(0);
+    @include user-select(none);
+    @include transition(all .3s ease-in-out);
+    &:hover,
+    &:focus,
+    &.focus {
+        text-decoration: none;
+    }
+
+    &:active,
+    &.active {
+        outline: 0;
+        background-image: none;
+    }
+
+    &.disabled,
+    &[disabled],
+    fieldset[disabled] & {
+        cursor: not-allowed;
+        opacity: .65;
+    }
+}
+
+.btn {
+    min-width: 160px;
+    text-align: center;
+
+}
+
+.btn,
+input[type="submit"],
+input[type="button"],
+input[type="reset"] {
+    @include button-variant(var(--g5-color-accent-foreground), var(--g5-color-accent), var(--g5-color-accent), #fff,#333,#333);
+}
+
+
+a.btn {
+    &.disabled,
+    fieldset[disabled] & {
+        pointer-events: none; // Future-proof disabling of clicks on `<a>` elements
+    }
+}
+
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+
+
+.btn.btn-xs {
+    @include button-size(44px, 25px, 16px);
+}
+
+.btn.btn-sm {
+    @include button-size(46px, 30px, 16px);
+}
+
+.btn.btn-md {
+    @include button-size(54px, 40px, 18px);
+}
+
+.btn.btn-lg {
+    @include button-size(64px, 50px, 18px);
+}
+
+.btn.btn-xl {
+    @include button-size(72px, 62px, 24px);
+}
+
+.btn.btn-link.btn.btn-md,
+.btn.btn-link.btn.btn-lg{
+    i{
+        font-size: 12px;
+    }
+}
+
+.btn.btn-link {
+    border: none;
+    height: auto;
+    padding: 0;
+    min-width: unset;
+    font-weight: 500;
+    position: relative;
+    line-height: 23px;
+    border-bottom: 1px solid currentColor;
+    background-color: transparent !important;
+    &:hover,
+    &:focus,
+    &:active {
+        border-color: currentColor !important;
+    }
+}
+
+.btn.btn-round {
+    @include border-radius(5em);
+}
+
+
+.btn.btn-inline {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.btn.btn-icon-left i {
+    margin-right: 10px;
+}
+
+.btn.btn-icon-right i {
+    margin-left: 10px;
+}
+
+.btn.btn-gray {
+    @include button-variant(#fff, gray, gray, #fff, #333, #333);
+
+    &.btn-outline {
+        color: #333;
+        border-color: #ccc;
+        &:focus,
+        &:hover,
+        &:active {
+            background-color: #333;
+            border-color: #333;
+        }
+
+    }
+}
+
+.btn.btn-accent {
+    @include button-variant(var(--g5-color-accent-foreground), var(--g5-color-accent), var(--g5-color-accent), #fff,#333,#333);
+}
+
+
+.btn.btn-primary {
+    @include button-variant(var(--g5-color-primary-foreground), var(--g5-color-primary), var(--g5-color-primary), #fff, #333, #333);
+}
+
+
+.btn.btn-white {
+    @include button-variant(#333, #fff, #fff, var(--g5-color-accent-foreground), var(--g5-color-accent), var(--g5-color-accent));
+}
+
+
+.btn.btn-red {
+    @include button-variant(#fff, #e14e42, #e14e42, #e14e42, transparent, #e14e42);
+}
+
+.btn.btn-black {
+    @include button-variant(#fff, #161616, #161616, var(--g5-color-accent-foreground), var(--g5-color-accent), var(--g5-color-accent));
+}
+
+.btn.btn-light {
+    @include button-variant(#333, #fff, #fff, var(--g5-background-color), var(--g5-color-heading),  var(--g5-background-color));
+}
+
+
+.btn.btn-success {
+    @include button-variant(var(--g5-color-success-foreground), var(--g5-color-success), var(--g5-color-success),var(--g5-color-primary-foreground), var(--g5-color-primary), var(--g5-color-primary));
+}
+
+.btn.btn-danger {
+    @include button-variant(var(--g5-color-danger-foreground), var(--g5-color-danger), var(--g5-color-danger),var(--g5-color-primary-foreground), var(--g5-color-primary), var(--g5-color-primary));
+}
+
+.btn.btn-warning {
+    @include button-variant(var(--g5-color-warning-foreground), var(--g5-color-warning), var(--g5-color-warning),var(--g5-color-primary-foreground), var(--g5-color-primary), var(--g5-color-primary));
+}
+
+.btn.btn-info {
+    @include button-variant(var(--g5-color-info-foreground), var(--g5-color-info), var(--g5-color-info),var(--g5-color-primary-foreground), var(--g5-color-primary), var(--g5-color-primary));
+}
+
+.btn-container.btn-inline {
+    display: inline-block;
+}
+
+.btn.btn-outline {
+    background-color: transparent;
+}
+
+.ube-btn{
+    .ube-btn-icon svg{
+        width: 1em;
+        height: 1em;
+        fill: currentColor;
+        stroke: currentColor;
+    }
+}
+

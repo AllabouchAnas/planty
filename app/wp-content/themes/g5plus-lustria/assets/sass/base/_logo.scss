@@ -1,0 +1,32 @@
+.logo-text {
+	margin: 0;
+	font-size: 34px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 5px 0;
+	max-width: 300px;
+	color: var(--g5-logo-text-color) !important;
+}
+.site-branding-text {
+	position: relative;
+	.site-title {
+		position: absolute;
+		clip: rect(1px, 1px, 1px, 1px);
+	}
+}
+.header-sticky.affix .logo-text {
+	color: var(--g5-logo-sticky-text-color) !important;
+}
+
+/**
+* Desktop
+* ----------------------------------------------------------------------------
+*/
+.sticky-logo {
+	display: none;
+}
+
+
+
+
+

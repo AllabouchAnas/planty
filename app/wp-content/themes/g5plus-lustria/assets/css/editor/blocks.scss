@@ -1,0 +1,35 @@
+@import "../../sass/mixin";
+@import "../../sass/variables";
+@import "../../sass/root";
+@import "../../sass/mixin-widget";
+
+.editor-styles-wrapper.editor-styles-wrapper {
+	.editor-post-title__block .editor-post-title__input {
+		font-size: 55px !important;
+		font-weight: 500;
+		color: var(--g5-color-heading);
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		border-radius: 0;
+		font-family: var(--g5-h2-font) !important;
+	}
+
+	.components-icon-button.block-editor-block-switcher__toggle {
+		overflow: hidden;
+	}
+
+	&.wp-block-widget-area__inner-blocks {
+		.wp-block-group > h2 {
+			@include widget-title();
+		}
+	}
+
+	.wp-block-categories ul {
+		@include widget-archive();
+	}
+
+	.wp-block-categories li > span.wp-block-categories__post-count {
+		@include widget-archive-count();
+	}
+}
+

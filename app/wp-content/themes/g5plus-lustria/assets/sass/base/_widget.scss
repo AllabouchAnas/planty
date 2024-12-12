@@ -1,0 +1,126 @@
+.widget {
+	position: relative;
+	.screen-reader-text {
+		display: none;
+	}
+	&:after {
+		content: '';
+		clear: both;
+		display: block;
+	}
+	+ .widget {
+		margin-top: 48px;
+	}
+	a {
+		@include gsf-link();
+	}
+}
+
+/**
+* Archive, categories, nav_menu
+* ----------------------------------------------------------------------------
+*/
+.widget_rss,
+.widget_recent_comments{
+	ul {
+		padding-left: 0;
+		margin: 0;
+		list-style: none;
+	}
+
+	li {
+		+ li {
+			margin-top: 16px;
+		}
+	}
+
+}
+
+.widget_meta ul,
+.widget_recent_entries ul {
+	@include widget-meta();
+}
+
+
+.widget_rss {
+	ul {
+		.rsswidget {
+			display: block;
+			font-weight: bold;
+		}
+		.rss-date {
+			font-style: italic;
+			font-size: 13px;
+			margin: 5px 0;
+			display: block;
+		}
+	}
+}
+
+.widget_archive,
+.widget_categories,
+.widget_product_categories {
+	select {
+		width: 100%;
+	}
+}
+
+.widget_calendar {
+	.calendar_wrap caption {
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 15px;
+		padding: 15px;
+		color: var(--g5-color-text-main);
+		background-color: var(--g5-background-color-contrast);
+		border: solid 1px var(--g5-color-border);
+		margin-bottom: 5px;
+		text-align: center;
+		caption-side: top;
+	}
+
+	#wp-calendar {
+		width: 100%;
+		td.active,
+		th {
+			background-color: var(--g5-background-color-contrast);
+		}
+		tbody td, th {
+			border: solid 1px var(--g5-color-border);
+			text-align: center;
+			padding: 5px 0;
+		}
+		tfoot td {
+			text-transform: uppercase;
+			font-weight: bold;
+			padding: 5px 0 0 0;
+			font-size: 13px;
+		}
+		td#next {
+			text-align: right;
+		}
+	}
+	#wp-calendar td.active,
+	.calendar_wrap caption,
+	#wp-calendar th {
+		background-color: var(--g5-background-color-contrast);
+	}
+	.calendar_wrap caption,
+	#wp-calendar tbody td,
+	#wp-calendar th {
+		border-color: var(--g5-color-border);
+	}
+}
+
+
+.gf-sidebar-toggle {
+	display: none;
+	color: var(--g5-background-color-contrast-03);
+	background-color: var(--g5-background-color-contrast-19);
+}
+
+@media (max-width: 991px) {
+	.primary-sidebar {
+		margin-top: 80px;
+	}
+}

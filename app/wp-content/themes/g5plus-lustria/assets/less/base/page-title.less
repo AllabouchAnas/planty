@@ -1,0 +1,38 @@
+.page-title-inner {
+	padding: 76px 0;
+	.page-title {
+		font-family: @primary_font;
+		margin: 10px 0;
+		font-size: 55px;
+		flex-grow: 1;
+	}
+}
+
+ul.gf-breadcrumbs {
+	font-family: @primary_font;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	li {
+		display: inline-block;
+		line-height: 1;
+	}
+
+	li.breadcrumb-prefix {
+		margin-right: 5px;
+	}
+	li.breadcrumb-sep {
+		margin: 0 5px;
+	}
+
+	li.breadcrumb-sep:last-child {
+		display: none;
+	}
+}
+
+@media (max-width: 767px) {
+	.gf-page-title > .vc_row {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}

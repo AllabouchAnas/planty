@@ -1,0 +1,257 @@
+body {
+	font-family: @body_font;
+	-webkit-font-smoothing: antialiased;
+	font-size: @body_font_size;
+	font-weight: @body_font_weight;
+	font-style: @body_font_style;
+	color: @text_color;
+	position: relative;
+	line-height: 1.63;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+a {
+	outline: none;
+	&:extend(.accent-color);
+	text-decoration: none;
+	&:hover,
+	&:focus,
+	&:active {
+		color: @text_hover_color;
+		outline: none;
+	}
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	margin-top: 35px;
+	margin-bottom: 15px;
+	&:extend(.heading-color);
+	> a {
+		.gsf-link;
+	}
+}
+
+h1 {
+	font-family: @h1_font;
+	font-size: @h1_font_size;
+	font-weight: @h1_font_weight;
+	font-style: @h1_font_style;
+	line-height: 1.2;
+}
+
+h2 {
+	font-family: @h2_font;
+	font-size: @h2_font_size;
+	font-weight: @h2_font_weight;
+	font-style: @h2_font_style;
+	line-height: 1.3;
+}
+
+h3 {
+	font-family: @h3_font;
+	font-size: @h3_font_size;
+	font-weight: @h3_font_weight;
+	font-style: @h3_font_style;
+	line-height: 1.4;
+}
+
+h4 {
+	font-family: @h4_font;
+	font-size: @h4_font_size;
+	font-weight: @h4_font_weight;
+	font-style: @h4_font_style;
+	line-height: 1.3;
+}
+
+h5 {
+	font-family: @h5_font;
+	font-size: @h5_font_size;
+	font-weight: @h5_font_weight;
+	font-style: @h5_font_style;
+	line-height: 1.6;
+}
+
+h6 {
+	font-family: @h6_font;
+	font-size: @h6_font_size;
+	font-weight: @h6_font_weight;
+	font-style: @h6_font_style;
+	line-height: 1.7;
+}
+
+p {
+	margin: 0 0 20px 0;
+}
+
+input, textarea, button, select {
+	outline: none;
+}
+
+::-moz-selection {
+	background-color: @accent_color;
+	color: @foreground_accent_color;
+}
+::selection {
+	background-color: @accent_color;
+	color: @foreground_accent_color;
+}
+
+.alignright {
+	margin: 5px 0 20px 30px;
+	float: right;
+}
+
+.alignleft {
+	margin: 5px 30px 15px 0;
+	float: left;
+}
+
+.has-drop-cap {
+	&:not(:focus):first-letter {
+		font-size: 3.75em;
+		line-height: 1;
+		font-weight: bold;
+		margin: 0 0.25em 0 0;
+		font-family: @primary_font;
+		&:extend(.accent-color);
+	}
+}
+
+
+//Dropcap
+[class*="gsf-dropcap-"] {
+	display: inline-block;
+	&::first-letter {
+		display: block;
+		float: left;
+		margin: 0 15px -10px 0;
+		font-size: 78px;
+		line-height: 72px;
+		height: 72px;
+		width: 72px;
+		text-align: center;
+		font-weight: 600;
+		text-transform: uppercase;
+	}
+}
+
+.gsf-dropcap-default::first-letter {
+	&:extend(.accent-color);
+	height: 60px;
+	line-height: 60px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.gsf-dropcap-square::first-letter,
+.gsf-dropcap-circle::first-letter {
+	&:extend(.bg-accent-color);
+	color: #fff;
+	padding: 0 11px;
+}
+
+.gsf-dropcap-square-outline::first-letter,
+.gsf-dropcap-circle-outline::first-letter {
+	background: transparent;
+	border: 2px solid @accent_color;
+	&:extend(.accent-color);
+	padding: 0 11px;
+}
+
+.gsf-dropcap-circle::first-letter,
+.gsf-dropcap-circle-outline::first-letter {
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+
+// Highlighted
+[class*="gsf-highlighted"] {
+	padding: 0 3px;
+}
+
+.gsf-highlighted-red {
+	background-color: red;
+}
+
+.gsf-highlighted-yellow {
+	background-color: yellow;
+}
+
+
+
+// Custom List
+[class*="gsf-list"] {
+	list-style-type: none;
+	li {
+		position: relative;
+		&:before {
+			position: absolute;
+			left: -20px;
+			top: 50%;
+			.transform(translateY(-50%));
+			content: '';
+			display: block;
+			font-family: 'Font Awesome 5 Pro';
+			font-weight: 900;
+			font-style: normal;
+			text-decoration: inherit;
+			font-size: 12px;
+			&:extend(.accent-color);
+		}
+	}
+}
+
+.gsf-list-check li:before {
+	content: '\f00c';
+}
+
+.gsf-list-star li:before {
+	content: '\f005';
+}
+
+.gsf-list-edit li:before {
+	content: '\f044';
+}
+
+.gsf-list-folder li:before {
+	content: '\f07b';
+}
+
+.gsf-list-file li:before {
+	content: '\f15b';
+}
+
+.gsf-list-heart li:before {
+	content: '\f004';
+}
+
+.gsf-list-asterisk li:before {
+	content: '\f069';
+}
+
+// Dividers
+.gsf-divider-small {
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.gsf-divider-tiny {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.gsf-divider-large {
+	border-top-width: 2px;
+}

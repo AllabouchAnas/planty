@@ -1,0 +1,260 @@
+/**
+* Font
+* ----------------------------------------------------------------------------
+*/
+.body-font {
+	font-family: var(--g5-body-font);
+}
+
+.primary-font {
+	font-family: var(--g5-primary-font);
+}
+
+/**
+* Color
+* ----------------------------------------------------------------------------
+*/
+.accent-color {
+	color: var(--g5-color-accent);
+}
+
+.primary-color {
+	color: var(--g5-color-primary);
+}
+
+.bg-accent-color {
+	background-color: var(--g5-color-accent);
+}
+
+.border-accent-color {
+	border-color: var(--g5-color-accent);
+}
+
+.foreground-accent-color {
+	color: var(--g5-color-accent-foreground);
+}
+
+.text-box-shadow {
+	text-shadow: 2px 5px 0 #fbf16f;
+}
+
+.text-box-shadow-foreground {
+	text-shadow: 10px 7px 0 var(--g5-color-accent-foreground);
+}
+
+.border-color {
+	border-color: var(--g5-color-border);
+}
+
+.heading-color {
+	color: var(--g5-color-heading);
+}
+
+.disable-color {
+	color: var(--g5-color-muted);
+}
+
+
+/**
+* Font Weight
+* ----------------------------------------------------------------------------
+*/
+.fw-light {
+	font-weight: 300 !important;
+}
+
+.fw-normal {
+	font-weight: 400 !important;
+}
+
+.fw-medium {
+	font-weight: 500 !important;
+}
+
+.fw-semi-bold {
+	font-weight: 600 !important;
+}
+
+.fw-bold {
+	font-weight: 700 !important;
+}
+
+.fw-extra-bold {
+	font-weight: 800 !important;
+}
+
+.fw-black {
+	font-weight: 900 !important;
+}
+
+/**
+* Font Size
+* ----------------------------------------------------------------------------
+*/
+.fs-0 {
+	font-size: 0;
+}
+
+.fs-10 {
+	font-size: 10px !important;
+}
+
+.fs-11 {
+	font-size: 11px !important;
+}
+
+.fs-12 {
+	font-size: 12px !important;
+}
+
+.fs-13 {
+	font-size: 13px !important;
+}
+
+.fs-14 {
+	font-size: 14px !important;
+}
+
+.fs-15 {
+	font-size: 15px !important;
+}
+
+.fs-16 {
+	font-size: 16px !important;
+}
+
+.fs-17 {
+	font-size: 17px !important;
+}
+
+.fs-18 {
+	font-size: 18px !important;
+}
+
+.fs-20 {
+	font-size: 20px !important;
+}
+
+.fs-21 {
+	font-size: 21px !important;
+}
+
+.fs-22 {
+	font-size: 22px !important;
+}
+
+.fs-24 {
+	font-size: 24px !important;
+}
+
+.fs-25 {
+	font-size: 25px !important;
+}
+
+.fs-28 {
+	font-size: 28px !important;
+}
+
+.fs-30 {
+	font-size: 30px !important;
+}
+
+.fs-31 {
+	font-size: 31px !important;
+}
+
+.fs-32 {
+	font-size: 32px !important;
+}
+
+.fs-34 {
+	font-size: 34px !important;
+}
+
+.fs-35 {
+	font-size: 35px !important;
+}
+
+.fs-36 {
+	font-size: 36px !important;
+}
+
+.fs-38 {
+	font-size: 38px !important;
+}
+
+.fs-40 {
+	font-size: 40px !important;
+}
+
+.fs-42 {
+	font-size: 42px !important;
+}
+
+.fs-46 {
+	font-size: 46px !important;
+}
+
+.fs-48 {
+	font-size: 48px !important;
+}
+
+.fs-50 {
+	font-size: 50px !important;
+}
+
+.fs-56 {
+	font-size: 56px !important;
+}
+
+.fs-60 {
+	font-size: 60px !important;
+}
+
+.fs-80 {
+	font-size: 80px !important;
+}
+
+/**
+* Font Style
+* ----------------------------------------------------------------------------
+*/
+.text-italic {
+	font-style: italic !important;
+}
+
+.uppercase {
+	text-transform: uppercase !important;
+}
+
+.text-underline {
+	text-decoration: underline !important;
+}
+
+/**
+* Spacing
+ */
+.spacing-small {
+	letter-spacing: 1px;
+}
+
+.spacing-medium {
+	letter-spacing: 2px;
+}
+
+.spacing-large {
+	letter-spacing: 3px;
+}
+
+.gsf-link {
+	color: inherit;
+	&:hover,
+	&:focus,
+	&:active {
+		text-decoration: none;
+		color: var(--g5-color-link-hover);
+	}
+}
+
+
+

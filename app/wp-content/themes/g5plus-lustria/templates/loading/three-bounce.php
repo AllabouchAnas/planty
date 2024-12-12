@@ -1,0 +1,10 @@
+<?php
+/**
+ * The template for displaying three-bounce.php
+ */
+?>
+<div class="sk-three-bounce">
+	<div class="sk-child sk-bounce1"></div>
+	<div class="sk-child sk-bounce2"></div>
+	<div class="sk-child sk-bounce3"></div>
+</div>

@@ -1,0 +1,117 @@
+/*
+Theme Name:         G5Plus Lustria
+Theme URI:          http://lustria.g5plus.net/
+Description:        G5Plus Lustria is an attractive and neat WordPress theme created for gardening and houseplants by G5Theme who is the author at level 11 on Envato. With full WooCommerce compatibility, tons of shortcodes and prebuild templates specifically created toward plants/trees store and anything related to an eco-friendly lifestyle.
+Version:            4.3
+Author:             g5plus
+Author URI:         http://g5plus.net/
+
+License:            GNU General Public License v2 or later
+License URI:        http://www.gnu.org/licenses/gpl-2.0.html
+
+Tags: 				two-columns, three-columns, left-sidebar, right-sidebar, custom-background, custom-header, custom-menu, editor-style, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+Text Domain: 		g5plus-lustria
+Domain Path: 		/languages/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+# Base Framework
+# Core
+# Typography
+# Widgets
+# WP block
+# Header
+# Footer
+# Blog
+# WP core
+# WP block
+# Blog
+# Shortcode
+# Elementor
+# Custom Mixins
+# Custom Pages
+----------------------------------------------------------------
+# Base Framework
+--------------------------------------------------------------*/
+@import "assets/sass/mixin";
+@import "assets/sass/variables";
+@import "assets/sass/mixin-widget";
+@import "assets/sass/root";
+@import "assets/sass/base/search-popup";
+@import "assets/sass/base/mfp-effect";
+@import "assets/sass/base/top-drawer";
+
+/**
+* 2.0 Core
+* ----------------------------------------------------------------------------
+*/
+
+@import "assets/sass/core";
+@import "assets/sass/custom-vc";
+@import "assets/sass/page-title";
+@import "assets/sass/buttons";
+@import "assets/sass/social-icon";
+
+/*--------------------------------------------------------------
+## Typography
+--------------------------------------------------------------*/
+@import "assets/sass/typography";
+.gf-entry-content {
+	@import "assets/sass/base/typography";
+}
+
+/*--------------------------------------------------------------
+## Widgets
+--------------------------------------------------------------*/
+@import "assets/sass/widget";
+
+/*--------------------------------------------------------------
+## WP block
+--------------------------------------------------------------*/
+@import "assets/sass/wp-block";
+.gf-entry-content {
+	@import "assets/sass/base/wp-block";
+}
+
+/*--------------------------------------------------------------
+## Header
+--------------------------------------------------------------*/
+@import "assets/sass/header";
+
+
+/*--------------------------------------------------------------
+## Footer
+--------------------------------------------------------------*/
+@import "assets/sass/footer";
+
+
+
+/*--------------------------------------------------------------
+## Blog
+--------------------------------------------------------------*/
+@import "assets/sass/blog";
+@import "assets/sass/comments";
+
+/*--------------------------------------------------------------
+## Shortcode
+--------------------------------------------------------------*/
+@import "assets/sass/shortcode";
+
+/*--------------------------------------------------------------
+## Elementor
+--------------------------------------------------------------*/
+@import "assets/sass/elementor";
+
+
+/*--------------------------------------------------------------
+## Mixin
+--------------------------------------------------------------*/
+@import "assets/sass/mixins";
+@import "assets/sass/custom-mixins";
+
+/*--------------------------------------------------------------
+## Custom Pages
+--------------------------------------------------------------*/
+
+@import "assets/sass/custom-pages";

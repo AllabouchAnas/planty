@@ -1,0 +1,125 @@
+ul.gf-social-icon {
+    padding-left: 0;
+    i {
+        font-size: 14px;
+    }
+    > li {
+        margin: 0 25px 0 0;
+        display: inline-block;
+        color: @disable_color;
+        a {
+            .gsf-link;
+            display: block;
+            font-size: 0;
+            i:hover {
+                opacity: 1;
+            }
+        }
+    }
+    &.social-icon-large {
+        i {
+            font-size: 20px;
+        }
+    }
+}
+
+.gf-social-networks ul.gf-social-icon {
+    padding-left: 0;
+}
+
+ul.social-icon-circle {
+    > li > a {
+        width: 42px;
+        height: 42px;
+        text-align: center;
+        display: block;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        border: 1px solid #202020 !important;
+        position: relative;
+        background-color: #202020 !important;
+        color: #fff;
+        > i {
+            line-height: 40px;
+        }
+    }
+    &.social-icon-small > li > a {
+        width: 30px;
+        height: 30px;
+        > i {
+            line-height: 28px;
+        }
+    }
+    &.social-icon-large > li > a {
+        width: 45px;
+        height: 45px;
+        > i {
+            line-height: 43px;
+        }
+    }
+}
+
+ul.social-icon-circle-outline {
+    > li > a {
+        width: 42px;
+        height: 42px;
+        text-align: center;
+        display: block;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        border: 1px solid;
+        &:extend(.text-color);
+        .transition(all .5s);
+        &:hover,
+        &:focus {
+            border-color: transparent !important;
+        }
+        i {
+            line-height: 40px;
+            font-size: 14px;
+        }
+    }
+    &.social-icon-small > li > a {
+        width: 30px;
+        height: 30px;
+        i {
+            line-height: 28px;
+            font-size: 12px;
+        }
+    }
+    &.social-icon-large > li > a {
+        width: 48px;
+        height: 48px;
+        i {
+            line-height: 46px;
+            font-size: 16px;
+        }
+    }
+}
+
+ul.social-icon-text {
+    display: inline-block;
+    &.social-icon-small > li > a {
+        font-size: 13px;
+    }
+    &.social-icon-large > li > a {
+        font-size: 17px;
+    }
+    li {
+        position: relative;
+        display: inline-block;
+        color: @disable_color;
+        margin-right: 35px;
+        > a {
+            i {
+                margin-right: 10px;
+            }
+            font-size: 15px;
+            line-height: 1.6;
+            display: block;
+            .transition(0.3s);
+        }
+    }
+}

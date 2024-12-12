@@ -1,0 +1,104 @@
+.main-footer-wrapper {
+	.widget-title {
+		font-size: 20px;
+		border: none;
+		padding: 0;
+	}
+}
+
+.footer-01 {
+	background-color: #f7f7f7;
+	.widget-title {
+		font-size: 20px;
+		border: none;
+		padding: 0;
+	}
+	.widget_nav_menu.widget_nav_menu {
+		li {
+			> a {
+				font-size: 17px;
+				font-weight: normal;
+				font-style: normal;
+				font-stretch: normal;
+				letter-spacing: normal;
+				color: #777777;
+				&:hover,
+				&:focus,
+				&:active {
+					color: @accent_color;
+				}
+			}
+		}
+	}
+	.widget-social-profile {
+		ul {
+			padding: 0;
+		}
+	}
+}
+
+.footer-02 {
+	.mailchimp-style-02 {
+		.mc4wp-form-fields {
+			input[type="email"] {
+				background-color: #fff;
+				color: #777;
+				&:focus {
+                  background-color: #fff;
+                }
+			}
+		}
+	}
+}
+
+@media (max-width: 575px) {
+	.footer-02 {
+		.container {
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+	}
+}
+
+
+@media only screen and (min-width: 992px) {
+	footer.footer-fixed {
+		position: fixed !important;
+		bottom: 0;
+		left: 0;
+		z-index: -1;
+		right: 0;
+		margin: auto;
+		-webkit-backface-visibility: visible;
+		-moz-backface-visibility: visible;
+		-ms-backface-visibility: visible;
+		backface-visibility: visible;
+	}
+
+	footer.footer-fixed.static {
+		position: static !important;
+	}
+
+	body.boxed, body.framed {
+		footer.footer-fixed {
+			max-width: 1236px;
+		}
+	}
+
+	body.bordered footer.footer-fixed {
+		margin-left: 30px;
+		margin-right: 30px;
+		margin-bottom: 30px;
+	}
+}
+
+@media screen and (min-width: (@header_responsive_breakpoint + 1px)) {
+	body.header-left footer.footer-fixed {
+		left: 300px;
+	}
+
+	body.header-right footer.footer-fixed {
+		right: 300px;
+	}
+}
+

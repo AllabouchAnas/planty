@@ -1,0 +1,150 @@
+.ube-slider{
+	.ube-slider-content {
+		width: 100%;
+	}
+	.slick-arrow {
+		width: 50px;
+		height: 50px;
+		background-color: #fff;
+		@include border-radius(50%);
+		border: 1px solid var(--g5-background-color-contrast-15);
+		font-size: 18px;
+		color: var(--g5-color-heading);
+		@include transition(color .3s);
+
+		i {
+			font-weight: normal;
+			font-family: var(--g5-font-icon);
+		}
+
+		&.slick-disabled {
+			opacity: 1;
+		}
+
+		&:hover {
+			color: var(--g5-color-accent-foreground);
+			background-color: var(--g5-color-accent);
+		}
+	}
+
+	.slick-prev{
+		left: 35px;
+		i:before{
+			content: '\f060' !important;
+		}
+	}
+	.slick-next{
+		right: 35px;
+		i:before{
+			content: '\f061' !important;
+		}
+	}
+	.slick-dots li {
+		padding-left: 0;
+		@include d-flex();
+		@include align-items-center();
+		font-size: 0;
+		position: relative;
+		@include border-radius(50%);
+		padding: 0 3px;
+		color: var(--g5-color-accent);
+		span:before{
+			font-size: 0;
+		}
+		&:before {
+			content: '';
+			display: block;
+			@include border-radius(50%);
+			width: 10px;
+			height: 10px;
+			@include transition(all 0.3s);
+			background-color: rgba(var(--g5-color-heading-r), var(--g5-color-heading-g), var(--g5-color-heading-b), 0.4);
+
+
+		}
+
+		&.slick-active,
+		&:hover,
+		&:focus {
+			&:before {
+				width: 18px;
+				height: 18px;
+				border: 1px solid;
+				@include transform(scale(0.5));
+				border-color: currentColor;
+				@include transform(scale(1));
+				opacity: 1;
+				background-color: transparent;
+			}
+		}
+	}
+}
+
+.ube-slider-dots-sm{
+	.slick-dots li {
+		&:before {
+			width: 7px;
+			height: 7px;
+		}
+
+		&.slick-active,
+		&:hover,
+		&:focus {
+			&:before {
+				width: 10px;
+				height: 10px;
+			}
+		}
+	}
+}
+
+.ube-slider-dots-lg{
+	.slick-dots li {
+		&:before {
+			width: 10px;
+			height: 10px;
+		}
+
+		&.slick-active,
+		&:hover,
+		&:focus {
+			&:before {
+				width: 18px;
+				height: 18px;
+			}
+		}
+	}
+}
+
+.ube-slider-dots-xl{
+	.slick-dots li {
+		&:before {
+			width: 15px;
+			height: 15px;
+		}
+
+		&.slick-active,
+		&:hover,
+		&:focus {
+			&:before {
+				width: 20px;
+				height: 20px;
+			}
+		}
+	}
+}
+.custom-slider-arrows{
+	.ube-slider{
+		.slick-arrow{
+			width: 70px;
+			height: 70px;
+			border: 0;
+		}
+	}
+}
+
+.ube-product-tabs-slider{
+	 .owl-nav.disabled+.owl-dots {
+		margin-top: 15px;
+	}
+}

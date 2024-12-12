@@ -1,0 +1,136 @@
+.wp-block-table,
+.wp-block-cover-image,
+.wp-block-cover,
+.wp-block-button {
+	margin-bottom: $margin_element;
+}
+.wp-block-embed {
+	margin: 0 0 $margin_element;
+}
+
+.wp-block-table {
+	thead th {
+		border-bottom-width: 2px;
+	}
+}
+
+.wp-block-pullquote {
+	blockquote {
+		padding:  0;
+		border: none;
+	}
+}
+
+.wp-block-quote {
+	&.has-text-align-right {
+		border-right: 4px solid var(--g5-color-heading);
+		padding-right: 1em;
+		border-left: none;
+		padding-left: 0;
+	}
+}
+
+.blocks-gallery-caption,
+.wp-caption-text,
+figcaption {
+	color: var(--g5-color-muted);
+}
+
+.wp-block-quote cite,
+.wp-block-quote footer,
+.wp-block-quote__citation {
+	color: var(--g5-color-text-main);
+}
+
+.wp-block-cover-image,
+.wp-block-cover {
+	color: #f8f9f9;
+	p {
+		margin-bottom: 0;
+	}
+	a {
+		color: inherit;
+	}
+}
+
+.wp-block-button__link {
+	@include button-size(48px, 35px, 13px);
+	font-weight: 800;
+	border: 1px solid transparent;
+	white-space: nowrap;
+	position: relative;
+	display: inline-block;
+	text-transform: uppercase;
+	@include border-radius(0);
+	@include transition(all .3s ease-in-out);
+
+	&:not(.has-background):not(.has-text-color) {
+		@include button-variant(var(--g5-color-accent-foreground), var(--g5-color-accent), var(--g5-color-accent), #fff,#333,#333);
+	}
+
+
+	&:hover {
+		cursor: pointer;
+	}
+
+	&:focus {
+		outline: none;
+	}
+
+	&:disabled {
+		opacity: 0.65;
+		cursor: default;
+	}
+}
+
+.wp-block-button {
+	&.is-style-squared .wp-block-button__link {
+		@include border-radius(0);
+	}
+
+	&.is-style-outline .wp-block-button__link {
+		background-color: transparent !important;
+		border: 2px solid currentcolor;
+
+		&:not(.has-text-color) {
+			color: var(--g5-color-accent);
+		}
+
+		&:hover {
+			background-color: var(--g5-color-accent) !important;
+			border-color: var(--g5-color-accent);
+			color: var(--g5-color-accent-foreground);
+		}
+	}
+}
+
+
+ul.blocks-gallery-grid,
+ul.wp-block-gallery {
+	padding: 0;
+	margin: 0;
+}
+
+ul.wp-block-rss,
+ul.wp-block-latest-comments,
+ul.wp-block-archives {
+	padding: 0;
+}
+
+.wp-block-rss,
+.wp-block-latest-posts,
+.wp-block-latest-comments {
+	list-style: none;
+	li {
+		line-height: 20px;
+		+ li {
+			margin-top: 16px;
+		}
+		a {
+			color: inherit;
+			&:hover {
+				color: var(--g5-color-link-hover);
+			}
+		}
+	}
+}

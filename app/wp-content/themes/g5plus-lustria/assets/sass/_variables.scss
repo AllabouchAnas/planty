@@ -1,0 +1,113 @@
+$body_font: 'edmondsans';
+$body_font_size : 16px;
+$body_font_weight: 400;
+$body_font_style: normal;
+
+$h1_font: 'edmondsans';
+$h1_font_size : 55px;
+$h1_font_weight: 500;
+$h1_font_style: normal;
+
+$h2_font: 'edmondsans';
+$h2_font_size : 40px;
+$h2_font_weight: 500;
+$h2_font_style: normal;
+
+$h3_font: 'edmondsans';
+$h3_font_size : 32px;
+$h3_font_weight: 500;
+$h3_font_style: normal;
+
+$h4_font: 'edmondsans';
+$h4_font_size : 25px;
+$h4_font_weight: 500;
+$h4_font_style: normal;
+
+$h5_font: 'edmondsans';
+$h5_font_size : 20px;
+$h5_font_weight: 500;
+$h5_font_style: normal;
+
+$h6_font: 'edmondsans';
+$h6_font_size : 16px;
+$h6_font_weight: 500;
+$h6_font_style: normal;
+
+
+
+$font_primary: 'edmondsans';
+$font_icon: 'Font Awesome 5 Pro';
+
+$font_size_base: 16px;
+
+
+
+
+$font_line_height_body: 1.63;
+
+$margin_element: 20px;
+$margin_comment_element: 35px;
+
+
+// Responsive widths.
+$small_mobile_width: 320px;
+$mobile_width: 576px;
+$tablet_width: 768px;
+$desktop_width: 992px;
+$wide_width: 1200px;
+
+
+
+
+// Links Color
+$color_link: #7fa15a;
+$color_link_hover: $color_link;
+
+
+// Text Color
+$color_accent: #7fa15a;
+$color_accent_foreground: contrast-color($color_accent);
+$color_accent_brightness :  adjust-brightness-color($color_accent,7.5%);
+$color_primary: #282727;
+$color_primary_foreground: contrast-color($color_primary);
+$color_primary_brightness :  adjust-brightness-color($color_primary,7.5%);
+$color_secondary: #357284;
+$color_secondary_foreground: contrast-color($color_secondary);
+$color_secondary_brightness :  adjust-brightness-color($color_secondary,7.5%);
+$color_light: #fff;
+$color_light_foreground : contrast-color($color_light);
+$color_light_brightness :  adjust-brightness-color($color_light,7.5%);
+$color_dark: #000;
+$color_dark_foreground : contrast-color($color_dark);
+$color_dark_brightness :  adjust-brightness-color($color_dark,7.5%);
+$color_gray: #808080;
+$color_gray_foreground : contrast-color($color_gray);
+$color_gray_brightness : adjust-brightness-color($color_gray,7.5%);
+$color_heading: #333;
+$color_border: #f8f8f8;
+
+$color_success: #28a745;
+$color_success_foreground: contrast-color($color_success);
+$color_success_brightness: adjust-brightness-color($color_success, 7.5%);
+$header_background_color: #fff;
+$header_sticky_background_color: #fff;
+
+$color_danger: #dc3545;
+$color_danger_foreground: contrast-color($color_danger);
+$color_danger_brightness :  adjust-brightness-color($color_danger,7.5%);
+
+$color_warning: #ffc107;
+$color_warning_foreground: contrast-color($color_warning);
+$color_warning_brightness :  adjust-brightness-color($color_warning,7.5%);
+
+$color_info: #17a2b8;
+$color_info_foreground: contrast-color($color_info);
+$color_info_brightness :  adjust-brightness-color($color_info,7.5%);
+
+
+
+
+
+
+
+

@@ -1,0 +1,40 @@
+@import "variable";
+@import "base/typography";
+@import "typography";
+@import "mixins";
+
+
+
+.mceContentBody::after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 102%;
+  width: 10px;
+  -ms-word-break: break-all;
+  word-break: break-all;
+  font-size: 14px;
+  color: #d8d8d8;
+  text-align: center;
+  height: 100%;
+  max-width: 330px;
+  z-index: 1;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-weight: 600;
+  line-height: 26px;
+  pointer-events: none;
+}
+
+.mceContentBody.mceContentBody {
+  padding-right: 25px !important;
+  padding-left: 15px !important;
+  border-right: 1px solid #eee;
+  position: relative;
+  &[data-site_layout="none"] {
+    max-width: 1170px;
+    &:after {
+      content: '';
+    }
+  }
+}

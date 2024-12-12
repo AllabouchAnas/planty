@@ -1,0 +1,22 @@
+.ube-heading-title{
+	font-family: var(--g5-primary-font);
+	font-size: 40px;
+	font-weight: 500;
+	mark{
+		padding: 0;
+		color: var(--g5-color-accent);
+	}
+}
+
+.ube-heading-sub-title{
+	font-size: 20px;
+	letter-spacing: 0.06em;
+	margin-bottom: 10px;
+	color: var(--g5-color-accent);
+	line-height: 1.63;
+}
+.ube-heading-description{
+	font-size: 18px;
+	line-height: 1.56;
+	margin-top: 40px;
+}

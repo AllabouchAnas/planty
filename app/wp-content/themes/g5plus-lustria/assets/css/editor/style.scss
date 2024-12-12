@@ -1,0 +1,108 @@
+@import "../../sass/mixin";
+@import "../../sass/variables";
+@import "../../sass/root";
+@import "../../sass/mixin-widget";
+
+/*--------------------------------------------------------------
+## Typography
+--------------------------------------------------------------*/
+@import "../../sass/base/typography";
+@import "../../sass/typography";
+
+/*--------------------------------------------------------------
+## WP block
+--------------------------------------------------------------*/
+@import "../../sass/base/wp-block";
+@import "../../sass/wp-block";
+
+/*--------------------------------------------------------------
+## Mixins
+--------------------------------------------------------------*/
+@import "../../sass/mixins";
+
+
+.mceContentBody::after {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 102%;
+	width: 10px;
+	-ms-word-break: break-all;
+	word-break: break-all;
+	font-size: 14px;
+	color: #d8d8d8;
+	text-align: center;
+	height: 100%;
+	max-width: 330px;
+	z-index: 1;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	font-weight: 600;
+	line-height: 26px;
+	pointer-events: none;
+}
+
+.mceContentBody.mceContentBody {
+	padding-right: 25px !important;
+	padding-left: 15px !important;
+	border-right: 1px solid #eee;
+	position: relative;
+	&[data-site_layout="none"] {
+		max-width: 1170px;
+		&:after {
+			content: '';
+		}
+	}
+}
+
+//widget
+.wp-block-search {
+	.wp-block-search__label {
+		display: none;
+	}
+
+	.wp-block-search__button {
+		font-size: 0;
+		outline: none;
+		margin: 0;
+		background-color: transparent;
+		position: absolute;
+		width: 40px;
+		height: 48px;
+		top: 0;
+		right: 0;
+		background: none;
+		border: none;
+		cursor: pointer;
+		color: var(--g5-color-heading);
+		&:hover,
+		&:focus,
+		&:active {
+			color: var(--g5-color-link-hover);
+		}
+		&:before {
+			content: '\f002';
+			font-family: var(--g5-font-icon);
+			font-weight: 400;
+			display: block;
+			position: absolute;
+			text-align: center;
+			font-size: 16px;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			line-height: 48px;
+		}
+	}
+}
+
+.wp-block-search {
+	.wp-block-search__input {
+		border-color: transparent;
+		color: var(--g5-color-text-main);
+		background-color: var(--g5-background-color-contrast-03);
+		width: 100%;
+		padding-right: 40px;
+	}
+}

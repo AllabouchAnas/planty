@@ -1,0 +1,17 @@
+.ube-accordion {
+	.card {
+		border-width: 1px 0 0 0;
+	}
+
+	.card-header:first-child {
+		border-radius: 0;
+	}
+
+	.card-header {
+		border-width: 0;
+	}
+
+	.ube-accordion-card:last-child:not(.active) {
+		border-bottom-width: 1px;
+	}
+}

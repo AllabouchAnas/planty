@@ -1,0 +1,267 @@
+// Button sizes
+.button-size(@height;@padding-horizontal;@font-size;) {
+    @line-height: 20px;
+    @padding-vertical: (@height - @line-height - 2) / 2;
+    padding: @padding-vertical @padding-horizontal;
+    font-size: @font-size;
+    line-height: @line-height;
+    &.btn-outline {
+        padding: @padding-vertical @padding-horizontal;
+    }
+}
+
+.button-variant(@color;@background;@border;@color_hover : ''; @background_hover : ''; @border_hover : '') {
+    @_color_hover: @color_hover;
+    @_background_hover: @background_hover;
+
+    & when (@_color_hover = '') {
+        @color_hover: @color;
+    }
+
+    & when (@_background_hover = '') {
+        @background_hover: @background;
+    }
+
+    color: @color;
+    background-color: @background;
+    border-color: @border;
+
+    &:focus,
+    &:active,
+    &:hover {
+        color: @color_hover !important;
+        background-color: @background_hover;
+        border-color: @border_hover;
+        .box-shadow(none);
+    }
+    &.disabled,
+    &[disabled],
+    fieldset[disabled] & {
+        &:hover,
+        &:focus,
+        &:active,
+        &.focus {
+            background-color: @background;
+            border-color: @border;
+        }
+    }
+}
+
+
+.wp-block-button__link,
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+.btn {
+    &:extend(.primary-font);
+    display: inline-block;
+    font-weight: 500;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    .button-size(50px, 35px, 16px);
+    .border-radius(0);
+    .user-select(none);
+    .transition(all .3s ease-in-out);
+    &:hover,
+    &:focus,
+    &.focus {
+        text-decoration: none;
+    }
+
+    &:active,
+    &.active {
+        outline: 0;
+        background-image: none;
+    }
+
+    &.disabled,
+    &[disabled],
+    fieldset[disabled] & {
+        cursor: not-allowed;
+        .opacity(.65);
+    }
+}
+
+.btn {
+    min-width: 160px;
+    text-align: center;
+}
+
+.wp-block-button__link:not(.has-background):not(.has-text-color),
+.btn,
+input[type="submit"],
+input[type="button"],
+input[type="reset"] {
+    .button-variant(@foreground_accent_color, @accent_color, @accent_color, #fff, #333, #333);
+}
+
+
+.wp-block-button:not(.is-style-outline) .wp-block-button__link {
+    &:hover,
+    &:focus,
+    &:active {
+        color: #fff;
+        background-color: #333;
+        border-color: #333;
+    }
+
+    &.has-background,
+    &.has-text-color {
+        border-color: transparent;
+    }
+}
+
+.wp-block-button.is-style-outline .wp-block-button__link {
+    background: transparent !important;
+    border: 2px solid currentcolor;
+    color: @accent_color;
+    &:hover,
+    &:focus,
+    &:active {
+        color: @accent_color;
+    }
+
+    &:not(.has-text-color) {
+        &:hover,
+        &:focus,
+        &:active {
+            color: #333;
+        }
+    }
+}
+
+
+a.btn {
+    &.disabled,
+    fieldset[disabled] & {
+        pointer-events: none; // Future-proof disabling of clicks on `<a>` elements
+    }
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+.btn.btn-xs {
+    .button-size(44px, 25px, 16px);
+}
+
+.btn.btn-sm {
+    .button-size(46px, 30px, 16px);
+}
+
+.btn.btn-md {
+    .button-size(54px, 40px, 18px);
+}
+
+.btn.btn-lg {
+    .button-size(64px, 50px, 18px);
+}
+.btn.btn-link.btn.btn-md,
+.btn.btn-link.btn.btn-lg{
+    i{
+        font-size: 12px;
+    }
+}
+.btn.btn-link {
+    border: none;
+    height: auto;
+    padding: 0;
+    min-width: unset;
+    font-weight: 500;
+    position: relative;
+    line-height: 23px;
+    border-bottom: 1px solid currentColor;
+}
+
+.btn.btn-round {
+    .border-radius(5em);
+}
+
+.wp-block-button:not(.is-style-squared) .wp-block-button__link,
+.btn.btn-rounded {
+    .border-radius(5px);
+}
+
+.btn.btn-inline {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.btn.btn-icon-left i {
+    margin-right: 10px;
+}
+
+.btn.btn-icon-right i {
+    margin-left: 10px;
+}
+
+.btn.btn-accent {
+    .button-variant(@foreground_accent_color, @accent_color, @accent_color, @foreground_accent_color, #333, #333);
+    &.btn-outline {
+        .button-variant(@accent_color, transparent, @accent_color, @foreground_accent_color, @accent_color, @accent_color);
+    }
+    &.btn-link {
+        .button-variant(@accent_color, transparent, @accent_color, @accent_color, transparent, @accent_color);
+    }
+}
+
+.btn.btn-primary {
+    .button-variant(@foreground_accent_color, @primary_color, @primary_color, @foreground_accent_color, #333, #333);
+    &.btn-outline {
+        .button-variant(@primary_color, transparent, @primary_color, @foreground_accent_color, @primary_color, @primary_color);
+    }
+    &.btn-link {
+        .button-variant(@primary_color, transparent, @primary_color, @primary_color, transparent, @primary_color);
+    }
+}
+
+.btn.btn-white {
+    .button-variant(#333, #fff, #fff, #fff, @accent_color, @accent_color);
+    &.btn-outline {
+        .button-variant(#fff, transparent, #fff, #333, #fff, #fff);
+    }
+    &.btn-link {
+        .button-variant(#fff, transparent, #fff, #fff, transparent, #fff);
+    }
+}
+
+.btn.btn-gray {
+    .button-variant(#fff, gray, gray, #fff, #333, #333);
+    &.btn-outline {
+        .button-variant(#333, transparent, #ccc, #fff, #333, #333);
+    }
+    &.btn-link {
+        .button-variant(#333, transparent, @border_color, #333, transparent, @border_color);
+    }
+}
+
+.btn.btn-red {
+    .button-variant(#fff, #e14e42, #e14e42, #e14e42, transparent, #e14e42);
+    &.btn-outline {
+        .button-variant(#e14e42, transparent, #e14e42, #fff, #e14e42, #e14e42);
+    }
+    &.btn-link {
+        .button-variant(#e14e42, transparent, #e14e42, #e14e42, transparent, #e14e42);
+    }
+}
+
+.btn.btn-black {
+    .button-variant(#fff, #161616, #161616, #fff, @accent_color, @accent_color);
+    &.btn-outline {
+        .button-variant(#161616, transparent, #161616, #fff, #161616, #161616);
+    }
+    &.btn-link {
+        .button-variant(#161616, transparent, #161616, #161616, transparent, #161616);
+    }
+}
+
+.btn-container.btn-inline {
+    display: inline-block;
+}

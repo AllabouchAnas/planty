@@ -1,0 +1,383 @@
+@import "base/custom-vc";
+
+.vc_separator.vc_separator_align_center h4 {
+    color: inherit;
+}
+
+.vc_progress_bar .vc_label .vc_label_units {
+    position: absolute;
+    right: 0;
+}
+
+/*Accordions*/
+.wpb-js-composer .vc_tta.vc_general .vc_tta-panel-title>a {
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    padding-top: 19px !important;
+    padding-bottom: 19px !important;
+}
+
+.wpb-js-composer .vc_tta.vc_general .vc_tta-panel-body {
+    font-size: 17px;
+}
+
+.wpb-js-composer .vc_tta-color-accent.vc_tta-style-modern,
+.wpb-js-composer .vc_tta-color-accent.vc_tta-style-classic {
+    .vc_tta-panel .vc_tta-panel-title>a {
+        color: #fff;
+    }
+    .vc_tta-panel .vc_tta-panel-heading {
+        border-color: var(--g5-color-accent-darken);
+        background-color: var(--g5-color-accent);
+    }
+    .vc_tta-panel.vc_active .vc_tta-panel-title>a {
+        color: #666;
+    }
+
+    .vc_tta-panel.vc_active .vc_tta-panel-heading {
+        border-color: #f0f0f0;
+        background-color: #f8f8f8;
+    }
+
+    .vc_tta-panel .vc_tta-panel-body,
+    .vc_tta-panel .vc_tta-panel-body::after,
+    .vc_tta-panel .vc_tta-panel-body::before {
+        border-color: #f0f0f0;
+    }
+
+    .vc_tta-panel .vc_tta-panel-body {
+        background-color: #f8f8f8;
+    }
+}
+
+
+.wpb-js-composer .vc_tta-color-accent.vc_tta-style-flat {
+    .vc_tta-panel .vc_tta-panel-title>a {
+        color: #fff;
+    }
+
+    .vc_tta-panel .vc_tta-panel-heading {
+        background-color: var(--g5-color-accent);
+    }
+
+    .vc_tta-panel.vc_active .vc_tta-panel-title>a {
+        color: #fff;
+    }
+
+    .vc_tta-panel.vc_active .vc_tta-panel-heading {
+        background-color: var(--g5-color-accent-lighten);
+    }
+
+    .vc_tta-panel .vc_tta-panel-body {
+        background-color:var(--g5-color-accent-lighten);
+    }
+
+    &:not(.vc_tta-o-no-fill) .vc_tta-panel-body {
+        color: #fff;
+    }
+}
+
+.wpb-js-composer .vc_tta-color-accent.vc_tta-style-outline {
+    .vc_tta-controls-icon::after,
+    .vc_tta-controls-icon::before {
+        border-color: #4a4a4a;
+    }
+
+    .vc_tta-panel .vc_tta-panel-title>a {
+        color: #4a4a4a;
+    }
+
+    .vc_tta-panel .vc_tta-panel-heading {
+        border-color: #e2e2e2;
+        background-color: transparent;
+        border-width: 1px;
+        border-left: none;
+        border-right: none;
+    }
+
+    .vc_active .vc_tta-panel-heading .vc_tta-controls-icon::after,
+    .vc_active .vc_tta-panel-heading .vc_tta-controls-icon::before {
+        border-color: #fff;
+    }
+
+    .vc_tta-panel.vc_active .vc_tta-panel-title>a {
+        color: #fff;
+    }
+
+    .vc_tta-panel.vc_active .vc_tta-panel-heading {
+        border-color: var(--g5-color-accent);
+        background-color: var(--g5-color-accent);
+    }
+
+
+    .vc_tta-panel .vc_tta-panel-body,
+    .vc_tta-panel .vc_tta-panel-body::after,
+    .vc_tta-panel .vc_tta-panel-body::before {
+        border-color: #e2e2e2;
+    }
+
+  .vc_tta-panel .vc_tta-panel-heading:focus,
+  .vc_tta-panel .vc_tta-panel-heading:hover {
+    background-color: var(--g5-color-accent);
+    border-color: var(--g5-color-accent);
+      .vc_tta-controls-icon::after,
+      .vc_tta-controls-icon::before {
+          border-color: #fff;
+      }
+  }
+
+
+
+
+  .vc_tta-panel .vc_tta-panel-title>a:hover {
+    color: #fff;
+  }
+
+    .vc_tta-panel.vc_active+.vc_tta-panel .vc_tta-panel-heading,
+    .vc_tta-panel:not(:first-child) .vc_tta-panel-heading {
+        margin-top: 1px !important;
+    }
+
+}
+
+
+.wpb-js-composer .vc_tta.vc_general.vc_tta-style-outline.vc_tta-tabs .vc_tta-panel-body {
+    overflow: visible;
+}
+
+
+// Custom Tabs
+
+.wpb-js-composer .vc_tta.vc_general .vc_tta-tab>a {
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 20px;
+    letter-spacing: normal;
+    padding: 19px 25px !important;
+}
+
+.wpb-js-composer.wpb-js-composer .vc_tta-color-accent.vc_tta-style-modern,
+.wpb-js-composer.wpb-js-composer .vc_tta-color-accent.vc_tta-style-classic {
+    .vc_tta-tab>a {
+        border-color: var(--g5-color-accent-darken);
+        background-color: var(--g5-color-accent);
+        color: #fff;
+        &:hover,
+        &:focus {
+            background-color: var(--g5-color-accent-darken);
+        }
+
+    }
+
+    .vc_tta-tab.vc_active>a {
+        border-color: #f0f0f0;
+        background-color: #f8f8f8;
+        color: #666;
+    }
+}
+
+
+
+@media (min-width: 768px) {
+    .wpb-js-composer.wpb-js-composer .vc_tta-color-accent.vc_tta-style-modern,
+    .wpb-js-composer.wpb-js-composer .vc_tta-color-accent.vc_tta-style-classic {
+
+        &.vc_tta-tabs .vc_tta-panels .vc_tta-panel-body {
+            border-color: transparent;
+            background-color: transparent;
+        }
+
+        &.vc_tta-tabs .vc_tta-panels,
+        &.vc_tta-tabs .vc_tta-panels::after,
+        &.vc_tta-tabs .vc_tta-panels::before {
+            border-color: #f0f0f0;
+        }
+
+        &.vc_tta-tabs .vc_tta-panels {
+            background-color: #f8f8f8;
+        }
+    }
+}
+
+.wpb-js-composer.wpb-js-composer .vc_tta-color-accent.vc_tta-style-flat {
+    .vc_tta-tab>a {
+        background-color : var(--g5-color-accent-darken);
+        color: #fff;
+        &:focus,
+        &:hover {
+            background-color :  var(--g5-color-accent-darken);
+        }
+    }
+
+    .vc_tta-tab.vc_active>a {
+        background-color: var(--g5-color-accent);
+        color: #fff;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .wpb-js-composer.wpb-js-composer .vc_tta-color-accent.vc_tta-style-flat {
+        &.vc_tta-tabs .vc_tta-panels {
+            background-color: var(--g5-color-accent);
+        }
+
+        &.vc_tta-tabs .vc_tta-panels .vc_tta-panel-body {
+            border-color: transparent;
+            background-color: transparent;
+        }
+    }
+
+    .wpb-js-composer.wpb-js-composer .vc_tta.vc_tta-o-no-fill.vc_tta-tabs .vc_tta-panels {
+        border-color: transparent;
+        background-color: transparent;
+    }
+
+}
+
+
+
+.wpb-js-composer.wpb-js-composer .vc_tta-color-accent.vc_tta-style-outline {
+    .vc_tta-tab>a {
+        border-color: var(--g5-color-accent);
+        background-color: transparent;
+        color: var(--g5-color-accent);
+        &:focus,
+        &:active,
+        &:hover{
+            background-color: var(--g5-color-accent);
+            color: #fff;
+        }
+    }
+
+    .vc_tta-tab.vc_active>a {
+        border-color: var(--g5-color-accent);
+        background-color: transparent;
+        color: var(--g5-color-accent);
+    }
+
+    .vc_tta-panel .vc_tta-panel-body,
+    .vc_tta-panel .vc_tta-panel-body::after,
+    .vc_tta-panel .vc_tta-panel-body::before {
+        border-color: var(--g5-color-accent);
+    }
+}
+
+
+@media (min-width: 768px) {
+
+    .wpb-js-composer.wpb-js-composer .vc_tta-color-accent.vc_tta-style-outline {
+        &.vc_tta-tabs .vc_tta-panels .vc_tta-panel-body {
+            border-color: transparent;
+            background-color: transparent;
+        }
+
+        &.vc_tta-tabs .vc_tta-panels,
+        &.vc_tta-tabs .vc_tta-panels::after,
+        &.vc_tta-tabs .vc_tta-panels::before {
+            border-color: var(--g5-color-accent);
+        }
+    }
+}
+
+.wpb-js-composer .vc_tta.vc_tta-o-no-fill .vc_tta-panels .vc_tta-panel-body {
+    border-color: transparent !important;
+    background-color: transparent !important;
+}
+
+
+/*
+------- Custom VC_Progress_Bar -------*/
+.vc_progress_bar {
+    &.vc_progress-bar-color-accent {
+        .vc_single_bar {
+            .vc_bar {
+                background-color: var(--g5-color-accent);
+            }
+        }
+    }
+    &.prb_vl_move {
+        .progress-bar-title {
+            margin-bottom: 13px;
+            display: block;
+            color: var(--g5-color-heading);
+            font-size: 18px;
+            line-height: 24px;
+            font-weight: 500;
+        }
+        .vc_single_bar {
+            @include border-radius(0);
+            height: 12px;
+            margin-bottom: 50px;
+            box-shadow: none;
+            background: var(--g5-background-color);
+            &:last-child {
+                margin-bottom: 0;
+            }
+            .vc_label {
+                padding: 0;
+            }
+            .vc_bar {
+                height: 12px;
+                @include border-radius(0);
+                .vc_label_units {
+                    position: absolute;
+                    right: 0;
+                    top: -33px;
+                    background-color: var(--g5-color-accent);
+                    color: var(--g5-color-accent-foreground);
+                    padding: 0 8px;
+                    height: 20px;
+                    line-height: 20px;
+                    @include border-radius(40px);
+                    font-weight: 800;
+                    font-size: 15px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    &.prb_vl_right {
+        .progress-bar-title {
+            margin-bottom: 13px;
+            display: block;
+            color: var(--g5-color-heading);
+            font-size: 18px;
+            line-height: 24px;
+            font-weight: 500;
+        }
+        .vc_single_bar {
+           @include border-radius(5px);
+            height: 12px;
+            margin-bottom: 50px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: var(--g5-color-border);
+            box-shadow: none;
+            &:last-child {
+                margin-bottom: 0;
+            }
+            .vc_label {
+                padding: 0;
+            }
+            .vc_bar {
+                height: 12px;
+                @include border-radius(5px);
+                top: -1px;
+            }
+            .vc_label_units {
+                position: absolute;
+                right: 0;
+                top: -33px;
+                font-weight: 700;
+                font-size: 13px;
+            }
+        }
+    }
+}

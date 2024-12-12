@@ -1,0 +1,75 @@
+.logo-text {
+	margin: 0;
+	font-size: 34px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 5px 0;
+	max-width: 300px;
+	color: @logo_text_color !important;
+}
+.site-branding-text {
+	position: relative;
+	.site-title {
+		position: absolute;
+		clip: rect(1px, 1px, 1px, 1px);
+	}
+}
+.header-sticky.affix .logo-text {
+	color: @logo_sticky_text_color !important;
+}
+
+/**
+* Desktop
+* ----------------------------------------------------------------------------
+*/
+@media screen and (min-width: (@header_responsive_breakpoint + 1px)) {
+	.logo-header {
+		max-width: 100%;
+		height: @logo_max_height;
+		.transition(all .5s);
+		flex-shrink: 0;
+		-webkit-flex-shrink: 0;
+		img {
+			.transition(all .5s);
+			max-height: @logo_max_height;
+			padding-top: @logo_padding_top;
+			padding-bottom: @logo_padding_bottom;
+		}
+	}
+	header.main-header.header-menu-vertical {
+		.header-above {
+			height: @logo_max_height !important;
+		}
+	}
+}
+.sticky-logo {
+	display: none;
+}
+
+/**
+* Mobile
+* ----------------------------------------------------------------------------
+*/
+@media (max-width: @header_responsive_breakpoint) {
+	.mobile-logo-header {
+		height: @mobile_logo_max_height;
+		.transition(all .5s);
+		img {
+			.transition(all .5s);
+			max-height: @mobile_logo_max_height;
+			padding-top: @mobile_logo_padding_top;
+			padding-bottom: @mobile_logo_padding_bottom;
+		}
+	}
+	.logo-text {
+		color: @mobile_logo_text_color !important;
+	}
+	.header-sticky.affix .logo-text {
+		color: @mobile_logo_sticky_text_color !important;
+	}
+}
+
+
+
+
+

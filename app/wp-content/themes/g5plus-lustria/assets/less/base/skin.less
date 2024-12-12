@@ -1,0 +1,242 @@
+.@{skin_id},
+.gf-skin .@{skin_id},
+.gf-skin .gf-skin .@{skin_id},
+.gf-skin .gf-skin .gf-skin .@{skin_id} {
+
+    color: @text_color;
+    background-color: @background_color;
+    border-color: @border_color;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    .heading-color {
+        color: @heading_color;
+    }
+
+    .border-color {
+        border-color: @border_color;
+    }
+
+    .disable-color {
+        color: @disable_color;
+    }
+
+    .text-hover-color {
+        color: @text_hover_color;
+    }
+
+    .top-drawer-toggle {
+        border-top-color: @background_color;
+        a {
+            color: @text_color;
+        }
+    }
+
+
+    .widget_calendar .calendar_wrap caption {
+        color: @text_color;
+    }
+
+
+
+    .widget_calendar #wp-calendar td.active,
+    .widget_calendar .calendar_wrap caption,
+    .widget_calendar #wp-calendar th {
+
+        & when (lightness(@background_color) < 50) {
+            background-color: #444;
+        }
+
+        & when (lightness(@background_color) >= 50) {
+            background-color: #f8f8f8;
+        }
+    }
+
+    .widget_calendar .calendar_wrap caption,
+    .widget_calendar #wp-calendar tbody td,
+    .widget_calendar #wp-calendar th {
+        border-color: @border_color;
+    }
+
+    .gf-no-results h2 span:after, .gf-no-results h2 span:before {
+        border-color: @border_color;
+    }
+
+    .gf-entry-content {
+        hr {
+            border-color: @border_color;
+        }
+
+        table {
+            border-color: @border_color;
+        }
+        td,
+        th {
+            border-color: @border_color;
+        }
+
+        thead th {
+            color: @heading_color;
+            & when (lightness(@background_color) < 50) {
+                background-color: #444;
+            }
+
+            & when (lightness(@background_color) >= 50) {
+                background-color: #f8f8f8;
+            }
+        }
+
+        del {
+            color: @disable_color;
+        }
+
+        .wp-block-code,
+        pre {
+            & when (lightness(@background_color) < 50) {
+                background-color: #444;
+            }
+
+            & when (lightness(@background_color) >= 50) {
+                background-color: #f8f8f8;
+            }
+
+            color: @heading_color;
+            border-color: @border_color;
+        }
+
+        blockquote:not(.is-large):not(.is-style-large) {
+            border-color:@heading_color;
+            &.has-text-align-right {
+                border-color:@heading_color;
+            }
+        }
+
+        .wp-block-quote cite,
+        .wp-block-quote footer,
+        .wp-block-quote__citation {
+            color: @text_color;
+        }
+
+        .wp-caption-text,
+        figcaption {
+            color: @disable_color;
+        }
+
+        .gallery-icon img {
+            border-color: @border_color;
+        }
+
+
+    }
+
+
+    .gf-sidebar-toggle {
+        & when (lightness(@background_color) < 50) {
+            background-color: #f8f8f8;
+            color: #444;
+        }
+
+        & when (lightness(@background_color) >= 50) {
+            background-color: #444;
+            color: #f8f8f8;
+        }
+    }
+
+    .gf-page-title-default {
+        & when (lightness(@background_color) < 50) {
+            background-color: #444;
+        }
+
+        & when (lightness(@background_color) >= 50) {
+            background-color: #f9f9f9;
+        }
+    }
+
+
+
+    .owl-carousel {
+        > div.owl-nav {
+            [class*='owl-'] {
+                background-color: @background_color;
+                & when (lightness(@background_color) < 50) {
+                    border-color: #ababab;
+                }
+
+                & when (lightness(@background_color) >= 50) {
+                    border-color: #d6d6d6;
+                }
+                color: @heading_color;
+                &:hover {
+                    background-color: @accent_color;
+                    border-color: @accent_color;
+                    color: #fff;
+                }
+            }
+        }
+        > div.owl-dots {
+            .owl-dot {
+                span {
+                    & when (lightness(@background_color) < 50) {
+                        background-color: #ababab;
+                    }
+
+                    & when (lightness(@background_color) >= 50) {
+                        background-color: #d6d6d6;
+                    }
+                }
+                &:hover,
+                &.active {
+                    span {
+                        background-color: transparent;
+                    }
+                }
+            }
+        }
+
+
+        &.nav-hover-outline {
+            > div.owl-nav {
+                [class*='owl-'] {
+                    &:hover {
+                        background-color: @background_color;
+                        color: @accent_color;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .wp-block-tag-cloud,
+    .tagcloud {
+        a {
+            color: @disable_color;
+            &:hover,
+            &:focus,
+            &:active {
+                color: @heading_color;
+            }
+
+        }
+    }
+
+    .widget_meta,
+    .widget_recent_entries {
+        ul {
+            li {
+                a {
+                    color: @heading_color;
+                    &:hover,
+                    &:after,
+                    &:focus {
+                        color: @text_hover_color;
+                    }
+                }
+            }
+        }
+    }
+}
