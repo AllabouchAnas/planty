@@ -1,0 +1,56 @@
+.ube-divider-style-solid {
+	&:not(.has-element) .ube-divider-separator, .ube-divider-element {
+		border-top-style: solid;
+	}
+}
+
+.ube-divider-style-double {
+	&:not(.has-element) .ube-divider-separator, .ube-divider-element {
+		border-top-style: double;
+	}
+}
+
+.ube-divider-style-dashed {
+	&:not(.has-element) .ube-divider-separator, .ube-divider-element {
+		border-top-style: dashed;
+	}
+}
+
+.ube-divider-style-dotted {
+	&:not(.has-element) .ube-divider-separator, .ube-divider-element {
+		border-top-style: dotted;
+	}
+}
+
+.ube-divider-style-groove {
+	&:not(.has-element) .ube-divider-separator, .ube-divider-element {
+		border-top-style: groove;
+	}
+}
+
+.ube-divider-style-ridge {
+	&:not(.has-element) .ube-divider-separator, .ube-divider-element {
+		border-top-style: ridge;
+	}
+}
+
+.ube-divider {
+	&:not(.has-element) .ube-divider-separator, .ube-divider-element {
+		border-top-width: 4px;
+		border-top-color: var(--e-global-color-border);
+	}
+}
+
+.ube-divider.has-element .ube-divider-separator {
+	@include d-flex();
+	@include align-items-center();
+}
+
+.ube-divider-element {
+	@include flex(1 1 auto);
+}
+
+.ube-divider-content {
+	@include flex(0 1 auto);
+	margin: 0 20px;
+}

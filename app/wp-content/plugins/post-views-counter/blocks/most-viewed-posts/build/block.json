@@ -1,0 +1,68 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "post-views-counter/most-viewed-posts",
+  "version": "1.0.0",
+  "title": "Most Viewed Posts",
+  "category": "post-views-counter",
+  "icon": "list-view",
+  "description": "Displays a list of the most viewed posts.",
+  "example": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Most Viewed Posts"
+    },
+    "postTypes": {
+      "type": "object",
+      "default": {
+        "post": true
+      }
+    },
+    "period": {
+      "type": "string",
+      "default": "total"
+    },
+    "numberOfPosts": {
+      "type": "integer",
+      "default": 5
+    },
+    "noPostsMessage": {
+      "type": "string",
+      "default": "No most viewed posts found."
+    },
+    "order": {
+      "type": "string",
+      "default": "desc"
+    },
+    "listType": {
+      "type": "string",
+      "default": "unordered"
+    },
+    "displayPostViews": {
+      "type": "boolean",
+      "default": false
+    },
+    "displayPostExcerpt": {
+      "type": "boolean",
+      "default": false
+    },
+    "displayPostAuthor": {
+      "type": "boolean",
+      "default": false
+    },
+    "displayPostThumbnail": {
+      "type": "boolean",
+      "default": false
+    },
+    "thumbnailSize": {
+      "type": "string",
+      "default": "thumbnail"
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "textdomain": "post-views-counter",
+  "editorScript": "file:./index.js"
+}

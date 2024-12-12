@@ -1,0 +1,38 @@
+
+.ube-icon-box-wrapper{
+	.ube-hover-image .card-img img:last-child{
+		position: absolute;
+		top: 0;
+		left: 0;
+		opacity: 0;
+	}
+	&:hover{
+		.ube-hover-image .card-img img{
+			&:first-child {
+				opacity: 0;
+			}
+			&:last-child {
+				opacity: 1;
+			}
+		}
+	}
+}
+
+.ube-image-box {
+	.ube-image {
+		max-width: 100%;
+	}
+
+}
+.ube-position-left {
+	.ube-image-box .ube-image {
+		width: 25%;
+	}
+
+}
+
+.ube-position-right {
+	.ube-image-box .ube-image {
+		width: 25%;
+	}
+}

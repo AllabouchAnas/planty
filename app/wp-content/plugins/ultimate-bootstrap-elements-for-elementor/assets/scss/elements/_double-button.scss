@@ -1,0 +1,74 @@
+
+.ube-double-button{
+	position: relative;
+	.btn{
+		@include transition(all 0.4s ease-in-out 0s);
+		border: none;
+		color: var(--e-global-color-accent-foreground);
+		&:hover{
+			background-color: var(--e-global-color-accent);
+		}
+	}
+	.btn-block+.btn-block{
+		margin-top: 0;
+	}
+	.btn-classic{
+		&.ube-btn-one{
+			border-radius: 30px 0 0 30px;
+		}
+		&.ube-btn-two{
+			border-radius:0 30px 30px 0;
+		}
+	}
+	&.before_bg{
+		overflow: hidden;
+		.btn{
+			position: relative;
+			background: transparent !important;
+			z-index: 1;
+			border: none;
+			&:before{
+				background-color: var(--e-global-color-primary);
+				content: "";
+				display: block;
+				height: 100%;
+				left: -16px;
+				position: absolute;
+				top: 0;
+				@include transform(skewX(-24deg));
+				width: 112%;
+				z-index: -1;
+				@include transition(0.4s);
+			}
+			&:hover:before{
+				background-color: var(--e-global-color-accent);
+			}
+		}
+		.ube-btn-two::before {
+			background-color: var(--e-global-color-secondary);
+			left: 0;
+			right: -16px;
+		}
+	}
+}
+
+.btn.ube-btn-one{
+	background-color: var(--e-global-color-primary);
+}
+.btn.ube-btn-two{
+	background-color: var(--e-global-color-secondary);
+}
+.ube-middle-text{
+	background: var(--e-global-color-dark-foreground);
+	color: var(--e-global-color-dark);
+	height: 2em;
+	width: 2em;
+	line-height: 2em;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	border-radius: 50%;
+	text-align: center;
+	@include transform(translate(-50%,-50%));
+	z-index: 3;
+}

@@ -1,0 +1,71 @@
+@import "../../../../assets/scss/mixin";
+.gsf-mail-chimp {
+	.mc4wp-form-fields {
+		input[type="email"] {
+			height: 64px;
+			width: 100%;
+		}
+	}
+
+	.mc4wp-response {
+		margin-top: 0.5rem;
+	}
+}
+
+.mailchimp-style-02 {
+	.mc4wp-form-fields {
+		@include d-flex();
+		input[type="email"] {
+			margin-right: 10px;
+		}
+		.btn {
+			@include flex-shrink-0();
+		}
+	}
+}
+
+@media (max-width: 575px) {
+	.mailchimp-style-02 {
+		.mc4wp-form-fields {
+			-webkit-box-orient: vertical;
+			-webkit-box-direction: normal;
+			-ms-flex-direction: column;
+			flex-direction: column;
+
+			input[type="email"] {
+				margin: 0 0 10px 0;
+			}
+		}
+	}
+}
+
+.mailchimp-style-01 {
+	.mc4wp-form-fields {
+		position: relative;
+		input[type="email"] {
+			padding-right: 84px;
+		}
+		.btn {
+			padding: 0 !important;
+			min-width: auto;
+			font-size: 0;
+			background: transparent;
+			border: none;
+			width: 64px;
+			height: 64px;
+			line-height: 1;
+			position: absolute;
+			top: 0;
+			right: 0;
+			i {
+				color: #292929;
+				margin: 0;
+				font-weight: 300;
+				font-size: 20px;
+				&:before {
+					content: '\f0e0' !important;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,53 @@
+.gsf-info-inner {
+	font-size: 14px;
+	margin: 15px 0;
+	padding: 10px 15px;
+	border-left: solid 5px #ddd;
+	-webkit-box-shadow: 0px 2px 5px 0 rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 2px 5px 0 rgba(0,0,0,0.3);
+	box-shadow: 0px 2px 5px 0 rgba(0,0,0,0.3);
+}
+.gsf-info-style-info {
+	border-left-color: #31708f;
+	color: #31708f;
+	background-color: #d9edf7;
+}
+.gsf-info-style-warning {
+	border-left-color: #8a6d3b;
+	color: #8a6d3b;
+	background-color: #fcf8e3;
+}
+.gsf-info-style-error {
+	border-left-color: #a94442;
+	color: #a94442;
+	background-color: #f2dede;
+}
+.gsf-info-style-success {
+	border-left-color: #3c763d;
+	color: #3c763d;
+	background-color: #dff0d8;
+}
+.gsf-info-inner.gsf-info-style-heading,
+.gsf-info-inner.gsf-info-style-heading2 {
+	border-left: none;
+	box-shadow: none;
+	padding: 0;
+}
+.gsf-info-inner.gsf-info-style-heading2 {
+	border-bottom: solid 2px #444;
+}
+
+.gsf-info-content-title {
+	font-size: 1.2em;
+	font-weight: 500;
+}
+.gsf-info-content-title + .gsf-info-content-desc {
+	margin-top: 5px;
+}
+.gsf-info-content-icon {
+	float: left;
+}
+.gsf-info-has-icon .gsf-info-content-title,
+.gsf-info-has-icon .gsf-info-content-desc {
+	margin-left: 30px;
+}

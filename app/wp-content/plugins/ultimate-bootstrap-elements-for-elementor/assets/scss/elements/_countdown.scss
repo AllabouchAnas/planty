@@ -1,0 +1,128 @@
+.ube-countdown {
+	@include d-flex();
+	@include justify-content-center();
+	width: 100%;
+	margin: 0 -7px;
+
+	.ube-countdown-item {
+		padding: 0 7px;
+	}
+
+	.card {
+		border: none;
+		@include flex-grow-1();
+		background: transparent;
+		padding: 30px;
+
+		.card-body {
+			@include d-flex();
+			padding: 0;
+			@include justify-content-center();
+
+			p {
+				margin: 0;
+			}
+		}
+	}
+
+	&.ube-countdown-background {
+		.card {
+			@include flex-shrink-0();
+			@include flex-grow-0();
+		}
+
+	}
+
+
+	.card:first-child {
+		margin-left: 0 !important;
+
+	}
+
+	.card:last-child {
+		margin-right: 0 !important;
+
+	}
+
+	.card-title {
+		font-size: 69px;
+		line-height: 1;
+		margin-bottom: 0;
+	}
+
+	.card-text {
+		font-size: 19px;
+	}
+
+	&.ube-countdown-show-separate {
+		@include align-items-center();
+
+		.ube-countdown-separate {
+			font-size: 48px;
+			color: #000;
+			line-height: 1;
+		}
+	}
+}
+
+.ube-countdown-expire-message {
+	display: none;
+	text-align: center;
+	font-size: 36px;
+}
+
+.ube-countdown-label-block {
+	.card-body {
+		@include flex-flow-column();
+	}
+}
+
+.ube-countdown-label-inline {
+	.card-body {
+		@include align-items-end();
+
+	}
+}
+
+.ube-countdown-timer-separate {
+	.card-title {
+		position: relative;
+		padding-bottom: 15px;
+		margin-bottom: 15px;
+
+		&::after {
+			background-image: linear-gradient(to right, rgba(82, 65, 97, 0), rgba(82, 65, 97, 0.8) 40%, rgba(82, 65, 97, 0.8) 60%, rgba(82, 65, 97, 0));
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: 60% auto;
+			content: "";
+			height: 2px;
+			left: 50%;
+			transform: translateX(-50%);
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+		}
+	}
+}
+
+@media screen and (min-width: 576px) {
+	.ube-countdown .ube-countdown-item {
+		margin-bottom: 0 !important;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.ube-countdown.ube-countdown-background {
+		@include flex-wrap();
+	}
+	.ube-countdown-background .ube-countdown-separate {
+		display: none;
+	}
+	.ube-countdown.ube-countdown-background .ube-countdown-item {
+		@include flex(0 0 50%);
+		max-width: 50%;
+		margin-bottom: 15px;
+	}
+}
+

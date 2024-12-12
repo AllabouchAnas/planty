@@ -1,0 +1,374 @@
+.xmenu-clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.xmenu-panel-wrapper {
+	position: fixed;
+	z-index: 9998;
+	top: 32px;
+	right: 100%;
+	bottom: 0;
+	width: 360px;
+	background: #15648a;
+	color: #ddd;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.xmenu-panel-wrapper.in {
+	-webkit-transform: translateX(100%);
+	-moz-transform: translateX(100%);
+	-ms-transform: translateX(100%);
+	-o-transform: translateX(100%);
+	transform: translateX(100%);
+}
+.xmenu-header {
+	background-color: rgba(0,0,0,0.2);
+	position: relative;
+	padding: 10px 15px;
+}
+
+.xmenu-title {
+	font-size: 16px;
+	line-height: 20px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	padding-right: 25px;
+}
+.xmenu-title > i {
+	vertical-align: middle;
+}
+.xmenu-title > span {
+	display: inline-block;
+	vertical-align: middle;
+	width: 280px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding: 5px 0;
+}
+
+.xmenu-button-close {
+	position: absolute;
+	right: 0;
+	top: 9px;
+	background: transparent;
+	color: inherit;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+.xmenu-button-close:hover {
+	color: #7fdbcf;
+}
+.xmenu-body {
+	padding: 0;
+	position: absolute;
+	bottom: 10px;
+	top: 60px;
+	left: 10px;
+	right: 10px;
+}
+.xmenu-buttons {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.xmenu-buttons > button {
+	background-color: #7FDBCF!important;
+	border-radius: 3px!important;
+	border: none!important;
+	box-shadow: none!important;
+	padding-left: 15px!important;
+	padding-right: 31px!important;
+}
+.xmenu-buttons > button:hover {
+	background-color: #52efdb!important;
+}
+.xmenu-buttons > span {
+	position: absolute;
+	top: 0;
+	right: 0;
+	opacity: 1;
+	background: rgba(0,0,0,0.2);
+	margin-left: -5px;
+	vertical-align: middle;
+	height: 28px!important;
+	border-radius: 0 3px 3px 0;
+	line-height: 28px!important;
+	color: #fff;
+	cursor: pointer;
+}
+.xmenu-buttons > span:hover {
+	opacity: 0.8;
+}
+.xmenu-buttons > button:active + span {
+	-webkit-transform: translateY(1px);
+	-moz-transform: translateY(1px);
+	-ms-transform: translateY(1px);
+	-o-transform: translateY(1px);
+	transform: translateY(1px);
+}
+.xmenu-buttons .xmenu-save-all {
+	display: none;
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	right: 0;
+	padding: 4px;
+	text-align: center;
+	background-color: #ddd;
+	border-top: solid 1px #5CA1C0;
+	color: #444;
+	cursor: pointer;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+.xmenu-buttons .xmenu-save-all:hover {
+	color: #000;
+}
+
+.xmenu-tabs {
+	position: relative;
+}
+.xmenu-tabs ul {
+	padding: 0;
+	margin: 0;
+}
+.xmenu-tabs .dashicons {
+	width: 16px;
+	height: 16px;
+	font-size: 16px;
+	line-height: 20px;
+}
+.xmenu-tabs li {
+	display: inline-block;
+	background: rgba(0,0,0,0.1);
+	padding: 10px 15px;
+	font-size: 12px;
+	margin: 0;
+	text-transform: uppercase;
+	font-weight: 700;
+	cursor: pointer;
+}
+.xmenu-tabs li.active,
+.xmenu-tabs li:hover {
+	background-color: rgba(0,0,0,0.2);
+	color: #7fdbcf;
+}
+.xmenu-sections {
+	background: rgba(0,0,0,0.2);
+	padding: 15px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 38px;
+	bottom: 0;
+	overflow: hidden;
+}
+.xmenu-row {
+	margin-bottom: 10px;
+}
+.xmenu-row:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.xmenu-row label {
+	vertical-align: text-bottom;
+}
+.xmenu-row input[type="text"], .xmenu-row textarea, .xmenu-row select {
+	width: 100%;
+	background-color: transparent;
+	border-color: #999;
+	color: #fff;
+}
+.xmenu-row option {
+	color: #000;
+}
+.xmenu-row input[type="checkbox"] {
+	background-color: transparent;
+	border-color: #999;
+}
+.xmenu-row input[type=checkbox]:checked:before {
+	color: #ccc;
+}
+.xmenu-row input:focus, .xmenu-row textarea:focus, .xmenu-row select:focus {
+	border-color: #7fdbcf;
+}
+.xmenu-panel-wrapper .ps-container>.ps-scrollbar-y-rail,
+.xmenu-panel-wrapper .ps-container>.ps-scrollbar-y-rail>.ps-scrollbar-y {
+	width: 5px;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+.xmenu-panel-wrapper .ps-container:hover>.ps-scrollbar-y-rail:hover {
+	background-color: rgba(0,0,0,0.2);
+}
+.xmenu-panel-wrapper .ps-container>.ps-scrollbar-y-rail>.ps-scrollbar-y {
+	background-color: #7fdbcf!important;
+}
+
+.xmenu-icon {
+	height: 64px;
+	background-color: rgba(0,0,0,0.2);
+	border-bottom: solid 3px rgba(128,128,128,0.4);
+	position: relative;
+	margin-top: 2px;
+	cursor: pointer;
+}
+.xmenu-icon > div  {
+	text-align: center;
+	font-size: 18px;
+	padding-top: 15px;
+}
+.xmenu-icon > span {
+	position: absolute;
+	bottom: 0;
+	font-size: 11px;
+	text-transform: uppercase;
+	width: 100%;
+	text-align: center;
+}
+.xmenu-icon span.xmenu-icon-remove {
+	opacity: 0;
+	top: 0;
+	bottom: auto;
+	right: 0;
+	width: auto;
+	background: rgba(0,0,0,0.2);
+}
+.xmenu-icon:hover span.xmenu-icon-remove {
+	opacity: 1;
+}
+
+.xmenu-sections hr {
+	border-top: none;
+	border-bottom-color: #999;
+	margin: 20px 0;
+}
+.xmenu-section-item {
+	display: none;
+}
+.xmenu-section-item.active {
+	display: block;
+}
+.item-title {
+	position: relative;
+}
+
+.item-title .xmenu-item-config {
+	position: absolute;
+	background: #222;
+	left: 100%;
+	top: 0;
+	color: #D6EEF7;
+	font-size: 10px;
+	padding: 0px 8px;
+	display: block;
+	white-space: nowrap;
+	margin-left: 5px;
+	border-left: solid 3px #F8AF1C;
+	cursor: pointer;
+	opacity: 0;
+	z-index: 2;
+	-webkit-transition: opacity 0.2s;
+	-moz-transition:    opacity 0.2s;
+	-ms-transition:     opacity 0.2s;
+	-o-transition:      opacity 0.2s;
+	transition:         opacity 0.2s;
+}
+.item-title .xmenu-item-config > i {
+	color: #f8af1c;
+}
+
+ul.menu > li.menu-item:hover .xmenu-item-config {
+	opacity: 1;
+}
+.item-title .xmenu-item-config.is-changed {
+	opacity: 1;
+}
+.item-title .xmenu-item-config > i.fa-warning {
+	display: none;
+}
+.item-title .xmenu-item-config.is-change > i.fa-warning{
+	display: inline-block;
+}
+/******************************/
+/* POPUP ICONS
+/******************************/
+.xmenu-icon-popup {
+	display: none;
+	position: fixed;
+	z-index: 9999;
+	left: 360px;
+	bottom: 0;
+	width: 500px;
+	background: #fff;
+	border: solid 1px #ddd;
+	-webkit-box-shadow: 1px 1px 10px 5px rgba(0,0,0,0.1);
+	-moz-box-shadow: 1px 1px 10px 5px rgba(0,0,0,0.1);
+	box-shadow: 1px 1px 10px 5px rgba(0,0,0,0.1);
+}
+.xmenu-icon-popup-content {
+	padding: 10px;
+	overflow: auto;
+	height: 280px;
+	text-align: left;
+}
+.xmenu-icon-section-content > span {
+	float: left;
+	display: block;
+	width: 38px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	font-size: 18px;
+	cursor: pointer;
+}
+.xmenu-icon-section-content > span:hover {
+	-webkit-box-shadow: 0 0 5px 3px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0 0 5px 3px rgba(0,0,0,0.1);
+	box-shadow: 0 0 5px 3px rgba(0,0,0,0.1);
+	background-color: #f2f2f2;
+}
+.xmenu-icon-popup-header {
+	background: #eaeaea;
+	padding: 5px 10px;
+	position: relative;
+}
+.xmenu-icon-popup-header > input {
+	float: left;
+	margin-right: 10px;
+	border: none;
+	background: #e2e2e2;
+	color: #333;
+	padding: 4px 10px;
+}
+.xmenu-icon-popup-header > button {
+	float: left;
+}
+.xmenu-icon-popup-header > span {
+	position: absolute;
+	right: 10px;
+	top: 0;
+	bottom: 0;
+	height: 18px;
+	margin: auto;
+	font-size: 18px;
+	cursor: pointer;
+}
+.xmenu-icon-popup-header > span:hover {
+	color: #0073aa;
+}
+.xmenu-icon-popup-content h4 {
+	margin: 0 0 10px;
+	font-size: 14px;
+	border-bottom: solid 1px #eee;
+}

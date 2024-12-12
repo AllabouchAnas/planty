@@ -1,0 +1,232 @@
+$translate_height: 50px;
+.x-animated {
+	@include animation-duration(500ms);
+	@include animation-fill-mode(both);
+}
+.x-slideInUp {
+	@include animation-duration(750ms);
+}
+.x-slideInUp-out {
+	@include animation-duration(300ms);
+}
+
+
+/** x-fadeIn
+*******************************/
+@include keyframes(x-fadeIn) {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+.x-fadeIn {
+	@include animation-name(x-fadeIn);
+}
+
+/** x-fadeIn-out
+*******************************/
+@include keyframes(x-fadeIn-out) {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+.x-fadeIn-out {
+	@include animation-name(x-fadeIn-out);
+}
+
+/** x-fadeInUp
+*******************************/
+@include keyframes(x-fadeInUp) {
+	from {
+		opacity: 0;
+		@include transform(translate3d(0, $translate_height, 0));
+	}
+	to {
+		opacity: 1;
+		@include transform(none);
+	}
+}
+.x-fadeInUp {
+	@include animation-name(x-fadeInUp);
+}
+
+/** x-fadeInUp-out
+*******************************/
+@include keyframes(x-fadeInUp-out) {
+	from {
+		opacity: 1;
+		@include transform(none);
+	}
+	to {
+		opacity: 0;
+		@include transform(translate3d(0, $translate_height, 0));
+	}
+}
+.x-fadeInUp-out {
+	@include animation-name(x-fadeInUp-out);
+}
+
+/** x-fadeInDown
+*******************************/
+@include keyframes(x-fadeInDown) {
+	from {
+		opacity: 0;
+		@include transform(translate3d(0, -$translate_height, 0));
+	}
+	to {
+		opacity: 1;
+		@include transform(none);
+	}
+}
+.x-fadeInDown {
+	@include animation-name(x-fadeInDown);
+}
+
+/** x-fadeInDown-out
+*******************************/
+@include keyframes(x-fadeInDown-out) {
+	from {
+		opacity: 1;
+		@include transform(none);
+	}
+	to {
+		opacity: 0;
+		@include transform(translate3d(0, -$translate_height, 0));
+	}
+}
+.x-fadeInDown-out {
+	@include animation-name(x-fadeInDown-out);
+}
+
+/** x-fadeInLeft
+*******************************/
+@include keyframes(x-fadeInLeft) {
+	from {
+		opacity: 0;
+		@include transform(translate3d(-$translate_height, 0, 0));
+	}
+	to {
+		opacity: 1;
+		@include transform(none);
+	}
+}
+.x-fadeInLeft {
+	@include animation-name(x-fadeInLeft);
+}
+
+/** x-fadeInLeft-out
+*******************************/
+@include keyframes(x-fadeInLeft-out) {
+	from {
+		opacity: 1;
+		@include transform(none);
+	}
+	to {
+		opacity: 0;
+		@include transform(translate3d(-$translate_height, 0, 0));
+	}
+}
+.x-fadeInLeft-out {
+	@include animation-name(x-fadeInLeft-out);
+}
+
+/** x-fadeInRight
+*******************************/
+@include keyframes(x-fadeInRight) {
+	from {
+		opacity: 0;
+		@include transform(translate3d($translate_height, 0, 0));
+	}
+	to {
+		opacity: 1;
+		@include transform(none);
+	}
+}
+.x-fadeInRight {
+	@include animation-name(x-fadeInRight);
+}
+
+/** x-fadeInRight-out
+*******************************/
+@include keyframes(x-fadeInRight-out) {
+	from {
+		opacity: 1;
+		@include transform(none);
+	}
+	to {
+		opacity: 0;
+		@include transform(translate3d($translate_height, 0, 0));
+	}
+}
+.x-fadeInRight-out {
+	@include animation-name(x-fadeInRight-out);
+}
+
+/** x-flipInX
+*******************************/
+@include keyframes(x-flipInX) {
+	from {
+		@include transform(perspective(400px) rotate3d(1, 0, 0, -90deg));
+	}
+	to {
+		@include transform(perspective(400px) rotate3d(0, 0, 0, 0deg));
+	}
+}
+.x-flipInX {
+	@include backface-visibility(visible !important);
+	@include animation-name(x-flipInX);
+	@include transform-origin(50% 0);
+}
+
+/** x-flipInX-out
+*******************************/
+@include keyframes(x-flipInX-out) {
+	from {
+		@include transform(perspective(400px) rotate3d(0, 0, 0, 0deg));
+	}
+	to {
+		@include transform(perspective(400px) rotate3d(1, 0, 0, -90deg));
+	}
+}
+.x-flipInX-out {
+	@include backface-visibility(visible !important);
+	@include animation-name(x-flipInX-out);
+	@include transform-origin(50% 0);
+}
+
+/** x-slideInUp
+*******************************/
+@include keyframes(x-slideInUp) {
+	from {
+		@include transform(perspective(0) rotate3d(1, 0, 0, -90deg));
+	}
+	to {
+		@include transform(perspective(0) rotate3d(0, 0, 0, 0deg));
+	}
+}
+.x-slideInUp {
+	@include backface-visibility(visible !important);
+	@include animation-name(x-slideInUp);
+	@include transform-origin(50% 0);
+}
+
+/** x-slideInUp-out
+*******************************/
+@include keyframes(x-slideInUp-out) {
+	from {
+		@include transform(perspective(0) rotate3d(0, 0, 0, 0deg));
+	}
+	to {
+		@include transform(perspective(0) rotate3d(1, 0, 0, -90deg));
+	}
+}
+.x-slideInUp-out {
+	@include backface-visibility(visible !important);
+	@include animation-name(x-slideInUp-out);
+	@include transform-origin(50% 0);
+}

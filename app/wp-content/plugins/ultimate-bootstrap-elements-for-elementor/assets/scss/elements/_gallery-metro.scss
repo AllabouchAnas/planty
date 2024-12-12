@@ -1,0 +1,356 @@
+.ube-gallery-metro {
+	.card {
+		border: none;
+		overflow: hidden;
+	}
+
+	.card-body {
+		padding: 0;
+	}
+
+	.card-img {
+		background-size: cover;
+		background-clip: padding-box;
+		background-position: center;
+		@include transition(1s ease-in-out);
+		display: inline-block;
+		overflow: hidden;
+		vertical-align: middle;
+		text-align: center;
+		height: 100%;
+		position: relative;
+
+		&::after {
+			content: '';
+			display: block;
+			padding-top: var(--ube-gallery-ratio);
+		}
+
+		@media screen and (max-width: 1024px) {
+			&::after {
+				padding-top: var(--ube-gallery-ratio-md);
+			}
+		}
+		@media screen and (max-width: 767px) {
+			&::after {
+				padding-top: var(--ube-gallery-ratio-sm);
+			}
+		}
+	}
+
+
+	.ube-view-more-wrap {
+		margin: auto 0;
+	}
+
+}
+
+.ube-list-grid {
+	display: grid;
+
+	grid-column-gap: 5px;
+	grid-row-gap: 5px;
+
+	.ube-grid-item {
+		display: grid;
+	}
+
+	.gr-2 {
+		grid-row: span 2;
+	}
+
+	.gr-3 {
+		grid-row: span 3;
+	}
+
+	.gr-4 {
+		grid-row: span 4;
+	}
+
+	.gr-5 {
+		grid-row: span 5;
+	}
+
+	.gr-6 {
+		grid-row: span 6;
+	}
+
+	.gr-7 {
+		grid-row: span 7;
+	}
+
+	.gr-8 {
+		grid-row: span 8;
+	}
+
+	.gr-9 {
+		grid-row: span 9;
+	}
+
+	.gr-10 {
+		grid-row: span 10;
+	}
+
+	.gr-11 {
+		grid-row: span 11;
+	}
+
+	.gr-12 {
+		grid-row: span 12;
+	}
+
+	.gc-2 {
+		grid-column: span 2;
+	}
+
+	.gc-3 {
+		grid-column: span 3;
+	}
+
+	.gc-4 {
+		grid-column: span 4;
+	}
+
+	.gc-5 {
+		grid-column: span 5;
+	}
+
+	.gc-6 {
+		grid-column: span 6;
+	}
+
+	.gc-7 {
+		grid-column: span 7;
+	}
+
+	.gc-8 {
+		grid-column: span 8;
+	}
+
+	.gc-9 {
+		grid-column: span 9;
+	}
+
+	.gc-10 {
+		grid-column: span 10;
+	}
+
+	.gc-11 {
+		grid-column: span 11;
+	}
+
+	.gc-12 {
+		grid-column: span 12;
+	}
+
+	@media screen and (max-width: 1024px) {
+		.gr-md-1 {
+			grid-row: span 1;
+		}
+
+		.gr-md-2 {
+			grid-row: span 2;
+		}
+
+		.gr-md-3 {
+			grid-row: span 3;
+		}
+
+		.gr-md-4 {
+			grid-row: span 4;
+		}
+
+		.gr-md-5 {
+			grid-row: span 5;
+		}
+
+		.gr-md-6 {
+			grid-row: span 6;
+		}
+
+		.gr-md-7 {
+			grid-row: span 7;
+		}
+
+		.gr-md-8 {
+			grid-row: span 8;
+		}
+
+		.gr-md-9 {
+			grid-row: span 9;
+		}
+
+		.gr-md-10 {
+			grid-row: span 10;
+		}
+
+		.gr-md-11 {
+			grid-row: span 11;
+		}
+
+		.gr-md-12 {
+			grid-row: span 12;
+		}
+
+		.gc-md-1 {
+			grid-column: span 1;
+		}
+
+		.gc-md-2 {
+			grid-column: span 2;
+		}
+
+		.gc-md-3 {
+			grid-column: span 3;
+		}
+
+		.gc-md-4 {
+			grid-column: span 4;
+		}
+
+		.gc-md-5 {
+			grid-column: span 5;
+		}
+
+		.gc-md-6 {
+			grid-column: span 6;
+		}
+
+		.gc-md-7 {
+			grid-column: span 7;
+		}
+
+		.gc-md-8 {
+			grid-column: span 8;
+		}
+
+		.gc-md-9 {
+			grid-column: span 9;
+		}
+
+		.gc-md-10 {
+			grid-column: span 10;
+		}
+
+		.gc-md-11 {
+			grid-column: span 11;
+		}
+
+		.gc-md-12 {
+			grid-column: span 12;
+		}
+	}
+	@media screen and (max-width: 767px) {
+		.gr-sm-1 {
+			grid-row: span 1;
+		}
+
+		.gr-sm-2 {
+			grid-row: span 2;
+		}
+
+		.gr-sm-3 {
+			grid-row: span 3;
+		}
+
+		.gr-sm-4 {
+			grid-row: span 4;
+		}
+
+		.gr-sm-5 {
+			grid-row: span 5;
+		}
+
+		.gr-sm-6 {
+			grid-row: span 6;
+		}
+
+		.gr-sm-7 {
+			grid-row: span 7;
+		}
+
+		.gr-sm-8 {
+			grid-row: span 8;
+		}
+
+		.gr-sm-9 {
+			grid-row: span 9;
+		}
+
+		.gr-sm-10 {
+			grid-row: span 10;
+		}
+
+		.gr-sm-11 {
+			grid-row: span 11;
+		}
+
+		.gr-sm-12 {
+			grid-row: span 12;
+		}
+
+		.gc-sm-1 {
+			grid-column: span 1;
+		}
+
+		.gc-sm-2 {
+			grid-column: span 2;
+		}
+
+		.gc-sm-3 {
+			grid-column: span 3;
+		}
+
+		.gc-sm-4 {
+			grid-column: span 4;
+		}
+
+		.gc-sm-5 {
+			grid-column: span 5;
+		}
+
+		.gc-sm-6 {
+			grid-column: span 6;
+		}
+		.gc-sm-7 {
+			grid-column: span 7;
+		}
+
+		.gc-sm-8 {
+			grid-column: span 8;
+		}
+
+		.gc-sm-9 {
+			grid-column: span 9;
+		}
+
+		.gc-sm-10 {
+			grid-column: span 10;
+		}
+
+		.gc-sm-11 {
+			grid-column: span 11;
+		}
+
+		.gc-sm-12 {
+			grid-column: span 12;
+		}
+	}
+}
+
+.ube-view-more-wrap {
+	color: #fff;
+
+	.ube-number-gallery {
+		font-size: 40px;
+		line-height: 1;
+		margin-bottom: 0;
+		font-weight: 500;
+	}
+
+	.ube-view-more-image {
+		text-transform: uppercase;
+		font-size: 13px;
+	}
+
+}

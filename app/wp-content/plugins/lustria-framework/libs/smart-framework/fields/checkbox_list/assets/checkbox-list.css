@@ -1,0 +1,9 @@
+.gsf-field-checkbox_list-inner label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.gsf-field-checkbox_list-inner.value-inline label {
+	display: inline-block;
+	margin-right: 10px;
+}

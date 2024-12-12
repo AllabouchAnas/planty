@@ -1,0 +1,59 @@
+.gsf-our-team img {
+  width: 100%;
+}
+.gsf-our-team .ourteam-thumb .ourteam-thumb-inner {
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.gsf-our-team .ourteam-thumb .ourteam-thumb-inner:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  z-index: 1;
+  opacity: 0;
+}
+.gsf-our-team .ourteam-thumb .ourteam-thumb-inner:hover:before {
+  cursor: pointer;
+  opacity: 0.5;
+}
+.gsf-our-team .ourteam-content {
+  text-align: center;
+}
+.gsf-our-team .ourteam-content .ourteam-name {
+  margin-top: 18px;
+  height: 28px;
+  font-size: 22px;
+  font-weight: 500;
+  color: #282727;
+  margin-bottom: 5px;
+}
+.gsf-our-team .ourteam-content .ourteam-name a {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.gsf-our-team .ourteam-content .ourteam-position {
+  font-size: 17px;
+}
+.gsf-our-team .ourteam-content .ourteam-socials {
+  margin-top: 10px;
+}
+.gsf-our-team .ourteam-content .ourteam-socials a {
+  width: 17px;
+  height: 18px;
+  font-size: 18px;
+  letter-spacing: 1.2px;
+  color: #bbbbbb;
+  padding-right: 18px;
+}
+.gsf-our-team .ourteam-content .ourteam-socials a:last-child {
+  padding-right: 0;
+}
+
+/*# sourceMappingURL=our-team.css.map */

@@ -1,0 +1,38 @@
+.gsf-field-map-inner {
+	position: relative;
+}
+.gsf-map-canvas {
+	background-color: #eee;
+}
+.gsf-map-canvas:before {
+	content: "";
+	display: block;
+	vertical-align: top;
+	padding-top: 50%;
+}
+.gsf-map-canvas > div {
+	top: 0;
+}
+.gsf-map-address {
+	position: absolute;
+	z-index: 1;
+	left: 5px;
+	right: 5px;
+	top: 5px;
+}
+.gsf-map-address-text {
+	margin-right: 105px;
+}
+.gsf-map-address input {
+	width: 100%;
+	box-shadow: 0 2px 5px 2px rgba(0,0,0,0.2);
+	border: none;
+}
+.gsf-map-address button {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	box-shadow: 0 2px 5px 2px rgba(0,0,0,0.2)!important;
+	border: none!important;
+	height: 26px!important;
+}

@@ -1,0 +1,35 @@
+.gsf-field-image_set-inner {
+	margin: -5px -5px 0 -5px;
+}
+
+.gsf-field-image_set-inner:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.gsf-field-image_set-inner input {
+	display: none;
+}
+
+.gsf-field-image_set-inner img {
+	border: solid 2px #d7d7d7;
+	max-width: 100%;
+}
+
+.gsf-field-image_set-inner input:checked + img {
+	border-color: #0bf;
+}
+.gsf-field-image_set-inner > label {
+	float: left;
+	padding: 5px;
+}
+
+.gsf-field-image_set-inner p {
+	text-align: center;
+	margin: 0;
+	font-size: 10px;
+}
+.gsf-field-image_set-inner input:checked + img + p {
+	font-weight: bold;
+}

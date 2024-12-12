@@ -1,0 +1,288 @@
+.ube-gallery {
+	.row {
+		margin-left: -5px;
+		margin-bottom: -5px;
+	}
+
+	.ube-gallery-item {
+		padding: 5px;
+	}
+
+	.card {
+		background: transparent;
+		overflow: hidden;
+		border-radius: 0;
+		max-width: 100%;
+	}
+
+	.ube-image .card-img {
+		display: block;
+	}
+
+	.card-img-overlay {
+		@include d-flex();
+		@include flex-column();
+		@include align-items-center();
+		color: #fff;
+		@include transition(0.2s ease-in-out);
+
+	}
+	.ube-gallery-caption {
+		margin-top: auto;
+	}
+
+
+	.ube-image {
+		img {
+			width: 100%;
+		}
+	}
+
+}
+
+body[data-elementor-device-mode=desktop] {
+	.ube-col-lg-custom-5 {
+		@include flex(0 0 20%);
+		max-width: 20%;
+
+	}
+}
+
+body[data-elementor-device-mode=tablet] {
+	.ube-col-md-custom-5 {
+		@include flex(0 0 20%);
+		max-width: 20%;
+
+	}
+}
+
+body[data-elementor-device-mode=mobile] {
+	.ube-col-custom-5 {
+		@include flex(0 0 20%);
+		max-width: 20%;
+
+	}
+}
+
+.ube-gallery-hover-slide-left {
+	.card-img {
+		@include transition(opacity .35s, transform .35s);
+		@include transform(translate3d(0, 0, 0) scale(1.2));
+		@include backface-visibility(hidden);
+	}
+
+	.card:hover {
+		.card-img {
+			@include transform(translate3d(-10%, 0, 0) scale(1.2));
+		}
+	}
+}
+
+.ube-gallery-hover-slide-right {
+	.card-img {
+		@include transition(opacity .35s, transform .35s);
+		@include transform(translate3d(-10%, 0, 0) scale(1.2));
+		@include backface-visibility(hidden);
+	}
+
+	.card:hover {
+		.card-img {
+			@include transform(translate3d(0, 0, 0) scale(1.2));
+		}
+	}
+}
+
+.ube-gallery-hover-slide-top {
+	.card-img {
+		@include transition(opacity .35s, transform .35s);
+		@include transform(translate3d(0, 0, 0) scale(1.25));
+		@include backface-visibility(hidden);
+	}
+
+	.card:hover {
+		.card-img {
+			@include transform(translate3d(0, -10%, 0) scale(1.25));
+		}
+	}
+}
+
+.ube-gallery-hover-slide-bottom {
+	.card-img {
+		@include transition(opacity .35s, transform .35s);
+		@include transform(translate3d(0, -10%, 0) scale(1.25));
+		@include backface-visibility(hidden);
+	}
+
+	.card:hover {
+		.card-img {
+			@include transform(translate3d(0, 0, 0) scale(1.25));
+		}
+	}
+}
+
+.ube-gallery-hover-zoom-in {
+	.card-img {
+		@include transform(scale(1));
+		@include transition(0.7s ease-in-out);
+	}
+
+	.card:hover {
+		.card-img {
+			@include transform(scale(1.3));
+		}
+	}
+}
+
+.ube-gallery-hover-zoom-out {
+	.card-img {
+		@include transform(scale(1.5));
+		@include transition(0.7s ease-in-out);
+		width: 100%;
+	}
+
+	.card:hover {
+		.card-img {
+			@include transform(scale(1));
+		}
+	}
+}
+
+.ube-gallery-hover-rotate {
+	.card-img {
+		@include transform(rotate(0) scale(1));
+		@include transition(0.7s ease-in-out);
+
+	}
+
+
+	.card:hover {
+		.card-img {
+			@include transform(rotate(5deg) scale(1.3));
+		}
+	}
+}
+
+.ube-gallery-hover-gray-scale {
+	.card-img {
+
+		-webkit-filter: grayscale(100%);
+		filter: grayscale(100%);
+		@include transition(0.7s ease-in-out);
+
+	}
+
+	.card:hover {
+		.card-img {
+			-webkit-filter: grayscale(0);
+			filter: grayscale(0);
+		}
+	}
+}
+
+.ube-gallery-hover-opacity {
+	.card-img {
+		opacity: 1;
+		@include transition(.7s ease-in-out);
+
+
+	}
+
+	.card:hover {
+		.card-img {
+			opacity: .5;
+		}
+	}
+}
+
+.ube-gallery-hover-shine {
+	.card-img {
+		&::after {
+			position: absolute;
+			top: 0;
+			left: -100%;
+			z-index: 2;
+			display: block;
+			content: '';
+			width: 50%;
+			height: 100%;
+			background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
+			background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, .3) 100%);
+			-webkit-transform: skewX(-25deg);
+			transform: skewX(-25deg);
+		}
+
+
+	}
+
+	.card:hover {
+		.card-img::after {
+			-webkit-animation: ube-shine 0.7s;
+			animation: ube-shine 0.7s;
+		}
+	}
+}
+
+.ube-gallery-hover-circle {
+	.card-img {
+
+		&::after {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			z-index: 2;
+			display: block;
+			content: '';
+			width: 0;
+			height: 0;
+			background: rgba(255, 255, 255, .2);
+			border-radius: 100%;
+			@include transform(translate(-50%, -50%));
+			opacity: 0;
+		}
+
+	}
+
+	.card:hover {
+		.card-img::after {
+			-webkit-animation: ube-circle 0.7s;
+			animation: ube-circle 0.7s;
+		}
+	}
+}
+
+.ube-gallery-hover-flash .card:hover .card-img {
+	opacity: 1;
+	-webkit-animation: ube-flash 0.7s;
+	animation: ube-flash 0.7s;
+}
+
+
+.ube-gallery-caption-hover {
+	.card-img-overlay {
+		.card-text {
+			opacity: 0;
+			@include transition(0.2s ease-in-out);
+		}
+
+	}
+
+	.card {
+		&:hover {
+			.card-img-overlay {
+				background: rgba(0, 0, 0, 0.3);
+
+				.card-text {
+					opacity: 1;
+				}
+
+			}
+		}
+	}
+}
+
+.ube-gallery-caption-always, .ube-gallery-view-more {
+	.card-img-overlay {
+		background: rgba(0, 0, 0, 0.3);
+
+	}
+}

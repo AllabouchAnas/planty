@@ -1,0 +1,101 @@
+@charset "UTF-8";
+.gsf-product-singular .singular-product-featured-title {
+  font-size: 18px;
+  line-height: 1.44;
+  letter-spacing: 5px;
+}
+.gsf-product-singular .singular-product-title {
+  font-size: 56px;
+  line-height: 1.29;
+  margin-top: 21px;
+  margin-bottom: 22px;
+}
+.gsf-product-singular .singular-product-categories {
+  line-height: 1.87;
+  font-size: 15px;
+  display: inline-block;
+  margin-bottom: 14px;
+}
+.gsf-product-singular .singular-product-categories a {
+  text-decoration: none;
+  color: inherit;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.gsf-product-singular .singular-product-description {
+  font-size: 15px;
+  margin-bottom: 24px;
+}
+.gsf-product-singular .price {
+  font-size: 34px !important;
+  line-height: 1.41;
+  color: #c5a374;
+}
+.gsf-product-singular .price ins {
+  text-decoration: none;
+}
+.gsf-product-singular .price del {
+  opacity: 1 !important;
+  margin-right: 5px;
+  text-decoration: line-through;
+}
+.gsf-product-singular .singular-product-actions {
+  padding-top: 11px;
+}
+.gsf-product-singular .singular-product-actions > a {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-right: 12px;
+}
+.gsf-product-singular .singular-product-actions .add_to_cart_button {
+  border: 1px solid #ccc;
+  background-color: transparent;
+  display: inline-block;
+  border-radius: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  padding: 13px 30px;
+  line-height: 20px;
+  font-weight: 800;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.gsf-product-singular .singular-product-actions .add_to_cart_button:hover, .gsf-product-singular .singular-product-actions .add_to_cart_button:focus, .gsf-product-singular .singular-product-actions .add_to_cart_button:before {
+  content: "";
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 300;
+  display: inline-block;
+  margin-right: 8px;
+  font-size: 14px;
+  line-height: 1;
+}
+
+@media (max-width: 1199px) {
+  .gsf-product-singular .singular-product-title {
+    font-size: 48px;
+  }
+}
+@media (max-width: 991px) {
+  .gsf-product-singular .singular-product-title {
+    font-size: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .gsf-product-singular .singular-product-title {
+    font-size: 34px;
+  }
+}
+@media (max-width: 575px) {
+  .gsf-product-singular .singular-product-title {
+    font-size: 30px;
+  }
+}
+
+/*# sourceMappingURL=product-singular.css.map */

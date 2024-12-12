@@ -1,0 +1,56 @@
+.ube-dual-heading-title-first {
+	color: var(--e-global-color-accent);
+}
+
+.ube-dual-heading .ube-dual-heading-title {
+	margin: 0;
+	font-family: var(--e-global-typography-primary-font-family);
+	font-weight: 600;
+}
+
+.ube-dual-heading-desc-heading {
+	margin-top: 0.875rem;
+	color: var(--e-global-color-text);
+
+	> p {
+		color: inherit;
+		margin-bottom: 0;
+	}
+
+}
+
+.ube-dual-heading-sub-title {
+	font-weight: 500;
+	margin-top: 0;
+	margin-bottom: 0.875rem;
+	color: var(--e-global-color-muted);
+	font-size: 0.875rem;
+}
+
+.ube-dual-heading-divider-after .ube-dual-heading-divider {
+	margin-bottom: 1rem;
+}
+
+.ube-dual-heading-divider-before .ube-dual-heading-divider {
+	margin-bottom: 0.5em;
+}
+
+.ube-dual-heading-size-sm .ube-dual-heading-title {
+	font-size: 15px;
+}
+
+.ube-dual-heading-size-md .ube-dual-heading-title {
+	font-size: 19px;
+}
+
+.ube-dual-heading-size-lg .ube-dual-heading-title {
+	font-size: 29px;
+}
+
+.ube-dual-heading-size-xl .ube-dual-heading-title {
+	font-size: 39px;
+}
+
+.ube-dual-heading-size-xxl .ube-dual-heading-title {
+	font-size: 59px;
+}

@@ -1,0 +1,35 @@
+.gf-gallery .zoom-image {
+  -webkit-transition: color 0.5s, opacity 1s, transform 0.5s;
+  -moz-transition: color 0.5s, opacity 1s, transform 0.5s;
+  -ms-transition: color 0.5s, opacity 1s, transform 0.5s;
+  -o-transition: color 0.5s, opacity 1s, transform 0.5s;
+  transition: color 0.5s, opacity 1s, transform 0.5s;
+  right: 50%;
+  bottom: 50%;
+  margin-right: -17.5px;
+  margin-bottom: -17.5px;
+  width: 48px;
+  height: 48px;
+  z-index: 3;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+.gf-gallery .zoom-image i {
+  display: none;
+}
+.gf-gallery .zoom-image:before, .gf-gallery .zoom-image:after {
+  content: "";
+  position: absolute;
+}
+.gf-gallery .zoom-image:before {
+  width: 50px;
+  height: 1px;
+  left: 0;
+  top: 50%;
+}
+.gf-gallery .zoom-image:after {
+  width: 1px;
+  height: 50px;
+}
+
+/*# sourceMappingURL=gallery.css.map */

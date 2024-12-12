@@ -1,0 +1,157 @@
+.ube-search-box {
+	.value-search {
+		height: 50px;
+		padding: 0 1.5rem;
+	}
+}
+
+.ube-search-box-ajax-result {
+	opacity: 0;
+	background-color: #fff;
+	list-style: none;
+	margin: 5px 0 0 0;
+	padding: 0;
+	box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .1);
+	@include transform(translateY(20px));
+	@include transition(all .3s);
+
+	&.in {
+		@include transform(translateY(0px));
+		opacity: 1;
+		visibility: visible;
+	}
+}
+
+.ube-search-box-item-result {
+	padding: 1.5rem;
+	margin: 0;
+
+	&:not(:last-child) {
+		border-bottom: 1px solid;
+		border-color: var(--e-global-color-border);
+	}
+}
+
+.ube-search-box-result-thumbnail {
+	width: 60px;
+}
+
+.ube-search-box-result-content .ube-search-box-result-title{
+	font-weight: 600;
+}
+.ube-search-box-result-content{
+	text-align: left;
+}
+
+.ube-search-box-result-thumbnail + .ube-search-box-result-content {
+	margin-left: 10px;
+}
+
+.ube-search-box-result-title {
+	color: var(--e-global-color-dark);
+}
+
+.ube-search-box-result-meta {
+	color: var(--e-global-color-muted);
+	font-size: 0.7em;
+}
+
+
+.ube-search-box-submit {
+	height: 50px;
+	line-height: 50px;
+}
+
+.ube-search-box-result-nothing{
+	padding: 1.5rem;
+}
+
+.ube-search-box-layout-01,
+.ube-search-box-layout-02 {
+	.ube-search-box-ajax-result {
+		position: absolute;
+		left: 0;
+		width: 100%;
+		top: 100%;
+		z-index: 100;
+	}
+}
+
+.ube-search-box-layout-01 {
+	.value-search {
+		width: 70%;
+	}
+
+	button {
+		margin-left: 5px;
+		width: calc(30% - 5px);
+	}
+}
+
+.ube-search-box-layout-02,
+.ube-search-box-layout-03 {
+	button[type='submit'] {
+		position: absolute;
+		right: 0;
+		top: 0;
+		background: transparent;
+		color: inherit;
+		border: none;
+	}
+}
+
+.ube-search-box-modal {
+	background-color: rgba(0, 0, 0, 0.8);
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1050;
+	overflow: hidden;
+	outline: 0;
+
+	.show {
+		visibility: visible;
+	}
+
+	&:not(.show) {
+		visibility: hidden;
+	}
+
+	&.show .ube-search-box-modal-content {
+		opacity: 1;
+		@include transform(translateY(0));
+		@include transition-delay(.5s);
+	}
+
+	&.removing .ube-search-box-modal-content,
+	.ube-search-box-modal-content {
+		opacity: 0;
+		@include transition(all .5s);
+		@include transform(translateY(-100px));
+	}
+}
+
+.ube-search-box-modal-content {
+	max-width: 80%;
+	margin: 60px auto;
+}
+
+button[type='button'].ube-search-box-modal-close {
+	background-color: transparent;
+	font-size: 50px;
+	top: 0;
+	right: 0;
+	border: none;
+	color: #fff;
+	position: absolute;
+
+	&:focus {
+		outline: none;
+	}
+}
+
+.btn.ube-search-box-show-modal {
+	background-color: transparent;
+}

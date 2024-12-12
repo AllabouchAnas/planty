@@ -1,0 +1,279 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: G5 Install Demo\n"
+"POT-Creation-Date: 2019-08-30 08:44+0700\n"
+"PO-Revision-Date: 2017-07-08 15:18+0700\n"
+"Last-Translator: \n"
+"Language-Team: G5Team\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_GB\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;"
+"_n_noop:1,2;_nx_noop:1,2,3c;__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: .idea\n"
+"X-Poedit-SearchPathExcluded-2: .svn\n"
+
+#: g5-install-demo.php:42
+msgid ""
+"G5 Install Demo is enabled but not effective. It requires G5 Core in "
+"order to work."
+msgstr ""
+
+#: inc/ajax.php:7 inc/ajax.php:46
+msgid "Access Deny! Refresh website and try again!"
+msgstr ""
+
+#: inc/ajax.php:101 inc/ajax.php:109
+msgid "Demo to install not found!"
+msgstr ""
+
+#: inc/ajax.php:125
+msgid "Start Install Post"
+msgstr ""
+
+#: inc/ajax.php:199
+#, php-format
+msgid "Installing Post (%s/%s)"
+msgstr ""
+
+#: inc/ajax.php:210 inc/ajax.php:289
+#, php-format
+msgid "Installing Slider (%s/%s)"
+msgstr ""
+
+#: inc/ajax.php:216 inc/ajax.php:271
+msgid "Prepare missing demo data"
+msgstr ""
+
+#: inc/ajax.php:264
+#, php-format
+msgid "Importing Data (%s/%s)"
+msgstr ""
+
+#: inc/ajax.php:296
+msgid "Prepare Demo Data"
+msgstr ""
+
+#: inc/ajax.php:616
+msgid "Install Done"
+msgstr ""
+
+#: inc/dashboard-menu.php:5 inc/dashboard-menu.php:6
+msgid "Install Demo"
+msgstr ""
+
+#: inc/lib/importer.php:146 inc/lib/importer.php:154
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: inc/lib/importer.php:147
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: inc/lib/importer.php:188
+msgid "All done."
+msgstr ""
+
+#: inc/lib/importer.php:188
+msgid "Have fun!"
+msgstr ""
+
+#: inc/lib/importer.php:189
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: inc/lib/importer.php:210
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: inc/lib/importer.php:267
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: inc/lib/importer.php:319
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: inc/lib/importer.php:362
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: inc/lib/importer.php:411 inc/lib/importer.php:655
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: inc/lib/importer.php:520
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: inc/lib/importer.php:559
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: inc/lib/importer.php:621
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: inc/lib/importer.php:799
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: inc/lib/importer.php:806
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: inc/lib/importer.php:898
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: inc/lib/importer.php:911
+msgid "Invalid file type"
+msgstr ""
+
+#: inc/lib/importer.php:961
+msgid "Remote server did not respond"
+msgstr ""
+
+#: inc/lib/importer.php:969
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: inc/lib/importer.php:976
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: inc/lib/importer.php:981
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: inc/lib/importer.php:987
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: inc/lib/parsers.php:43 inc/lib/parsers.php:75 inc/lib/parsers.php:83
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: inc/lib/parsers.php:44
+msgid ""
+"Details are shown above. The importer will now try again with a "
+"different parser..."
+msgstr ""
+
+#: inc/lib/parsers.php:87 inc/lib/parsers.php:92 inc/lib/parsers.php:311
+#: inc/lib/parsers.php:509
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version "
+"number"
+msgstr ""
+
+#: templates/install-page.php:6
+#, php-format
+msgid "%s Dashboard"
+msgstr ""
+
+#: templates/install-page.php:12
+msgid "Install Demo Data"
+msgstr ""
+
+#: templates/install-page.php:13
+msgid ""
+"Install demo data (post, page, image, menu, widget, slider, theme "
+"setting, ...) is the easiest way to setup your theme. It will allow you "
+"to quickly edit everything instead of creating content from scratch."
+msgstr ""
+
+#: templates/install-page.php:15
+msgid "When you import the data, the following things might happen:"
+msgstr ""
+
+#: templates/install-page.php:18
+msgid ""
+"All data in database and Upload Dir will be deleted when install demo."
+msgstr ""
+
+#: templates/install-page.php:19
+msgid ""
+"The included plugins need to be installed and activated before you "
+"install a demo."
+msgstr ""
+
+#: templates/install-page.php:20
+msgid ""
+"Please check the \"System Status\" tab to ensure your server meets all "
+"requirements for a successful import. Settings that need attention will "
+"be listed in red."
+msgstr ""
+
+#: templates/install-page.php:21
+msgid ""
+"Posts, pages, images, widgets, menus and other theme settings will get "
+"imported."
+msgstr ""
+
+#: templates/install-page.php:22
+msgid ""
+"Please click on the Import button only once and wait, it can take a "
+"couple of minutes."
+msgstr ""
+
+#: templates/install-page.php:30
+msgid "Demo data not found!"
+msgstr ""
+
+#: templates/install-page.php:37
+msgid "Preview"
+msgstr ""
+
+#: templates/install-page.php:42
+msgid ""
+"Type \"install\" to accept install setting.\n"
+"NOTE: Your theme option, post, page, attachment... may change when the "
+"installation completed!"
+msgstr ""
+
+#: templates/install-page.php:44 templates/install-page.php:51
+msgid "Import Done"
+msgstr ""
+
+#: templates/install-page.php:45 templates/install-page.php:52
+msgid "Importing"
+msgstr ""
+
+#: templates/install-page.php:46
+msgid "Import Setting"
+msgstr ""
+
+#: templates/install-page.php:49
+msgid ""
+"Type \"install\" to accept install demo data.\n"
+"NOTE: Will delete all post, page, term ... before install!"
+msgstr ""
+
+#: templates/install-page.php:53
+msgid "Import"
+msgstr ""

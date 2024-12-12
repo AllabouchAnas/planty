@@ -1,0 +1,165 @@
+.gf-pricing-tables {
+  padding-top: 25px;
+}
+.gf-pricing-tables.style-1 .pricing-item {
+  margin: 0 15px;
+  text-align: center;
+  position: relative;
+  background-color: #f4f3ec;
+  padding: 59px 30px 51px 40px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.gf-pricing-tables.style-1 .pricing-item .featured-text {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: -24px;
+  right: 16px;
+  border-radius: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  transform: rotate(-345deg);
+  font-size: 12px;
+  letter-spacing: 0.7px;
+}
+.gf-pricing-tables.style-1 .pricing-item .featured-text span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.gf-pricing-tables.style-1 .pricing-item .pricing-price {
+  margin-bottom: 10px;
+  font-size: 0;
+}
+.gf-pricing-tables.style-1 .pricing-item .pricing-price > * {
+  display: inline-block;
+}
+.gf-pricing-tables.style-1 .pricing-item .pricing-price span {
+  font-size: 24px;
+  vertical-align: top;
+}
+.gf-pricing-tables.style-1 .pricing-item .pricing-price h4 {
+  margin: 0 10px 0 0;
+  font-size: 72px;
+  font-weight: normal;
+  line-height: 0.78;
+}
+.gf-pricing-tables.style-1 .pricing-item .pricing-price p {
+  font-size: 15px;
+}
+.gf-pricing-tables.style-1 .pricing-item .pricing-name {
+  position: relative;
+  margin: 0;
+  padding-right: 65px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.87;
+  letter-spacing: 1.9px;
+}
+.gf-pricing-tables.style-1 .pricing-item .pricing-features {
+  margin-top: 27px;
+  padding-bottom: 70px;
+}
+.gf-pricing-tables.style-1 .pricing-item .pricing-features ul {
+  list-style: none;
+  padding: 0;
+}
+.gf-pricing-tables.style-1 .pricing-item .pricing-features li {
+  font-size: 15px;
+  line-height: 1.8;
+  padding: 6.5px 0;
+}
+.gf-pricing-tables.style-1 .pricing-item.is-featured, .gf-pricing-tables.style-1 .pricing-item:hover {
+  -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.08);
+  border-color: transparent !important;
+}
+.gf-pricing-tables.style-2 {
+  position: relative;
+  padding: 34px 30px 47px;
+  background-color: rgba(0, 0, 0, 0.15);
+  text-align: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.gf-pricing-tables.style-2.is-featured {
+  padding-top: 59px;
+  padding-bottom: 64px;
+  z-index: 2;
+}
+.gf-pricing-tables.style-2 .pricing-price {
+  font-size: 0;
+}
+.gf-pricing-tables.style-2 .pricing-price > * {
+  display: inline-block;
+  color: #fff;
+}
+.gf-pricing-tables.style-2 .pricing-price span {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.3;
+  vertical-align: bottom;
+  margin-bottom: 4px;
+}
+.gf-pricing-tables.style-2 .pricing-price h4 {
+  margin: 0;
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 0.88;
+}
+.gf-pricing-tables.style-2 .pricing-price p {
+  font-size: 14px;
+  line-height: 1.71;
+}
+.gf-pricing-tables.style-2 .pricing-name {
+  position: relative;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.3;
+  letter-spacing: 1px;
+  margin-bottom: 44px;
+  margin-top: 0;
+}
+.gf-pricing-tables.style-2 .pricing-features {
+  margin-top: 37px;
+  opacity: 0.7;
+}
+.gf-pricing-tables.style-2 .pricing-features ul {
+  list-style: none;
+  padding: 0;
+}
+.gf-pricing-tables.style-2 .pricing-features li {
+  font-size: 14px;
+  line-height: 1.8;
+  padding: 15px 0;
+  color: #fff;
+}
+.gf-pricing-tables.style-2 .pricing-features li + li {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+.gf-pricing-tables.style-2 .pricing-button {
+  margin-top: 30px;
+}
+.gf-pricing-tables.style-2.is-featured, .gf-pricing-tables.style-2:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 991px) {
+  .gf-pricing-tables.style-1 .pricing-item {
+    padding: 40px 15px 40px 15px;
+  }
+  .gf-pricing-tables.style-1 .pricing-item .pricing-features {
+    padding-bottom: 70px;
+  }
+  .gf-pricing-tables.style-1 .pricing-item .pricing-button {
+    bottom: 40px;
+    left: 15px;
+  }
+}
+
+/*# sourceMappingURL=pricing-tables.css.map */

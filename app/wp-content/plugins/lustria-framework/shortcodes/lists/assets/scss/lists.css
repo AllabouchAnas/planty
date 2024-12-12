@@ -1,0 +1,46 @@
+ul.gsf-lists {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+ul.gsf-lists .list-bullet {
+  float: left;
+  font-size: 15px;
+}
+ul.gsf-lists .list-label {
+  padding-left: 30px;
+  margin-bottom: 0;
+}
+ul.gsf-lists li + li {
+  margin-top: 10px;
+}
+ul.gsf-lists.list-dot, ul.gsf-lists.list-square {
+  padding-left: 17px;
+}
+ul.gsf-lists.list-dot .list-label, ul.gsf-lists.list-square .list-label {
+  padding-left: 5px;
+}
+ul.gsf-lists.list-dot {
+  list-style-type: inherit;
+}
+ul.gsf-lists.list-square {
+  list-style-type: square;
+}
+ul.gsf-lists.list-circle-outline .list-bullet, ul.gsf-lists.list-square-outline .list-bullet {
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border: 1px solid transparent;
+}
+ul.gsf-lists.list-circle-outline .list-label, ul.gsf-lists.list-square-outline .list-label {
+  padding-left: 35px;
+}
+ul.gsf-lists.list-circle-outline li + li, ul.gsf-lists.list-square-outline li + li {
+  margin-top: 10px;
+}
+ul.gsf-lists.list-circle-outline .list-bullet {
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=lists.css.map */

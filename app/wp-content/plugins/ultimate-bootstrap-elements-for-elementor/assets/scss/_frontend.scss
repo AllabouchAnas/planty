@@ -1,0 +1,46 @@
+.widgetarea_warper_editable {
+	position: relative;
+	min-height: 50px;
+}
+
+.widgetarea_warper_editable:hover {
+	outline: 1px solid #71d7f7;
+}
+
+.widgetarea_warper_editable:hover .widgetarea_warper_edit {
+	display: block;
+}
+
+.widgetarea_warper_edit {
+	display: none;
+	position: absolute;
+	z-index: 3;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	color: #fff;
+	background: #5d4fff;
+	line-height: 1;
+	padding: 7px 8px;
+	font-size: 14px;
+	cursor: pointer;
+	width: 32px;
+	margin: auto;
+	text-align: center;
+	border-radius: 5px 5px 0 0;
+}
+
+.elementor-add-new-section .elementor-add-ube-template {
+	margin-left: 5px;
+	background-color: #5d4fff;
+	align-items: center;
+	justify-content: center;
+
+	.eicon-folder:before {
+		content: 'UBE';
+		font-weight: 600;
+		font-size: 12px;
+		font-family: var( --e-global-typography-primary-font-family ), Sans-serif;
+		color: #fff;
+	}
+}

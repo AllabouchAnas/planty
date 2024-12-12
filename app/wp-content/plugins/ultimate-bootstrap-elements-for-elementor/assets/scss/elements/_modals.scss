@@ -1,0 +1,20 @@
+.ube-modal {
+	.modal {
+		text-align: left;
+		z-index: 9999;
+	}
+	.modal-title {
+		margin: 0;
+	}
+	.modal-footer.has-content {
+		@include justify-content-between();
+	}
+	.modal-header .close {
+		background: transparent;
+		border: none;
+	}
+}
+
+.admin-bar .ube-modal .modal {
+	top: 30px;
+}

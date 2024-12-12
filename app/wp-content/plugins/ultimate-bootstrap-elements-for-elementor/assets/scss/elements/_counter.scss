@@ -1,0 +1,121 @@
+.ube-counter {
+	@include d-flex();
+	@include justify-content-center();
+	@include align-items-center();
+
+
+	.card {
+		position: relative;
+		padding: 0;
+		border: none;
+		@include justify-content-center();
+		@include align-items-center();
+		background: transparent;
+		width: 100%;
+		height: 100%;
+	}
+
+	.card-image {
+		font-size: 36px;
+		@include d-flex();
+		@include align-items-center();
+		@include justify-content-center();
+
+		svg {
+			width: 1em;
+			height: 1em;
+			fill: currentColor;
+
+			*[stroke^="#"],
+			*[stroke^="url(#"] {
+				stroke: currentColor;
+			}
+
+			*[fill^="#"],
+			*[fill^="url(#"] {
+				fill: currentColor;
+			}
+		}
+	}
+
+	.card-body {
+		position: relative;
+		z-index: 1;
+		@include d-flex();
+		@include flex-column();
+		@include flex(0 0 auto);
+		@include align-items-center();
+		padding: 0;
+	}
+
+	.card-title {
+		display: block;
+		font-size: 0;
+		font-weight: 600;
+		line-height: 1;
+		margin: 0;
+	}
+
+	.card-text {
+		font-size: 18px;
+		position: relative;
+	}
+
+	.ube-counter-number, .ube-counter-icon-prefix, .ube-counter-icon-suffix {
+		font-size: 36px;
+	}
+
+	&.ube-counter-media-top {
+		.card-image {
+			margin-bottom: 10px;
+		}
+	}
+
+	&.ube-counter-media-left, &.ube-counter-media-right {
+		.card {
+			@include flex-flow-row();
+		}
+
+		.card-image {
+			@include d-flex();
+			@include align-items-center();
+		}
+	}
+
+	&.ube-counter-media-left {
+		.card-image {
+			margin-right: 15px;
+		}
+
+		.card-body {
+			@include align-items-start();
+		}
+	}
+
+	&.ube-counter-media-right {
+		.card-body {
+			order: -1;
+			@include align-items-end();
+		}
+
+		.card-image {
+			margin-left: 15px;
+		}
+	}
+
+	&.ube-counter-number-top {
+		.card-title {
+			margin-bottom: 10px;
+		}
+	}
+
+	&.ube-counter-number-bottom {
+		.card-title {
+			margin-top: 10px;
+		}
+
+		.card-text {
+			order: -1;
+		}
+	}
+}

@@ -1,0 +1,113 @@
+.ube-marker-wrapper {
+	position: relative;
+	display: inline-block;
+
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+
+
+	.ube-image-pointer {
+		position: absolute;
+		bottom: auto;
+		right: auto;
+		@include d-flex();
+		@include align-items-center();
+		@include justify-content-center();
+		cursor: pointer;
+
+		.ube-pointer-icon {
+			font-size: 36px;
+			color: #ed552d;
+			@include d-flex();
+			@include align-items-center();
+			@include justify-content-center();
+
+			.ube-icon {
+				@include d-flex();
+				@include align-items-center();
+				@include justify-content-center();
+			}
+
+			svg {
+				display: inline-block;
+				width: 1em;
+				height: 1em;
+				stroke: currentColor;
+				fill: currentColor;
+			}
+		}
+	}
+
+
+	.tooltip {
+		width: 300px;
+		.tooltip-inner{
+			color:#fff;
+		}
+
+		h4{
+			color:inherit;
+		}
+		p{
+			white-space: pre-wrap;
+			margin-bottom: 0;
+		}
+
+		.arrow {
+			&::before {
+				display: none;
+			}
+		}
+
+		&.show {
+			opacity: 1;
+		}
+
+		.tooltip-inner {
+			max-width: none;
+			padding: 20px;
+		}
+	}
+}
+
+.ube-marker-tooltip-arrow {
+	.tooltip {
+		.arrow::before {
+			display: block;
+		}
+	}
+
+	.bs-tooltip-top {
+		top: -15px !important;
+	}
+
+	.bs-tooltip-bottom {
+		top: 15px !important;
+	}
+
+}
+
+.ube-marker-wrapper:not(.ube-marker-tooltip-arrow) {
+	.tooltip {
+		padding: 20px 0;
+	}
+}
+
+.ube-marker-animate-icon {
+	.ube-image-pointer {
+		.ube-pointer-icon {
+			i, svg {
+				transition: all 0.5s;
+			}
+		}
+
+		&:hover {
+			i, svg {
+				transform: rotate(360deg);
+			}
+		}
+	}
+
+}

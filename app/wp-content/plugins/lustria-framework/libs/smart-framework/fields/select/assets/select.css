@@ -1,0 +1,5 @@
+/** Select **/
+.gsf-field-select-inner select {
+	width: 280px;
+	max-width: 100%;
+}

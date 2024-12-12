@@ -1,0 +1,42 @@
+.ube-call-to-action {
+	.ube-call-to-action-btn {
+		&.btn-pos-top {
+			margin-bottom: 1rem;
+		}
+
+		&.btn-pos-bottom {
+			margin-top: 1rem;
+		}
+
+		&.btn-pos-left {
+			margin-right: 1rem;
+		}
+
+		&.btn-pos-right {
+			margin-left: 1rem;
+		}
+	}
+}
+
+.ube-call-to-action-description {
+	margin-top: 1rem;
+	margin-bottom: 0;
+}
+
+@media screen and (max-width: 767px) {
+	.ube-call-to-action{
+		display: block;
+		.ube-call-to-action-btn{
+			&.btn-pos-left {
+				margin-right: 0;
+			}
+			&.btn-pos-right {
+				margin-left: 0;
+			}
+			&.btn-pos-left,
+			&.btn-pos-right{
+				margin-top: 1rem;
+			}
+		}
+	}
+}

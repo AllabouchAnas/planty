@@ -1,0 +1,44 @@
+
+.ube-dropcaps {
+	p {
+		font-size: 18px;
+		line-height: 28px;
+		color: var(--e-global-color-text);
+		margin: 0;
+		&:first-of-type:first-letter {
+			float: left;
+			font-size: 60px;
+			margin-right: 15px;
+			color: var(--e-global-color-accent);
+			font-family: var(--e-global-typography-primary-font-family);
+			font-weight: var(--e-global-typography-primary-font-weight);
+			margin-top: 12px;
+		}
+	}
+	&.view-classic{
+		p:first-of-type:first-letter{
+			margin-top: 32px;
+			font-size: 85px;
+		}
+	}
+	&.view-sharp{
+		p:first-of-type:first-letter{
+			padding: 30px 27.75px;
+			background-color: var(--e-global-color-accent);
+			color: #fff;
+		}
+	}
+	&.view-outline{
+		p:first-of-type:first-letter{
+			padding: 30px 27.75px;
+			color: var(--e-global-color-accent);
+			border: 3px solid var(--e-global-color-accent);
+			background-color: transparent;
+		}
+	}
+	&.sharp-circle{
+		p:first-of-type:first-letter{
+			@include border-radius(50%);
+		}
+	}
+}

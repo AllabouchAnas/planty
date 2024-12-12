@@ -1,0 +1,171 @@
+.ube-facebook-feed {
+	.ube-icon svg {
+		width: 15px;
+		height: 15px;
+		display: inline-block;
+	}
+
+	.ube-icon {
+		@include d-inline-flex();
+		margin-right: 5px;
+	}
+}
+.ube-facebook-feed-item-inner {
+	border: 1px solid #eee;
+	overflow: hidden;
+}
+
+.ube-facebook-feed-header {
+	padding: 1.5rem 1rem;
+	background-color: #f2f6fd;
+
+	.username {
+		color: #365899;
+		font-weight: 500;
+		margin-left: 0.5rem;
+		margin-bottom: 0;
+	}
+
+	.post-time {
+		font-size: 11px;
+		color: var(--e-global-color-gray);
+	}
+
+	.avatar {
+		min-width: 50px;
+	}
+}
+
+.ube-facebook-feed-content {
+	padding: 1.5rem 1rem;
+
+	.message {
+		margin: 0;
+	}
+}
+
+.ube-facebook-feed-footer {
+	background-color: #f2f6fd;
+	padding: 1.5rem 1rem;
+}
+
+.ube-facebook-feed-preview-overlay {
+	top: 0;
+	background: rgba(0, 0, 0, 0.4);
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+	.ube-icon {
+		margin: 0;
+	}
+
+	.ube-icon svg {
+		width: 30px;
+		height: 30px;
+		color: #fff;
+	}
+}
+
+//.ube-facebook-feed-layout-slider {
+//	.slick-dots {
+//		width: 100%;
+//		margin-top: 20px;
+//		@include d-flex();
+//		@include justify-content-center();
+//		list-style: none;
+//		padding: 0;
+//
+//		li {
+//			width: 12px;
+//			height: 12px;
+//			cursor: pointer;
+//			opacity: 0.4;
+//			margin: 0;
+//
+//			&:not(:last-child) {
+//				margin-right: 10px;
+//			}
+//		}
+//
+//		span {
+//			position: relative;
+//			display: block;
+//
+//			&:before {
+//				content: "";
+//				position: absolute;
+//				top: 0;
+//				left: 0;
+//				line-height: 12px;
+//				width: 12px;
+//				height: 12px;
+//				background: #ccc;
+//			}
+//		}
+//	}
+//
+//	.slick-dots li.slick-active,
+//	.slick-dots li:hover,
+//	.slick-dots li:active,
+//	.slick-dots li:focus {
+//		opacity: 1;
+//	}
+//
+//	.slick-arrow {
+//		text-align: center;
+//		border-radius: 3px;
+//		position: absolute;
+//		top: 50%;
+//		transform: translateY(-50%);
+//		z-index: 9999;
+//		cursor: pointer;
+//
+//		span {
+//			color: #fff;
+//			font-size: 30px;
+//			@include d-inline-flex();
+//			@include align-items-center();
+//			@include justify-content-center();
+//			padding: 10px;
+//			background: rgba(0, 0, 0, 0.5);
+//
+//			svg {
+//				display: inline-block;
+//				width: 1em;
+//				height: 1em;
+//				stroke: currentColor;
+//				fill: currentColor;
+//			}
+//		}
+//
+//		&.slick-prev, &.slick-next {
+//			@include transition(0.4s ease-in-out);
+//			opacity: 0;
+//		}
+//
+//		&.slick-prev {
+//			left: -100px;
+//			right: auto;
+//		}
+//
+//		&.slick-next {
+//			left: auto;
+//			right: -100px;
+//		}
+//	}
+//
+//	&:hover .slick-arrow {
+//		&.slick-prev {
+//			left: 20px;
+//		}
+//
+//		&.slick-next {
+//			right: 20px;
+//		}
+//
+//		&.slick-prev, &.slick-next {
+//			opacity: 1;
+//		}
+//	}
+//}

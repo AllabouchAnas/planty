@@ -1,0 +1,9 @@
+.gsf-field-radio-inner label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.gsf-field-radio-inner.value-inline label {
+	display: inline-block;
+	margin-right: 10px;
+}

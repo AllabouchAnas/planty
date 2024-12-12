@@ -1,0 +1,60 @@
+.ube-menu {
+	.dropdown-menu {
+		margin: 0;
+		padding: 0;
+		.menu-item {
+			margin: 0;
+		}
+	}
+	.navbar-nav {
+		margin: 0;
+	}
+	.menu-item {
+		a {
+			@include d-flex();
+			@include justify-content-between();
+			@include align-items-center();
+		}
+	}
+	padding: 0;
+	.navbar-nav.justify-content-between {
+		@include flex-grow-1();
+	}
+}
+
+.ube-menu.menu-horizontal {
+	.menu-item {
+		position: relative;
+		margin-top: 0;
+		&:hover > .sub-menu {
+			display: block;
+			a {
+				display: block;
+				padding: 10px 15px;
+			}
+		}
+	}
+	.dropdown-menu .dropdown-menu {
+		left: 100%;
+		top: 0;
+	}
+
+}
+
+.ube-menu .menu-vertical, .ube-navbar-toggler-always {
+	.dropdown-menu {
+		width: 100%;
+		.dropdown-menu {
+			margin-left: 20px;
+		}
+		.menu-item a {
+			padding: 10px 15px;
+			&:hover {
+				background-color: #f8f9fa;
+			}
+		}
+	}
+	.menu-item {
+		margin: 0;
+	}
+}

@@ -1,0 +1,28 @@
+.gsf-font-label {
+	margin-bottom: 5px;
+	font-weight: 700;
+}
+.gsf-font-family {;
+	width: 489px;
+	margin-bottom: 5px;
+}
+.gsf-font-family > select {
+	width: 489px;
+}
+.gsf-font-family .selectize-control .selectize-input {
+	width: 100%;
+}
+.gsf-font-size,
+.gsf-font-weight-style,
+.gsf-font-subsets {
+	float: left;
+	margin-right: 20px;
+}
+.gsf-font-size input {
+	width: 90px;
+	vertical-align: top;
+}
+.gsf-font-weight-style select,
+.gsf-font-subsets select {
+	width: 150px;
+}

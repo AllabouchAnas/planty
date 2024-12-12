@@ -1,0 +1,38 @@
+.btn.btn-xs{
+	font-size: 0.75rem;
+	padding: 0.2rem 0.5rem;
+}
+.btn.btn-xl{
+	padding: 0.6rem 1rem;
+	font-size: 1.5rem;
+}
+
+.btn.btn-square {
+	@include border-radius(0);
+}
+
+.btn.btn-round {
+	@include border-radius(5em);
+}
+
+
+.ube-btn-icon-right .ube-btn-icon {
+	margin-left: 5px;
+}
+
+.ube-btn-icon-left .ube-btn-icon {
+	margin-right: 5px;
+}
+
+.btn.btn-3d{
+	border-bottom: solid 5px rgba(0, 0, 0, 0.15) !important;
+	@include transition(all 0.3s);
+	&:hover {
+		margin-top: 3px;
+		border-bottom: solid 2px rgba(0, 0, 0, 0.15) !important;
+	}
+}
+
+.btn-outline {
+	background-color: transparent;
+}

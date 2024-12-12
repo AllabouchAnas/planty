@@ -1,0 +1,23 @@
+.widget-content .gsf-meta-box-fields-wrapper {
+	padding: 0;
+}
+.widget-content .gsf-meta-box-wrap-inner {
+	background-color: transparent;
+}
+.widget-content .gsf-field-text input,
+.widget-content .gsf-field .selectize-control .selectize-input {
+	width: 100%;
+}
+.gsf-widget-custom {
+	margin-top: -15px;
+}
+
+.gsf-meta-box-wrap + .gsf-widget-custom {
+	margin-top: -25px;
+}
+.gsf-meta-box-wrap + .gsf-widget-custom {
+	border-top: dashed 1px #f0f0f0;
+}
+.widget-content .gsf-field-select-inner select {
+	width: 100%;
+}

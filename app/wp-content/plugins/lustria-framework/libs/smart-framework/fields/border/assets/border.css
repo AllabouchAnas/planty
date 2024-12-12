@@ -1,0 +1,28 @@
+/** Border **/
+.gsf-field-border-inner > div {
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+}
+.gsf-border-width-info {
+	width: 90px;
+	padding-left: 24px;
+}
+.gsf-border-width-info input{
+	width: 100%;
+}
+.gsf-border-width-info > span {
+	position: absolute;
+	left: 0;
+	top: 1px;
+	background: #eee;
+	font-size: 16px;
+	line-height: 27px;
+	height: 28px;
+	width: 25px;
+	border: solid 1px #ddd;
+	border-radius: 3px 0 0 3px;
+}
+.gsf-field-border-inner .wp-picker-container {
+	top: 1px;
+}

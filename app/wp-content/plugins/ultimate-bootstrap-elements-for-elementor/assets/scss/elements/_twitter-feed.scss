@@ -1,0 +1,45 @@
+.ube-twitter-feed-layout-list .ube-twitter-feed-item:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.ube-twitter-feed-item-inner {
+	padding: 1.5rem 1rem;
+	border: 1px solid;
+	border-color: var(--e-global-color-border);
+}
+
+.ube-twitter-feed-meta {
+	.eicon-twitter {
+		margin-left: 10px;
+		font-size: 30px;
+		color: #1da1f2;
+	}
+
+	.ube-twitter-feed-author {
+		margin-left: 10px;
+		color: var(--e-global-color-dark);
+		font-weight: 600;
+	}
+}
+
+.ube-twitter-feed-content {
+	padding-top: 1.5rem;
+
+	.preview {
+		padding: 10px 0;
+	}
+
+	> p {
+		margin: 0;
+		color: var(--e-global-color-text);
+	}
+
+	.btn-read-more {
+		margin-top: 1rem;
+	}
+}
+
+.ube-twitter-feed-date {
+	font-size: 0.8em;
+	color: var(--e-global-color-muted);
+}

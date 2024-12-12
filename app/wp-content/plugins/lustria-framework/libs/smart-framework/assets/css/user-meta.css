@@ -1,0 +1,55 @@
+.gsf-user-meta-wrapper {
+	margin-bottom: 20px;
+}
+.gsf-user-meta-header {
+	position: relative;
+	background-color: #0073AA;
+	color: #fff;
+	font-size: 16px;
+	cursor: pointer;
+}
+.gsf-user-meta-header h4 {
+	margin: 0;
+	padding: 10px 15px;
+}
+.gsf-user-meta-content {
+	border: solid 3px #0073AA;
+	border-top: none;
+}
+.gsf-user-meta-header-toggle {
+	right: 0;
+	top: 0;
+	background: none;
+	border: none;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+}
+.gsf-user-meta-header-toggle:focus {
+	outline: none;
+}
+
+.gsf-user-meta-header-toggle span:before {
+	content: "\f142";
+	display: inline-block;
+	font: 400 20px/1 dashicons;
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-decoration: none!important;
+	width: 22px;
+	height: 22px;
+	border-radius: 100%;
+	text-indent: -3px;
+}
+.gsf-user-meta-header.in .gsf-user-meta-header-toggle span:before {
+	content: "\f140";
+}
+.gsf-user-meta-header-toggle:focus span:before {
+	-webkit-box-shadow: 0 0 1px 1px #eee, 0 0 5px 2px rgba(129, 247, 241, 0.4);
+	-moz-box-shadow: 0 0 1px 1px #eee, 0 0 5px 2px rgba(129, 247, 241, 0.4);
+	box-shadow: 0 0 1px 1px #eee, 0 0 5px 2px rgba(129, 247, 241, 0.4);
+}

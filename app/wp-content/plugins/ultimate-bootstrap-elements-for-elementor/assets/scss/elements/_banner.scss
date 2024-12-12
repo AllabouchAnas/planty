@@ -1,0 +1,623 @@
+.ube-banner {
+	overflow: hidden;
+	position: relative;
+	border-radius: inherit;
+
+	&:hover .ube-banner-image:before,
+	&:hover .ube-banner-image:after {
+		opacity: 1;
+	}
+
+	&:after {
+		position: absolute;
+		content: "";
+		display: block;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgb(48, 133, 163, 0.3);
+		z-index: 0;
+		@include transition(opacity .8s ease .15s);
+	}
+}
+
+.ube-banner-image {
+	.ube-banner-bg {
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+	}
+
+	&:before, &:after {
+		content: "";
+		display: block;
+		position: absolute;
+		opacity: 0;
+		z-index: 2;
+	}
+}
+
+.ube-banner-content {
+	position: absolute;
+	left: 0;
+	right: 0;
+	z-index: 3;
+	padding: 3rem;
+	color: #fff;
+}
+
+.ube-banner-title {
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+	font-size: 2.2rem;
+	display: block;
+	color: inherit;
+
+	a, a:hover {
+		color: inherit;
+	}
+}
+
+.ube-banner-description {
+	font-size: 1rem;
+
+	p {
+		color: inherit;
+		margin-bottom: 0;
+	}
+
+	+ .ube-banner-btn {
+		margin-top: 1.5rem;
+	}
+}
+
+.ube-banner-btn-fixed {
+	.ube-banner-content {
+		height: 100%;
+		@include d-flex();
+	}
+
+	.ube-banner-top-box {
+		position: absolute;
+	}
+
+	.ube-banner-btn {
+		margin-top: auto !important;
+	}
+}
+
+.elementor-align-center .ube-banner-btn-fixed .ube-banner-content {
+	@include justify-content-center();
+
+	.ube-banner-top-box {
+		padding-left: inherit;
+		padding-right: inherit;
+	}
+}
+
+.elementor-align-right .ube-banner-btn-fixed .ube-banner-content {
+	@include justify-content-end();
+
+	.ube-banner-top-box {
+		padding-left: inherit;
+	}
+}
+
+.elementor-align-left .ube-banner-btn-fixed .ube-banner-content {
+	@include justify-content-start();
+
+	.ube-banner-top-box {
+		padding-right: inherit;
+	}
+}
+
+@media (max-width: 1024px) {
+	.elementor-tablet-align-center .ube-banner-btn-fixed .ube-banner-content {
+		@include justify-content-center();
+
+		.ube-banner-top-box {
+			padding-left: inherit;
+			padding-right: inherit;
+		}
+	}
+	.elementor-tablet-align-right .ube-banner-btn-fixed .ube-banner-content {
+		@include justify-content-end();
+
+		.ube-banner-top-box {
+			padding-left: inherit;
+			padding-right: 0;
+		}
+	}
+	.elementor-tablet-align-left .ube-banner-btn-fixed .ube-banner-content {
+		@include justify-content-start();
+
+		.ube-banner-top-box {
+			padding-right: inherit;
+			padding-left: 0;
+		}
+	}
+}
+
+@media (max-width: 767px) {
+	.elementor-mobile-align-center .ube-banner-btn-fixed .ube-banner-content {
+		@include justify-content-center();
+
+		.ube-banner-top-box {
+			padding-left: inherit;
+			padding-right: inherit;
+		}
+	}
+	.elementor-mobile-align-right .ube-banner-btn-fixed .ube-banner-content {
+		@include justify-content-end();
+
+		.ube-banner-top-box {
+			padding-left: inherit;
+			padding-right: 0;
+		}
+	}
+	.elementor-mobile-align-left .ube-banner-btn-fixed .ube-banner-content {
+		@include justify-content-start();
+
+		.ube-banner-top-box {
+			padding-right: inherit;
+			padding-left: 0;
+		}
+	}
+}
+
+
+.ube-banner-layout-01 .ube-banner-content,
+.ube-banner-layout-04:hover .ube-banner-content,
+.ube-banner-layout-04.ube-banner-show-all .ube-banner-content {
+	top: 50% !important;
+	@include transition(all .5s);
+	@include transform(translateY(-50%));
+}
+
+
+.ube-banner-layout-02 .ube-banner-content {
+	top: 0;
+}
+
+.ube-banner-layout-03 .ube-banner-content {
+	bottom: 0;
+}
+
+.ube-banner-layout-04 {
+	.ube-banner-content {
+		top: calc(100% - 120px);
+		@include transition(all .5s);
+	}
+
+	.ube-banner-bottom-box {
+		opacity: 0;
+		@include transition(opacity .3s);
+	}
+
+	&.ube-banner-show-all, &:hover {
+		.ube-banner-bottom-box {
+			opacity: 1;
+		}
+	}
+}
+
+.ube-banner-layout-05 {
+	.ube-banner-content {
+		top: 0;
+		height: 100%;
+	}
+
+	.ube-banner-title {
+		text-align: left;
+	}
+
+	.ube-banner-description {
+		opacity: 0;
+		position: absolute;
+		right: 3rem;
+		bottom: 3rem;
+		text-align: right;
+		font-size: 0.85rem;
+		max-width: 150px;
+		border-right: 4px solid currentColor;
+		padding: 0 1rem;
+	}
+
+	&:hover, &.ube-banner-show-all {
+		.ube-banner-description {
+			opacity: 1;
+			@include transition(opacity .5s);
+		}
+	}
+}
+
+.ube-banner-layout-06 {
+	.ube-banner-content {
+		top: 0;
+		height: 100%;
+	}
+
+	.ube-banner-title {
+		width: 100%;
+		position: relative;
+
+		&:after {
+			opacity: 0;
+			position: absolute;
+			top: 100%;
+			margin-top: 10px;
+			left: 0;
+			width: 100%;
+			height: 4px;
+			background-color: currentColor;
+			content: "";
+			@include transform(translate3d(0, 40px, 0));
+			@include transition(opacity 0.35s, transform 0.35s);
+
+		}
+	}
+
+	.ube-banner-bottom-box {
+		bottom: 3em;
+		position: absolute;
+		@include transform(translate3d(0, 100%, 0));
+		@include transition(opacity 0.35s, transform 0.35s);
+		opacity: 0;
+		width: 100%;
+		left: 0;
+		padding: 0 3em;
+	}
+
+	&.ube-banner-show-all, &:hover {
+		.ube-banner-title:after, .ube-banner-bottom-box {
+			@include transform(translate3d(0, 0, 0));
+			opacity: 1;
+		}
+	}
+}
+
+.ube-banner-layout-07 {
+	.ube-banner-content {
+		top: 0;
+		height: 100%;
+	}
+
+	.ube-banner-title {
+		position: absolute;
+		bottom: 3rem;
+		right: 3rem;
+		margin-bottom: 0;
+		text-align: right;
+	}
+
+	.ube-banner-bottom-box {
+		max-width: 50%;
+		padding-right: 10px;
+		text-align: right;
+		border-right: 2px solid currentColor;
+		opacity: 0;
+		@include transition(opacity .35s, transform .35s);
+		@include transform(translate3d(-40px, 0, 0));
+	}
+
+	&.ube-banner-show-all, &:hover {
+		.ube-banner-bottom-box {
+			opacity: 1;
+			@include transform(translate3d(0, 0, 0));
+		}
+	}
+}
+
+.ube-banner-image a {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	z-index: 10;
+}
+
+.ube-banner-has-effect:hover:after {
+	background-color: rgb(48, 133, 163, 0.5);
+}
+
+//jazz
+.ube-banner-effect-jazz {
+	.ube-banner-image:before {
+		background-color: transparent;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		border-top-width: 1px;
+		border-top-style: solid;
+		border-top-color: #fff;
+		border-bottom-width: 1px;
+		border-bottom-style: solid;
+		border-bottom-color: #fff;
+		@include transition(all .5s);
+		@include transform(rotate(45deg) scale(.5));
+	}
+
+	&:hover .ube-banner-image:before {
+		@include transform(rotate(45deg) scale(1));
+	}
+}
+
+//symmetry
+.ube-banner-effect-symmetry {
+	.ube-banner-image:before,
+	.ube-banner-image:after {
+		width: 0;
+		height: 0;
+		background: #ffffff none repeat scroll 0 0;
+		@include transition(all 0.5s ease 0s);
+	}
+
+	.ube-banner-image:before {
+		left: 0;
+		top: 0;
+	}
+
+	.ube-banner-image:after {
+		bottom: 0;
+		right: 0;
+	}
+
+	&:hover .ube-banner-image:after,
+	&:hover .ube-banner-image:before {
+		height: 100%;
+		opacity: 0.3;
+		width: 100%;
+	}
+}
+
+//suprema
+.ube-banner-effect-suprema {
+	.ube-banner-image {
+		&:before, &:after {
+			width: 45%;
+			height: 2px;
+			top: 50%;
+			background: #fff;
+			@include transform(rotate(-45deg));
+			@include transition(opacity .2s ease, transform 0s .2s);
+		}
+
+		&:before {
+			left: 50%;
+			@include transform-origin(0, 50%);
+		}
+
+		&:after {
+			right: 50%;
+			@include transform-origin(100%, 50%);
+		}
+	}
+
+	&:hover .ube-banner-image {
+		&:before, &:after {
+			@include transition(opacity .3s ease 50ms, transform 2s cubic-bezier(.26, .63, 0, .96));
+		}
+
+		&:before {
+			@include transform(rotate(-45deg) translateX(-1000px));
+		}
+
+		&:after {
+			@include transform(rotate(-45deg) translateX(1000px));
+		}
+	}
+}
+
+//layla & bubba
+.ube-banner-effect-layla .ube-banner-image,
+.ube-banner-effect-bubba .ube-banner-image {
+	&:before, &:after {
+		background-color: transparent;
+		@include transition(all .5s);
+	}
+
+	&:before {
+		top: 50%;
+		bottom: 50%;
+		left: 25px;
+		right: 25px;
+		border-left-width: 1px;
+		border-left-style: solid;
+		border-left-color: #fff;
+		border-right-width: 1px;
+		border-right-style: solid;
+		border-right-color: #fff;
+	}
+
+	&:after {
+		top: 25px;
+		bottom: 25px;
+		left: 50%;
+		right: 50%;
+		border-top-width: 1px;
+		border-top-style: solid;
+		border-top-color: #fff;
+		border-bottom-width: 1px;
+		border-bottom-style: solid;
+		border-bottom-color: #fff;
+	}
+}
+
+//layla
+.ube-banner-effect-layla:hover .ube-banner-image {
+	&:before {
+		top: 10px;
+		bottom: 10px;
+	}
+
+	&:after {
+		left: 10px;
+		right: 10px;
+	}
+}
+
+//bubba
+.ube-banner-effect-bubba:hover .ube-banner-image {
+	&:before {
+		top: 25px;
+		bottom: 25px;
+	}
+
+	&:after {
+		left: 25px;
+		right: 25px;
+	}
+}
+
+
+//flash
+.ube-banner-effect-flash {
+	.ube-banner-image:before {
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(255, 255, 255, .5);
+		@include transition(all .6s);
+		@include transform(scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, -45deg) translate3d(0, -150%, 0));
+	}
+
+	&:hover .ube-banner-image:before {
+		@include transform(scale3d(1.9, 1.4, 1) rotate3d(0, 0, 1, -45deg) translate3d(0, 150%, 0));
+	}
+}
+
+//ming
+.ube-banner-effect-ming {
+	&:after {
+		background-color: rgb(3, 12, 23, 0.3);
+	}
+
+	.ube-banner-image {
+		position: relative;
+
+		&:before {
+			position: absolute;
+			top: 30px;
+			right: 30px;
+			bottom: 30px;
+			left: 30px;
+			border: 2px solid #fff;
+			@include box-shadow(0 0 0 30px rgb(255 255 255 / 20%));
+			content: "";
+			opacity: 0;
+			@include transition(opacity .35s, transform .35s);
+			@include transform(scale3d(1.4, 1.4, 1));
+		}
+	}
+
+	&:hover .ube-banner-image:before {
+		opacity: 1;
+		@include transform(scale3d(1, 1, 1));
+	}
+
+}
+
+//zoom in
+.ube-banner-effect-img-zoom-in {
+	.ube-banner-bg {
+		@include transition(opacity .35s, transform .35s);
+	}
+
+	&:hover .ube-banner-image .ube-banner-bg {
+		@include transform(scale3d(1.2, 1.2, 1));
+	}
+}
+
+//zoom out
+.ube-banner-effect-img-zoom-out {
+	.ube-banner-bg {
+		@include transition(opacity .35s, transform .35s);
+		@include transform(scale3d(1.2, 1.2, 1));
+	}
+
+	&:hover .ube-banner-image .ube-banner-bg {
+		@include transform(scale3d(1, 1, 1));
+	}
+}
+
+
+//slide right
+.ube-banner-effect-img-slide-right {
+	.ube-banner-bg {
+		@include transition(opacity .35s, transform .35s);
+		@include transform(translate3d(-30px, 0, 0) scale(1.2));
+		@include backface-visibility(hidden);
+	}
+
+	&:hover .ube-banner-image .ube-banner-bg {
+		@include transform(translate3d(0, 0, 0) scale(1.2));
+	}
+}
+
+//slide left
+.ube-banner-effect-img-slide-left {
+	.ube-banner-bg {
+		@include transition(opacity .35s, transform .35s);
+		@include transform(translate3d(0, 0, 0) scale(1.2));
+		@include backface-visibility(hidden);
+	}
+
+	&:hover .ube-banner-image .ube-banner-bg {
+		@include transform(translate3d(-30px, 0, 0) scale(1.2));
+	}
+}
+
+//slide top
+.ube-banner-effect-img-slide-top {
+	.ube-banner-bg {
+		@include transition(opacity .35s, transform .35s);
+		@include transform(translate3d(0, 0, 0) scale(1.2));
+		@include backface-visibility(hidden);
+	}
+
+	&:hover .ube-banner-image .ube-banner-bg {
+		@include transform(translate3d(0, -30px, 0) scale(1.25));
+	}
+}
+
+//slide bottom
+.ube-banner-effect-img-slide-bottom {
+	.ube-banner-bg {
+		@include transition(opacity .35s, transform .35s);
+		@include transform(translate3d(0, -30px, 0) scale(1.2));
+		@include backface-visibility(hidden);
+	}
+
+	&:hover .ube-banner-image .ube-banner-bg {
+		@include transform(translate3d(0, 0, 0) scale(1.25));
+	}
+}
+
+//rotate
+.ube-banner-effect-img-rotate {
+	.ube-banner-bg {
+		@include transition(opacity .35s, transform .35s);
+	}
+
+	&:hover .ube-banner-image .ube-banner-bg {
+		@include transform(scale(1.4) rotate(10deg));
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.ube-banner .ube-banner-content {
+		padding: 1rem;
+	}
+	.ube-banner-layout-06 .ube-banner-bottom-box {
+		padding: 0 1rem;
+		bottom: 1rem
+	}
+
+	.ube-banner-layout-05 .ube-banner-description,
+	.ube-banner-layout-07 .ube-banner-title {
+		right: 1rem;
+		bottom: 1rem;
+	}
+}

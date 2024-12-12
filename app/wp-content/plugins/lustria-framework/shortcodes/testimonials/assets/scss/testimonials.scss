@@ -1,0 +1,50 @@
+@import "../../../../assets/scss/mixin";
+.gsf-testimonials {
+    .testimonial-item {
+        position: relative;
+    }
+
+    text-align: center;
+    .testimonials-before {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 65px;
+    }
+    .testimonials-content {
+        margin-bottom: 30px;
+        p {
+            font-size: 18px;
+            line-height: 1.67;
+            opacity: 0.8;
+            text-align: left;
+        }
+    }
+    .author-avatar {
+        margin-right: 30px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        img {
+            width: 100px;
+            @include border-radius(100%);
+        }
+    }
+    .author-info:not(.author-has-thumb) .author-attr {
+        text-align: center;
+    }
+    .author-attr {
+        text-align: left;
+        .author-name {
+            margin-top: 0;
+            margin-bottom: 0;
+            font-size: 18px;
+            font-weight: 500;
+            color: #292929;
+        }
+        .author-job {
+            font-size: 16px;
+            font-weight: normal;
+            line-height: 1.13;
+            color: #7e7e7e ;
+        }
+    }
+}

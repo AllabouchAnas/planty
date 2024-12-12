@@ -1,0 +1,125 @@
+@charset "UTF-8";
+.gsf-google-map .map-point-animate {
+  position: relative;
+  left: -10px;
+  top: -5px;
+  width: 20px;
+  height: 20px;
+}
+.gsf-google-map .map-point-animate .map-point-center {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 2;
+}
+.gsf-google-map .map-point-animate .map-point-center img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.gsf-google-map .map-point-animate .map-point-center:not(.has-icon) {
+  position: relative;
+}
+.gsf-google-map .map-point-animate .map-point-center:not(.has-icon):before {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: "Font Awesome 5 Pro";
+  content: "";
+  font-weight: 900;
+  font-size: 32px;
+}
+.gsf-google-map .map-point-animate .map-point-signal,
+.gsf-google-map .map-point-animate .map-point-signal2 {
+  width: 200px;
+  height: 200px;
+  pointer-events: none;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-animation: animationSignal linear 2s;
+  animation: animationSignal linear 2s;
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  z-index: 1;
+}
+.gsf-google-map .map-point-animate .map-point-signal {
+  border: 2px solid;
+}
+.gsf-google-map .map-point-animate .map-point-signal2 {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+.gsf-google-map .gm-style-pbc + div > div > div:last-child > div:last-child {
+  z-index: 3 !important;
+}
+.gsf-google-map .gmap-marker-wrap {
+  text-align: center;
+  padding: 20px 30px;
+}
+.gsf-google-map .gmap-marker-wrap .gmap-marker-title {
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+@-webkit-keyframes animationSignal {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%) scale(0.3);
+    transform: translate(-50%, -50%) scale(0.3);
+  }
+  1% {
+    -webkit-transform: translate(-50%, -50%) scale(0.32);
+    transform: translate(-50%, -50%) scale(0.32);
+    opacity: 0.1;
+  }
+  20% {
+    opacity: 0.5;
+    -webkit-transform: translate(-50%, -50%) scale(0 0.45);
+    transform: translate(-50%, -50%) scale(0 0.45);
+  }
+  60% {
+    -webkit-transform: translate(-50%, -50%) scale(0.75);
+    transform: translate(-50%, -50%) scale(0.75);
+    opacity: 0.35;
+  }
+}
+@keyframes animationSignal {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%) scale(0.3);
+    transform: translate(-50%, -50%) scale(0.3);
+  }
+  1% {
+    -webkit-transform: translate(-50%, -50%) scale(0.32);
+    transform: translate(-50%, -50%) scale(0.32);
+    opacity: 0.1;
+  }
+  20% {
+    opacity: 0.5;
+    -webkit-transform: translate(-50%, -50%) scale(0 0.45);
+    transform: translate(-50%, -50%) scale(0 0.45);
+  }
+  60% {
+    -webkit-transform: translate(-50%, -50%) scale(0.75);
+    transform: translate(-50%, -50%) scale(0.75);
+    opacity: 0.35;
+  }
+}
+
+/*# sourceMappingURL=google-map.css.map */

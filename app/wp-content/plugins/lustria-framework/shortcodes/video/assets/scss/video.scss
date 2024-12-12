@@ -1,0 +1,72 @@
+@import "../../../../assets/scss/mixin";
+.gsf-video {
+	text-align: center;
+	a {
+		display: inline-block;
+		cursor: pointer;
+		@include transition(0.5s);
+		width: 100px;
+		height: 100px;
+		position: relative;
+		@include border-radius(50%);
+		i {
+			font-size: 20px;
+			line-height: 100px;
+			padding-left: 4px;
+		}
+		&:before {
+			content: '';
+			display: block;
+			position: absolute;
+			left: 0;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			@include transition(all 0.5s);
+			@include transform(scale(1));
+			opacity: 1;
+			@include border-radius(50%);
+		}
+		&:hover, &:focus, &:active {
+			&:before {
+				@include transform(scale(1.3));
+				opacity: 0;
+			}
+		}
+	}
+	&.gsf-video-large a:before {
+		border: 5px solid;
+	}
+	&.gsf-video-medium {
+		a:first-child{
+			width: 80px;
+			height: 80px;
+			i {
+				line-height: 80px;
+				font-size: 18px;
+			}
+			&:before {
+				border: 3px solid;
+			}
+		}
+	}
+
+	&.gsf-video-small {
+		a:first-child{
+			width: 25px;
+			height: 25px;
+			i {
+				line-height: 25px;
+				font-size: 14px;
+			}
+			&:before {
+				border: 2px solid;
+			}
+		}
+	}
+	&.text-video-none {
+		a:last-child {
+			display: none;
+		}
+	}
+}

@@ -1,0 +1,18 @@
+.ube-google-map {
+	min-height: 300px;
+	.card {
+		border: none;
+
+		img {
+			display: block;
+		}
+
+		.card-body {
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+	.gm-style img {
+		max-width: unset !important;
+	}
+}

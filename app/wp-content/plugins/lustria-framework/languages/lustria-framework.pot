@@ -1,0 +1,6806 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Lustria Framework\n"
+"POT-Creation-Date: 2022-01-27 08:25+0700\n"
+"PO-Revision-Date: 2017-07-08 15:18+0700\n"
+"Last-Translator: \n"
+"Language-Team: G5Team\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_GB\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;"
+"_n_noop:1,2;_nx_noop:1,2,3c;__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: _remove_when_deploy\n"
+"X-Poedit-SearchPathExcluded-1: assets\n"
+"X-Poedit-SearchPathExcluded-2: .idea\n"
+"X-Poedit-SearchPathExcluded-3: .svn\n"
+
+#: core/dashboard/dashboard.class.php:77
+#: core/dashboard/dashboard.class.php:78
+msgid "Welcome"
+msgstr ""
+
+#: core/dashboard/dashboard.class.php:83
+#: core/dashboard/dashboard.class.php:84
+msgid "Plugins"
+msgstr ""
+
+#: core/dashboard/dashboard.class.php:94
+#: core/dashboard/dashboard.class.php:95
+msgid "System"
+msgstr ""
+
+#: core/dashboard/dashboard.class.php:100
+#: libs/smart-framework/core/fonts/fonts.class.php:52
+#: libs/smart-framework/core/fonts/fonts.class.php:53
+#: libs/smart-framework/core/fonts/templates/fonts.php:6
+msgid "Fonts Management"
+msgstr ""
+
+#: core/dashboard/dashboard.class.php:105 inc/config-options.class.php:34
+msgid "Skins Options"
+msgstr ""
+
+#: core/dashboard/dashboard.class.php:110 inc/config-options.class.php:47
+msgid "Theme Options"
+msgstr ""
+
+#: core/dashboard/dashboard.class.php:115
+#: core/dashboard/dashboard.class.php:116
+#: core/dashboard/templates/sidebars.php:10
+msgid "Sidebars Management"
+msgstr ""
+
+#: core/dashboard/dashboard.class.php:220
+msgid "Edit Preset"
+msgstr ""
+
+#: core/dashboard/demo.class.php:137
+msgid "Install Demo"
+msgstr ""
+
+#: core/dashboard/demo.class.php:154
+msgid "Main (Use With Elementor)"
+msgstr ""
+
+#: core/dashboard/install-demo.class.php:52
+msgid "Permission error!"
+msgstr ""
+
+#: core/dashboard/install-demo.class.php:96
+msgid ""
+"The Auto importing script could not be loaded. please use the wordpress "
+"importer and import the XML file that is located in your themes folder "
+"manually."
+msgstr ""
+
+#: core/dashboard/install-demo.class.php:120
+#: core/dashboard/install-demo.class.php:170
+#: core/dashboard/install-demo.class.php:221
+#: core/dashboard/install-demo.class.php:266
+#: core/dashboard/install-demo.class.php:303
+#, php-format
+msgid ""
+"File not found! Please check file exists in directory:\n"
+"[%s]/assets/data-demo/%s"
+msgstr ""
+
+#: core/dashboard/install-demo.class.php:293
+msgid "Import Error"
+msgstr ""
+
+#: core/dashboard/install-demo/parsers.php:43
+#: core/dashboard/install-demo/parsers.php:76
+#: core/dashboard/install-demo/parsers.php:84
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: core/dashboard/install-demo/parsers.php:44
+msgid ""
+"Details are shown above. The importer will now try again with a "
+"different parser..."
+msgstr ""
+
+#: core/dashboard/install-demo/parsers.php:88
+#: core/dashboard/install-demo/parsers.php:93
+#: core/dashboard/install-demo/parsers.php:310
+#: core/dashboard/install-demo/parsers.php:508
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version "
+"number"
+msgstr ""
+
+#: core/dashboard/install-demo/wordpress-importer.php:226
+#: core/dashboard/install-demo/wordpress-importer.php:235
+#: core/dashboard/install-demo/wordpress-importer.php:288
+#: core/dashboard/install-demo/wordpress-importer.php:292
+#: core/dashboard/install-demo/wordpress-importer.php:301
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: core/dashboard/install-demo/wordpress-importer.php:227
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: core/dashboard/install-demo/wordpress-importer.php:271
+msgid "All done."
+msgstr ""
+
+#: core/dashboard/install-demo/wordpress-importer.php:271
+msgid "Have fun!"
+msgstr ""
+
+#: core/dashboard/install-demo/wordpress-importer.php:272
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: core/dashboard/install-demo/wordpress-importer.php:293
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely "
+"that this was caused by a permissions problem."
+msgstr ""
+
+#: core/dashboard/install-demo/wordpress-importer.php:309
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: core/dashboard/install-demo/wordpress-importer.php:360
+msgid "Assign Authors"
+msgstr ""
+
+#: core/dashboard/install-demo/wordpress-importer.php:361
+msgid ""
+"To make it easier for you to edit and save the imported content, you "
+"may want to reassign the author of the imported item to an existing "
+"user of this site. For example, you may want to import all the entries "
+"as <code>admin</code>s entries."
+msgstr ""
+
+#: core/dashboard/install-demo/wordpress-importer.php:363
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually "
+"changing the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: core/dashboard/install-demo/wordpress-importer.php:373
+msgid "Import Attachments"
+msgstr ""
+
+#: core/dashboard/install-demo/wordpress-importer.php:377
+msgid "Download and import file attachments"
+msgstr ""
+
+#: core/dashboard/install-demo/wordpress-importer.php:382
+msgid "Submit"
+msgstr ""
+
+#: core/dashboard/install-demo/wordpress-importer.php:396
+msgid "Import author:"
+msgstr ""
+
+#: core/dashboard/install-demo/wordpress-importer.php:407
+msgid "or create new user with login name:"
+msgstr ""
+
+#: core/dashboard/install-demo/wordpress-importer.php:410
+msgid "as a new user:"
+msgstr ""
+
+#: core/dashboard/install-demo/wordpress-importer.php:418
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: core/dashboard/install-demo/wordpress-importer.php:420
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: core/dashboard/install-demo/wordpress-importer.php:421
+msgid "- Select -"
+msgstr ""
+
+#: core/dashboard/install-demo/wordpress-importer.php:981
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: core/dashboard/install-demo/wordpress-importer.php:1081
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: core/dashboard/install-demo/wordpress-importer.php:1094
+msgid "Invalid file type"
+msgstr ""
+
+#: core/dashboard/install-demo/wordpress-importer.php:1146
+msgid "Remote server did not respond"
+msgstr ""
+
+#: core/dashboard/install-demo/wordpress-importer.php:1154
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: core/dashboard/install-demo/wordpress-importer.php:1197
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: core/dashboard/install-demo/wordpress-importer.php:1203
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: core/dashboard/install-demo/wordpress-importer.php:1209
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: core/dashboard/install-demo/wordpress-importer.php:1314
+msgid "Import WordPress"
+msgstr ""
+
+#: core/dashboard/install-demo/wordpress-importer.php:1335
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll "
+"import the posts, pages, comments, custom fields, categories, and tags "
+"into this site."
+msgstr ""
+
+#: core/dashboard/install-demo/wordpress-importer.php:1336
+msgid ""
+"Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: core/dashboard/install-demo/wordpress-importer.php:1416
+msgid ""
+"Import <strong>posts, pages, comments, custom fields, categories, and "
+"tags</strong> from a WordPress export file."
+msgstr ""
+
+#: core/dashboard/system-status.class.php:44
+#, php-format
+msgid "%s Versions"
+msgstr ""
+
+#: core/dashboard/system-status.class.php:47
+msgid "Current Version"
+msgstr ""
+
+#: core/dashboard/system-status.class.php:52
+msgid "Update History"
+msgstr ""
+
+#: core/dashboard/system-status.class.php:54
+#, php-format
+msgid "<a target=\"_blank\" href=\"%1$s\">View changelog details</a>"
+msgstr ""
+
+#: core/dashboard/system-status.class.php:59
+msgid "WordPress Environment"
+msgstr ""
+
+#: core/dashboard/system-status.class.php:62
+msgid "Home URL"
+msgstr ""
+
+#: core/dashboard/system-status.class.php:63
+msgid "The URL of your site's homepage."
+msgstr ""
+
+#: core/dashboard/system-status.class.php:67
+msgid "Site URL"
+msgstr ""
+
+#: core/dashboard/system-status.class.php:68
+msgid "The root URL of your site."
+msgstr ""
+
+#: core/dashboard/system-status.class.php:72
+msgid "WP Version"
+msgstr ""
+
+#: core/dashboard/system-status.class.php:73
+msgid "The version of WordPress installed on your site."
+msgstr ""
+
+#: core/dashboard/system-status.class.php:77
+msgid "WP Multisite"
+msgstr ""
+
+#: core/dashboard/system-status.class.php:78
+msgid "Whether or not you have WordPress Multisite enabled."
+msgstr ""
+
+#: core/dashboard/system-status.class.php:79
+#: core/dashboard/system-status.class.php:89
+#: core/dashboard/system-status.class.php:130
+#: inc/abstracts/elementor-listing-shop.class.php:161
+#: inc/abstracts/elementor-listing.class.php:453
+msgid "Enable"
+msgstr ""
+
+#: core/dashboard/system-status.class.php:79
+#: core/dashboard/system-status.class.php:89
+#: core/dashboard/system-status.class.php:130
+#: inc/abstracts/elementor-listing-shop.class.php:162
+#: inc/abstracts/elementor-listing.class.php:454
+#: inc/config-options.class.php:736 inc/config-options.class.php:809
+#: inc/config-options.class.php:2137
+msgid "Disable"
+msgstr ""
+
+#: core/dashboard/system-status.class.php:82
+msgid "WP Memory Limit"
+msgstr ""
+
+#: core/dashboard/system-status.class.php:83
+msgid ""
+"The maximum amount of memory (RAM) that your site can use at one time."
+msgstr ""
+
+#: core/dashboard/system-status.class.php:87
+msgid "WP Debug Mode"
+msgstr ""
+
+#: core/dashboard/system-status.class.php:88
+msgid "Displays whether or not WordPress is in Debug Mode."
+msgstr ""
+
+#: core/dashboard/system-status.class.php:92
+msgid "Language"
+msgstr ""
+
+#: core/dashboard/system-status.class.php:93
+msgid "The current language used by WordPress. Default = English"
+msgstr ""
+
+#: core/dashboard/system-status.class.php:100
+msgid "Server Environment"
+msgstr ""
+
+#: core/dashboard/system-status.class.php:103
+msgid "Server Info"
+msgstr ""
+
+#: core/dashboard/system-status.class.php:104
+msgid ""
+"Information about the web server that is currently hosting your site."
+msgstr ""
+
+#: core/dashboard/system-status.class.php:108
+msgid "PHP Version"
+msgstr ""
+
+#: core/dashboard/system-status.class.php:109
+msgid "The version of PHP installed on your hosting server."
+msgstr ""
+
+#: core/dashboard/system-status.class.php:113
+msgid "Post Max Size"
+msgstr ""
+
+#: core/dashboard/system-status.class.php:114
+msgid "The largest file size that can be contained in one post."
+msgstr ""
+
+#: core/dashboard/system-status.class.php:118
+msgid "Max Execution Time"
+msgstr ""
+
+#: core/dashboard/system-status.class.php:119
+msgid ""
+"The amount of time (in seconds) that your site will spend on a single "
+"operation before timing out (to avoid server lockups)"
+msgstr ""
+
+#: core/dashboard/system-status.class.php:123
+msgid "Max Input Vars"
+msgstr ""
+
+#: core/dashboard/system-status.class.php:124
+msgid ""
+"The maximum number of variables your server can use for a single "
+"function to avoid overloads."
+msgstr ""
+
+#: core/dashboard/system-status.class.php:128
+msgid "ZipArchive"
+msgstr ""
+
+#: core/dashboard/system-status.class.php:129
+msgid ""
+"ZipArchive is required for importing demos. They are used to import and "
+"export zip files specifically for sliders."
+msgstr ""
+
+#: core/dashboard/system-status.class.php:133
+msgid "MySQL Version"
+msgstr ""
+
+#: core/dashboard/system-status.class.php:134
+msgid "The version of MySQL installed on your hosting server."
+msgstr ""
+
+#: core/dashboard/system-status.class.php:138
+msgid "Max Upload Size"
+msgstr ""
+
+#: core/dashboard/system-status.class.php:139
+msgid ""
+"The largest file size that can be uploaded to your WordPress "
+"installation."
+msgstr ""
+
+#: core/dashboard/system-status.class.php:172
+#, php-format
+msgid ""
+"%1$s - We recommend setting memory to at least <strong>128MB</strong>."
+"<br /> Please define memory limit in <strong>wp-config.php</strong> "
+"file.<br /> To learn how, see: <a href=\"%2$s\" target=\"_blank\" rel="
+"\"noopener noreferrer\">Increasing memory allocated to PHP.</a>"
+msgstr ""
+
+#: core/dashboard/system-status.class.php:189
+#, php-format
+msgid ""
+"%1$s - We recommend use php version at least <strong>5.4</strong>. <br /"
+"> Please <a href=\"%2$s\" target=\"_blank\">download and update latest "
+"version</a>"
+msgstr ""
+
+#: core/dashboard/system-status.class.php:206
+#, php-format
+msgid ""
+"%1$s - We recommend setting post max size to at least <strong>64MB</"
+"strong>."
+msgstr ""
+
+#: core/dashboard/system-status.class.php:224
+#, php-format
+msgid ""
+"%1$s - We recommend setting max execution time to at least 300.<br /"
+">See: <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer"
+"\">Increasing max execution to PHP</a>"
+msgstr ""
+
+#: core/dashboard/system-status.class.php:241
+#, php-format
+msgid ""
+"%1$s - We recommend setting max input var to at least 3000.<br /> Max "
+"input vars limitation will truncate POST data such as menus See: <a "
+"href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">Increasing "
+"max input vars limit.</a>"
+msgstr ""
+
+#: core/dashboard/system-status.class.php:273
+msgid "Visit plugin homepage"
+msgstr ""
+
+#: core/dashboard/system-status.class.php:286
+msgid "by "
+msgstr ""
+
+#: core/dashboard/system-status.class.php:298
+#, php-format
+msgid "Active Plugins (%1$s)"
+msgstr ""
+
+#: core/dashboard/templates/dashboard.php:17
+#, php-format
+msgid "%s Dashboard"
+msgstr ""
+
+#: core/dashboard/templates/demo.php:10
+msgid "Install Demo Data"
+msgstr ""
+
+#: core/dashboard/templates/demo.php:11
+msgid ""
+"Install demo data (post, page, image, menu, widget, slider, theme "
+"setting, ...) is the easiest way to setup your theme. It will allow you "
+"to quickly edit everything instead of creating content from scratch."
+msgstr ""
+
+#: core/dashboard/templates/demo.php:13
+msgid "When you import the data, the following things might happen:"
+msgstr ""
+
+#: core/dashboard/templates/demo.php:16
+msgid ""
+"All data in database and Upload Dir will be deleted when install demo."
+msgstr ""
+
+#: core/dashboard/templates/demo.php:17
+msgid ""
+"The included plugins need to be installed and activated before you "
+"install a demo."
+msgstr ""
+
+#: core/dashboard/templates/demo.php:18
+msgid ""
+"Please check the \"System Status\" tab to ensure your server meets all "
+"requirements for a successful import. Settings that need attention will "
+"be listed in red."
+msgstr ""
+
+#: core/dashboard/templates/demo.php:19
+msgid ""
+"Posts, pages, images, widgets, menus and other theme settings will get "
+"imported."
+msgstr ""
+
+#: core/dashboard/templates/demo.php:20
+msgid ""
+"Please click on the Import button only once and wait, it can take a "
+"couple of minutes."
+msgstr ""
+
+#: core/dashboard/templates/demo.php:31
+#: core/dashboard/templates/install_demo.php:33
+#: libs/smart-framework/admin/templates/theme-options-start.php:34
+msgid "Preview"
+msgstr ""
+
+#: core/dashboard/templates/demo.php:36
+msgid ""
+"Type \"install\" to accept install setting.\n"
+"NOTE: Your theme option, post, page, attachment... may change when the "
+"installation completed!"
+msgstr ""
+
+#: core/dashboard/templates/demo.php:38
+#: core/dashboard/templates/demo.php:45
+msgid "Import Done"
+msgstr ""
+
+#: core/dashboard/templates/demo.php:39
+#: core/dashboard/templates/demo.php:46
+msgid "Importing"
+msgstr ""
+
+#: core/dashboard/templates/demo.php:40
+msgid "Import Setting"
+msgstr ""
+
+#: core/dashboard/templates/demo.php:43
+msgid ""
+"Type \"install\" to accept install demo data.\n"
+"NOTE: Will delete all post, page, term ... before install!"
+msgstr ""
+
+#: core/dashboard/templates/demo.php:47
+#: libs/smart-framework/inc/admin-theme-options.class.php:432
+#: libs/smart-framework/inc/admin-theme-options.class.php:433
+msgid "Import"
+msgstr ""
+
+#: core/dashboard/templates/install_demo.php:5
+msgid "Main"
+msgstr ""
+
+#: core/dashboard/templates/install_demo.php:17
+#, php-format
+msgid "%s Demos"
+msgstr ""
+
+#: core/dashboard/templates/install_demo.php:18
+msgid ""
+"Installing a demo provides pages, posts, images, theme options, "
+"widgets, sliders and more. IMPORTANT: The included plugins need to be "
+"installed and activated before you install a demo. Please check the "
+"\"System Status\" tab to ensure your server meets all requirements for "
+"a successful import. Settings that need attention will be listed in red."
+msgstr ""
+
+#: core/dashboard/templates/install_demo.php:21
+msgid "Install Done"
+msgstr ""
+
+#: core/dashboard/templates/install_demo.php:41
+msgid "Fix Demo Data"
+msgstr ""
+
+#: core/dashboard/templates/install_demo.php:43
+#: core/dashboard/templates/plugins.php:60
+msgid "Install"
+msgstr ""
+
+#: core/dashboard/templates/install_demo.php:44
+msgid "Only Setting"
+msgstr ""
+
+#: core/dashboard/templates/plugins.php:9
+msgid "Premium and Included Plugins"
+msgstr ""
+
+#: core/dashboard/templates/plugins.php:10
+msgid ""
+"Install the included plugins with ease using this panel. All the "
+"plugins are well tested to work with the theme and we keep them up to "
+"date. The themes comes packed with the following plugins:"
+msgstr ""
+
+#: core/dashboard/templates/plugins.php:48
+msgid "Required"
+msgstr ""
+
+#: core/dashboard/templates/plugins.php:51
+msgid "active"
+msgstr ""
+
+#: core/dashboard/templates/plugins.php:63
+msgid "Activate"
+msgstr ""
+
+#: core/dashboard/templates/plugins.php:66
+msgid "Deactivate"
+msgstr ""
+
+#: core/dashboard/templates/plugins.php:69
+msgid "Update"
+msgstr ""
+
+#: core/dashboard/templates/sidebars.php:11
+msgid "Manager custom sidebars"
+msgstr ""
+
+#: core/dashboard/templates/sidebars.php:18
+#: core/dashboard/templates/sidebars.php:29
+msgid "Create Widget Area"
+msgstr ""
+
+#: core/dashboard/templates/sidebars.php:24
+#: core/dashboard/templates/sidebars.php:25
+#: core/dashboard/templates/sidebars.php:40
+#: shortcodes/our-team/config.php:17
+#: shortcodes/pricing-tables/config.php:28
+#: widgets/product-category-filter.class.php:44
+msgid "Name"
+msgstr ""
+
+#: core/dashboard/templates/sidebars.php:53
+#: libs/smart-framework/fields/background/background.class.php:105
+#: libs/smart-framework/fields/file/file.class.php:26
+#: libs/smart-framework/fields/image/image.class.php:48
+msgid "Remove"
+msgstr ""
+
+#: core/dashboard/templates/sidebars.php:61
+msgid "No Sidebars defined"
+msgstr ""
+
+#: core/dashboard/templates/system.php:14
+#: core/dashboard/templates/system.php:19
+msgid "Get System Report"
+msgstr ""
+
+#: core/dashboard/templates/system.php:20
+msgid ""
+"Click the button to produce a report, then copy and paste into your "
+"support ticket."
+msgstr ""
+
+#: core/dashboard/templates/system.php:24
+msgid "Copy for Support"
+msgstr ""
+
+#: core/dashboard/templates/welcome.php:10
+msgid "Welcome to"
+msgstr ""
+
+#: core/dashboard/templates/welcome.php:13
+msgid ""
+"Thank you for choosing the best theme we have ever build! we did a lot "
+"of pressure to release this great product and we will offer our 5 star "
+"support to this theme for fixing all the issues and adding more "
+"features."
+msgstr ""
+
+#: core/dashboard/templates/welcome.php:17
+msgid "Quick Start"
+msgstr ""
+
+#: core/dashboard/templates/welcome.php:18
+#, php-format
+msgid ""
+"You can start using theme simply by installing Visual Composer plugin. "
+"Also there is more plugins for social counter, post views, ads "
+"manager ... that you can install them from our <a href=\"%s\">plugin "
+"installer</a>."
+msgstr ""
+
+#: core/dashboard/templates/welcome.php:19
+#, php-format
+msgid ""
+"If you need setup your site like %s demos, you can use the <a href=\"%s"
+"\">Demo Installer</a> that can do it for you with only <em>one click</"
+"em>"
+msgstr ""
+
+#: core/dashboard/welcome.class.php:38 core/dashboard/welcome.class.php:40
+msgid "Documentation"
+msgstr ""
+
+#: core/dashboard/welcome.class.php:39
+#, php-format
+msgid ""
+"This is the place to go to reference different aspects of the theme. "
+"Our online documentation is an incredible resource for learning the ins "
+"and outs of using %1$s."
+msgstr ""
+
+#: core/dashboard/welcome.class.php:45
+msgid "Knowledge Base"
+msgstr ""
+
+#: core/dashboard/welcome.class.php:46
+msgid ""
+"Our knowledge base contains additional content that is not inside of "
+"our documentation. This information is more specific and unique to "
+"various versions or aspects of theme."
+msgstr ""
+
+#: core/dashboard/welcome.class.php:47
+msgid "Knowledgebase"
+msgstr ""
+
+#: core/dashboard/welcome.class.php:52
+msgid "Video Tutorials"
+msgstr ""
+
+#: core/dashboard/welcome.class.php:53
+#, php-format
+msgid ""
+"Nothing is better than watching a video to learn. We have a growing "
+"library of high-definititon, narrated video tutorials to help teach you "
+"the different aspects of using %1$s."
+msgstr ""
+
+#: core/dashboard/welcome.class.php:54
+msgid "Watch Videos"
+msgstr ""
+
+#: core/dashboard/welcome.class.php:59
+msgid "Support forum"
+msgstr ""
+
+#: core/dashboard/welcome.class.php:60
+#, php-format
+msgid ""
+"We offer outstanding support through our forum. To get support first "
+"you need to register (create an account) and open a thread in the %1$s "
+"Section."
+msgstr ""
+
+#: core/dashboard/welcome.class.php:61
+msgid "Open Forum"
+msgstr ""
+
+#: core/dashboard/widget-areas.class.php:63
+msgid "Are you sure to delete this widget areas?"
+msgstr ""
+
+#: core/elementor/elementor.class.php:198
+#: shortcodes/product-singular/config.php:11
+msgid "Product Singular"
+msgstr ""
+
+#: core/elementor/elementor.class.php:199 shortcodes/products/config.php:4
+msgid "Products"
+msgstr ""
+
+#: core/elementor/elementor.class.php:200
+msgid "Products Slider"
+msgstr ""
+
+#: core/elementor/elementor.class.php:201
+#: inc/abstracts/elementor-listing-shop.class.php:308
+#: shortcodes/product-tabs/config.php:4
+msgid "Product Tabs"
+msgstr ""
+
+#: core/elementor/elementor.class.php:202
+msgid "Product Tabs Slider"
+msgstr ""
+
+#: core/elementor/elementor.class.php:203
+msgid "Products Category"
+msgstr ""
+
+#: core/elementor/elementor.class.php:208
+msgid "Lustria Post"
+msgstr ""
+
+#: core/elementor/elementor.class.php:209
+msgid "Lustria Post Slider"
+msgstr ""
+
+#: core/elementor/elementor.class.php:237
+msgid "Lustria Elements"
+msgstr ""
+
+#: core/vc/inc/customize.class.php:102 core/vc/inc/customize.class.php:231
+msgid "Container Width"
+msgstr ""
+
+#: core/vc/inc/customize.class.php:103 core/vc/inc/customize.class.php:232
+msgid "Define the width of the container."
+msgstr ""
+
+#: core/vc/inc/customize.class.php:106 core/vc/inc/customize.class.php:119
+#: core/vc/inc/customize.class.php:235 core/vc/inc/customize.class.php:248
+#: inc/settings.class.php:352
+msgid "Full"
+msgstr ""
+
+#: core/vc/inc/customize.class.php:107 core/vc/inc/customize.class.php:121
+#: core/vc/inc/customize.class.php:236 core/vc/inc/customize.class.php:250
+msgid "Limit"
+msgstr ""
+
+#: core/vc/inc/customize.class.php:115 core/vc/inc/customize.class.php:244
+msgid "Content Width"
+msgstr ""
+
+#: core/vc/inc/customize.class.php:116 core/vc/inc/customize.class.php:245
+msgid "Define the width of the content area."
+msgstr ""
+
+#: core/vc/inc/customize.class.php:120 core/vc/inc/customize.class.php:249
+msgid "Full Desktop"
+msgstr ""
+
+#: core/vc/inc/customize.class.php:133
+msgid "Background Overlay"
+msgstr ""
+
+#: core/vc/inc/customize.class.php:135
+msgid "Specify overlay mode for the background."
+msgstr ""
+
+#: core/vc/inc/customize.class.php:137
+#: inc/abstracts/elementor-listing.class.php:345
+#: inc/abstracts/elementor-listing.class.php:358
+#: inc/abstracts/elementor-listing.class.php:695
+#: inc/settings.class.php:393
+msgid "Hide"
+msgstr ""
+
+#: core/vc/inc/customize.class.php:138 core/vc/inc/customize.class.php:216
+#: core/vc/vc.class.php:92 core/vc/vc.class.php:105
+#: inc/abstracts/elementor-listing-blog.class.php:112
+#: inc/abstracts/elementor-listing-blog.class.php:132
+#: inc/abstracts/elementor-listing-blog.class.php:194
+#: inc/abstracts/elementor-listing-blog.class.php:214
+#: inc/abstracts/elementor-listing-blog.class.php:267
+#: inc/abstracts/elementor-listing-shop.class.php:624
+#: inc/abstracts/elementor-listing-shop.class.php:644
+#: inc/abstracts/elementor-listing-shop.class.php:699
+#: inc/abstracts/elementor-listing-shop.class.php:732
+#: shortcodes/button/config.php:71
+#: widgets/product-filter-attribute.class.php:40
+msgid "Color"
+msgstr ""
+
+#: core/vc/inc/customize.class.php:139 shortcodes/info-box/config.php:188
+#: widgets/product-filter-attribute.class.php:41
+msgid "Image"
+msgstr ""
+
+#: core/vc/inc/customize.class.php:146
+msgid "Overlay color"
+msgstr ""
+
+#: core/vc/inc/customize.class.php:148
+msgid "Specify an overlay color for the background."
+msgstr ""
+
+#: core/vc/inc/customize.class.php:154
+msgid "Overlay Image"
+msgstr ""
+
+#: core/vc/inc/customize.class.php:156
+msgid "Specify an overlay image for the background."
+msgstr ""
+
+#: core/vc/inc/customize.class.php:162
+msgid "Overlay Opacity"
+msgstr ""
+
+#: core/vc/inc/customize.class.php:170
+msgid "Specify overlay opacity for the background."
+msgstr ""
+
+#: core/vc/inc/customize.class.php:198 shortcodes/banner/config.php:10
+#: shortcodes/countdown/config.php:16 shortcodes/gallery/config.php:12
+#: shortcodes/heading/config.php:10 shortcodes/info-box/config.php:10
+#: shortcodes/mail-chimp/config.php:17
+#: shortcodes/pricing-tables/config.php:10
+#: shortcodes/product-category/config.php:10
+msgid "Layout Style"
+msgstr ""
+
+#: core/vc/inc/customize.class.php:201
+#: inc/abstracts/elementor-listing-blog.class.php:105
+#: inc/abstracts/elementor-listing-blog.class.php:187
+#: inc/abstracts/elementor-listing-shop.class.php:617
+#: inc/abstracts/elementor-listing.class.php:404
+#: inc/shortcode.class.php:603 shortcodes/button/config.php:94
+#: shortcodes/social-networks/config.php:35 widgets/banner.class.php:79
+#: widgets/social-profile.class.php:46
+msgid "Normal"
+msgstr ""
+
+#: core/vc/inc/customize.class.php:202
+msgid "Value move"
+msgstr ""
+
+#: core/vc/inc/customize.class.php:203
+msgid "Value right position"
+msgstr ""
+
+#: core/vc/inc/customize.class.php:206
+msgid "Select Layout Style."
+msgstr ""
+
+#: core/vc/inc/customize.class.php:212 core/vc/vc.class.php:88
+#: core/vc/vc.class.php:100 inc/abstracts/elementor-listing.class.php:438
+#: inc/shortcode.class.php:650 shortcodes/button/config.php:75
+msgid "Accent"
+msgstr ""
+
+#: core/vc/inc/customize.class.php:548
+#: core/xmenu/templates/xmenu-panel.php:105
+#: inc/abstracts/elementor-listing-shop.class.php:68
+#: inc/abstracts/elementor-listing.class.php:830
+#: inc/abstracts/elementor-listing.class.php:891
+#: inc/config-options.class.php:1542 inc/config-options.class.php:3086
+#: inc/config-options.class.php:3433 inc/settings.class.php:351
+#: inc/settings.class.php:372 inc/settings.class.php:824
+#: inc/settings.class.php:871 inc/settings.class.php:912
+#: inc/settings.class.php:1036 shortcodes/banner/config.php:31
+#: shortcodes/banner/config.php:45 shortcodes/heading/config.php:127
+#: shortcodes/info-box/config.php:136 shortcodes/menu-column/config.php:41
+#: shortcodes/partners/config.php:84
+#: shortcodes/product-category/config.php:38
+#: shortcodes/testimonials/config.php:55
+msgid "None"
+msgstr ""
+
+#: core/vc/inc/template.class.php:88
+msgid "No title"
+msgstr ""
+
+#: core/vc/templates.php:495
+#: inc/abstracts/elementor-listing-shop.class.php:238
+#: inc/abstracts/elementor-listing-shop.class.php:369
+#: libs/smart-framework/fields/border/border.class.php:64
+#: shortcodes/product-tabs/config.php:25 shortcodes/products/config.php:33
+#: widgets/price-filter.class.php:157 widgets/price-filter.class.php:159
+msgid "All"
+msgstr ""
+
+#: core/vc/templates.php:496 shortcodes/banner/config.php:4
+msgid "Banner"
+msgstr ""
+
+#: core/vc/templates.php:497
+msgid "Category product"
+msgstr ""
+
+#: core/vc/templates.php:498 inc/config-options.class.php:981
+msgid "Footer"
+msgstr ""
+
+#: core/vc/templates.php:499 shortcodes/info-box/config.php:4
+msgid "Info Box"
+msgstr ""
+
+#: core/vc/templates.php:500 inc/settings.class.php:602
+msgid "Instagram"
+msgstr ""
+
+#: core/vc/templates.php:501
+msgid "Mailchimp"
+msgstr ""
+
+#: core/vc/templates.php:502
+msgid "Others"
+msgstr ""
+
+#: core/vc/templates.php:503 inc/settings.class.php:174
+msgid "Product"
+msgstr ""
+
+#: core/vc/templates.php:504 inc/config-options.class.php:627
+msgid "Top Bar"
+msgstr ""
+
+#: core/vc/templates.php:505 shortcodes/video/config.php:3
+msgid "Video"
+msgstr ""
+
+#: core/vc/vc-params/icon-picker/templates/icon-picker.tpl.php:21
+msgid "Chose an icon"
+msgstr ""
+
+#: core/vc/vc-params/icon-picker/templates/icon-picker.tpl.php:22
+msgid "Remove an icon"
+msgstr ""
+
+#: core/vc/vc-params/responsive/templates/responsive.tpl.php:22
+msgid "Device"
+msgstr ""
+
+#: core/vc/vc-params/responsive/templates/responsive.tpl.php:49
+msgid "Hide on device?"
+msgstr ""
+
+#: core/vc/vc-params/switch/templates/switch.tpl.php:14
+#: inc/settings.class.php:120 inc/shortcode.class.php:462
+#: libs/smart-framework/fields/switch/switch.class.php:16
+msgid "On"
+msgstr ""
+
+#: core/vc/vc-params/switch/templates/switch.tpl.php:15
+#: inc/settings.class.php:121 inc/shortcode.class.php:463
+#: libs/smart-framework/fields/switch/switch.class.php:17
+msgid "Off"
+msgstr ""
+
+#: core/vc/vc-params/typography/templates/typography.tpl.php:54
+#: libs/smart-framework/fields/font/font.class.php:42
+#: libs/smart-framework/fields/typography/typography.class.php:51
+msgid "Font Family"
+msgstr ""
+
+#: core/vc/vc-params/typography/templates/typography.tpl.php:56
+#: libs/smart-framework/fields/font/font.class.php:43
+#: libs/smart-framework/fields/typography/typography.class.php:52
+msgid "Select Font Family"
+msgstr ""
+
+#: core/vc/vc-params/typography/templates/typography.tpl.php:66
+msgid "Font Style"
+msgstr ""
+
+#: core/vc/vc-params/typography/templates/typography.tpl.php:68
+msgid "Select Font Style"
+msgstr ""
+
+#: core/vc/vc-params/typography/templates/typography.tpl.php:77
+msgid "Font Preview"
+msgstr ""
+
+#: core/xmenu/inc/xmenu-walker.php:279
+#: core/xmenu/templates/xmenu-panel.php:59
+#: inc/config-options.class.php:2987 shortcodes/menu-column/config.php:43
+msgid "Hot"
+msgstr ""
+
+#: core/xmenu/inc/xmenu-walker.php:284
+#: core/xmenu/templates/xmenu-panel.php:58
+#: inc/config-options.class.php:3038 shortcodes/menu-column/config.php:42
+msgid "New"
+msgstr ""
+
+#: core/xmenu/inc/xmenu-walker.php:289
+#: inc/abstracts/elementor-listing-shop.class.php:241
+#: inc/abstracts/elementor-listing-shop.class.php:324
+#: inc/abstracts/elementor-listing-shop.class.php:372
+#: shortcodes/product-tabs/config.php:28 shortcodes/products/config.php:36
+msgid "Featured"
+msgstr ""
+
+#: core/xmenu/templates/xmenu-panel.php:10
+#: inc/config-meta-boxes.class.php:195 inc/config-meta-boxes.class.php:340
+#: inc/config-options.class.php:114 inc/config-options.class.php:123
+#: inc/config-options.class.php:1020 inc/config-options.class.php:1300
+#: inc/config-options.class.php:2973
+msgid "General"
+msgstr ""
+
+#: core/xmenu/templates/xmenu-panel.php:11
+msgid "Sub Menu"
+msgstr ""
+
+#: core/xmenu/templates/xmenu-panel.php:15
+#: core/xmenu/templates/xmenu-panel.php:16
+msgid "Save"
+msgstr ""
+
+#: core/xmenu/templates/xmenu-panel.php:16
+msgid "Saving..."
+msgstr ""
+
+#: core/xmenu/templates/xmenu-panel.php:18
+msgid "Save All"
+msgstr ""
+
+#: core/xmenu/templates/xmenu-panel.php:24
+msgid "URL"
+msgstr ""
+
+#: core/xmenu/templates/xmenu-panel.php:28
+msgid "Navigation Label"
+msgstr ""
+
+#: core/xmenu/templates/xmenu-panel.php:32
+msgid "Title Attribute"
+msgstr ""
+
+#: core/xmenu/templates/xmenu-panel.php:37
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: core/xmenu/templates/xmenu-panel.php:40
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: core/xmenu/templates/xmenu-panel.php:44
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: core/xmenu/templates/xmenu-panel.php:48
+#: shortcodes/google-map/config.php:36
+msgid "Description"
+msgstr ""
+
+#: core/xmenu/templates/xmenu-panel.php:53
+msgid "Menu Featured"
+msgstr ""
+
+#: core/xmenu/templates/xmenu-panel.php:57
+msgid "Select style..."
+msgstr ""
+
+#: core/xmenu/templates/xmenu-panel.php:63
+msgid "Feature menu text..."
+msgstr ""
+
+#: core/xmenu/templates/xmenu-panel.php:68
+#: inc/config-options.class.php:2532 inc/shortcode.class.php:135
+#: shortcodes/info-box/config.php:187 shortcodes/lists/config.php:14
+msgid "Icon"
+msgstr ""
+
+#: core/xmenu/templates/xmenu-panel.php:73
+msgid "Set icon"
+msgstr ""
+
+#: core/xmenu/templates/xmenu-panel.php:81
+msgid "Sub Menu Width"
+msgstr ""
+
+#: core/xmenu/templates/xmenu-panel.php:83
+msgid "Auto"
+msgstr ""
+
+#: core/xmenu/templates/xmenu-panel.php:84 inc/settings.class.php:353
+msgid "Container"
+msgstr ""
+
+#: core/xmenu/templates/xmenu-panel.php:85 inc/settings.class.php:67
+msgid "Full Width"
+msgstr ""
+
+#: core/xmenu/templates/xmenu-panel.php:86
+#: inc/abstracts/elementor-listing-shop.class.php:90
+#: inc/settings.class.php:1000 shortcodes/banner/config.php:85
+#: shortcodes/google-map/config.php:128 shortcodes/heading/config.php:133
+#: shortcodes/info-box/config.php:142 shortcodes/pie-chart/config.php:41
+#: shortcodes/pie-chart/config.php:61
+#: shortcodes/product-category/config.php:57
+msgid "Custom"
+msgstr ""
+
+#: core/xmenu/templates/xmenu-panel.php:90
+msgid "Sub Menu Width Custom"
+msgstr ""
+
+#: core/xmenu/templates/xmenu-panel.php:94
+msgid "Sub Menu Position"
+msgstr ""
+
+#: core/xmenu/templates/xmenu-panel.php:96
+#: core/xmenu/templates/xmenu-panel.php:104 inc/shortcode.class.php:163
+#: inc/shortcode.class.php:805
+#: libs/smart-framework/assets/vendors/wp-color-picker-alpha.js:18
+#: libs/smart-framework/inc/assets.class.php:52
+#: shortcodes/gallery/config.php:117 shortcodes/partners/config.php:138
+#: shortcodes/partners/config.php:147 shortcodes/partners/config.php:156
+#: shortcodes/partners/config.php:165 widgets/product-sorting.class.php:65
+msgid "Default"
+msgstr ""
+
+#: core/xmenu/templates/xmenu-panel.php:97
+msgid "Left Of Parent"
+msgstr ""
+
+#: core/xmenu/templates/xmenu-panel.php:98
+msgid "Right Of Parent"
+msgstr ""
+
+#: core/xmenu/templates/xmenu-panel.php:102
+msgid "Sub Menu Transition"
+msgstr ""
+
+#: core/xmenu/templates/xmenu-panel.php:106
+#: inc/config-options.class.php:1543
+msgid "Fade In"
+msgstr ""
+
+#: core/xmenu/templates/xmenu-panel.php:107
+#: inc/config-options.class.php:1544
+msgid "Fade In Up"
+msgstr ""
+
+#: core/xmenu/templates/xmenu-panel.php:108
+#: inc/config-options.class.php:1545
+msgid "Fade In Down"
+msgstr ""
+
+#: core/xmenu/templates/xmenu-panel.php:109
+#: inc/config-options.class.php:1546
+msgid "Fade In Left"
+msgstr ""
+
+#: core/xmenu/templates/xmenu-panel.php:110
+#: inc/config-options.class.php:1547
+msgid "Fade In Right"
+msgstr ""
+
+#: core/xmenu/templates/xmenu-panel.php:111
+#: inc/config-options.class.php:1548
+msgid "Flip In X"
+msgstr ""
+
+#: core/xmenu/templates/xmenu-panel.php:112
+#: inc/config-options.class.php:1549
+msgid "Slide In Up"
+msgstr ""
+
+#: core/xmenu/xmenu.class.php:222 core/xmenu/xmenu.class.php:223
+msgid "Mega Menu"
+msgstr ""
+
+#: core/xmenu/xmenu.class.php:241
+#: libs/smart-framework/inc/admin-meta-boxes.class.php:79
+#: libs/smart-framework/inc/admin-taxonomy.class.php:96
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: core/xmenu/xmenu.class.php:242
+#: libs/smart-framework/inc/admin-meta-boxes.class.php:80
+#: libs/smart-framework/inc/admin-taxonomy.class.php:93
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: core/xmenu/xmenu.class.php:243
+#: libs/smart-framework/inc/admin-meta-boxes.class.php:81
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: core/xmenu/xmenu.class.php:244
+#: libs/smart-framework/inc/admin-meta-boxes.class.php:82
+#: libs/smart-framework/inc/admin-taxonomy.class.php:94
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: core/xmenu/xmenu.class.php:245
+#: libs/smart-framework/inc/admin-meta-boxes.class.php:83
+#: libs/smart-framework/inc/admin-taxonomy.class.php:88
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: core/xmenu/xmenu.class.php:246
+#: libs/smart-framework/inc/admin-meta-boxes.class.php:84
+#: libs/smart-framework/inc/admin-taxonomy.class.php:101
+#, php-format
+msgid "No %s found."
+msgstr ""
+
+#: core/xmenu/xmenu.class.php:247
+#: libs/smart-framework/inc/admin-meta-boxes.class.php:85
+#, php-format
+msgid "No %s found in Trash."
+msgstr ""
+
+#: core/xmenu/xmenu.class.php:248
+#: libs/smart-framework/inc/admin-meta-boxes.class.php:86
+#: libs/smart-framework/inc/admin-taxonomy.class.php:90
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: core/xmenu/xmenu.class.php:249
+#: libs/smart-framework/inc/admin-meta-boxes.class.php:87
+#, php-format
+msgid "%s Archives"
+msgstr ""
+
+#: core/xmenu/xmenu.class.php:250
+#: libs/smart-framework/inc/admin-meta-boxes.class.php:88
+#, php-format
+msgid "Insert into %s"
+msgstr ""
+
+#: core/xmenu/xmenu.class.php:251
+#: libs/smart-framework/inc/admin-meta-boxes.class.php:89
+#, php-format
+msgid "Uploaded to this %s"
+msgstr ""
+
+#: core/xmenu/xmenu.class.php:252
+#: libs/smart-framework/inc/admin-meta-boxes.class.php:90
+#, php-format
+msgid "Filter %s list"
+msgstr ""
+
+#: core/xmenu/xmenu.class.php:253
+#: libs/smart-framework/inc/admin-meta-boxes.class.php:91
+#: libs/smart-framework/inc/admin-taxonomy.class.php:103
+#, php-format
+msgid "%s list navigation"
+msgstr ""
+
+#: core/xmenu/xmenu.class.php:254
+#: libs/smart-framework/inc/admin-meta-boxes.class.php:92
+#: libs/smart-framework/inc/admin-taxonomy.class.php:104
+#, php-format
+msgid "%s list"
+msgstr ""
+
+#: elements/posts-slider/config.php:31
+msgid "Lustria Posts Slider"
+msgstr ""
+
+#: elements/posts/config.php:31
+msgid "Lustria Posts"
+msgstr ""
+
+#: elements/product-category/config.php:20
+msgid "Lustria Products Category"
+msgstr ""
+
+#: elements/product-category/config.php:33
+#: elements/product-singular/config.php:34
+msgid "Setting"
+msgstr ""
+
+#: elements/product-category/template.php:66
+#: shortcodes/product-category/template.php:103
+#, php-format
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: elements/product-singular/config.php:20
+msgid "Lustria Products Singular"
+msgstr ""
+
+#: elements/product-singular/config.php:43
+#: shortcodes/product-singular/config.php:26
+msgid "Featured Text"
+msgstr ""
+
+#: elements/product-singular/config.php:45
+msgid "Enter your title"
+msgstr ""
+
+#: elements/product-tabs-slider/config.php:20
+msgid "Lustria Product Tabs Slider"
+msgstr ""
+
+#: elements/product-tabs/config.php:20
+msgid "Lustria Product Tabs"
+msgstr ""
+
+#: elements/products-slider/config.php:20
+msgid "Lustria Products Slider"
+msgstr ""
+
+#: elements/products/config.php:20
+msgid "Lustria Products"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-blog.class.php:23
+#: inc/abstracts/elementor-listing-shop.class.php:20
+#: inc/abstracts/elementor-listing-shop.class.php:39
+#: inc/abstracts/elementor-listing-shop.class.php:205
+#: inc/config-meta-boxes.class.php:202 inc/config-meta-boxes.class.php:534
+#: inc/config-meta-boxes.class.php:541 inc/config-options.class.php:482
+#: inc/config-options.class.php:3064 inc/config-options.class.php:3389
+msgid "Layout"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-blog.class.php:45
+#: inc/abstracts/elementor-listing-shop.class.php:357
+msgid "Query"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-blog.class.php:72
+#: inc/abstracts/elementor-listing-shop.class.php:227
+#: inc/abstracts/elementor-listing-shop.class.php:582
+#: inc/abstracts/elementor-listing.class.php:637
+#: inc/config-options.class.php:1201 inc/config-options.class.php:2080
+#: inc/config-options.class.php:2896 inc/config-user-meta.class.php:51
+#: inc/shortcode.class.php:475 inc/shortcode.class.php:729
+#: shortcodes/banner/config.php:60 shortcodes/google-map/config.php:14
+#: shortcodes/google-map/config.php:29 shortcodes/heading/config.php:47
+#: shortcodes/info-box/config.php:47 shortcodes/info-box/config.php:331
+#: shortcodes/pie-chart/config.php:11 widgets/social-profile.class.php:20
+#: widgets/twitter.class.php:20
+msgid "Title"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-blog.class.php:88
+#: inc/abstracts/elementor-listing-blog.class.php:169
+#: inc/abstracts/elementor-listing-blog.class.php:251
+#: inc/abstracts/elementor-listing-shop.class.php:599
+#: inc/abstracts/elementor-listing-shop.class.php:673
+msgid "Spacing"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-blog.class.php:124
+#: inc/abstracts/elementor-listing-blog.class.php:206
+#: inc/abstracts/elementor-listing-shop.class.php:636
+msgid "Hover"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-blog.class.php:153
+msgid "Meta"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-blog.class.php:235
+msgid "Excerpt"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-blog.class.php:282
+#: inc/settings.class.php:718 inc/shortcode.class.php:786
+#: shortcodes/posts/config.php:20
+msgid "Large Image"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-blog.class.php:285
+#: inc/settings.class.php:722 inc/shortcode.class.php:790
+#: shortcodes/posts/config.php:24
+msgid "Medium Image"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-blog.class.php:288
+#: inc/settings.class.php:726 inc/settings.class.php:977
+#: inc/shortcode.class.php:798 shortcodes/gallery/config.php:15
+#: shortcodes/posts/config.php:28
+msgid "Grid"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-blog.class.php:291
+#: inc/settings.class.php:730 shortcodes/gallery/config.php:19
+#: shortcodes/posts/config.php:32
+msgid "Masonry"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-shop.class.php:43
+#: inc/settings.class.php:1014
+msgid "Layout 01"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-shop.class.php:44
+#: inc/settings.class.php:1018
+msgid "Layout 02"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-shop.class.php:54
+#: libs/smart-framework/fields/background/background.class.php:104
+#: libs/smart-framework/fields/image/image.class.php:46
+msgid "Choose Image"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-shop.class.php:65
+#: shortcodes/banner/config.php:27
+#: shortcodes/product-category/config.php:34
+msgid "Hover Effect"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-shop.class.php:81
+msgid "Size Mode"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-shop.class.php:84
+#: shortcodes/banner/config.php:80
+#: shortcodes/product-category/config.php:52 widgets/banner.class.php:47
+msgid "Original"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-shop.class.php:98
+msgid "Custom Width"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-shop.class.php:114
+msgid "Custom Height"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-shop.class.php:134
+#: inc/abstracts/elementor-listing.class.php:729
+msgid "Columns"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-shop.class.php:147
+#: shortcodes/products/config.php:70
+msgid "Offset"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-shop.class.php:149
+msgid "Enter offset for products"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-shop.class.php:159
+msgid "Is Slider"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-shop.class.php:178
+msgid "Narrow Product"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-shop.class.php:180
+msgid "Enter List of Product"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-shop.class.php:190
+msgid "Tabs"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-shop.class.php:236
+#: inc/abstracts/elementor-listing-shop.class.php:367
+#: inc/abstracts/elementor-listing.class.php:344
+#: inc/abstracts/elementor-listing.class.php:357
+#: inc/abstracts/elementor-listing.class.php:694
+#: inc/settings.class.php:395 shortcodes/product-tabs/config.php:22
+#: shortcodes/products/config.php:30
+msgid "Show"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-shop.class.php:239
+#: inc/abstracts/elementor-listing-shop.class.php:313
+#: inc/abstracts/elementor-listing-shop.class.php:370
+#: shortcodes/product-tabs/config.php:26 shortcodes/products/config.php:34
+msgid "Sale Off"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-shop.class.php:240
+#: inc/abstracts/elementor-listing-shop.class.php:319
+#: inc/abstracts/elementor-listing-shop.class.php:371
+#: shortcodes/product-tabs/config.php:27 shortcodes/products/config.php:35
+msgid "New In"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-shop.class.php:242
+#: inc/abstracts/elementor-listing-shop.class.php:373
+#: shortcodes/product-tabs/config.php:29 shortcodes/products/config.php:37
+msgid "Top rated"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-shop.class.php:243
+#: inc/abstracts/elementor-listing-shop.class.php:374
+#: shortcodes/product-tabs/config.php:30 shortcodes/products/config.php:38
+msgid "Recent review"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-shop.class.php:244
+#: inc/abstracts/elementor-listing-shop.class.php:375
+#: shortcodes/product-tabs/config.php:31 shortcodes/products/config.php:39
+msgid "Best Selling"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-shop.class.php:262
+#: inc/abstracts/elementor-listing-shop.class.php:400
+#: inc/abstracts/elementor-listing.class.php:582
+#: inc/shortcode.class.php:319 inc/shortcode.class.php:371
+#: inc/shortcode.class.php:407
+msgid "Narrow Category"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-shop.class.php:264
+#: inc/abstracts/elementor-listing-shop.class.php:402
+#: inc/abstracts/elementor-listing.class.php:584
+msgid "Enter categories by names to narrow output."
+msgstr ""
+
+#: inc/abstracts/elementor-listing-shop.class.php:273
+#: inc/abstracts/elementor-listing-shop.class.php:437
+#: inc/abstracts/elementor-listing.class.php:631
+#: inc/shortcode.class.php:723 shortcodes/product-tabs/config.php:37
+#: shortcodes/products/config.php:88
+#: widgets/product-category-filter.class.php:41
+msgid "Order by"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-shop.class.php:274
+#: inc/abstracts/elementor-listing-shop.class.php:438
+#: shortcodes/product-tabs/config.php:45 shortcodes/products/config.php:96
+msgid "Select how to sort retrieved products."
+msgstr ""
+
+#: inc/abstracts/elementor-listing-shop.class.php:276
+#: inc/abstracts/elementor-listing-shop.class.php:440
+#: inc/abstracts/elementor-listing.class.php:634
+#: inc/shortcode.class.php:726 shortcodes/product-tabs/config.php:40
+#: shortcodes/products/config.php:91
+msgid "Date"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-shop.class.php:277
+#: inc/abstracts/elementor-listing-shop.class.php:441
+#: inc/abstracts/elementor-listing-shop.class.php:665
+#: shortcodes/pricing-tables/config.php:40
+#: shortcodes/product-tabs/config.php:41 shortcodes/products/config.php:92
+msgid "Price"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-shop.class.php:278
+#: inc/abstracts/elementor-listing-shop.class.php:442
+#: shortcodes/product-tabs/config.php:42 shortcodes/products/config.php:93
+#: widgets/posts.class.php:29
+msgid "Random"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-shop.class.php:279
+#: inc/abstracts/elementor-listing-shop.class.php:443
+#: shortcodes/product-tabs/config.php:43 shortcodes/products/config.php:94
+msgid "Sales"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-shop.class.php:292
+#: inc/abstracts/elementor-listing-shop.class.php:460
+#: inc/abstracts/elementor-listing.class.php:877
+#: inc/shortcode.class.php:757
+msgid "Sorting"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-shop.class.php:293
+#: inc/abstracts/elementor-listing-shop.class.php:461
+#: inc/abstracts/elementor-listing.class.php:878
+#: inc/shortcode.class.php:765
+msgid "Select sorting order."
+msgstr ""
+
+#: inc/abstracts/elementor-listing-shop.class.php:295
+#: inc/abstracts/elementor-listing-shop.class.php:463
+#: inc/abstracts/elementor-listing.class.php:880
+#: inc/shortcode.class.php:760 shortcodes/product-tabs/config.php:54
+#: shortcodes/products/config.php:106
+msgid "Descending"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-shop.class.php:296
+#: inc/abstracts/elementor-listing-shop.class.php:464
+#: inc/abstracts/elementor-listing.class.php:881
+#: inc/shortcode.class.php:761 shortcodes/product-tabs/config.php:55
+#: shortcodes/products/config.php:107
+msgid "Ascending"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-shop.class.php:342
+msgid "Tabs Align"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-shop.class.php:344
+#: inc/abstracts/elementor-listing.class.php:792
+#: inc/config-options.class.php:2138
+#: libs/smart-framework/fields/border/border.class.php:100
+#: libs/smart-framework/fields/spacing/spacing.class.php:31
+#: shortcodes/banner/config.php:46 shortcodes/breadcrumbs/config.php:18
+#: shortcodes/button/config.php:106 shortcodes/button/config.php:132
+#: shortcodes/counter/config.php:14 shortcodes/heading/config.php:31
+#: shortcodes/pie-chart/config.php:89 shortcodes/posts/config.php:107
+#: shortcodes/product-tabs/config.php:68 shortcodes/products/config.php:21
+msgid "Left"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-shop.class.php:345
+#: inc/abstracts/elementor-listing.class.php:370
+#: inc/abstracts/elementor-listing.class.php:793
+#: inc/config-options.class.php:2139 inc/shortcode.class.php:548
+#: shortcodes/banner/config.php:47 shortcodes/breadcrumbs/config.php:19
+#: shortcodes/button/config.php:108 shortcodes/counter/config.php:15
+#: shortcodes/gallery/config.php:160 shortcodes/heading/config.php:32
+#: shortcodes/pie-chart/config.php:90 shortcodes/posts/config.php:108
+#: shortcodes/product-tabs/config.php:69 shortcodes/products/config.php:22
+msgid "Center"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-shop.class.php:346
+#: inc/abstracts/elementor-listing.class.php:794
+#: inc/config-options.class.php:2140
+#: libs/smart-framework/fields/border/border.class.php:82
+#: libs/smart-framework/fields/spacing/spacing.class.php:38
+#: shortcodes/banner/config.php:48 shortcodes/breadcrumbs/config.php:20
+#: shortcodes/button/config.php:107 shortcodes/button/config.php:133
+#: shortcodes/counter/config.php:16 shortcodes/heading/config.php:33
+#: shortcodes/pie-chart/config.php:91 shortcodes/posts/config.php:109
+#: shortcodes/product-tabs/config.php:70 shortcodes/products/config.php:23
+msgid "Right"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-shop.class.php:376
+#: inc/abstracts/elementor-listing-shop.class.php:420
+#: shortcodes/products/config.php:40 shortcodes/products/config.php:45
+msgid "Narrow Products"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-shop.class.php:422
+#: shortcodes/products/config.php:53
+msgid "Enter List of Products"
+msgstr ""
+
+#: inc/abstracts/elementor-listing-shop.class.php:714
+msgid "Price Sale"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:328
+#: shortcodes/gallery/config.php:144 shortcodes/gallery/config.php:149
+#: shortcodes/gallery/config.php:153 shortcodes/gallery/config.php:156
+#: shortcodes/gallery/config.php:164 shortcodes/gallery/config.php:173
+#: shortcodes/gallery/config.php:178 shortcodes/gallery/config.php:181
+#: shortcodes/partners/config.php:47 shortcodes/partners/config.php:52
+#: shortcodes/partners/config.php:55 shortcodes/partners/config.php:58
+#: shortcodes/partners/config.php:61 shortcodes/partners/config.php:64
+#: shortcodes/partners/config.php:67 shortcodes/partners/config.php:71
+#: shortcodes/partners/config.php:74 shortcodes/posts/config.php:151
+#: shortcodes/posts/config.php:156 shortcodes/posts/config.php:161
+#: shortcodes/posts/config.php:164 shortcodes/posts/config.php:167
+#: shortcodes/posts/config.php:170 shortcodes/posts/config.php:173
+#: shortcodes/posts/config.php:176 shortcodes/posts/config.php:180
+#: shortcodes/posts/config.php:183 shortcodes/product-tabs/config.php:96
+#: shortcodes/product-tabs/config.php:109
+#: shortcodes/product-tabs/config.php:114
+#: shortcodes/product-tabs/config.php:119
+#: shortcodes/product-tabs/config.php:122
+#: shortcodes/product-tabs/config.php:125
+#: shortcodes/product-tabs/config.php:128
+#: shortcodes/product-tabs/config.php:131
+#: shortcodes/product-tabs/config.php:135
+#: shortcodes/product-tabs/config.php:138
+#: shortcodes/products/config.php:119 shortcodes/products/config.php:132
+#: shortcodes/products/config.php:136 shortcodes/products/config.php:141
+#: shortcodes/products/config.php:144 shortcodes/products/config.php:147
+#: shortcodes/products/config.php:150 shortcodes/products/config.php:153
+#: shortcodes/products/config.php:157 shortcodes/products/config.php:160
+#: shortcodes/testimonials/config.php:71
+#: shortcodes/testimonials/config.php:75
+#: shortcodes/testimonials/config.php:78
+#: shortcodes/testimonials/config.php:81
+#: shortcodes/testimonials/config.php:84
+#: shortcodes/testimonials/config.php:87
+#: shortcodes/testimonials/config.php:94
+#: shortcodes/testimonials/config.php:97
+msgid "Slider Options"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:334
+msgid "Slide Rows"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:342
+msgid "Show Pagination"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:355
+msgid "Show Navigation"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:368
+#: inc/shortcode.class.php:543
+msgid "Navigation Position"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:371
+#: inc/shortcode.class.php:550
+msgid "Bottom Center"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:384
+#: inc/shortcode.class.php:568
+msgid "Navigation Style"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:386
+#: inc/abstracts/elementor-listing.class.php:420
+#: inc/shortcode.class.php:572 inc/shortcode.class.php:626
+#: shortcodes/banner/config.php:14 shortcodes/countdown/config.php:20
+#: shortcodes/heading/config.php:14 shortcodes/info-box/config.php:14
+#: shortcodes/mail-chimp/config.php:21
+#: shortcodes/product-category/config.php:14
+msgid "Style 01"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:387
+#: inc/abstracts/elementor-listing.class.php:421
+#: inc/shortcode.class.php:576 inc/shortcode.class.php:630
+#: shortcodes/banner/config.php:18 shortcodes/countdown/config.php:24
+#: shortcodes/heading/config.php:18 shortcodes/info-box/config.php:18
+#: shortcodes/mail-chimp/config.php:25
+#: shortcodes/product-category/config.php:18
+msgid "Style 02"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:388
+#: inc/shortcode.class.php:580 shortcodes/info-box/config.php:22
+msgid "Style 03"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:401
+#: inc/shortcode.class.php:599
+msgid "Navigation Size"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:403
+#: inc/shortcode.class.php:602 shortcodes/button/config.php:93
+#: shortcodes/counter/config.php:27 shortcodes/info-box/config.php:257
+#: shortcodes/social-networks/config.php:34 shortcodes/video/config.php:25
+#: widgets/social-profile.class.php:47
+msgid "Small"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:405
+#: inc/shortcode.class.php:604 shortcodes/button/config.php:95
+#: shortcodes/counter/config.php:29 shortcodes/info-box/config.php:255
+#: shortcodes/social-networks/config.php:36 shortcodes/video/config.php:23
+#: widgets/social-profile.class.php:45
+msgid "Large"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:418
+#: inc/shortcode.class.php:622
+msgid "Navigation Hover Style"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:434
+#: inc/shortcode.class.php:645
+msgid "Navigation Hover Scheme"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:436
+#: inc/config-options.class.php:1390 inc/config-options.class.php:1477
+#: inc/config-options.class.php:1558 inc/config-options.class.php:1700
+#: inc/config-options.class.php:1777 inc/config-options.class.php:1841
+#: inc/config-options.class.php:1933 inc/settings.class.php:419
+#: inc/shortcode.class.php:648 shortcodes/google-map/config.php:123
+msgid "Dark"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:437
+#: inc/config-options.class.php:1389 inc/config-options.class.php:1476
+#: inc/config-options.class.php:1557 inc/config-options.class.php:1699
+#: inc/config-options.class.php:1776 inc/config-options.class.php:1840
+#: inc/config-options.class.php:1932 inc/settings.class.php:409
+#: inc/shortcode.class.php:649 shortcodes/google-map/config.php:122
+msgid "Light"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:451
+#: inc/shortcode.class.php:667
+msgid "Autoplay Enable"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:463
+#: inc/shortcode.class.php:685
+msgid "Autoplay Timeout"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:479
+msgid "Image Size"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:487
+#: inc/config-options.class.php:2745 shortcodes/gallery/config.php:64
+#: shortcodes/posts/config.php:41
+msgid "Image size"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:489
+msgid ""
+"Enter image size (Example: \"thumbnail\", \"medium\", \"large\", \"full"
+"\" or other sizes defined by theme). Alternatively enter size in pixels "
+"(Example: 300x400)."
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:501
+msgid "Image Ratio Width"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:525
+msgid "Image Ratio Height"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:549
+msgid "Image Width"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:566
+#: inc/config-meta-boxes.class.php:436 inc/config-options.class.php:2256
+#: inc/config-options.class.php:2862 shortcodes/posts/config.php:89
+msgid "Posts Per Page"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:568
+#: shortcodes/posts/config.php:90
+msgid "Enter number of posts per page you want to display. Default 10"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:602
+#: inc/shortcode.class.php:432
+msgid "Narrow Tag"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:604
+msgid "Enter tags by names to narrow output."
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:617
+#: inc/shortcode.class.php:709
+msgid "Narrow Post"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:619
+#: inc/shortcode.class.php:719
+msgid "Enter List of Posts"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:632
+#: inc/shortcode.class.php:739
+msgid ""
+"Select order type. If \"Meta value\" or \"Meta value Number\" is chosen "
+"then meta key is required."
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:635
+#: inc/shortcode.class.php:727
+msgid "Order by post ID"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:636
+#: inc/shortcode.class.php:728
+msgid "Author"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:638
+#: inc/shortcode.class.php:730
+msgid "Last modified date"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:639
+#: inc/shortcode.class.php:731
+msgid "Post/page parent ID"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:640
+#: inc/shortcode.class.php:732
+msgid "Number of comments"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:641
+#: inc/shortcode.class.php:733
+msgid "Menu order/Page Order"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:642
+#: inc/shortcode.class.php:734
+msgid "Meta value"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:643
+#: inc/shortcode.class.php:735
+msgid "Meta value number"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:644
+#: inc/shortcode.class.php:736
+msgid "Random order"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:657
+#: inc/shortcode.class.php:743
+msgid "Time Filter"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:659
+#: inc/shortcode.class.php:746
+msgid "No Filter"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:660
+#: inc/shortcode.class.php:747
+msgid "Today Posts"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:661
+#: inc/shortcode.class.php:748
+msgid "Today + Yesterday Posts"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:662
+#: inc/shortcode.class.php:749
+msgid "This Week Posts"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:663
+#: inc/shortcode.class.php:750
+msgid "This Month Posts"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:664
+#: inc/shortcode.class.php:751
+msgid "This Year Posts"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:676
+#: inc/shortcode.class.php:770
+msgid "Meta key"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:678
+msgid "Input meta key for grid ordering"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:692
+#: inc/config-options.class.php:2134 inc/config-options.class.php:3242
+#: shortcodes/posts/config.php:97 shortcodes/products/config.php:11
+msgid "Category Filter"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:705
+msgid "Category Filter Align"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:720
+#: inc/shortcode.class.php:257 inc/shortcode.class.php:823
+#: inc/shortcode.class.php:833 inc/shortcode.class.php:843
+#: inc/shortcode.class.php:853 inc/shortcode.class.php:863
+#: shortcodes/partners/config.php:140 shortcodes/partners/config.php:149
+#: shortcodes/partners/config.php:158 shortcodes/partners/config.php:167
+msgid "Responsive"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:746
+#: inc/config-meta-boxes.class.php:172 inc/config-meta-boxes.class.php:523
+#: inc/config-options.class.php:2343 inc/config-options.class.php:2877
+#: inc/config-options.class.php:3189 inc/config-options.class.php:3512
+#: inc/config-options.class.php:3611 inc/config-options.class.php:3712
+#: inc/shortcode.class.php:175 inc/shortcode.class.php:194
+#: inc/shortcode.class.php:211 shortcodes/posts/config.php:203
+msgid "Animation"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:747
+#: inc/config-meta-boxes.class.php:524 inc/config-options.class.php:2344
+#: inc/config-options.class.php:2878 shortcodes/posts/config.php:204
+msgid "Specify your post animation"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:760
+#: inc/config-meta-boxes.class.php:514 inc/config-options.class.php:2334
+#: inc/config-options.class.php:2869 shortcodes/posts/config.php:187
+msgid "Post Paging"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:761
+msgid "Specify your post paging mode."
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:782 inc/settings.class.php:30
+#: inc/settings.class.php:83 inc/settings.class.php:105
+#: inc/settings.class.php:125 inc/settings.class.php:358
+#: inc/settings.class.php:442 inc/settings.class.php:737
+#: inc/settings.class.php:781 inc/settings.class.php:808
+#: inc/settings.class.php:836 inc/settings.class.php:861
+#: inc/settings.class.php:879 inc/settings.class.php:922
+#: inc/settings.class.php:948 inc/settings.class.php:984
+#: inc/settings.class.php:1004 inc/settings.class.php:1025
+#: inc/settings.class.php:1043 inc/shortcode.class.php:290
+msgid "Inherit"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:802
+#: shortcodes/posts/config.php:191 shortcodes/product-tabs/config.php:146
+#: shortcodes/products/config.php:168
+msgid "No Pagination"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:805
+#: inc/settings.class.php:853 inc/settings.class.php:872
+#: shortcodes/posts/config.php:192 shortcodes/product-tabs/config.php:148
+#: shortcodes/products/config.php:169
+msgid "Ajax - Pagination"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:808
+#: inc/settings.class.php:854 inc/settings.class.php:873
+#: shortcodes/posts/config.php:193 shortcodes/product-tabs/config.php:149
+#: shortcodes/products/config.php:170
+msgid "Ajax - Next Prev"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:811
+#: inc/settings.class.php:855 inc/settings.class.php:874
+#: shortcodes/posts/config.php:194 shortcodes/product-tabs/config.php:150
+#: shortcodes/products/config.php:171
+msgid "Ajax - Load More"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:814
+#: inc/settings.class.php:856 shortcodes/posts/config.php:195
+#: shortcodes/product-tabs/config.php:151
+#: shortcodes/products/config.php:172
+msgid "Ajax - Infinite Scroll"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:831
+#: inc/settings.class.php:913 inc/shortcode.class.php:165
+msgid "Top to bottom"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:832
+#: inc/settings.class.php:914 inc/shortcode.class.php:166
+msgid "Bottom to top"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:833
+#: inc/settings.class.php:915 inc/shortcode.class.php:167
+msgid "Left to right"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:834
+#: inc/settings.class.php:916 inc/shortcode.class.php:168
+msgid "Right to left"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:835
+#: inc/settings.class.php:917 inc/shortcode.class.php:169
+msgid "Appear from center"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:848
+#: inc/config-meta-boxes.class.php:369 inc/config-options.class.php:2191
+#: inc/config-options.class.php:2697 shortcodes/posts/config.php:15
+msgid "Post Layout"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:849
+msgid "Specify your layout"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:862
+#: shortcodes/gallery/config.php:128 shortcodes/partners/config.php:78
+#: shortcodes/product-tabs/config.php:84 shortcodes/products/config.php:79
+#: shortcodes/testimonials/config.php:11
+#: shortcodes/view-demo/config.php:11
+msgid "Columns Gutter"
+msgstr ""
+
+#: inc/abstracts/elementor-listing.class.php:863
+msgid "Specify your horizontal space between item."
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:39
+msgid "Product Settings"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:45 inc/config-options.class.php:3384
+#: inc/settings.class.php:488
+msgid "Single Product"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:50
+msgid "Product Single Layout"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:51 inc/config-options.class.php:3390
+msgid "Specify your product single layout"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:58
+msgid "Product Video Introduction"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:59
+msgid "Video URL"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:68
+msgid "Related Products"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:73
+msgid "Show Related Products"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:78 inc/config-options.class.php:3413
+msgid "Related Products Algorithm"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:79 inc/config-options.class.php:3414
+msgid "Specify the algorithm of related products"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:87 inc/config-meta-boxes.class.php:429
+#: inc/config-options.class.php:2249 inc/config-options.class.php:3422
+msgid "Carousel Mode"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:88 inc/config-meta-boxes.class.php:430
+#: inc/config-options.class.php:2250 inc/config-options.class.php:3423
+msgid "Turn On this option if you want to enable carousel mode"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:94 inc/config-options.class.php:3082
+#: inc/config-options.class.php:3429 inc/config-options.class.php:3533
+msgid "Product Columns Gutter"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:95 inc/config-options.class.php:3083
+#: inc/config-options.class.php:3430 inc/config-options.class.php:3534
+#: inc/config-options.class.php:3635
+msgid "Specify your horizontal space between product."
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:103 inc/config-options.class.php:3096
+#: inc/config-options.class.php:3443 inc/config-options.class.php:3542
+msgid "Product Columns"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:114 inc/config-meta-boxes.class.php:465
+#: inc/config-options.class.php:2285 inc/config-options.class.php:2813
+#: inc/config-options.class.php:3107 inc/config-options.class.php:3309
+#: inc/config-options.class.php:3454 inc/config-options.class.php:3553
+#: inc/config-options.class.php:3654 inc/shortcode.class.php:818
+msgid "Large Devices"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:115
+msgid "Specify your related products columns on large devices (>= 1200px)"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:123 inc/config-meta-boxes.class.php:474
+#: inc/config-options.class.php:2294 inc/config-options.class.php:2822
+#: inc/config-options.class.php:3116 inc/config-options.class.php:3318
+#: inc/config-options.class.php:3463 inc/config-options.class.php:3562
+#: inc/config-options.class.php:3663 inc/shortcode.class.php:828
+msgid "Medium Devices"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:124
+msgid "Specify your related products columns on medium devices (>= 992px)"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:132 inc/config-meta-boxes.class.php:483
+#: inc/config-options.class.php:2303 inc/config-options.class.php:2831
+#: inc/config-options.class.php:3125 inc/config-options.class.php:3327
+#: inc/config-options.class.php:3472 inc/config-options.class.php:3571
+#: inc/config-options.class.php:3672 inc/shortcode.class.php:838
+msgid "Small Devices"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:133
+msgid "Specify your related products columns on small devices (>= 768px)"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:141 inc/config-meta-boxes.class.php:492
+#: inc/config-options.class.php:2312 inc/config-options.class.php:2840
+#: inc/config-options.class.php:3134 inc/config-options.class.php:3336
+#: inc/config-options.class.php:3481 inc/config-options.class.php:3580
+#: inc/config-options.class.php:3681
+msgid "Extra Small Devices "
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:142
+msgid ""
+"Specify your related products columns on extra small devices (< 768px)"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:150 inc/config-meta-boxes.class.php:501
+#: inc/config-options.class.php:2321 inc/config-options.class.php:2849
+#: inc/config-options.class.php:3143 inc/config-options.class.php:3345
+#: inc/config-options.class.php:3490 inc/config-options.class.php:3589
+#: inc/config-options.class.php:3690
+msgid "Extra Extra Small Devices "
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:151
+msgid ""
+"Specify your related products columns on extra extra small devices (< "
+"576px)"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:163 inc/config-options.class.php:3156
+#: inc/config-options.class.php:3503 inc/config-options.class.php:3602
+#: shortcodes/product-tabs/config.php:77 shortcodes/products/config.php:61
+msgid "Products Per Page"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:164
+msgid "Enter number of products per page you want to display."
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:173 inc/config-options.class.php:3190
+#: inc/config-options.class.php:3513 inc/config-options.class.php:3612
+#: inc/config-options.class.php:3713
+#: shortcodes/product-tabs/config.php:160
+#: shortcodes/products/config.php:180
+msgid "Specify your product animation"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:189
+msgid "Page Settings"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:206 inc/config-meta-boxes.class.php:545
+#: inc/config-options.class.php:487
+msgid "Site Layout"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:214 inc/config-meta-boxes.class.php:553
+#: inc/config-options.class.php:501
+msgid "Content Full Width"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:215 inc/config-meta-boxes.class.php:554
+#: inc/config-options.class.php:502 inc/config-options.class.php:589
+msgid ""
+"Turn On this option if you want to expand the content area to full "
+"width."
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:221 inc/config-meta-boxes.class.php:560
+msgid "Custom Content Padding"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:222 inc/config-meta-boxes.class.php:561
+msgid "Turn On this option if you want to custom content padding."
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:228 inc/config-meta-boxes.class.php:567
+#: inc/config-options.class.php:507
+msgid "Content Padding"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:229 inc/config-meta-boxes.class.php:245
+#: inc/config-meta-boxes.class.php:568 inc/config-meta-boxes.class.php:584
+#: inc/config-options.class.php:508
+msgid "Set content padding"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:237 inc/config-meta-boxes.class.php:576
+msgid "Mobile Custom Content Padding"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:238 inc/config-meta-boxes.class.php:577
+msgid ""
+"Turn On this option if you want to custom content padding on mobile "
+"devices."
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:244 inc/config-meta-boxes.class.php:583
+msgid "Mobile Content Padding"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:264 inc/config-meta-boxes.class.php:603
+#: inc/config-options.class.php:954 inc/config-options.class.php:2003
+#: inc/config-term-meta.class.php:61 shortcodes/page-title/config.php:8
+msgid "Page Title"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:267 inc/config-meta-boxes.class.php:606
+#: inc/config-options.class.php:959 inc/config-term-meta.class.php:64
+msgid "Page Title Enable"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:272 inc/config-meta-boxes.class.php:611
+#: inc/config-options.class.php:965 inc/config-term-meta.class.php:69
+msgid "Specify the Content Block to use as a page title content."
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:277 inc/config-meta-boxes.class.php:616
+#: inc/config-term-meta.class.php:74
+msgid "Custom Page title"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:282 inc/config-meta-boxes.class.php:621
+#: inc/config-term-meta.class.php:79
+msgid "Enter custom page title for this page"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:287 inc/config-meta-boxes.class.php:634
+#: inc/config-options.class.php:2565 inc/config-options.class.php:2627
+msgid "Custom Css Class"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:292 inc/config-meta-boxes.class.php:639
+msgid "Enter custom class for this page"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:298 inc/config-meta-boxes.class.php:645
+#: inc/config-options.class.php:1134 inc/config-options.class.php:1466
+#: inc/config-options.class.php:1831
+msgid "Menu"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:303 inc/config-meta-boxes.class.php:650
+msgid "Page Menu"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:306 inc/config-meta-boxes.class.php:315
+#: inc/config-meta-boxes.class.php:653 inc/config-meta-boxes.class.php:662
+msgid "Select Menu"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:307 inc/config-meta-boxes.class.php:654
+msgid ""
+"Optionally you can choose to override the menu that is used on the page"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:312 inc/config-meta-boxes.class.php:659
+msgid "Page Mobile Menu"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:316 inc/config-meta-boxes.class.php:663
+msgid ""
+"Optionally you can choose to override the menu mobile that is used on "
+"the page"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:321 inc/config-meta-boxes.class.php:668
+msgid "Is One Page"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:322 inc/config-meta-boxes.class.php:669
+msgid "Set page style is One Page"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:334
+msgid "Post Settings"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:345 inc/config-meta-boxes.class.php:351
+msgid "Featured Video/Audio Code"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:346 inc/config-meta-boxes.class.php:352
+msgid ""
+"Paste YouTube, Vimeo or self hosted video URL then player automatically "
+"will be generated."
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:357
+msgid "Featured Gallery"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:358
+msgid ""
+"Select images for featured gallery. (Apply for post format gallery)"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:363
+msgid "Featured Link"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:364
+msgid "Enter featured link. (Apply for post format link)"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:370 inc/config-options.class.php:2192
+#: inc/config-options.class.php:2698 shortcodes/posts/config.php:16
+msgid "Specify your post layout"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:377 inc/config-options.class.php:2199
+msgid "Reading Process"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:378 inc/config-options.class.php:2200
+msgid ""
+"Turn Off this option if you want to hide reading process on single blog"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:383 inc/config-options.class.php:2205
+msgid "Tags"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:384 inc/config-options.class.php:2206
+msgid "Turn Off this option if you want to hide tags on single blog"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:389 inc/config-options.class.php:2211
+msgid "Share"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:390 inc/config-options.class.php:2212
+msgid "Turn Off this option if you want to hide share on single blog"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:395 inc/config-options.class.php:759
+#: inc/config-options.class.php:2217
+msgid "Navigation"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:396 inc/config-options.class.php:2218
+msgid "Turn Off this option if you want to hide navigation on single blog"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:401 inc/config-options.class.php:2223
+msgid "Author Info"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:402 inc/config-options.class.php:2224
+msgid ""
+"Turn Off this option if you want to hide author info area on single blog"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:409 inc/config-meta-boxes.class.php:414
+#: inc/config-options.class.php:2229 inc/config-options.class.php:2234
+msgid "Related Posts"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:415 inc/config-options.class.php:2235
+msgid ""
+"Turn Off this option if you want to hide related posts area on single "
+"blog"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:420 inc/config-options.class.php:2240
+msgid "Related Posts Algorithm"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:421 inc/config-options.class.php:2241
+msgid "Specify the algorithm of related posts"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:437 inc/config-options.class.php:2257
+msgid "Enter number of posts per page you want to display"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:445 inc/config-options.class.php:2265
+#: inc/config-options.class.php:2793 shortcodes/posts/config.php:119
+msgid "Post Columns Gutter"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:446 inc/config-options.class.php:2266
+#: inc/config-options.class.php:2794 shortcodes/posts/config.php:120
+msgid "Specify your horizontal space between post."
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:454 inc/config-options.class.php:2274
+#: inc/config-options.class.php:2802
+msgid "Post Columns"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:466 inc/config-options.class.php:2286
+#: inc/config-options.class.php:2814
+msgid "Specify your post columns on large devices (>= 1200px)"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:475 inc/config-options.class.php:2295
+#: inc/config-options.class.php:2823
+msgid "Specify your post columns on medium devices (>= 992px)"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:484 inc/config-options.class.php:2304
+#: inc/config-options.class.php:2832
+msgid "Specify your post columns on small devices (>= 768px)"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:493 inc/config-options.class.php:2313
+#: inc/config-options.class.php:2841
+msgid "Specify your post columns on extra small devices (< 768px)"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:502 inc/config-options.class.php:2322
+msgid "Specify your post columns on extra extra small devices (< 480px)"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:515 inc/config-options.class.php:2335
+#: inc/config-options.class.php:2870 shortcodes/posts/config.php:188
+#: shortcodes/product-tabs/config.php:143
+#: shortcodes/products/config.php:165
+msgid "Specify your post paging mode"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:624
+msgid "Custom Page Subtitle"
+msgstr ""
+
+#: inc/config-meta-boxes.class.php:629
+msgid "Enter custom page subtitle for this page"
+msgstr ""
+
+#: inc/config-options.class.php:33
+msgid "Lustria Skin Options"
+msgstr ""
+
+#: inc/config-options.class.php:46
+msgid "Lustria Theme Options"
+msgstr ""
+
+#: inc/config-options.class.php:128
+msgid "Lazy Load Images"
+msgstr ""
+
+#: inc/config-options.class.php:129
+msgid "If enabled, images will only be loaded when they come to view"
+msgstr ""
+
+#: inc/config-options.class.php:135 inc/config-options.class.php:140
+msgid "Custom Scroll"
+msgstr ""
+
+#: inc/config-options.class.php:141
+msgid "Turn On this option if you want to custom scroll"
+msgstr ""
+
+#: inc/config-options.class.php:148
+msgid "Custom Scroll Width"
+msgstr ""
+
+#: inc/config-options.class.php:149
+msgid "This must be numeric (no px) or empty."
+msgstr ""
+
+#: inc/config-options.class.php:156
+msgid "Custom Scroll Color"
+msgstr ""
+
+#: inc/config-options.class.php:163
+msgid "Custom Scroll Thumb Color"
+msgstr ""
+
+#: inc/config-options.class.php:171
+msgid "Back To Top"
+msgstr ""
+
+#: inc/config-options.class.php:172
+msgid "Turn Off this option if you want to disable back to top"
+msgstr ""
+
+#: inc/config-options.class.php:178
+msgid "RTL Mode"
+msgstr ""
+
+#: inc/config-options.class.php:179
+msgid "Turn On this option if you want to enable rtl mode"
+msgstr ""
+
+#: inc/config-options.class.php:185
+msgid "Google Map API Key"
+msgstr ""
+
+#: inc/config-options.class.php:190
+msgid "Social Meta"
+msgstr ""
+
+#: inc/config-options.class.php:196
+msgid "Enable Social Meta Tags"
+msgstr ""
+
+#: inc/config-options.class.php:197
+msgid "Turn On this option if you want to enable social meta"
+msgstr ""
+
+#: inc/config-options.class.php:203
+msgid "Twitter Username"
+msgstr ""
+
+#: inc/config-options.class.php:204
+msgid ""
+"Enter your twitter username here, to be used for the Twitter Card date. "
+"Ensure that you do not include the @ symbol."
+msgstr ""
+
+#: inc/config-options.class.php:211
+msgid "Google+ Username"
+msgstr ""
+
+#: inc/config-options.class.php:212
+msgid ""
+"Enter your Google+ username here, to be used for the authorship meta."
+msgstr ""
+
+#: inc/config-options.class.php:221
+msgid "Breadcrumb"
+msgstr ""
+
+#: inc/config-options.class.php:227
+msgid "Show Breadcrumb"
+msgstr ""
+
+#: inc/config-options.class.php:228
+msgid "Turn On this option if you want to enable breadcrumb"
+msgstr ""
+
+#: inc/config-options.class.php:233
+msgid "Show Post Categories in Breadcrumb"
+msgstr ""
+
+#: inc/config-options.class.php:234
+msgid "Turn on to display the post categories in the breadcrumbs path"
+msgstr ""
+
+#: inc/config-options.class.php:240
+msgid "Show Post Type Archives in Breadcrumb"
+msgstr ""
+
+#: inc/config-options.class.php:241
+msgid "Turn on to display post type archives in the breadcrumbs path."
+msgstr ""
+
+#: inc/config-options.class.php:250
+msgid "Search Popup"
+msgstr ""
+
+#: inc/config-options.class.php:256
+msgid "Post Type For Ajax Search"
+msgstr ""
+
+#: inc/config-options.class.php:265
+msgid "Amount Of Search Result"
+msgstr ""
+
+#: inc/config-options.class.php:277
+msgid "Maintenance"
+msgstr ""
+
+#: inc/config-options.class.php:284
+msgid "Maintenance Mode"
+msgstr ""
+
+#: inc/config-options.class.php:290
+msgid "Maintenance Mode Page"
+msgstr ""
+
+#: inc/config-options.class.php:291
+msgid ""
+"Select the page that is your maintenance page, if you would like to "
+"show a custom page instead of the standard WordPress message. You "
+"should use the Holding Page template for this page."
+msgstr ""
+
+#: inc/config-options.class.php:293
+msgid "Select Page"
+msgstr ""
+
+#: inc/config-options.class.php:311 inc/config-options.class.php:317
+msgid "Page Transition"
+msgstr ""
+
+#: inc/config-options.class.php:318
+msgid "Turn On this option if you want to enable page transition"
+msgstr ""
+
+#: inc/config-options.class.php:324
+msgid "Loading Animation"
+msgstr ""
+
+#: inc/config-options.class.php:325
+msgid "Select type of pre load animation"
+msgstr ""
+
+#: inc/config-options.class.php:332
+msgid "Logo Loading"
+msgstr ""
+
+#: inc/config-options.class.php:338
+msgid "Loading Background Color"
+msgstr ""
+
+#: inc/config-options.class.php:347
+msgid "Spinner color"
+msgstr ""
+
+#: inc/config-options.class.php:361
+msgid "Custom Favicon"
+msgstr ""
+
+#: inc/config-options.class.php:368
+msgid "Custom favicon"
+msgstr ""
+
+#: inc/config-options.class.php:369
+msgid ""
+"Upload a 16px x 16px Png/Gif/ico image that will represent your website "
+"favicon"
+msgstr ""
+
+#: inc/config-options.class.php:374
+msgid "Custom iOS Bookmark Title"
+msgstr ""
+
+#: inc/config-options.class.php:375
+msgid ""
+"Enter a custom title for your site for when it is added as an iOS "
+"bookmark."
+msgstr ""
+
+#: inc/config-options.class.php:381
+msgid "Custom iOS 57x57"
+msgstr ""
+
+#: inc/config-options.class.php:382
+msgid ""
+"Upload a 57px x 57px Png image that will be your website bookmark on "
+"non-retina iOS devices."
+msgstr ""
+
+#: inc/config-options.class.php:387
+msgid "Custom iOS 72x72"
+msgstr ""
+
+#: inc/config-options.class.php:388
+msgid ""
+"Upload a 72px x 72px Png image that will be your website bookmark on "
+"non-retina iOS devices."
+msgstr ""
+
+#: inc/config-options.class.php:393
+msgid "Custom iOS 114x114"
+msgstr ""
+
+#: inc/config-options.class.php:394
+msgid ""
+"Upload a 114px x 114px Png image that will be your website bookmark on "
+"retina iOS devices."
+msgstr ""
+
+#: inc/config-options.class.php:399
+msgid "Custom iOS 144x144"
+msgstr ""
+
+#: inc/config-options.class.php:400
+msgid ""
+"Upload a 144px x 144px Png image that will be your website bookmark on "
+"retina iOS devices."
+msgstr ""
+
+#: inc/config-options.class.php:410 inc/settings.class.php:460
+msgid "404 Page"
+msgstr ""
+
+#: inc/config-options.class.php:416
+msgid "Specify the Content Block to use as a 404 page content."
+msgstr ""
+
+#: inc/config-options.class.php:421
+msgid "404 Page Content"
+msgstr ""
+
+#: inc/config-options.class.php:466
+msgid "Preset Setting"
+msgstr ""
+
+#: inc/config-options.class.php:496
+msgid "Main Content"
+msgstr ""
+
+#: inc/config-options.class.php:520
+msgid "Sidebar Width"
+msgstr ""
+
+#: inc/config-options.class.php:528
+msgid "Sidebar Sticky"
+msgstr ""
+
+#: inc/config-options.class.php:529
+msgid "Turn On this option if you want to enable sidebar sticky"
+msgstr ""
+
+#: inc/config-options.class.php:539 inc/config-options.class.php:651
+#: inc/config-options.class.php:781 inc/config-options.class.php:894
+msgid "Mobile"
+msgstr ""
+
+#: inc/config-options.class.php:544
+msgid "Sidebar Mobile"
+msgstr ""
+
+#: inc/config-options.class.php:545
+msgid "Turn Off this option if you want to disable sidebar on mobile"
+msgstr ""
+
+#: inc/config-options.class.php:551
+msgid "Content Padding Mobile"
+msgstr ""
+
+#: inc/config-options.class.php:552
+msgid "Set content top/bottom padding"
+msgstr ""
+
+#: inc/config-options.class.php:571 inc/config-options.class.php:1353
+msgid "Top Drawer"
+msgstr ""
+
+#: inc/config-options.class.php:576
+msgid "Top Drawer Mode"
+msgstr ""
+
+#: inc/config-options.class.php:583
+msgid "Specify the Content Block to use as a top drawer content."
+msgstr ""
+
+#: inc/config-options.class.php:588
+msgid "Top Drawer Full Width"
+msgstr ""
+
+#: inc/config-options.class.php:595
+msgid "Padding"
+msgstr ""
+
+#: inc/config-options.class.php:596
+msgid "Set top drawer padding"
+msgstr ""
+
+#: inc/config-options.class.php:609
+msgid "Mobile Enable"
+msgstr ""
+
+#: inc/config-options.class.php:610
+msgid "Turn On this option if you want to enable top drawer on mobile"
+msgstr ""
+
+#: inc/config-options.class.php:632 inc/config-options.class.php:702
+#: inc/config-options.class.php:845
+msgid "Desktop"
+msgstr ""
+
+#: inc/config-options.class.php:638 inc/config-options.class.php:656
+msgid "Top Bar Enable"
+msgstr ""
+
+#: inc/config-options.class.php:639 inc/config-options.class.php:657
+msgid "Turn On this option if you want to enable top bar"
+msgstr ""
+
+#: inc/config-options.class.php:644 inc/config-options.class.php:662
+msgid "Specify the Content Block to use as a top bar content."
+msgstr ""
+
+#: inc/config-options.class.php:679 inc/config-options.class.php:1379
+msgid "Header"
+msgstr ""
+
+#: inc/config-options.class.php:684
+msgid "Header Enable"
+msgstr ""
+
+#: inc/config-options.class.php:686
+msgid "Turn Off this option if you want to hide header"
+msgstr ""
+
+#: inc/config-options.class.php:691
+msgid "Header Responsive Breakpoint"
+msgstr ""
+
+#: inc/config-options.class.php:693
+msgid "Large Devices: < 1200px"
+msgstr ""
+
+#: inc/config-options.class.php:694
+msgid "Medium Devices: < 992px"
+msgstr ""
+
+#: inc/config-options.class.php:695
+msgid "Tablet Portrait: < 768px"
+msgstr ""
+
+#: inc/config-options.class.php:708 inc/config-options.class.php:787
+msgid "Header Layout"
+msgstr ""
+
+#: inc/config-options.class.php:714
+msgid "Customize Navigation"
+msgstr ""
+
+#: inc/config-options.class.php:715
+msgid "Customize Left"
+msgstr ""
+
+#: inc/config-options.class.php:716
+msgid "Customize Right"
+msgstr ""
+
+#: inc/config-options.class.php:719
+msgid "Header Full Width"
+msgstr ""
+
+#: inc/config-options.class.php:720
+msgid ""
+"Turn On this option if you want to expand the content area to full width"
+msgstr ""
+
+#: inc/config-options.class.php:726 inc/config-options.class.php:800
+msgid "Header Float"
+msgstr ""
+
+#: inc/config-options.class.php:727 inc/config-options.class.php:801
+msgid "Turn On this option if you want to enable header float"
+msgstr ""
+
+#: inc/config-options.class.php:733 inc/config-options.class.php:806
+#: inc/config-options.class.php:1685
+msgid "Header Sticky"
+msgstr ""
+
+#: inc/config-options.class.php:737 inc/config-options.class.php:810
+msgid "Always Show"
+msgstr ""
+
+#: inc/config-options.class.php:738 inc/config-options.class.php:811
+msgid "Show On Scroll Up"
+msgstr ""
+
+#: inc/config-options.class.php:746
+msgid "Header Above Border Bottom"
+msgstr ""
+
+#: inc/config-options.class.php:752 inc/config-options.class.php:819
+msgid "Header Padding"
+msgstr ""
+
+#: inc/config-options.class.php:753 inc/config-options.class.php:822
+msgid ""
+"If you would like to override the default header padding, then you can "
+"do so here."
+msgstr ""
+
+#: inc/config-options.class.php:766
+msgid "Navigation Height"
+msgstr ""
+
+#: inc/config-options.class.php:767
+msgid ""
+"If you would like to override the default navigation height, then you "
+"can do so here."
+msgstr ""
+
+#: inc/config-options.class.php:772
+msgid "Navigation Spacing"
+msgstr ""
+
+#: inc/config-options.class.php:794
+msgid "Search Box"
+msgstr ""
+
+#: inc/config-options.class.php:795
+msgid "Turn On this option if you want to enable search box"
+msgstr ""
+
+#: inc/config-options.class.php:815
+msgid "Customize"
+msgstr ""
+
+#: inc/config-options.class.php:840 inc/config-options.class.php:850
+#: inc/config-options.class.php:899
+msgid "Logo"
+msgstr ""
+
+#: inc/config-options.class.php:851 inc/config-options.class.php:900
+msgid ""
+"By default, a text-based logo is created using your site title. But you "
+"can also upload an image-based logo here."
+msgstr ""
+
+#: inc/config-options.class.php:856 inc/config-options.class.php:905
+msgid "Logo Retina (2x)"
+msgstr ""
+
+#: inc/config-options.class.php:857 inc/config-options.class.php:870
+#: inc/config-options.class.php:906 inc/config-options.class.php:919
+msgid ""
+"If you want to upload a Retina Image, It's Image Size should be exactly "
+"double in compare with your normal Logo."
+msgstr ""
+
+#: inc/config-options.class.php:863 inc/config-options.class.php:912
+msgid "Sticky Logo"
+msgstr ""
+
+#: inc/config-options.class.php:869 inc/config-options.class.php:918
+msgid "Sticky Logo Retina"
+msgstr ""
+
+#: inc/config-options.class.php:877 inc/config-options.class.php:926
+msgid "Logo Max Height"
+msgstr ""
+
+#: inc/config-options.class.php:878 inc/config-options.class.php:927
+msgid ""
+"If you would like to override the default logo max height, then you can "
+"do so here."
+msgstr ""
+
+#: inc/config-options.class.php:884 inc/config-options.class.php:933
+msgid "Logo Padding"
+msgstr ""
+
+#: inc/config-options.class.php:885 inc/config-options.class.php:934
+msgid ""
+"If you would like to override the default logo top/bottom padding, then "
+"you can do so here."
+msgstr ""
+
+#: inc/config-options.class.php:960
+msgid "Turn Of this option if you want to disable page title"
+msgstr ""
+
+#: inc/config-options.class.php:986
+msgid "Footer Enable"
+msgstr ""
+
+#: inc/config-options.class.php:987
+msgid "Turn Off this option if you want to disable footer"
+msgstr ""
+
+#: inc/config-options.class.php:992
+msgid "Specify the Content Block to use as a footer content."
+msgstr ""
+
+#: inc/config-options.class.php:997
+msgid "Footer Fixed"
+msgstr ""
+
+#: inc/config-options.class.php:1014
+msgid "Typography"
+msgstr ""
+
+#: inc/config-options.class.php:1025
+msgid "Body Font"
+msgstr ""
+
+#: inc/config-options.class.php:1026
+msgid "Specify the body font."
+msgstr ""
+
+#: inc/config-options.class.php:1038
+msgid "Primary Font"
+msgstr ""
+
+#: inc/config-options.class.php:1039
+msgid "Specify the primary font family."
+msgstr ""
+
+#: inc/config-options.class.php:1049
+msgid "Heading Fonts"
+msgstr ""
+
+#: inc/config-options.class.php:1054
+msgid "H1 Font"
+msgstr ""
+
+#: inc/config-options.class.php:1055
+msgid "Specify the h1 font."
+msgstr ""
+
+#: inc/config-options.class.php:1067
+msgid "H2 Font"
+msgstr ""
+
+#: inc/config-options.class.php:1068
+msgid "Specify the h2 font."
+msgstr ""
+
+#: inc/config-options.class.php:1080
+msgid "H3 Font"
+msgstr ""
+
+#: inc/config-options.class.php:1081
+msgid "Specify the h3 font."
+msgstr ""
+
+#: inc/config-options.class.php:1093
+msgid "H4 Font"
+msgstr ""
+
+#: inc/config-options.class.php:1094
+msgid "Specify the h4 font."
+msgstr ""
+
+#: inc/config-options.class.php:1106
+msgid "H5 Font"
+msgstr ""
+
+#: inc/config-options.class.php:1107
+msgid "Specify the h5 font."
+msgstr ""
+
+#: inc/config-options.class.php:1119
+msgid "H6 Font"
+msgstr ""
+
+#: inc/config-options.class.php:1120
+msgid "Specify the h6 font."
+msgstr ""
+
+#: inc/config-options.class.php:1139
+msgid "Menu Font"
+msgstr ""
+
+#: inc/config-options.class.php:1140
+msgid "Specify the menu font."
+msgstr ""
+
+#: inc/config-options.class.php:1152
+msgid "Sub Menu Font"
+msgstr ""
+
+#: inc/config-options.class.php:1153
+msgid "Specify the sub menu font."
+msgstr ""
+
+#: inc/config-options.class.php:1165
+msgid "Mobile Font"
+msgstr ""
+
+#: inc/config-options.class.php:1166
+msgid "Specify the Mobile menu font."
+msgstr ""
+
+#: inc/config-options.class.php:1191
+msgid "Skin"
+msgstr ""
+
+#: inc/config-options.class.php:1192
+msgid "Define here all the color skin you will need."
+msgstr ""
+
+#: inc/config-options.class.php:1202
+msgid "Enter your color skin name"
+msgstr ""
+
+#: inc/config-options.class.php:1207
+msgid "Unique Skin Id"
+msgstr ""
+
+#: inc/config-options.class.php:1208 inc/config-options.class.php:2087
+#: inc/config-user-meta.class.php:58
+msgid ""
+"This value is created automatically and it shouldn't be edited unless "
+"you know what you are doing."
+msgstr ""
+
+#: inc/config-options.class.php:1220 inc/config-options.class.php:1503
+#: inc/config-options.class.php:1588 inc/config-options.class.php:1867
+#: shortcodes/info-box/config.php:233 shortcodes/info-box/config.php:312
+msgid "Background Color"
+msgstr ""
+
+#: inc/config-options.class.php:1221
+msgid "Specify the background color"
+msgstr ""
+
+#: inc/config-options.class.php:1229 inc/config-options.class.php:1448
+#: inc/config-options.class.php:1511 inc/config-options.class.php:1596
+#: inc/config-options.class.php:1637 inc/config-options.class.php:1748
+#: inc/config-options.class.php:1875 inc/config-options.class.php:1899
+#: inc/config-options.class.php:1983 shortcodes/heading/config.php:130
+#: shortcodes/info-box/config.php:139
+msgid "Text Color"
+msgstr ""
+
+#: inc/config-options.class.php:1230
+msgid "Specify the text color"
+msgstr ""
+
+#: inc/config-options.class.php:1238
+msgid "Text hover Color"
+msgstr ""
+
+#: inc/config-options.class.php:1239
+msgid "Customize text hover color, set empty to use accent color"
+msgstr ""
+
+#: inc/config-options.class.php:1254 inc/config-options.class.php:1612
+#: shortcodes/heading/config.php:129 shortcodes/info-box/config.php:138
+msgid "Heading Color"
+msgstr ""
+
+#: inc/config-options.class.php:1255
+msgid "Specify the heading color"
+msgstr ""
+
+#: inc/config-options.class.php:1264 shortcodes/heading/config.php:131
+#: shortcodes/info-box/config.php:140
+msgid "Disable Color"
+msgstr ""
+
+#: inc/config-options.class.php:1265
+msgid "Specify the disable color"
+msgstr ""
+
+#: inc/config-options.class.php:1273 inc/config-options.class.php:1440
+#: inc/config-options.class.php:1620 inc/config-options.class.php:1823
+#: shortcodes/button/config.php:44
+msgid "Border Color"
+msgstr ""
+
+#: inc/config-options.class.php:1274 inc/config-options.class.php:1441
+#: inc/config-options.class.php:1824
+msgid "Specify the border color"
+msgstr ""
+
+#: inc/config-options.class.php:1295
+msgid "Colors"
+msgstr ""
+
+#: inc/config-options.class.php:1305
+msgid "Body Background"
+msgstr ""
+
+#: inc/config-options.class.php:1306
+msgid "Specify the body background color and media."
+msgstr ""
+
+#: inc/config-options.class.php:1312 shortcodes/heading/config.php:128
+#: shortcodes/info-box/config.php:137
+msgid "Accent Color"
+msgstr ""
+
+#: inc/config-options.class.php:1313
+msgid "Specify the accent color"
+msgstr ""
+
+#: inc/config-options.class.php:1320
+msgid "Foreground Accent Color"
+msgstr ""
+
+#: inc/config-options.class.php:1321
+msgid "Specify the foreground accent color"
+msgstr ""
+
+#: inc/config-options.class.php:1328 shortcodes/heading/config.php:132
+#: shortcodes/info-box/config.php:141
+msgid "Primary Color"
+msgstr ""
+
+#: inc/config-options.class.php:1329
+msgid "Specify the Primary color"
+msgstr ""
+
+#: inc/config-options.class.php:1335
+msgid "Content Skin"
+msgstr ""
+
+#: inc/config-options.class.php:1336
+msgid "Specify the content color skin"
+msgstr ""
+
+#: inc/config-options.class.php:1343
+msgid "Content Background Color"
+msgstr ""
+
+#: inc/config-options.class.php:1344
+msgid "Specify a custom content background color."
+msgstr ""
+
+#: inc/config-options.class.php:1360
+msgid "Top Drawer Skin"
+msgstr ""
+
+#: inc/config-options.class.php:1361
+msgid "Specify the top drawer color skin"
+msgstr ""
+
+#: inc/config-options.class.php:1363
+msgid "Select Color Skin"
+msgstr ""
+
+#: inc/config-options.class.php:1369
+msgid "Top Drawer Background Color"
+msgstr ""
+
+#: inc/config-options.class.php:1370
+msgid "Specify a custom top drawer background color."
+msgstr ""
+
+#: inc/config-options.class.php:1386 inc/config-options.class.php:1473
+#: inc/config-options.class.php:1554 inc/config-options.class.php:1696
+#: inc/config-options.class.php:1773 inc/config-options.class.php:1837
+#: inc/config-options.class.php:1929
+msgid "Preset Skin"
+msgstr ""
+
+#: inc/config-options.class.php:1422
+msgid "Header Background"
+msgstr ""
+
+#: inc/config-options.class.php:1423
+msgid "Specify a custom header background"
+msgstr ""
+
+#: inc/config-options.class.php:1429 inc/config-options.class.php:1737
+#: inc/config-options.class.php:1812 inc/config-options.class.php:1966
+msgid "Logo Text Color"
+msgstr ""
+
+#: inc/config-options.class.php:1430 inc/config-options.class.php:1738
+#: inc/config-options.class.php:1813 inc/config-options.class.php:1967
+msgid "Specify the logo text color"
+msgstr ""
+
+#: inc/config-options.class.php:1449 inc/config-options.class.php:1749
+msgid "Specify the header text color"
+msgstr ""
+
+#: inc/config-options.class.php:1457 inc/config-options.class.php:1519
+#: inc/config-options.class.php:1604 inc/config-options.class.php:1645
+#: inc/config-options.class.php:1756 inc/config-options.class.php:1883
+#: inc/config-options.class.php:1907 inc/config-options.class.php:1991
+msgid "Text Hover Color"
+msgstr ""
+
+#: inc/config-options.class.php:1458 inc/config-options.class.php:1757
+msgid "Specify the header text hover color"
+msgstr ""
+
+#: inc/config-options.class.php:1504 inc/config-options.class.php:1868
+msgid "Specify the menu background color"
+msgstr ""
+
+#: inc/config-options.class.php:1512 inc/config-options.class.php:1876
+msgid "Specify the menu text color"
+msgstr ""
+
+#: inc/config-options.class.php:1520 inc/config-options.class.php:1884
+msgid "Specify the menu text hover color"
+msgstr ""
+
+#: inc/config-options.class.php:1530
+msgid "SubMenu"
+msgstr ""
+
+#: inc/config-options.class.php:1538
+msgid "Menu Transition"
+msgstr ""
+
+#: inc/config-options.class.php:1589
+msgid "Specify the submenu background color"
+msgstr ""
+
+#: inc/config-options.class.php:1597
+msgid "Specify the submenu text color"
+msgstr ""
+
+#: inc/config-options.class.php:1605
+msgid "Specify the submenu text hover color"
+msgstr ""
+
+#: inc/config-options.class.php:1613
+msgid "Specify the submenu heading color"
+msgstr ""
+
+#: inc/config-options.class.php:1621
+msgid "Specify the submenu border color"
+msgstr ""
+
+#: inc/config-options.class.php:1630 inc/config-options.class.php:1893
+#: inc/config-options.class.php:1977
+msgid "Menu Customize"
+msgstr ""
+
+#: inc/config-options.class.php:1638 inc/config-options.class.php:1900
+#: inc/config-options.class.php:1984
+msgid "Specify the menu customize text color"
+msgstr ""
+
+#: inc/config-options.class.php:1646 inc/config-options.class.php:1908
+#: inc/config-options.class.php:1992
+msgid "Specify the menu customize text hover color"
+msgstr ""
+
+#: inc/config-options.class.php:1655 inc/settings.class.php:271
+msgid "Canvas Sidebar"
+msgstr ""
+
+#: inc/config-options.class.php:1665
+msgid "Canvas Sidebar Skin"
+msgstr ""
+
+#: inc/config-options.class.php:1666
+msgid "Specify the canvas sidebar color skin"
+msgstr ""
+
+#: inc/config-options.class.php:1673
+msgid "Canvas Sidebar Background Color"
+msgstr ""
+
+#: inc/config-options.class.php:1674
+msgid "Specify a custom canvas sidebar background color"
+msgstr ""
+
+#: inc/config-options.class.php:1730 inc/config-options.class.php:1959
+msgid "Header Sticky Background"
+msgstr ""
+
+#: inc/config-options.class.php:1731 inc/config-options.class.php:1960
+msgid "Specify a custom header sticky background"
+msgstr ""
+
+#: inc/config-options.class.php:1766
+msgid "Header Mobile"
+msgstr ""
+
+#: inc/config-options.class.php:1805
+msgid "Header Mobile Background"
+msgstr ""
+
+#: inc/config-options.class.php:1806
+msgid "Specify a custom header mobile background"
+msgstr ""
+
+#: inc/config-options.class.php:1919
+msgid "Header Mobile Sticky"
+msgstr ""
+
+#: inc/config-options.class.php:2010
+msgid "Page Title Skin"
+msgstr ""
+
+#: inc/config-options.class.php:2011
+msgid "Specify the page title color skin"
+msgstr ""
+
+#: inc/config-options.class.php:2018
+msgid "Page Title Background Color"
+msgstr ""
+
+#: inc/config-options.class.php:2019
+msgid "Specify a custom page title background color"
+msgstr ""
+
+#: inc/config-options.class.php:2039
+msgid "Connections"
+msgstr ""
+
+#: inc/config-options.class.php:2045 inc/config-options.class.php:2050
+msgid "Social Share"
+msgstr ""
+
+#: inc/config-options.class.php:2051
+msgid "Select active social share links and sort them"
+msgstr ""
+
+#: inc/config-options.class.php:2066 inc/config-options.class.php:2071
+#: inc/config-options.class.php:2543 inc/config-options.class.php:2605
+#: inc/config-user-meta.class.php:37 inc/config-user-meta.class.php:42
+#: inc/settings.class.php:268 inc/settings.class.php:296
+#: shortcodes/social-networks/config.php:4
+#: shortcodes/social-networks/config.php:10
+#: widgets/social-profile.class.php:53
+msgid "Social Networks"
+msgstr ""
+
+#: inc/config-options.class.php:2072 inc/config-user-meta.class.php:43
+msgid "Define here all the social networks you will need."
+msgstr ""
+
+#: inc/config-options.class.php:2081 inc/config-user-meta.class.php:52
+msgid "Enter your social network name"
+msgstr ""
+
+#: inc/config-options.class.php:2086 inc/config-user-meta.class.php:57
+msgid "Unique Social Id"
+msgstr ""
+
+#: inc/config-options.class.php:2094 inc/config-user-meta.class.php:65
+msgid "Social Network Icon"
+msgstr ""
+
+#: inc/config-options.class.php:2095 inc/config-user-meta.class.php:66
+msgid "Specify the social network icon"
+msgstr ""
+
+#: inc/config-options.class.php:2100 inc/config-user-meta.class.php:71
+msgid "Social Network Link"
+msgstr ""
+
+#: inc/config-options.class.php:2101 inc/config-user-meta.class.php:72
+msgid "Enter your social network link"
+msgstr ""
+
+#: inc/config-options.class.php:2106
+msgid "Social Network Color"
+msgstr ""
+
+#: inc/config-options.class.php:2107
+#, php-format
+msgid ""
+"Specify the social network color. Reference in <a target=\"_blank\" "
+"href=\"%s\">brandcolors.net</a>"
+msgstr ""
+
+#: inc/config-options.class.php:2127 inc/settings.class.php:463
+msgid "Blog"
+msgstr ""
+
+#: inc/config-options.class.php:2146
+msgid "Post Default Thumbnail"
+msgstr ""
+
+#: inc/config-options.class.php:2151
+msgid "Enable Default Thumbnail Placeholder"
+msgstr ""
+
+#: inc/config-options.class.php:2152
+msgid ""
+"You can set default thumbnail for post that haven' featured image with "
+"enabling this option and uploading default image in following field"
+msgstr ""
+
+#: inc/config-options.class.php:2158
+msgid "Default Thumbnail Image"
+msgstr ""
+
+#: inc/config-options.class.php:2159
+msgid ""
+"By default, the post thumbnail will be shown but when the post haven'nt "
+"thumbnail then this will be replaced"
+msgstr ""
+
+#: inc/config-options.class.php:2164
+msgid "First Image as Post Thumbnail"
+msgstr ""
+
+#: inc/config-options.class.php:2165
+msgid ""
+"With enabling this options if any post have not thumbnail then theme "
+"will shows first content image as post thumbnail."
+msgstr ""
+
+#: inc/config-options.class.php:2171 inc/settings.class.php:502
+msgid "Search Listing"
+msgstr ""
+
+#: inc/config-options.class.php:2186 inc/settings.class.php:469
+msgid "Single Blog"
+msgstr ""
+
+#: inc/config-options.class.php:2365
+msgid "Css & Javascript"
+msgstr ""
+
+#: inc/config-options.class.php:2371 inc/widget.class.php:100
+msgid "Custom Css"
+msgstr ""
+
+#: inc/config-options.class.php:2372
+msgid "Enter here your custom CSS. Please do not include any style tags."
+msgstr ""
+
+#: inc/config-options.class.php:2380
+msgid "Custom Javascript"
+msgstr ""
+
+#: inc/config-options.class.php:2381
+msgid ""
+"Enter here your custom javascript code. Please do not include any "
+"script tags."
+msgstr ""
+
+#: inc/config-options.class.php:2402 inc/custom-post-type.class.php:144
+msgid "Content Block"
+msgstr ""
+
+#: inc/config-options.class.php:2403
+msgid "Select Content Block"
+msgstr ""
+
+#: inc/config-options.class.php:2427
+msgid "Sidebar Layout"
+msgstr ""
+
+#: inc/config-options.class.php:2448 inc/config-options.class.php:3244
+#: inc/settings.class.php:269
+msgid "Sidebar"
+msgstr ""
+
+#: inc/config-options.class.php:2450
+msgid "Select Sidebar"
+msgstr ""
+
+#: inc/config-options.class.php:2474
+msgid "Border Bottom"
+msgstr ""
+
+#: inc/config-options.class.php:2475
+msgid "Specify the border bottom mode."
+msgstr ""
+
+#: inc/config-options.class.php:2504 inc/config-options.class.php:2583
+#: shortcodes/partners/config.php:30
+msgid "Items"
+msgstr ""
+
+#: inc/config-options.class.php:2511 inc/config-options.class.php:2590
+msgid "Items separator enable"
+msgstr ""
+
+#: inc/config-options.class.php:2517 inc/config-options.class.php:2595
+msgid "Items separator background color"
+msgstr ""
+
+#: inc/config-options.class.php:2528
+msgid "Search type"
+msgstr ""
+
+#: inc/config-options.class.php:2533
+msgid "Box"
+msgstr ""
+
+#: inc/config-options.class.php:2547 inc/config-options.class.php:2609
+#: shortcodes/social-networks/config.php:14
+#: widgets/social-profile.class.php:57
+msgid "Select Social Networks"
+msgstr ""
+
+#: inc/config-options.class.php:2553 inc/config-options.class.php:2615
+msgid "Custom Html Content"
+msgstr ""
+
+#: inc/config-options.class.php:2559 inc/config-options.class.php:2621
+msgid "Items Spacing"
+msgstr ""
+
+#: inc/config-options.class.php:2691 inc/settings.class.php:466
+msgid "Blog Listing"
+msgstr ""
+
+#: inc/config-options.class.php:2740
+msgid "Post Image Size"
+msgstr ""
+
+#: inc/config-options.class.php:2746 shortcodes/posts/config.php:42
+msgid "Enter your post image size"
+msgstr ""
+
+#: inc/config-options.class.php:2747
+msgid ""
+"Enter image size (Example: \"thumbnail\", \"medium\", \"large\", \"full"
+"\" or other sizes defined by theme). Alternatively enter size in pixels "
+"(Example: 200x100 (Width x Height))."
+msgstr ""
+
+#: inc/config-options.class.php:2754
+msgid "Image width"
+msgstr ""
+
+#: inc/config-options.class.php:2755
+msgid "Enter your post image width"
+msgstr ""
+
+#: inc/config-options.class.php:2765 shortcodes/gallery/config.php:73
+#: shortcodes/posts/config.php:50
+msgid "Image ratio"
+msgstr ""
+
+#: inc/config-options.class.php:2766 shortcodes/posts/config.php:51
+msgid "Specify your image post ratio"
+msgstr ""
+
+#: inc/config-options.class.php:2777
+msgid "Image ratio custom"
+msgstr ""
+
+#: inc/config-options.class.php:2778
+msgid "Enter custom image ratio"
+msgstr ""
+
+#: inc/config-options.class.php:2850
+msgid "Specify your post columns on extra extra small devices (< 576px)"
+msgstr ""
+
+#: inc/config-options.class.php:2863
+msgid "Enter number of posts per page you want to display."
+msgstr ""
+
+#: inc/config-options.class.php:2888
+msgid "Advertisement"
+msgstr ""
+
+#: inc/config-options.class.php:2889
+msgid "Define here all the advertisement for listing post you will need."
+msgstr ""
+
+#: inc/config-options.class.php:2897
+msgid "Enter your advertisement name"
+msgstr ""
+
+#: inc/config-options.class.php:2902
+msgid "Content"
+msgstr ""
+
+#: inc/config-options.class.php:2903
+msgid "Enter your advertisement content"
+msgstr ""
+
+#: inc/config-options.class.php:2908 shortcodes/our-team/config.php:23
+msgid "Position"
+msgstr ""
+
+#: inc/config-options.class.php:2909
+msgid "Enter your advertisement position"
+msgstr ""
+
+#: inc/config-options.class.php:2910
+msgid "After how many post the ad will display."
+msgstr ""
+
+#: inc/config-options.class.php:2921
+msgid "Post Type For Search"
+msgstr ""
+
+#: inc/config-options.class.php:2945
+msgid "Preset"
+msgstr ""
+
+#: inc/config-options.class.php:2952
+msgid "Select Preset"
+msgstr ""
+
+#: inc/config-options.class.php:2954
+msgid ""
+"Optionally you can choose to override the setting that is used on the "
+"page"
+msgstr ""
+
+#: inc/config-options.class.php:2967 inc/settings.class.php:479
+msgid "Woocommerce"
+msgstr ""
+
+#: inc/config-options.class.php:2978
+msgid "Show Featured Label"
+msgstr ""
+
+#: inc/config-options.class.php:2979
+msgid "Turn Off this option if you want to disable featured label"
+msgstr ""
+
+#: inc/config-options.class.php:2985
+msgid "Featured Label Text"
+msgstr ""
+
+#: inc/config-options.class.php:2986
+msgid "Enter product featured label text"
+msgstr ""
+
+#: inc/config-options.class.php:2992
+msgid "Show Sale Label"
+msgstr ""
+
+#: inc/config-options.class.php:2993
+msgid "Turn Off this option if you want to disable sale label"
+msgstr ""
+
+#: inc/config-options.class.php:2998
+msgid "Sale Flash Mode"
+msgstr ""
+
+#: inc/config-options.class.php:3001 shortcodes/button/config.php:18
+#: widgets/social-profile.class.php:32
+msgid "Text"
+msgstr ""
+
+#: inc/config-options.class.php:3002
+msgid "Percent"
+msgstr ""
+
+#: inc/config-options.class.php:3010
+msgid "Sale Label Text"
+msgstr ""
+
+#: inc/config-options.class.php:3011
+msgid "Enter product sale label text"
+msgstr ""
+
+#: inc/config-options.class.php:3012
+msgid "Sale"
+msgstr ""
+
+#: inc/config-options.class.php:3020
+msgid "Show New Label"
+msgstr ""
+
+#: inc/config-options.class.php:3021
+msgid "Turn Off this option if you want to disable new label"
+msgstr ""
+
+#: inc/config-options.class.php:3028
+msgid "Mark New After Published (Days)"
+msgstr ""
+
+#: inc/config-options.class.php:3029
+msgid "Enter the number of days after the publication is marked as new"
+msgstr ""
+
+#: inc/config-options.class.php:3036
+msgid "New Label Text"
+msgstr ""
+
+#: inc/config-options.class.php:3037
+msgid "Enter product new label text"
+msgstr ""
+
+#: inc/config-options.class.php:3044
+msgid "Show Sale Count Down"
+msgstr ""
+
+#: inc/config-options.class.php:3045
+msgid "Turn On this option if you want to enable sale count down"
+msgstr ""
+
+#: inc/config-options.class.php:3051
+msgid "Show Add To Cart Button"
+msgstr ""
+
+#: inc/config-options.class.php:3052
+msgid "Turn Off this option if you want to disable add to cart button"
+msgstr ""
+
+#: inc/config-options.class.php:3058
+msgid "Shop and Category Page"
+msgstr ""
+
+#: inc/config-options.class.php:3065
+msgid "Specify your product layout"
+msgstr ""
+
+#: inc/config-options.class.php:3108
+msgid "Specify your product columns on large devices (>= 1200px)"
+msgstr ""
+
+#: inc/config-options.class.php:3117
+msgid "Specify your product columns on medium devices (>= 992px)"
+msgstr ""
+
+#: inc/config-options.class.php:3126
+msgid "Specify your product columns on small devices (>= 768px)"
+msgstr ""
+
+#: inc/config-options.class.php:3135
+msgid "Specify your product columns on extra small devices (< 768px)"
+msgstr ""
+
+#: inc/config-options.class.php:3144
+msgid ""
+"Specify your product columns on extra extra small devices (< 576px)"
+msgstr ""
+
+#: inc/config-options.class.php:3157
+msgid "Enter number of products per page you want to display. Default 9"
+msgstr ""
+
+#: inc/config-options.class.php:3164 inc/config-options.class.php:3397
+msgid "Swatches Enable"
+msgstr ""
+
+#: inc/config-options.class.php:3165
+msgid "Enable Swatches on Shop and Category Page (include Shodecode)"
+msgstr ""
+
+#: inc/config-options.class.php:3170
+msgid "Attributes to show"
+msgstr ""
+
+#: inc/config-options.class.php:3171
+msgid "Select Attributes list to show on Shop and Category page"
+msgstr ""
+
+#: inc/config-options.class.php:3181
+#: shortcodes/product-tabs/config.php:142
+#: shortcodes/products/config.php:164
+msgid "Product Paging"
+msgstr ""
+
+#: inc/config-options.class.php:3182
+msgid "Specify your product paging mode"
+msgstr ""
+
+#: inc/config-options.class.php:3198
+msgid "Product Image Hover Effect"
+msgstr ""
+
+#: inc/config-options.class.php:3199
+msgid "Specify your product image hover effect"
+msgstr ""
+
+#: inc/config-options.class.php:3207
+msgid "Show Category"
+msgstr ""
+
+#: inc/config-options.class.php:3212
+msgid "Show Rating"
+msgstr ""
+
+#: inc/config-options.class.php:3217
+msgid "Show Quick View"
+msgstr ""
+
+#: inc/config-options.class.php:3223
+msgid "Shop Above Customize"
+msgstr ""
+
+#: inc/config-options.class.php:3228
+msgid "Desktop Settings"
+msgstr ""
+
+#: inc/config-options.class.php:3232 inc/config-options.class.php:3272
+msgid "Shop Above Customize Options"
+msgstr ""
+
+#: inc/config-options.class.php:3236 inc/config-options.class.php:3282
+msgid "Result Count"
+msgstr ""
+
+#: inc/config-options.class.php:3239 inc/config-options.class.php:3276
+msgid "Ordering"
+msgstr ""
+
+#: inc/config-options.class.php:3243 inc/config-options.class.php:3283
+msgid "Items Show"
+msgstr ""
+
+#: inc/config-options.class.php:3245 inc/config-options.class.php:3279
+msgid "Filter"
+msgstr ""
+
+#: inc/config-options.class.php:3251
+msgid "Shop Above Customize Full Width"
+msgstr ""
+
+#: inc/config-options.class.php:3256
+msgid "Shop Above Customize Padding"
+msgstr ""
+
+#: inc/config-options.class.php:3257
+msgid "Set Shop Above Customize Padding"
+msgstr ""
+
+#: inc/config-options.class.php:3268
+msgid "Mobile Settings"
+msgstr ""
+
+#: inc/config-options.class.php:3291
+msgid "Filter Columns"
+msgstr ""
+
+#: inc/config-options.class.php:3310
+msgid "Specify your shop filter columns on large devices (>= 1200px)"
+msgstr ""
+
+#: inc/config-options.class.php:3319
+msgid "Specify your shop filter columns on medium devices (>= 992px)"
+msgstr ""
+
+#: inc/config-options.class.php:3328
+msgid "Specify your shop filter columns on small devices (>= 768px)"
+msgstr ""
+
+#: inc/config-options.class.php:3337
+msgid "Specify your shop filter columns on extra small devices (< 768px)"
+msgstr ""
+
+#: inc/config-options.class.php:3346
+msgid ""
+"Specify your shop filter columns on extra extra small devices (< 576px)"
+msgstr ""
+
+#: inc/config-options.class.php:3358
+msgid "Products per page"
+msgstr ""
+
+#: inc/config-options.class.php:3361
+msgid "Input products per page (exp: 6,12,18)"
+msgstr ""
+
+#: inc/config-options.class.php:3398
+msgid "Enable Swatches on Single Product Page"
+msgstr ""
+
+#: inc/config-options.class.php:3403
+msgid "Product Related"
+msgstr ""
+
+#: inc/config-options.class.php:3408
+msgid "Show Product related"
+msgstr ""
+
+#: inc/config-options.class.php:3455
+msgid "Specify your product related columns on large devices (>= 1200px)"
+msgstr ""
+
+#: inc/config-options.class.php:3464
+msgid "Specify your product related columns on medium devices (>= 992px)"
+msgstr ""
+
+#: inc/config-options.class.php:3473
+msgid "Specify your product related columns on small devices (>= 768px)"
+msgstr ""
+
+#: inc/config-options.class.php:3482
+msgid ""
+"Specify your product related columns on extra small devices (< 768px)"
+msgstr ""
+
+#: inc/config-options.class.php:3491
+msgid ""
+"Specify your product related columns on extra extra small devices (< "
+"576px)"
+msgstr ""
+
+#: inc/config-options.class.php:3504 inc/config-options.class.php:3603
+#: inc/config-options.class.php:3704
+msgid "Enter number of products per page you want to display. Default 4"
+msgstr ""
+
+#: inc/config-options.class.php:3523
+msgid "Product Up Sells"
+msgstr ""
+
+#: inc/config-options.class.php:3528
+msgid "Show Product Up Sells"
+msgstr ""
+
+#: inc/config-options.class.php:3554
+msgid "Specify your product up sells columns on large devices (>= 1200px)"
+msgstr ""
+
+#: inc/config-options.class.php:3563
+msgid "Specify your product up sells columns on medium devices (>= 992px)"
+msgstr ""
+
+#: inc/config-options.class.php:3572
+msgid "Specify your product up sells columns on small devices (>= 768px)"
+msgstr ""
+
+#: inc/config-options.class.php:3581
+msgid ""
+"Specify your product up sells columns on extra small devices (< 768px)"
+msgstr ""
+
+#: inc/config-options.class.php:3590
+msgid ""
+"Specify your product up sells columns on extra extra small devices (< "
+"576px)"
+msgstr ""
+
+#: inc/config-options.class.php:3624
+msgid "Cart Page"
+msgstr ""
+
+#: inc/config-options.class.php:3629
+msgid "Show Product Cross Sells"
+msgstr ""
+
+#: inc/config-options.class.php:3634
+msgid "Product Cross Sells Columns Gutter"
+msgstr ""
+
+#: inc/config-options.class.php:3643
+msgid "Product Cross Sells Columns"
+msgstr ""
+
+#: inc/config-options.class.php:3655
+msgid ""
+"Specify your product cross sells columns on large devices (>= 1200px)"
+msgstr ""
+
+#: inc/config-options.class.php:3664
+msgid ""
+"Specify your product cross sells columns on medium devices (>= 992px)"
+msgstr ""
+
+#: inc/config-options.class.php:3673
+msgid ""
+"Specify your product cross sells columns on small devices (>= 768px)"
+msgstr ""
+
+#: inc/config-options.class.php:3682
+msgid ""
+"Specify your product cross sells columns on extra small devices (< "
+"768px)"
+msgstr ""
+
+#: inc/config-options.class.php:3691
+msgid ""
+"Specify your product cross sells columns on extra extra small devices "
+"(< 576px)"
+msgstr ""
+
+#: inc/config-options.class.php:3703
+msgid "Cross Sells Products Per Page"
+msgstr ""
+
+#: inc/config-term-meta.class.php:54
+msgid "Advance Setting"
+msgstr ""
+
+#: inc/config-term-meta.class.php:85
+msgid "Product Category Content"
+msgstr ""
+
+#: inc/config-term-meta.class.php:92
+msgid "Sub title"
+msgstr ""
+
+#: inc/config-term-meta.class.php:93
+msgid "Specify the Content Block to use as a category content."
+msgstr ""
+
+#: inc/config-term-meta.class.php:102
+msgid "Additional Fields"
+msgstr ""
+
+#: inc/custom-post-type.class.php:172
+msgid "Categories"
+msgstr ""
+
+#: inc/custom-post-type.class.php:173
+msgid "Content Block Categories"
+msgstr ""
+
+#: inc/custom-post-type.class.php:174 inc/shortcode.class.php:345
+msgid "Category"
+msgstr ""
+
+#: inc/custom-post-type.class.php:195
+#, php-format
+msgid "Show All %s"
+msgstr ""
+
+#: inc/settings.class.php:36
+msgid "Wide"
+msgstr ""
+
+#: inc/settings.class.php:40
+msgid "Boxed"
+msgstr ""
+
+#: inc/settings.class.php:44
+msgid "Framed"
+msgstr ""
+
+#: inc/settings.class.php:48
+msgid "Bordered"
+msgstr ""
+
+#: inc/settings.class.php:71
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/settings.class.php:75
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/settings.class.php:100
+msgid "Small (1/4)"
+msgstr ""
+
+#: inc/settings.class.php:101
+msgid "Large (1/3)"
+msgstr ""
+
+#: inc/settings.class.php:169
+msgid "Post"
+msgstr ""
+
+#: inc/settings.class.php:170
+msgid "Page"
+msgstr ""
+
+#: inc/settings.class.php:205
+msgid "Header 1"
+msgstr ""
+
+#: inc/settings.class.php:209
+msgid "Header 2"
+msgstr ""
+
+#: inc/settings.class.php:213
+msgid "Header 3"
+msgstr ""
+
+#: inc/settings.class.php:217
+msgid "Header 4"
+msgstr ""
+
+#: inc/settings.class.php:221
+msgid "Header 5"
+msgstr ""
+
+#: inc/settings.class.php:225
+msgid "Header 6"
+msgstr ""
+
+#: inc/settings.class.php:229
+msgid "Header 7"
+msgstr ""
+
+#: inc/settings.class.php:233
+msgid "Header 8"
+msgstr ""
+
+#: inc/settings.class.php:237
+msgid "Header 9"
+msgstr ""
+
+#: inc/settings.class.php:241
+msgid "Header 10"
+msgstr ""
+
+#: inc/settings.class.php:245
+msgid "Header 11"
+msgstr ""
+
+#: inc/settings.class.php:249
+msgid "Header 12"
+msgstr ""
+
+#: inc/settings.class.php:253
+msgid "Header 13"
+msgstr ""
+
+#: inc/settings.class.php:267 inc/settings.class.php:295
+msgid "Search"
+msgstr ""
+
+#: inc/settings.class.php:270 inc/settings.class.php:297
+msgid "Custom Html"
+msgstr ""
+
+#: inc/settings.class.php:274 inc/settings.class.php:300
+msgid "Wishlist"
+msgstr ""
+
+#: inc/settings.class.php:279 inc/settings.class.php:305
+msgid "Shopping Cart"
+msgstr ""
+
+#: inc/settings.class.php:280 inc/settings.class.php:306
+#: widgets/login-register.class.php:52
+msgid "My Account"
+msgstr ""
+
+#: inc/settings.class.php:328 inc/settings.class.php:749
+msgid "Layout 1"
+msgstr ""
+
+#: inc/settings.class.php:332 inc/settings.class.php:753
+msgid "Layout 2"
+msgstr ""
+
+#: inc/settings.class.php:336 inc/settings.class.php:757
+msgid "Layout 3"
+msgstr ""
+
+#: inc/settings.class.php:373
+msgid "Chasing Dots"
+msgstr ""
+
+#: inc/settings.class.php:374 inc/shortcode.class.php:494
+#: shortcodes/lists/config.php:28
+msgid "Circle"
+msgstr ""
+
+#: inc/settings.class.php:375
+msgid "Cube"
+msgstr ""
+
+#: inc/settings.class.php:376
+msgid "Double Bounce"
+msgstr ""
+
+#: inc/settings.class.php:377
+msgid "Fading Circle"
+msgstr ""
+
+#: inc/settings.class.php:378
+msgid "Folding Cube"
+msgstr ""
+
+#: inc/settings.class.php:379
+msgid "Pulse"
+msgstr ""
+
+#: inc/settings.class.php:380
+msgid "Three Bounce"
+msgstr ""
+
+#: inc/settings.class.php:381
+msgid "Wave"
+msgstr ""
+
+#: inc/settings.class.php:394
+msgid "Toggle"
+msgstr ""
+
+#: inc/settings.class.php:482
+msgid "Product Listing"
+msgstr ""
+
+#: inc/settings.class.php:518 inc/settings.class.php:696
+#: inc/templates/social-share.php:47
+msgid "Facebook"
+msgstr ""
+
+#: inc/settings.class.php:525 inc/settings.class.php:697
+#: inc/templates/social-share.php:58
+msgid "Twitter"
+msgstr ""
+
+#: inc/settings.class.php:532 inc/settings.class.php:700
+#: inc/templates/social-share.php:77
+msgid "Pinterest"
+msgstr ""
+
+#: inc/settings.class.php:539
+msgid "Dribbble"
+msgstr ""
+
+#: inc/settings.class.php:546 inc/templates/social-share.php:64
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/settings.class.php:553
+msgid "Vimeo"
+msgstr ""
+
+#: inc/settings.class.php:560 inc/settings.class.php:699
+#: inc/templates/social-share.php:70
+msgid "Tumblr"
+msgstr ""
+
+#: inc/settings.class.php:567
+msgid "Skype"
+msgstr ""
+
+#: inc/settings.class.php:574
+msgid "Google+"
+msgstr ""
+
+#: inc/settings.class.php:581
+msgid "Flickr"
+msgstr ""
+
+#: inc/settings.class.php:588
+msgid "YouTube"
+msgstr ""
+
+#: inc/settings.class.php:595
+msgid "Foursquare"
+msgstr ""
+
+#: inc/settings.class.php:609
+msgid "GitHub"
+msgstr ""
+
+#: inc/settings.class.php:616
+msgid "Xing"
+msgstr ""
+
+#: inc/settings.class.php:623
+msgid "Behance"
+msgstr ""
+
+#: inc/settings.class.php:630
+msgid "Deviantart"
+msgstr ""
+
+#: inc/settings.class.php:637
+msgid "Sound Cloud"
+msgstr ""
+
+#: inc/settings.class.php:644
+msgid "Yelp"
+msgstr ""
+
+#: inc/settings.class.php:651
+msgid "RSS Feed"
+msgstr ""
+
+#: inc/settings.class.php:658
+msgid "VK"
+msgstr ""
+
+#: inc/settings.class.php:665 inc/settings.class.php:701
+#: inc/templates/social-share.php:82
+msgid "Email"
+msgstr ""
+
+#: inc/settings.class.php:698
+msgid "Linkedin"
+msgstr ""
+
+#: inc/settings.class.php:702
+msgid "Telegram"
+msgstr ""
+
+#: inc/settings.class.php:703
+msgid "WhatsApp"
+msgstr ""
+
+#: inc/settings.class.php:761
+msgid "Layout 4"
+msgstr ""
+
+#: inc/settings.class.php:765
+msgid "Layout 5"
+msgstr ""
+
+#: inc/settings.class.php:769
+msgid "Layout 6"
+msgstr ""
+
+#: inc/settings.class.php:773
+msgid "Layout 7"
+msgstr ""
+
+#: inc/settings.class.php:852 shortcodes/product-tabs/config.php:147
+msgid "Pagination"
+msgstr ""
+
+#: inc/settings.class.php:938 inc/settings.class.php:965
+msgid "by Category"
+msgstr ""
+
+#: inc/settings.class.php:939 inc/settings.class.php:966
+msgid "by Tag"
+msgstr ""
+
+#: inc/settings.class.php:940
+msgid "by Author"
+msgstr ""
+
+#: inc/settings.class.php:941 inc/settings.class.php:967
+msgid "by Category & Tag"
+msgstr ""
+
+#: inc/settings.class.php:942
+msgid "by Category & Tag & Author"
+msgstr ""
+
+#: inc/settings.class.php:943
+msgid "Randomly"
+msgstr ""
+
+#: inc/settings.class.php:1037
+msgid "Change Image"
+msgstr ""
+
+#: inc/settings.class.php:1038
+msgid "Flip Back"
+msgstr ""
+
+#: inc/shortcode.class.php:138
+msgid "Select icon from library."
+msgstr ""
+
+#: inc/shortcode.class.php:155
+msgid "CSS Animation"
+msgstr ""
+
+#: inc/shortcode.class.php:174
+msgid ""
+"Select type of animation for element to be animated when it enters the "
+"browsers viewport (Note: works only in modern browsers)."
+msgstr ""
+
+#: inc/shortcode.class.php:190
+msgid "Animation Duration"
+msgstr ""
+
+#: inc/shortcode.class.php:193
+msgid ""
+"Duration in seconds. You can use decimal points in the value. Use this "
+"field to specify the amount of time the animation plays. <em>The "
+"default value depends on the animation, leave blank to use the default."
+"</em>"
+msgstr ""
+
+#: inc/shortcode.class.php:207
+msgid "Animation Delay"
+msgstr ""
+
+#: inc/shortcode.class.php:210
+msgid ""
+"Delay in seconds. You can use decimal points in the value. Use this "
+"field to delay the animation for a few seconds, this is helpful if you "
+"want to chain different effects one after another above the fold."
+msgstr ""
+
+#: inc/shortcode.class.php:225
+msgid "Extra class name"
+msgstr ""
+
+#: inc/shortcode.class.php:229
+msgid ""
+"Style particular content element differently - add a class name and "
+"refer to it in custom CSS."
+msgstr ""
+
+#: inc/shortcode.class.php:247
+msgid "CSS box"
+msgstr ""
+
+#: inc/shortcode.class.php:249
+msgid "Design Options"
+msgstr ""
+
+#: inc/shortcode.class.php:259
+msgid "Responsive Options"
+msgstr ""
+
+#: inc/shortcode.class.php:260
+msgid ""
+"Adjust column for different screen sizes. Control visibility settings."
+msgstr ""
+
+#: inc/shortcode.class.php:268
+msgid "Color Skin"
+msgstr ""
+
+#: inc/shortcode.class.php:270
+msgid "Select color skin."
+msgstr ""
+
+#: inc/shortcode.class.php:323 inc/shortcode.class.php:348
+#: inc/shortcode.class.php:374 inc/shortcode.class.php:410
+msgid ""
+"Enter categories by names to narrow output (Note: only listed "
+"categories will be displayed, divide categories with linebreak (Enter))."
+msgstr ""
+
+#: inc/shortcode.class.php:436
+msgid "Enter tags by names to narrow output)."
+msgstr ""
+
+#: inc/shortcode.class.php:490
+msgid "Icon Shape"
+msgstr ""
+
+#: inc/shortcode.class.php:493 shortcodes/button/config.php:35
+#: shortcodes/info-box/config.php:210
+#: shortcodes/social-networks/config.php:22
+#: widgets/social-profile.class.php:28
+msgid "Classic"
+msgstr ""
+
+#: inc/shortcode.class.php:511
+msgid "Show pagination control"
+msgstr ""
+
+#: inc/shortcode.class.php:527
+msgid "Show navigation control"
+msgstr ""
+
+#: inc/shortcode.class.php:702 inc/shortcode.class.php:705
+#: inc/shortcode.class.php:718 inc/shortcode.class.php:738
+#: inc/shortcode.class.php:753 inc/shortcode.class.php:764
+#: inc/shortcode.class.php:773
+msgid "Posts Filter"
+msgstr ""
+
+#: inc/shortcode.class.php:772
+msgid "Input meta key for grid ordering."
+msgstr ""
+
+#: inc/shortcode.class.php:794
+msgid "Medium Image 2"
+msgstr ""
+
+#: inc/shortcode.class.php:819 shortcodes/space/config.php:12
+msgid "Browser Width >= 1200px"
+msgstr ""
+
+#: inc/shortcode.class.php:830 shortcodes/google-map/config.php:59
+msgid "Browser Width < 1200px"
+msgstr ""
+
+#: inc/shortcode.class.php:840 shortcodes/google-map/config.php:67
+msgid "Browser Width < 992px"
+msgstr ""
+
+#: inc/shortcode.class.php:848
+msgid "Extra Small Devices"
+msgstr ""
+
+#: inc/shortcode.class.php:850 shortcodes/google-map/config.php:75
+msgid "Browser Width < 768px"
+msgstr ""
+
+#: inc/shortcode.class.php:858
+msgid "Extra Extra Small Devices"
+msgstr ""
+
+#: inc/shortcode.class.php:860 shortcodes/google-map/config.php:83
+#: shortcodes/partners/config.php:164 shortcodes/space/config.php:66
+msgid "Browser Width < 576px"
+msgstr ""
+
+#: inc/templates/social-share.php:34 inc/templates/social-share.php:36
+msgid "Share:"
+msgstr ""
+
+#: inc/templates/social-share.php:93
+msgid "Whats App"
+msgstr ""
+
+#: inc/widget.class.php:46
+msgid "Canvas"
+msgstr ""
+
+#: inc/widget.class.php:57
+#, php-format
+msgid "Add widgets here to appear in %s sidebar"
+msgstr ""
+
+#: libs/smart-framework/admin/templates/icons-popup.tpl.php:6
+#: libs/smart-framework/core/icons-popup/templates/icons-popup.tpl.php:6
+msgid "Search Icon..."
+msgstr ""
+
+#: libs/smart-framework/admin/templates/icons-popup.tpl.php:22
+#: libs/smart-framework/admin/templates/icons-popup.tpl.php:41
+#: libs/smart-framework/admin/templates/icons-popup.tpl.php:42
+#: libs/smart-framework/core/icons-popup/templates/icons-popup.tpl.php:22
+#: libs/smart-framework/core/icons-popup/templates/icons-popup.tpl.php:41
+#: libs/smart-framework/core/icons-popup/templates/icons-popup.tpl.php:42
+msgid "All Icons"
+msgstr ""
+
+#: libs/smart-framework/admin/templates/icons-popup.tpl.php:35
+#: libs/smart-framework/core/icons-popup/templates/icons-popup.tpl.php:35
+msgid "Select An Icon"
+msgstr ""
+
+#: libs/smart-framework/admin/templates/icons-popup.tpl.php:42
+#: libs/smart-framework/core/icons-popup/templates/icons-popup.tpl.php:42
+msgid "Search result for \"{0}\""
+msgstr ""
+
+#: libs/smart-framework/admin/templates/preset-popup.php:3
+#: libs/smart-framework/admin/templates/theme-options-start.php:55
+msgid "Create Preset Options"
+msgstr ""
+
+#: libs/smart-framework/admin/templates/preset-popup.php:6
+msgid "Enter your preset:"
+msgstr ""
+
+#: libs/smart-framework/admin/templates/preset-popup.php:9
+msgid "Create Preset"
+msgstr ""
+
+#: libs/smart-framework/admin/templates/theme-options-end.php:3
+msgid "Import/Export"
+msgstr ""
+
+#: libs/smart-framework/admin/templates/theme-options-end.php:5
+msgid "Reset Section"
+msgstr ""
+
+#: libs/smart-framework/admin/templates/theme-options-end.php:7
+msgid "Reset Options"
+msgstr ""
+
+#: libs/smart-framework/admin/templates/theme-options-start.php:28
+msgid "version"
+msgstr ""
+
+#: libs/smart-framework/admin/templates/theme-options-start.php:33
+msgid "Delete Preset"
+msgstr ""
+
+#: libs/smart-framework/admin/templates/theme-options-start.php:45
+msgid "Select Preset Options..."
+msgstr ""
+
+#: libs/smart-framework/admin/templates/theme-options-start.php:49
+msgid "Default Options"
+msgstr ""
+
+#: libs/smart-framework/admin/templates/theme-options-start.php:59
+msgid "Save Options"
+msgstr ""
+
+#: libs/smart-framework/assets/vendors/wp-color-picker-alpha.js:16
+#: libs/smart-framework/inc/assets.class.php:50
+msgid "Clear"
+msgstr ""
+
+#: libs/smart-framework/assets/vendors/wp-color-picker-alpha.js:17
+#: libs/smart-framework/inc/assets.class.php:51
+msgid "Clear color"
+msgstr ""
+
+#: libs/smart-framework/assets/vendors/wp-color-picker-alpha.js:19
+#: libs/smart-framework/inc/assets.class.php:53
+msgid "Select default color"
+msgstr ""
+
+#: libs/smart-framework/assets/vendors/wp-color-picker-alpha.js:20
+#: libs/smart-framework/inc/assets.class.php:54
+msgid "Select Color"
+msgstr ""
+
+#: libs/smart-framework/assets/vendors/wp-color-picker-alpha.js:21
+#: libs/smart-framework/inc/assets.class.php:55
+msgid "Color value"
+msgstr ""
+
+#: libs/smart-framework/core/fonts/fonts.class.php:83
+msgid "Are you sure delete custom font?"
+msgstr ""
+
+#: libs/smart-framework/core/fonts/fonts.class.php:84
+msgid "Are you sure remove this font?"
+msgstr ""
+
+#: libs/smart-framework/core/fonts/fonts.class.php:85
+msgid "Are you sure reset active fonts?"
+msgstr ""
+
+#: libs/smart-framework/core/fonts/fonts.class.php:257
+msgid "Google Fonts"
+msgstr ""
+
+#: libs/smart-framework/core/fonts/fonts.class.php:258
+#: libs/smart-framework/inc/admin-ajax.class.php:108
+msgid "Standard Fonts"
+msgstr ""
+
+#: libs/smart-framework/core/fonts/fonts.class.php:259
+msgid "Custom Fonts"
+msgstr ""
+
+#: libs/smart-framework/core/fonts/fonts.class.php:492
+#: libs/smart-framework/core/fonts/fonts.class.php:629
+#: libs/smart-framework/core/fonts/fonts.class.php:657
+#: libs/smart-framework/core/fonts/fonts.class.php:669
+#: libs/smart-framework/core/fonts/fonts.class.php:704
+#: libs/smart-framework/core/fonts/fonts.class.php:726
+msgid "Access deny!"
+msgstr ""
+
+#: libs/smart-framework/core/fonts/fonts.class.php:540
+#: libs/smart-framework/core/fonts/fonts.class.php:550
+msgid "Font Exist!"
+msgstr ""
+
+#: libs/smart-framework/core/fonts/fonts.class.php:573
+msgid "Missing css file!"
+msgstr ""
+
+#: libs/smart-framework/core/fonts/fonts.class.php:621
+msgid "Only allowed with 1 css file!"
+msgstr ""
+
+#: libs/smart-framework/core/fonts/fonts.class.php:646
+msgid "Font directory is not deleted"
+msgstr ""
+
+#: libs/smart-framework/core/fonts/fonts.class.php:650
+#: libs/smart-framework/core/fonts/fonts.class.php:662
+msgid "Delete custom font done!"
+msgstr ""
+
+#: libs/smart-framework/core/fonts/fonts.class.php:679
+msgid "Fonts already exists!"
+msgstr ""
+
+#: libs/smart-framework/core/fonts/fonts.class.php:755
+msgid "Save Done!"
+msgstr ""
+
+#: libs/smart-framework/core/fonts/templates/active.tpl.php:9
+msgid "Remove font!"
+msgstr ""
+
+#: libs/smart-framework/core/fonts/templates/active.tpl.php:16
+msgid "Welcome to font preview!"
+msgstr ""
+
+#: libs/smart-framework/core/fonts/templates/active.tpl.php:23
+msgid "Variants"
+msgstr ""
+
+#: libs/smart-framework/core/fonts/templates/active.tpl.php:35
+msgid "Subsets"
+msgstr ""
+
+#: libs/smart-framework/core/fonts/templates/active.tpl.php:48
+msgid "Selector apply:"
+msgstr ""
+
+#: libs/smart-framework/core/fonts/templates/active.tpl.php:56
+msgid "Save Changes"
+msgstr ""
+
+#: libs/smart-framework/core/fonts/templates/custom.tpl.php:5
+#: libs/smart-framework/core/fonts/templates/custom.tpl.php:18
+msgid "Add Custom Font"
+msgstr ""
+
+#: libs/smart-framework/core/fonts/templates/custom.tpl.php:9
+msgid "Font name:"
+msgstr ""
+
+#: libs/smart-framework/core/fonts/templates/custom.tpl.php:13
+msgid "Fonts files (zip):"
+msgstr ""
+
+#: libs/smart-framework/core/fonts/templates/custom.tpl.php:15
+msgid ""
+"File zip contains stylesheet.css and font files (accept: .woff, .eot, ."
+"svg, .ttf)"
+msgstr ""
+
+#: libs/smart-framework/core/fonts/templates/custom.tpl.php:27
+msgid "Delete custom font"
+msgstr ""
+
+#: libs/smart-framework/core/fonts/templates/custom.tpl.php:30
+#: libs/smart-framework/core/fonts/templates/custom.tpl.php:33
+#: libs/smart-framework/core/fonts/templates/google.tpl.php:22
+#: libs/smart-framework/core/fonts/templates/google.tpl.php:25
+#: libs/smart-framework/core/fonts/templates/standard.tpl.php:10
+#: libs/smart-framework/core/fonts/templates/standard.tpl.php:13
+msgid "Use this font"
+msgstr ""
+
+#: libs/smart-framework/core/fonts/templates/custom.tpl.php:40
+msgid "Add Custom Fonts"
+msgstr ""
+
+#: libs/smart-framework/core/fonts/templates/fonts.php:11
+msgid "Available Fonts"
+msgstr ""
+
+#: libs/smart-framework/core/fonts/templates/fonts.php:12
+msgid "Search fonts..."
+msgstr ""
+
+#: libs/smart-framework/core/fonts/templates/fonts.php:28
+msgid "Active Fonts"
+msgstr ""
+
+#: libs/smart-framework/core/fonts/templates/fonts.php:28
+msgid "Reset Fonts"
+msgstr ""
+
+#: libs/smart-framework/core/fonts/templates/google.tpl.php:18
+msgid "Preview font"
+msgstr ""
+
+#: libs/smart-framework/fields/background/background.class.php:101
+msgid "No background image"
+msgstr ""
+
+#: libs/smart-framework/fields/background/background.class.php:108
+msgid "Background Image Properties"
+msgstr ""
+
+#: libs/smart-framework/fields/border/border.class.php:73
+#: libs/smart-framework/fields/spacing/spacing.class.php:45
+#: shortcodes/info-box/config.php:270
+msgid "Top"
+msgstr ""
+
+#: libs/smart-framework/fields/border/border.class.php:91
+#: libs/smart-framework/fields/spacing/spacing.class.php:52
+msgid "Bottom"
+msgstr ""
+
+#: libs/smart-framework/fields/dimension/dimension.class.php:29
+msgid "Width"
+msgstr ""
+
+#: libs/smart-framework/fields/dimension/dimension.class.php:36
+#: shortcodes/banner/config.php:93 widgets/banner.class.php:60
+msgid "Height"
+msgstr ""
+
+#: libs/smart-framework/fields/field.php:345
+msgid "+ Add more"
+msgstr ""
+
+#: libs/smart-framework/fields/file/file.class.php:14
+msgid "Select File"
+msgstr ""
+
+#: libs/smart-framework/fields/file/file.class.php:15
+msgid "Use these files"
+msgstr ""
+
+#: libs/smart-framework/fields/file/file.class.php:56
+msgid "+ Add File"
+msgstr ""
+
+#: libs/smart-framework/fields/font/font.class.php:51
+#: libs/smart-framework/fields/typography/typography.class.php:64
+msgid "Font Size"
+msgstr ""
+
+#: libs/smart-framework/fields/font/font.class.php:55
+#: libs/smart-framework/fields/typography/typography.class.php:68
+#: shortcodes/heading/config.php:61 shortcodes/heading/config.php:106
+#: shortcodes/info-box/config.php:116 shortcodes/page-title/config.php:27
+msgid "Font size"
+msgstr ""
+
+#: libs/smart-framework/fields/font/font.class.php:72
+#: libs/smart-framework/fields/typography/typography.class.php:85
+msgid "Font Weight & Style"
+msgstr ""
+
+#: libs/smart-framework/fields/font/font.class.php:80
+msgid "Font Subsets"
+msgstr ""
+
+#: libs/smart-framework/fields/gallery/gallery.class.php:40
+msgid "+ Add Images"
+msgstr ""
+
+#: libs/smart-framework/fields/icon/icon.class.php:22
+msgid "Select icon"
+msgstr ""
+
+#: libs/smart-framework/fields/icon/icon.class.php:23
+msgid "Remove icon"
+msgstr ""
+
+#: libs/smart-framework/fields/icon/icon.class.php:24
+msgid "Search icon..."
+msgstr ""
+
+#: libs/smart-framework/fields/icon/icon.class.php:27
+msgid "Set Icon"
+msgstr ""
+
+#: libs/smart-framework/fields/image/image.class.php:43
+msgid "No image"
+msgstr ""
+
+#: libs/smart-framework/fields/map/map.class.php:31
+msgid "Enter an address..."
+msgstr ""
+
+#: libs/smart-framework/fields/map/map.class.php:40
+msgid "Find Address"
+msgstr ""
+
+#: libs/smart-framework/fields/panel/panel.class.php:72
+msgid "+ Add "
+msgstr ""
+
+#: libs/smart-framework/fields/selectize/selectize.class.php:164
+msgid "Edit"
+msgstr ""
+
+#: libs/smart-framework/fields/selectize/selectize.class.php:167
+msgid "Add New"
+msgstr ""
+
+#: libs/smart-framework/inc/admin-ajax.class.php:111
+msgid "Google Webfonts"
+msgstr ""
+
+#: libs/smart-framework/inc/admin-taxonomy.class.php:89
+#, php-format
+msgid "Popular %s"
+msgstr ""
+
+#: libs/smart-framework/inc/admin-taxonomy.class.php:91
+#, php-format
+msgid "Parent %s"
+msgstr ""
+
+#: libs/smart-framework/inc/admin-taxonomy.class.php:92
+#, php-format
+msgid "Parent %s:"
+msgstr ""
+
+#: libs/smart-framework/inc/admin-taxonomy.class.php:95
+#, php-format
+msgid "Update %s"
+msgstr ""
+
+#: libs/smart-framework/inc/admin-taxonomy.class.php:97
+#, php-format
+msgid "New %s New"
+msgstr ""
+
+#: libs/smart-framework/inc/admin-taxonomy.class.php:98
+#, php-format
+msgid "Separate %s with commas"
+msgstr ""
+
+#: libs/smart-framework/inc/admin-taxonomy.class.php:99
+#, php-format
+msgid "Add or remove %s"
+msgstr ""
+
+#: libs/smart-framework/inc/admin-taxonomy.class.php:100
+#, php-format
+msgid "Choose from the most used %s"
+msgstr ""
+
+#: libs/smart-framework/inc/admin-taxonomy.class.php:102
+#, php-format
+msgid "No %s"
+msgstr ""
+
+#: libs/smart-framework/inc/admin-theme-options.class.php:102
+msgid "Saving Options..."
+msgstr ""
+
+#: libs/smart-framework/inc/admin-theme-options.class.php:103
+msgid "Resetting Options..."
+msgstr ""
+
+#: libs/smart-framework/inc/admin-theme-options.class.php:104
+msgid "Resetting Section..."
+msgstr ""
+
+#: libs/smart-framework/inc/admin-theme-options.class.php:105
+msgid "Are you sure? Resetting will lose all custom values."
+msgstr ""
+
+#: libs/smart-framework/inc/admin-theme-options.class.php:106
+msgid ""
+"Are you sure? Resetting will lose all custom values in this section."
+msgstr ""
+
+#: libs/smart-framework/inc/admin-theme-options.class.php:107
+#: libs/smart-framework/inc/admin-theme-options.class.php:117
+msgid "Reset theme options done"
+msgstr ""
+
+#: libs/smart-framework/inc/admin-theme-options.class.php:108
+#: libs/smart-framework/inc/admin-theme-options.class.php:118
+msgid "Reset theme options error"
+msgstr ""
+
+#: libs/smart-framework/inc/admin-theme-options.class.php:109
+msgid "Reset section done"
+msgstr ""
+
+#: libs/smart-framework/inc/admin-theme-options.class.php:110
+msgid "Reset section error"
+msgstr ""
+
+#: libs/smart-framework/inc/admin-theme-options.class.php:111
+msgid ""
+"Are you sure?  This will overwrite all existing option values, please "
+"proceed with caution!"
+msgstr ""
+
+#: libs/smart-framework/inc/admin-theme-options.class.php:112
+msgid "Import option done"
+msgstr ""
+
+#: libs/smart-framework/inc/admin-theme-options.class.php:113
+msgid "Import option error"
+msgstr ""
+
+#: libs/smart-framework/inc/admin-theme-options.class.php:114
+msgid "Settings have changed, you should save them!"
+msgstr ""
+
+#: libs/smart-framework/inc/admin-theme-options.class.php:115
+msgid "Data saved successfully!"
+msgstr ""
+
+#: libs/smart-framework/inc/admin-theme-options.class.php:116
+msgid "Are you sure? The current preset will be deleted!"
+msgstr ""
+
+#: libs/smart-framework/inc/admin-theme-options.class.php:119
+msgid "Deleting Section..."
+msgstr ""
+
+#: libs/smart-framework/inc/admin-theme-options.class.php:120
+msgid "Changes you made may not be saved. Do you want change options?"
+msgstr ""
+
+#: libs/smart-framework/inc/admin-theme-options.class.php:424
+msgid "Import/Export Options"
+msgstr ""
+
+#: libs/smart-framework/inc/admin-theme-options.class.php:428
+msgid "Import Options"
+msgstr ""
+
+#: libs/smart-framework/inc/admin-theme-options.class.php:433
+msgid "Importing..."
+msgstr ""
+
+#: libs/smart-framework/inc/admin-theme-options.class.php:434
+msgid ""
+"WARNING! This will overwrite all existing option values, please proceed "
+"with caution!"
+msgstr ""
+
+#: libs/smart-framework/inc/admin-theme-options.class.php:438
+msgid "Export Options"
+msgstr ""
+
+#: libs/smart-framework/inc/admin-theme-options.class.php:441
+msgid "Download Data File"
+msgstr ""
+
+#: libs/smart-framework/inc/admin-theme-options.class.php:506
+msgid "Save options Done"
+msgstr ""
+
+#: libs/smart-framework/inc/helper.class.php:418
+msgid "Font Awesome 5Pro"
+msgstr ""
+
+#: shortcodes/banner/config.php:32 shortcodes/gallery/config.php:118
+#: shortcodes/product-category/config.php:39 widgets/banner.class.php:80
+msgid "Suprema"
+msgstr ""
+
+#: shortcodes/banner/config.php:33 shortcodes/gallery/config.php:119
+#: shortcodes/product-category/config.php:40 widgets/banner.class.php:81
+msgid "Layla"
+msgstr ""
+
+#: shortcodes/banner/config.php:34 shortcodes/gallery/config.php:120
+#: shortcodes/product-category/config.php:41 widgets/banner.class.php:82
+msgid "Bubba"
+msgstr ""
+
+#: shortcodes/banner/config.php:35 shortcodes/gallery/config.php:121
+#: shortcodes/product-category/config.php:42 widgets/banner.class.php:83
+msgid "Jazz"
+msgstr ""
+
+#: shortcodes/banner/config.php:36 shortcodes/gallery/config.php:122
+#: shortcodes/product-category/config.php:43 widgets/banner.class.php:84
+msgid "Flash"
+msgstr ""
+
+#: shortcodes/banner/config.php:41
+msgid "Background Postion"
+msgstr ""
+
+#: shortcodes/banner/config.php:53
+#: shortcodes/product-category/config.php:28
+msgid "Background Image"
+msgstr ""
+
+#: shortcodes/banner/config.php:66
+msgid "Subtitle"
+msgstr ""
+
+#: shortcodes/banner/config.php:71
+msgid "Link (URL)"
+msgstr ""
+
+#: shortcodes/banner/config.php:76
+#: shortcodes/product-category/config.php:48 widgets/banner.class.php:43
+msgid "Height Mode"
+msgstr ""
+
+#: shortcodes/banner/config.php:89
+#: shortcodes/product-category/config.php:61
+msgid ""
+"Sizing proportions for height and width. Select \"Original\" to scale "
+"image without cropping."
+msgstr ""
+
+#: shortcodes/banner/config.php:97
+msgid "Enter custom height (include unit)"
+msgstr ""
+
+#: shortcodes/breadcrumbs/config.php:8
+msgid "Breadcrumbs"
+msgstr ""
+
+#: shortcodes/breadcrumbs/config.php:14 shortcodes/button/config.php:101
+#: shortcodes/counter/config.php:10
+msgid "Alignment"
+msgstr ""
+
+#: shortcodes/breadcrumbs/config.php:16 shortcodes/heading/config.php:29
+#: shortcodes/page-title/config.php:20 shortcodes/pie-chart/config.php:87
+msgid "Select text alignment."
+msgstr ""
+
+#: shortcodes/breadcrumbs/config.php:21
+msgid "Justify"
+msgstr ""
+
+#: shortcodes/button/config.php:11
+msgid "Button"
+msgstr ""
+
+#: shortcodes/button/config.php:13
+msgid "Eye catching button"
+msgstr ""
+
+#: shortcodes/button/config.php:20
+msgid "Text on the button"
+msgstr ""
+
+#: shortcodes/button/config.php:25 shortcodes/menu-column/config.php:30
+#: shortcodes/pricing-tables/config.php:100
+#: shortcodes/view-demo/config.php:44
+msgid "URL (Link)"
+msgstr ""
+
+#: shortcodes/button/config.php:27
+#: shortcodes/pricing-tables/config.php:102
+msgid "Add link to button."
+msgstr ""
+
+#: shortcodes/button/config.php:31
+msgid "Style"
+msgstr ""
+
+#: shortcodes/button/config.php:32
+msgid "Select button display style."
+msgstr ""
+
+#: shortcodes/button/config.php:36 shortcodes/video/config.php:13
+msgid "Outline"
+msgstr ""
+
+#: shortcodes/button/config.php:37 shortcodes/video/config.php:30
+msgid "Link"
+msgstr ""
+
+#: shortcodes/button/config.php:55
+msgid "Shape"
+msgstr ""
+
+#: shortcodes/button/config.php:56
+msgid "Select button shape."
+msgstr ""
+
+#: shortcodes/button/config.php:59
+msgid "Rounded"
+msgstr ""
+
+#: shortcodes/button/config.php:60 shortcodes/lists/config.php:16
+#: shortcodes/lists/config.php:27 shortcodes/social-networks/config.php:25
+msgid "Square"
+msgstr ""
+
+#: shortcodes/button/config.php:61
+msgid "Round"
+msgstr ""
+
+#: shortcodes/button/config.php:73
+msgid "Select button color."
+msgstr ""
+
+#: shortcodes/button/config.php:76
+msgid "Primary"
+msgstr ""
+
+#: shortcodes/button/config.php:77
+msgid "Gray"
+msgstr ""
+
+#: shortcodes/button/config.php:78
+msgid "Black"
+msgstr ""
+
+#: shortcodes/button/config.php:79
+msgid "White"
+msgstr ""
+
+#: shortcodes/button/config.php:80
+msgid "Red"
+msgstr ""
+
+#: shortcodes/button/config.php:87
+msgid "Size"
+msgstr ""
+
+#: shortcodes/button/config.php:89
+msgid "Select button display size."
+msgstr ""
+
+#: shortcodes/button/config.php:92
+msgid "Mini"
+msgstr ""
+
+#: shortcodes/button/config.php:103
+msgid "Select button alignment."
+msgstr ""
+
+#: shortcodes/button/config.php:105
+msgid "Inline"
+msgstr ""
+
+#: shortcodes/button/config.php:115
+msgid "Set full width button?"
+msgstr ""
+
+#: shortcodes/button/config.php:128
+msgid "Icon Alignment"
+msgstr ""
+
+#: shortcodes/button/config.php:129
+msgid "Select icon alignment."
+msgstr ""
+
+#: shortcodes/button/config.php:142
+msgid "Advanced on click action"
+msgstr ""
+
+#: shortcodes/button/config.php:145
+msgid "Insert inline onclick javascript action."
+msgstr ""
+
+#: shortcodes/button/config.php:149
+msgid "On click code"
+msgstr ""
+
+#: shortcodes/button/config.php:151
+msgid "Enter onclick action code."
+msgstr ""
+
+#: shortcodes/countdown/config.php:9
+msgid "Countdown"
+msgstr ""
+
+#: shortcodes/countdown/config.php:33
+msgid "Time Off"
+msgstr ""
+
+#: shortcodes/countdown/config.php:38
+msgid "Url Redirect"
+msgstr ""
+
+#: shortcodes/countdown/config.php:44
+msgid "Date - Main Color"
+msgstr ""
+
+#: shortcodes/countdown/config.php:51
+msgid "Countdown Day Enable"
+msgstr ""
+
+#: shortcodes/countdown/config.php:57
+msgid "Use Theme Default Font family for Number Text?"
+msgstr ""
+
+#: shortcodes/countdown/template.php:73
+msgid "Days"
+msgstr ""
+
+#: shortcodes/countdown/template.php:77
+msgid "Hours"
+msgstr ""
+
+#: shortcodes/countdown/template.php:81
+msgid "Mins"
+msgstr ""
+
+#: shortcodes/countdown/template.php:85
+msgid "Secs"
+msgstr ""
+
+#: shortcodes/counter/config.php:4
+msgid "Counter"
+msgstr ""
+
+#: shortcodes/counter/config.php:12
+msgid "Select Alignment for counter"
+msgstr ""
+
+#: shortcodes/counter/config.php:23
+msgid "Counter Size"
+msgstr ""
+
+#: shortcodes/counter/config.php:25
+msgid "Select Size for counter"
+msgstr ""
+
+#: shortcodes/counter/config.php:28 shortcodes/info-box/config.php:256
+#: shortcodes/info-box/config.php:285 shortcodes/video/config.php:24
+msgid "Medium"
+msgstr ""
+
+#: shortcodes/counter/config.php:37
+msgid "Custom Title Color"
+msgstr ""
+
+#: shortcodes/counter/config.php:46
+msgid "ICon Color"
+msgstr ""
+
+#: shortcodes/counter/config.php:54 shortcodes/video/config.php:59
+msgid "Icon Hover Color"
+msgstr ""
+
+#: shortcodes/counter/config.php:57 shortcodes/info-box/config.php:344
+msgid "Choose icon color when hover"
+msgstr ""
+
+#: shortcodes/counter/config.php:63 shortcodes/counter/config.php:160
+msgid "Use Theme Default Font family for Counter title?"
+msgstr ""
+
+#: shortcodes/counter/config.php:74
+msgid "Start Value"
+msgstr ""
+
+#: shortcodes/counter/config.php:79 shortcodes/counter/config.php:89
+#: shortcodes/counter/config.php:98 shortcodes/counter/config.php:107
+#: shortcodes/counter/config.php:116 shortcodes/counter/config.php:125
+#: shortcodes/counter/config.php:133 shortcodes/counter/config.php:141
+#: shortcodes/counter/config.php:149 shortcodes/counter/config.php:155
+#: shortcodes/counter/config.php:163 shortcodes/counter/config.php:169
+msgid "Value Options"
+msgstr ""
+
+#: shortcodes/counter/config.php:83
+msgid "End Value"
+msgstr ""
+
+#: shortcodes/counter/config.php:93
+msgid "Decimals"
+msgstr ""
+
+#: shortcodes/counter/config.php:102
+msgid "Duration (s)"
+msgstr ""
+
+#: shortcodes/counter/config.php:111
+msgid "Separator"
+msgstr ""
+
+#: shortcodes/counter/config.php:120
+msgid "Decimal"
+msgstr ""
+
+#: shortcodes/counter/config.php:129
+msgid "Prefix"
+msgstr ""
+
+#: shortcodes/counter/config.php:137
+msgid "Suffix"
+msgstr ""
+
+#: shortcodes/counter/config.php:145
+msgid "Value Color"
+msgstr ""
+
+#: shortcodes/counter/config.php:153
+msgid "Value Font size"
+msgstr ""
+
+#: shortcodes/gallery/config.php:4
+msgid "Gallery"
+msgstr ""
+
+#: shortcodes/gallery/config.php:23
+msgid "Metro 01"
+msgstr ""
+
+#: shortcodes/gallery/config.php:27
+msgid "Metro 02"
+msgstr ""
+
+#: shortcodes/gallery/config.php:31
+msgid "Metro 03"
+msgstr ""
+
+#: shortcodes/gallery/config.php:35
+msgid "Metro 04"
+msgstr ""
+
+#: shortcodes/gallery/config.php:39
+msgid "Metro 05"
+msgstr ""
+
+#: shortcodes/gallery/config.php:43
+msgid "Metro 06"
+msgstr ""
+
+#: shortcodes/gallery/config.php:47
+msgid "Slider"
+msgstr ""
+
+#: shortcodes/gallery/config.php:51
+msgid "Sync Carousel"
+msgstr ""
+
+#: shortcodes/gallery/config.php:55
+msgid "Carousel 3D"
+msgstr ""
+
+#: shortcodes/gallery/config.php:65
+msgid "Enter your gallery image size"
+msgstr ""
+
+#: shortcodes/gallery/config.php:74
+msgid "Specify your image gallery ratio"
+msgstr ""
+
+#: shortcodes/gallery/config.php:83 shortcodes/posts/config.php:60
+msgid "Image ratio custom width"
+msgstr ""
+
+#: shortcodes/gallery/config.php:84 shortcodes/posts/config.php:61
+msgid "Enter custom width for image ratio"
+msgstr ""
+
+#: shortcodes/gallery/config.php:92 shortcodes/posts/config.php:69
+msgid "Image ratio custom height"
+msgstr ""
+
+#: shortcodes/gallery/config.php:93 shortcodes/posts/config.php:70
+msgid "Enter custom height for image ratio"
+msgstr ""
+
+#: shortcodes/gallery/config.php:101 shortcodes/posts/config.php:78
+msgid "Image masonry width"
+msgstr ""
+
+#: shortcodes/gallery/config.php:108 shortcodes/info-box/config.php:194
+#: shortcodes/partners/config.php:15 shortcodes/view-demo/config.php:38
+msgid "Images"
+msgstr ""
+
+#: shortcodes/gallery/config.php:113
+msgid "Hover effect"
+msgstr ""
+
+#: shortcodes/gallery/config.php:169
+#: shortcodes/slider-container/config.php:25
+msgid "Loop"
+msgstr ""
+
+#: shortcodes/gallery/template.php:118 shortcodes/gallery/template.php:149
+#: shortcodes/posts/template.php:210
+#: shortcodes/product-tabs/template.php:242
+msgid "Prev"
+msgstr ""
+
+#: shortcodes/gallery/template.php:118 shortcodes/gallery/template.php:149
+#: shortcodes/posts/template.php:210
+#: shortcodes/product-tabs/template.php:242
+msgid "Next"
+msgstr ""
+
+#: shortcodes/google-map/config.php:3
+msgid "Google Map"
+msgstr ""
+
+#: shortcodes/google-map/config.php:10
+msgid "Markers"
+msgstr ""
+
+#: shortcodes/google-map/config.php:21
+msgid "Address "
+msgstr ""
+
+#: shortcodes/google-map/config.php:25
+msgid ""
+"Enter address or coordinate. Example: 40.735601,-74.165918 or Central "
+"Business District"
+msgstr ""
+
+#: shortcodes/google-map/config.php:42
+msgid "Marker Icon"
+msgstr ""
+
+#: shortcodes/google-map/config.php:45
+msgid "Select an image from media library."
+msgstr ""
+
+#: shortcodes/google-map/config.php:51
+msgid "Map height"
+msgstr ""
+
+#: shortcodes/google-map/config.php:58
+msgid "Map height in Large Devices"
+msgstr ""
+
+#: shortcodes/google-map/config.php:66
+msgid "Map height in Medium Devices"
+msgstr ""
+
+#: shortcodes/google-map/config.php:74
+msgid "Map height in Small Devices"
+msgstr ""
+
+#: shortcodes/google-map/config.php:82
+msgid "Map height in Extra Small Devices"
+msgstr ""
+
+#: shortcodes/google-map/config.php:90
+msgid "Map zoom level default"
+msgstr ""
+
+#: shortcodes/google-map/config.php:102
+msgid "Zoom on scroll"
+msgstr ""
+
+#: shortcodes/google-map/config.php:109
+msgid "Enable Overlay"
+msgstr ""
+
+#: shortcodes/google-map/config.php:116
+msgid "Map Style"
+msgstr ""
+
+#: shortcodes/google-map/config.php:120
+msgid "Standar"
+msgstr ""
+
+#: shortcodes/google-map/config.php:121
+msgid "Themes Style (Default)"
+msgstr ""
+
+#: shortcodes/google-map/config.php:124
+msgid "Sliver"
+msgstr ""
+
+#: shortcodes/google-map/config.php:125
+msgid "Retro"
+msgstr ""
+
+#: shortcodes/google-map/config.php:126
+msgid "Night"
+msgstr ""
+
+#: shortcodes/google-map/config.php:127
+msgid "Aubergine"
+msgstr ""
+
+#: shortcodes/google-map/config.php:135
+msgid "Custom map style"
+msgstr ""
+
+#: shortcodes/google-map/config.php:138
+msgid ""
+"Come <a target=\"_blank\" href=\"https://snazzymaps.com/\">here</a> to "
+"search map style code!"
+msgstr ""
+
+#: shortcodes/heading/config.php:4
+msgid "Heading"
+msgstr ""
+
+#: shortcodes/heading/config.php:27 shortcodes/pie-chart/config.php:85
+msgid "Text Alignment"
+msgstr ""
+
+#: shortcodes/heading/config.php:40
+msgid "Distance between Title and Subtitle"
+msgstr ""
+
+#: shortcodes/heading/config.php:53 shortcodes/info-box/config.php:61
+msgid "Title Color"
+msgstr ""
+
+#: shortcodes/heading/config.php:57 shortcodes/heading/config.php:63
+#: shortcodes/heading/config.php:74 shortcodes/heading/config.php:83
+#: shortcodes/heading/config.php:90 shortcodes/heading/config.php:97
+#: shortcodes/info-box/config.php:64 shortcodes/info-box/config.php:72
+#: shortcodes/info-box/config.php:80 shortcodes/info-box/config.php:89
+#: shortcodes/info-box/config.php:98 shortcodes/info-box/config.php:106
+msgid "Title Options"
+msgstr ""
+
+#: shortcodes/heading/config.php:69 shortcodes/info-box/config.php:78
+msgid "Title Line Height"
+msgstr ""
+
+#: shortcodes/heading/config.php:78 shortcodes/info-box/config.php:87
+msgid "Title Letter Spacing"
+msgstr ""
+
+#: shortcodes/heading/config.php:87
+msgid "Use Theme Default Font family for Heading title?"
+msgstr ""
+
+#: shortcodes/heading/config.php:101 shortcodes/info-box/config.php:111
+msgid "Sub Title"
+msgstr ""
+
+#: shortcodes/heading/config.php:108 shortcodes/heading/config.php:120
+#: shortcodes/heading/config.php:136 shortcodes/heading/config.php:144
+#: shortcodes/heading/config.php:156 shortcodes/heading/config.php:163
+#: shortcodes/info-box/config.php:118 shortcodes/info-box/config.php:129
+#: shortcodes/info-box/config.php:145 shortcodes/info-box/config.php:153
+#: shortcodes/info-box/config.php:165 shortcodes/info-box/config.php:172
+msgid "Sub Title Options"
+msgstr ""
+
+#: shortcodes/heading/config.php:115 shortcodes/info-box/config.php:124
+msgid "Sub Title Letter Spacing"
+msgstr ""
+
+#: shortcodes/heading/config.php:124 shortcodes/info-box/config.php:133
+msgid "Sub Title color"
+msgstr ""
+
+#: shortcodes/heading/config.php:142 shortcodes/info-box/config.php:151
+#: shortcodes/pie-chart/config.php:49 shortcodes/pie-chart/config.php:68
+msgid "Custom color"
+msgstr ""
+
+#: shortcodes/heading/config.php:153 shortcodes/info-box/config.php:162
+msgid "Use Theme Default Font family for Heading sub title?"
+msgstr ""
+
+#: shortcodes/info-box/config.php:26
+msgid "Style 04"
+msgstr ""
+
+#: shortcodes/info-box/config.php:30
+msgid "Style 05"
+msgstr ""
+
+#: shortcodes/info-box/config.php:34
+msgid "Style 06"
+msgstr ""
+
+#: shortcodes/info-box/config.php:38
+msgid "Style 07"
+msgstr ""
+
+#: shortcodes/info-box/config.php:54
+msgid "Distance between Title and Description"
+msgstr ""
+
+#: shortcodes/info-box/config.php:70
+msgid "Title Font Size"
+msgstr ""
+
+#: shortcodes/info-box/config.php:96 shortcodes/page-title/config.php:33
+msgid "Use theme default font family?"
+msgstr ""
+
+#: shortcodes/info-box/config.php:100 shortcodes/page-title/config.php:36
+msgid "Use font family from the theme."
+msgstr ""
+
+#: shortcodes/info-box/config.php:176 shortcodes/our-team/config.php:29
+#: shortcodes/our-team/config.php:43 shortcodes/partners/config.php:22
+msgid "Link (url)"
+msgstr ""
+
+#: shortcodes/info-box/config.php:183
+msgid "Icon Type"
+msgstr ""
+
+#: shortcodes/info-box/config.php:185 shortcodes/info-box/config.php:196
+#: shortcodes/info-box/config.php:202 shortcodes/info-box/config.php:218
+#: shortcodes/info-box/config.php:227 shortcodes/info-box/config.php:236
+#: shortcodes/info-box/config.php:245 shortcodes/info-box/config.php:260
+#: shortcodes/info-box/config.php:274 shortcodes/info-box/config.php:289
+msgid "Icon Options"
+msgstr ""
+
+#: shortcodes/info-box/config.php:198 shortcodes/info-box/config.php:306
+#: shortcodes/partners/config.php:18
+msgid "Select images from media library."
+msgstr ""
+
+#: shortcodes/info-box/config.php:207
+msgid "Icon Background Style"
+msgstr ""
+
+#: shortcodes/info-box/config.php:211
+msgid "Circle - Fill Color"
+msgstr ""
+
+#: shortcodes/info-box/config.php:212
+msgid "Circle - Outline"
+msgstr ""
+
+#: shortcodes/info-box/config.php:213
+msgid "Square - Fill Color"
+msgstr ""
+
+#: shortcodes/info-box/config.php:214
+msgid "Square - Outline"
+msgstr ""
+
+#: shortcodes/info-box/config.php:215
+msgid "Icon float on Circle Background"
+msgstr ""
+
+#: shortcodes/info-box/config.php:219
+msgid "Select Icon Background Style."
+msgstr ""
+
+#: shortcodes/info-box/config.php:224 shortcodes/info-box/config.php:341
+#: shortcodes/video/config.php:45
+msgid "Icon Color"
+msgstr ""
+
+#: shortcodes/info-box/config.php:242
+msgid "Icon Box Shadow"
+msgstr ""
+
+#: shortcodes/info-box/config.php:246 shortcodes/info-box/config.php:326
+msgid "Set empty for hidden"
+msgstr ""
+
+#: shortcodes/info-box/config.php:252
+msgid "Icon Size"
+msgstr ""
+
+#: shortcodes/info-box/config.php:261
+msgid "Select Color Scheme."
+msgstr ""
+
+#: shortcodes/info-box/config.php:267
+msgid "Icon Vertical Alignment"
+msgstr ""
+
+#: shortcodes/info-box/config.php:271
+msgid "Middle"
+msgstr ""
+
+#: shortcodes/info-box/config.php:275
+msgid "Select Icon Vertical Alignment."
+msgstr ""
+
+#: shortcodes/info-box/config.php:281
+msgid "Distance between Icon and Content"
+msgstr ""
+
+#: shortcodes/info-box/config.php:284
+msgid "Low"
+msgstr ""
+
+#: shortcodes/info-box/config.php:286
+msgid "Tall"
+msgstr ""
+
+#: shortcodes/info-box/config.php:296
+msgid "Flip on Hover"
+msgstr ""
+
+#: shortcodes/info-box/config.php:298 shortcodes/info-box/config.php:307
+#: shortcodes/info-box/config.php:316 shortcodes/info-box/config.php:325
+#: shortcodes/info-box/config.php:335 shortcodes/info-box/config.php:345
+msgid "Hover Options"
+msgstr ""
+
+#: shortcodes/info-box/config.php:303
+msgid "Background Images on Flip"
+msgstr ""
+
+#: shortcodes/info-box/config.php:315
+msgid "Choose background color when hover"
+msgstr ""
+
+#: shortcodes/info-box/config.php:322
+msgid "Box Shadow"
+msgstr ""
+
+#: shortcodes/info-box/config.php:334
+msgid "Choose color when hover"
+msgstr ""
+
+#: shortcodes/info-box/template.php:366
+msgid "Learn More"
+msgstr ""
+
+#: shortcodes/lists/config.php:4
+msgid "Lists"
+msgstr ""
+
+#: shortcodes/lists/config.php:10
+msgid "Bullet Type"
+msgstr ""
+
+#: shortcodes/lists/config.php:13
+msgid "Number"
+msgstr ""
+
+#: shortcodes/lists/config.php:15
+msgid "Dot"
+msgstr ""
+
+#: shortcodes/lists/config.php:23
+msgid "Bullet Style"
+msgstr ""
+
+#: shortcodes/lists/config.php:26
+msgid "Simple"
+msgstr ""
+
+#: shortcodes/lists/config.php:31
+msgid "Select lists design style."
+msgstr ""
+
+#: shortcodes/lists/config.php:37 shortcodes/lists/config.php:73
+msgid "Bullet Color"
+msgstr ""
+
+#: shortcodes/lists/config.php:40
+msgid "Select bullet color."
+msgstr ""
+
+#: shortcodes/lists/config.php:44 shortcodes/lists/config.php:80
+msgid "Label Color"
+msgstr ""
+
+#: shortcodes/lists/config.php:46
+msgid "Select Label color."
+msgstr ""
+
+#: shortcodes/lists/config.php:54 shortcodes/testimonials/config.php:20
+msgid "Values"
+msgstr ""
+
+#: shortcodes/lists/config.php:56
+msgid "Enter values for list - icon and text"
+msgstr ""
+
+#: shortcodes/lists/config.php:61
+#: widgets/product-filter-attribute.class.php:42
+msgid "Label"
+msgstr ""
+
+#: shortcodes/lists/config.php:67
+msgid "Custom Bullet"
+msgstr ""
+
+#: shortcodes/lists/config.php:69
+msgid "Set empty for default"
+msgstr ""
+
+#: shortcodes/lists/config.php:76 shortcodes/lists/config.php:82
+msgid "Set empty for default."
+msgstr ""
+
+#: shortcodes/mail-chimp/config.php:11
+msgid "Mail Chimp"
+msgstr ""
+
+#: shortcodes/menu-column/config.php:4
+msgid "Menu Column"
+msgstr ""
+
+#: shortcodes/menu-column/config.php:10
+msgid "Column Heading"
+msgstr ""
+
+#: shortcodes/menu-column/config.php:19
+msgid "Menu Items"
+msgstr ""
+
+#: shortcodes/menu-column/config.php:24
+msgid "Item Title"
+msgstr ""
+
+#: shortcodes/menu-column/config.php:38
+msgid "Item Style"
+msgstr ""
+
+#: shortcodes/menu-column/config.php:48
+msgid "Style Title"
+msgstr ""
+
+#: shortcodes/our-team/config.php:4
+msgid "Our Team"
+msgstr ""
+
+#: shortcodes/our-team/config.php:11 widgets/banner.class.php:23
+msgid "Image:"
+msgstr ""
+
+#: shortcodes/our-team/config.php:35
+msgid "Social"
+msgstr ""
+
+#: shortcodes/page-title/config.php:21
+msgid "Select heading color."
+msgstr ""
+
+#: shortcodes/partners/config.php:4
+msgid "Partners"
+msgstr ""
+
+#: shortcodes/partners/config.php:10
+msgid "Partner Info"
+msgstr ""
+
+#: shortcodes/partners/config.php:39 shortcodes/posts/config.php:130
+#: shortcodes/product-tabs/config.php:92
+#: shortcodes/products/config.php:115
+msgid "Is Slider?"
+msgstr ""
+
+#: shortcodes/partners/config.php:91
+msgid "Effect at first"
+msgstr ""
+
+#: shortcodes/partners/config.php:94
+msgid "Opacity"
+msgstr ""
+
+#: shortcodes/partners/config.php:95
+msgid "GrayScale"
+msgstr ""
+
+#: shortcodes/partners/config.php:96
+msgid "Both Opacity and GrayScale"
+msgstr ""
+
+#: shortcodes/partners/config.php:102
+msgid "Opacity value"
+msgstr ""
+
+#: shortcodes/partners/config.php:110
+msgid "Select opacity for images at first."
+msgstr ""
+
+#: shortcodes/partners/config.php:115
+msgid "GrayScale value"
+msgstr ""
+
+#: shortcodes/partners/config.php:123
+msgid "Select grayscale for images at first."
+msgstr ""
+
+#: shortcodes/partners/config.php:128
+msgid "Set Partner with border"
+msgstr ""
+
+#: shortcodes/partners/config.php:135
+msgid "Tablet landscape"
+msgstr ""
+
+#: shortcodes/partners/config.php:137 shortcodes/space/config.php:24
+msgid "Browser Width >= 992px and < 1200px"
+msgstr ""
+
+#: shortcodes/partners/config.php:144
+msgid "Tablet portrait"
+msgstr ""
+
+#: shortcodes/partners/config.php:146 shortcodes/space/config.php:38
+msgid "Browser Width >= 768px and < 991px"
+msgstr ""
+
+#: shortcodes/partners/config.php:153
+msgid "Mobile landscape"
+msgstr ""
+
+#: shortcodes/partners/config.php:155 shortcodes/space/config.php:52
+msgid "Browser Width >= 576px and < 768px"
+msgstr ""
+
+#: shortcodes/partners/config.php:162
+msgid "Mobile portrait"
+msgstr ""
+
+#: shortcodes/pie-chart/config.php:3
+msgid "Pie Chart"
+msgstr ""
+
+#: shortcodes/pie-chart/config.php:7
+msgid "Animated pie chart"
+msgstr ""
+
+#: shortcodes/pie-chart/config.php:13
+msgid ""
+"Enter text used as widget title (Note: located above content element)."
+msgstr ""
+
+#: shortcodes/pie-chart/config.php:18
+msgid "Value"
+msgstr ""
+
+#: shortcodes/pie-chart/config.php:20
+msgid "Enter value for graph (Note: choose range from 0 to 100)."
+msgstr ""
+
+#: shortcodes/pie-chart/config.php:26
+msgid "Units"
+msgstr ""
+
+#: shortcodes/pie-chart/config.php:28
+msgid ""
+"Enter measurement units (Example: %, px, points, etc. Note: graph value "
+"and units will be appended to graph title)."
+msgstr ""
+
+#: shortcodes/pie-chart/config.php:32
+msgid "Text value color"
+msgstr ""
+
+#: shortcodes/pie-chart/config.php:34
+msgid "Select value color."
+msgstr ""
+
+#: shortcodes/pie-chart/config.php:39
+msgid "Bar color"
+msgstr ""
+
+#: shortcodes/pie-chart/config.php:41 shortcodes/pie-chart/config.php:61
+msgid "Accent color"
+msgstr ""
+
+#: shortcodes/pie-chart/config.php:42
+msgid "Select pie chart color."
+msgstr ""
+
+#: shortcodes/pie-chart/config.php:51
+msgid "Select custom bar color."
+msgstr ""
+
+#: shortcodes/pie-chart/config.php:59
+msgid "Bar value color"
+msgstr ""
+
+#: shortcodes/pie-chart/config.php:62
+msgid "Select bar value color."
+msgstr ""
+
+#: shortcodes/pie-chart/config.php:70
+msgid "Select custom bar value color."
+msgstr ""
+
+#: shortcodes/pie-chart/config.php:78
+msgid "Max width"
+msgstr ""
+
+#: shortcodes/pie-chart/config.php:81
+msgid "Enter max width for Pie chart"
+msgstr ""
+
+#: shortcodes/posts/config.php:8
+msgid "Posts"
+msgstr ""
+
+#: shortcodes/posts/config.php:104 shortcodes/products/config.php:18
+msgid "Category Filter Alignment"
+msgstr ""
+
+#: shortcodes/posts/config.php:142 shortcodes/product-tabs/config.php:100
+#: shortcodes/products/config.php:123
+msgid "Carousel Rows"
+msgstr ""
+
+#: shortcodes/pricing-tables/config.php:4
+msgid "Pricing Tables"
+msgstr ""
+
+#: shortcodes/pricing-tables/config.php:11
+msgid "Specify your layout style"
+msgstr ""
+
+#: shortcodes/pricing-tables/config.php:15
+msgid "Style 1"
+msgstr ""
+
+#: shortcodes/pricing-tables/config.php:19
+msgid "Style 2"
+msgstr ""
+
+#: shortcodes/pricing-tables/config.php:34
+msgid "Min Height (px)"
+msgstr ""
+
+#: shortcodes/pricing-tables/config.php:47
+msgid "Currency Code"
+msgstr ""
+
+#: shortcodes/pricing-tables/config.php:48
+msgid "Enter Currency Code. Ex: $, £, €, ₫ ..."
+msgstr ""
+
+#: shortcodes/pricing-tables/config.php:54
+msgid "Time text"
+msgstr ""
+
+#: shortcodes/pricing-tables/config.php:55
+msgid "Enter text for time. Ex: day, mo or year"
+msgstr ""
+
+#: shortcodes/pricing-tables/config.php:60
+msgid "Is Featured?"
+msgstr ""
+
+#: shortcodes/pricing-tables/config.php:67
+msgid "Featured Caption"
+msgstr ""
+
+#: shortcodes/pricing-tables/config.php:68
+msgid "Enter text for featured."
+msgstr ""
+
+#: shortcodes/pricing-tables/config.php:75
+#: shortcodes/pricing-tables/config.php:79
+msgid "Features"
+msgstr ""
+
+#: shortcodes/pricing-tables/config.php:86
+msgid "Feature"
+msgstr ""
+
+#: shortcodes/pricing-tables/config.php:94
+msgid "Button Text"
+msgstr ""
+
+#: shortcodes/pricing-tables/config.php:96
+#: shortcodes/pricing-tables/config.php:104
+msgid "Button Options"
+msgstr ""
+
+#: shortcodes/product-category/config.php:4
+msgid "Product Category"
+msgstr ""
+
+#: shortcodes/product-singular/config.php:17
+msgid "Choose product to show"
+msgstr ""
+
+#: shortcodes/product-tabs/config.php:11
+msgid "Tab Info"
+msgstr ""
+
+#: shortcodes/product-tabs/config.php:16
+msgid "Tab Title"
+msgstr ""
+
+#: shortcodes/product-tabs/config.php:51
+#: shortcodes/products/config.php:103
+msgid "Sort order"
+msgstr ""
+
+#: shortcodes/product-tabs/config.php:57
+#: shortcodes/products/config.php:109
+msgid "Designates the ascending or descending order."
+msgstr ""
+
+#: shortcodes/product-tabs/config.php:65
+msgid "Tabs Alignment"
+msgstr ""
+
+#: shortcodes/product-tabs/config.php:159
+#: shortcodes/products/config.php:179
+msgid "Product Animation"
+msgstr ""
+
+#: shortcodes/slider-container/config.php:3
+msgid "Slider Container"
+msgstr ""
+
+#: shortcodes/slider-container/config.php:34
+msgid "Margin"
+msgstr ""
+
+#: shortcodes/slider-container/config.php:38
+msgid "Margin-right(px) on item."
+msgstr ""
+
+#: shortcodes/social-networks/config.php:19
+msgid "Social Shape"
+msgstr ""
+
+#: shortcodes/social-networks/config.php:23
+msgid "Circle Fill"
+msgstr ""
+
+#: shortcodes/social-networks/config.php:24
+msgid "Circle Outline"
+msgstr ""
+
+#: shortcodes/social-networks/config.php:31
+msgid "Social Size"
+msgstr ""
+
+#: shortcodes/social-networks/config.php:42
+msgid "Distance between items"
+msgstr ""
+
+#: shortcodes/space/config.php:3
+msgid "Space"
+msgstr ""
+
+#: shortcodes/space/config.php:11
+msgid "<i class=\"fa fa-desktop\"></i> Desktop"
+msgstr ""
+
+#: shortcodes/space/config.php:23
+msgid ""
+"<i class=\"fa fa-tablet\" style=\"transform: rotate(90deg);\"></i> "
+"Tablet"
+msgstr ""
+
+#: shortcodes/space/config.php:37
+msgid "<i class=\"fa fa-tablet\"></i> Tablet Portrait"
+msgstr ""
+
+#: shortcodes/space/config.php:51
+msgid ""
+"<i class=\"fa fa-mobile\" style=\"transform: rotate(90deg);\"></i> "
+"Mobile Landscape"
+msgstr ""
+
+#: shortcodes/space/config.php:65
+msgid "<i class=\"fa fa-mobile\"></i> Mobile"
+msgstr ""
+
+#: shortcodes/testimonials/config.php:4
+msgid "Testimonials"
+msgstr ""
+
+#: shortcodes/testimonials/config.php:22
+msgid "Enter values for author"
+msgstr ""
+
+#: shortcodes/testimonials/config.php:27
+msgid "Author Name"
+msgstr ""
+
+#: shortcodes/testimonials/config.php:33
+msgid "Author Job"
+msgstr ""
+
+#: shortcodes/testimonials/config.php:39
+msgid "Content testimonials of the author"
+msgstr ""
+
+#: shortcodes/testimonials/config.php:44
+msgid "Upload Avatar"
+msgstr ""
+
+#: shortcodes/testimonials/config.php:47
+msgid "Upload avatar for author."
+msgstr ""
+
+#: shortcodes/testimonials/config.php:51
+msgid "Rating stars"
+msgstr ""
+
+#: shortcodes/testimonials/config.php:65
+msgid "Author Link"
+msgstr ""
+
+#: shortcodes/video/config.php:10
+msgid "Video Icon Style"
+msgstr ""
+
+#: shortcodes/video/config.php:14
+msgid "Fill"
+msgstr ""
+
+#: shortcodes/video/config.php:20
+msgid "Video Icon Size"
+msgstr ""
+
+#: shortcodes/video/config.php:33
+msgid "Enter link video"
+msgstr ""
+
+#: shortcodes/video/config.php:38
+msgid "Icon Background/Border Color"
+msgstr ""
+
+#: shortcodes/video/config.php:52
+msgid "Icon Background Hover Color"
+msgstr ""
+
+#: shortcodes/view-demo/config.php:4
+msgid "View Demo"
+msgstr ""
+
+#: shortcodes/view-demo/config.php:12
+msgid "Specify your horizontal space between items."
+msgstr ""
+
+#: shortcodes/view-demo/config.php:19
+msgid "Scroll on Hover"
+msgstr ""
+
+#: shortcodes/view-demo/config.php:26
+msgid "Demo Items"
+msgstr ""
+
+#: shortcodes/view-demo/config.php:31
+msgid "Title demo"
+msgstr ""
+
+#: widgets/banner.class.php:11
+msgid "G5Plus: Banner"
+msgstr ""
+
+#: widgets/banner.class.php:19 widgets/payment-method.class.php:20
+#: widgets/posts.class.php:19 widgets/price-filter.class.php:19
+#: widgets/product-category-filter.class.php:33
+#: widgets/product-filter-attribute.class.php:30
+#: widgets/product-sorting.class.php:20
+msgid "Title:"
+msgstr ""
+
+#: widgets/banner.class.php:29 widgets/payment-method.class.php:41
+msgid "Url redirect:"
+msgstr ""
+
+#: widgets/banner.class.php:38
+msgid "Alt:"
+msgstr ""
+
+#: widgets/banner.class.php:52
+msgid "Custom (image mode: background)"
+msgstr ""
+
+#: widgets/banner.class.php:75
+msgid "Hover Effect: "
+msgstr ""
+
+#: widgets/login-register.class.php:11
+msgid "Display login register text"
+msgstr ""
+
+#: widgets/login-register.class.php:13
+msgid "G5Plus: Login - Register"
+msgstr ""
+
+#: widgets/login-register.class.php:19 widgets/login-register.class.php:36
+msgid "Sign In"
+msgstr ""
+
+#: widgets/login-register.class.php:20
+msgid "Login Text"
+msgstr ""
+
+#: widgets/login-register.class.php:25 widgets/login-register.class.php:37
+msgid "Join"
+msgstr ""
+
+#: widgets/login-register.class.php:26
+msgid "Register Text"
+msgstr ""
+
+#: widgets/login-register.class.php:54
+msgid "Logout"
+msgstr ""
+
+#: widgets/payment-method.class.php:13
+msgid "G5Plus: Payment"
+msgstr ""
+
+#: widgets/payment-method.class.php:24
+msgid "Payment Method"
+msgstr ""
+
+#: widgets/payment-method.class.php:32
+msgid "Payment Name"
+msgstr ""
+
+#: widgets/payment-method.class.php:37
+msgid "Select Image"
+msgstr ""
+
+#: widgets/posts.class.php:13
+msgid "G5Plus: Posts"
+msgstr ""
+
+#: widgets/posts.class.php:26
+msgid "Source"
+msgstr ""
+
+#: widgets/posts.class.php:30
+msgid "Popular"
+msgstr ""
+
+#: widgets/posts.class.php:31
+msgid "Recent"
+msgstr ""
+
+#: widgets/posts.class.php:32
+msgid "Oldest"
+msgstr ""
+
+#: widgets/posts.class.php:39
+msgid "Number of posts to show:"
+msgstr ""
+
+#: widgets/price-filter.class.php:12
+msgid ""
+"Shows a price filter list in a widget which lets you narrow down the "
+"list of shown products when viewing product categories."
+msgstr ""
+
+#: widgets/price-filter.class.php:14
+msgid "G5Plus: Price Filter List"
+msgstr ""
+
+#: widgets/price-filter.class.php:21
+msgid "Filter by price"
+msgstr ""
+
+#: widgets/price-filter.class.php:33
+msgid "Price range size"
+msgstr ""
+
+#: widgets/price-filter.class.php:45
+msgid "Max price ranges"
+msgstr ""
+
+#: widgets/price-filter.class.php:51
+msgid "Hide empty price ranges"
+msgstr ""
+
+#: widgets/product-category-filter.class.php:26
+msgid "Display a product categories list."
+msgstr ""
+
+#: widgets/product-category-filter.class.php:28
+msgid "G5Plus: Product Category Filter"
+msgstr ""
+
+#: widgets/product-category-filter.class.php:35
+msgid "Product categories"
+msgstr ""
+
+#: widgets/product-category-filter.class.php:43
+msgid "Category order"
+msgstr ""
+
+#: widgets/product-category-filter.class.php:51
+msgid "Show product counts"
+msgstr ""
+
+#: widgets/product-category-filter.class.php:57
+msgid "Show hierarchy"
+msgstr ""
+
+#: widgets/product-category-filter.class.php:63
+msgid "Only show children of the current category"
+msgstr ""
+
+#: widgets/product-category-filter.class.php:195
+msgid "No product categories exist."
+msgstr ""
+
+#: widgets/product-category-filter.class.php:198
+msgid "All Category"
+msgstr ""
+
+#: widgets/product-filter-attribute.class.php:23
+msgid "Filter the list of products by attribute"
+msgstr ""
+
+#: widgets/product-filter-attribute.class.php:25
+msgid "G5Plus: Product Filter by Attribute"
+msgstr ""
+
+#: widgets/product-filter-attribute.class.php:36
+msgid "Type:"
+msgstr ""
+
+#: widgets/product-filter-attribute.class.php:39
+msgid "List"
+msgstr ""
+
+#: widgets/product-filter-attribute.class.php:48
+msgid "Query Type:"
+msgstr ""
+
+#: widgets/product-filter-attribute.class.php:51
+msgid "AND"
+msgstr ""
+
+#: widgets/product-filter-attribute.class.php:52
+msgid "OR"
+msgstr ""
+
+#: widgets/product-filter-attribute.class.php:58
+msgid "Attribute:"
+msgstr ""
+
+#: widgets/product-filter-attribute.class.php:65
+msgid "Show count:"
+msgstr ""
+
+#: widgets/product-sorting.class.php:13
+msgid "Display a product sorting list."
+msgstr ""
+
+#: widgets/product-sorting.class.php:15
+msgid "G5Plus: Product Sorting"
+msgstr ""
+
+#: widgets/product-sorting.class.php:22
+msgid "Sort By"
+msgstr ""
+
+#: widgets/product-sorting.class.php:66
+msgid "Popularity"
+msgstr ""
+
+#: widgets/product-sorting.class.php:67
+msgid "Average rating"
+msgstr ""
+
+#: widgets/product-sorting.class.php:68
+msgid "Newness"
+msgstr ""
+
+#: widgets/product-sorting.class.php:69
+msgid "Price: Low to High"
+msgstr ""
+
+#: widgets/product-sorting.class.php:70
+msgid "Price: High to Low"
+msgstr ""
+
+#: widgets/social-profile.class.php:12
+msgid "G5Plus: Social Profile"
+msgstr ""
+
+#: widgets/social-profile.class.php:24
+msgid "Layout Style "
+msgstr ""
+
+#: widgets/social-profile.class.php:41
+msgid "Size: "
+msgstr ""
+
+#: widgets/twitter.class.php:12
+msgid "Display your latest tweets"
+msgstr ""
+
+#: widgets/twitter.class.php:13
+msgid "G5Plus: Twitter"
+msgstr ""
+
+#: widgets/twitter.class.php:26
+msgid "User Name"
+msgstr ""
+
+#: widgets/twitter.class.php:32
+msgid "Consumer Key"
+msgstr ""
+
+#: widgets/twitter.class.php:38
+msgid "Consumer Secret"
+msgstr ""
+
+#: widgets/twitter.class.php:44
+msgid "Access Token"
+msgstr ""
+
+#: widgets/twitter.class.php:50
+msgid "Access Token Secret"
+msgstr ""
+
+#: widgets/twitter.class.php:56
+msgid "Time To Store"
+msgstr ""
+
+#: widgets/twitter.class.php:62
+msgid "Total Feed"
+msgstr ""

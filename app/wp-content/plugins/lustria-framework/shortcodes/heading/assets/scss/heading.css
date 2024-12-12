@@ -1,0 +1,25 @@
+.gf-heading {
+  display: block;
+}
+.gf-heading .heading-title {
+  font-size: 40px;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.gf-heading .heading-sub-title {
+  display: block;
+}
+.gf-heading.gf-heading-style-1 .heading-sub-title {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  margin-bottom: 10px;
+}
+.gf-heading.gf-heading-style-2 .heading-sub-title {
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/*# sourceMappingURL=heading.css.map */

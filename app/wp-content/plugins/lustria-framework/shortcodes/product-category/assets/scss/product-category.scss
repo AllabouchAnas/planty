@@ -1,0 +1,44 @@
+@import "../../../../assets/scss/mixin";
+
+.gf-product-category {
+	position: relative;
+	.gf-product-category-bg {
+		background-size: cover;
+	}
+	a.btn-product-category{
+		position: absolute;
+		@include transform(translateX(-50%));
+		@include transition(.3s);
+		left: 50%;
+		bottom: 37px;
+		width: 75%;
+		font-size: 20px;
+		min-width: 190px;
+		.cate-count{
+			margin-left: 6px;
+			font-size: 15px;
+			font-weight: 400;
+			display: inline-block;
+		}
+	}
+	&.gf-product-category-style-02 {
+		a.btn-product-category{
+			width: 50%;
+		}
+	}
+	&.custom {
+		a.btn-product-category {
+			width: 50%;
+			font-size: 25px;
+		}
+	}
+}
+@media (max-width: 991px) {
+	.gf-product-category {
+		&.custom {
+			a.btn-product-category {
+				width: 75%;
+			}
+		}
+	}
+}

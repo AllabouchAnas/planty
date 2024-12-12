@@ -1,0 +1,93 @@
+
+.admin-bar {
+	.offcanvas-menu {
+		.canvas-closebtn{
+			top: 60px;
+		}
+	}
+}
+.ube-offcanvas{
+	.btn-canvas:focus{
+		outline: none;
+	}
+	#menu-id{
+		margin: auto;
+	}
+}
+.offcanvas-menu {
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: -440px;
+	background: var(--e-global-color-dark);
+	@include transform(translate3d(0, 0, 0));
+	@include transition(300ms ease all);
+	@include backface-visibility(hidden);
+	z-index: 99;
+	overflow-y: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	&.show-nav {
+		@include transform(translate3d(440px, 0, 0));
+	}
+
+	.canvas-closebtn{
+		border: 1px solid var(--e-global-color-dark-foreground);
+		color: var(--e-global-color-dark-foreground);
+		height: 40px;
+		width: 40px;
+		line-height: 40px;
+		text-align: center;
+		position: absolute;
+		right: 20px;
+		top: 20px;
+		z-index: 9;
+	}
+	&.align-right-active {
+		transform: translateX(0);
+		left: auto;
+		right: -440px;
+		&.show-nav{
+			@include transform(translate3d(-440px, 0, 0));
+		}
+	 }
+	&.align-top-active{
+		top: -150px;
+		bottom: auto;
+		@include transform(translateY(0));
+		&.show-nav{
+			@include transform(translate3d(0, 150px, 0));
+		}
+	}
+	&.align-bottom-active{
+		bottom: -150px;
+		top: auto;
+		@include transform(translateY(0));
+		&.show-nav{
+			@include transform(translate3d(0, -150px, 0));
+		}
+	}
+	&.align-bottom-active,
+	&.align-top-active{
+		left: 0;
+		right: 0;
+		width: 100%;
+		height: 150px;
+	}
+	&.align-left-active,
+	&.align-right-active{
+		padding-top: 100px;
+		max-width: 440px;
+		width: 100%;
+	}
+}
+@media screen and (max-width: 1200px) {
+	.offcanvas-menu{
+		&.align-bottom-active,
+		&.align-top-active{
+			.canvas-closebtn{
+				opacity: 0;
+			}
+		}
+	}
+}

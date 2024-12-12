@@ -1,0 +1,76 @@
+.gsf-field-switch-inner input {
+	display: none !important;
+}
+.gsf-field-switch-button {
+	position: relative;
+	background-color: #B7B7B7;
+	height: 24px;
+	line-height: 24px;
+	display: inline-block;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 11px;
+	font-weight: 600;
+	overflow: hidden;
+	-webkit-transition: 0.3s ease-out;
+	-moz-transition: 0.3s ease-out;
+	-o-transition: 0.3s ease-out;
+	transition: 0.3s ease-out;
+}
+.gsf-field-switch-button span {
+	display: block;
+	min-width: 45px;
+	position: relative;
+	opacity: 0;
+	padding-left: 26px;
+	padding-right: 5px;
+}
+.gsf-field-switch-button:before {
+	content: "\f00c";
+	font-family: 'Font Awesome 5 Pro';
+	font-weight: 900;
+	text-align: center;
+	background-color: #fff;
+	width: 18px;
+	height: 18px;
+	line-height: 18px;
+	display: inline-block;
+	position: absolute;
+	top: 3px;
+	left: 24px;
+	margin-left: -21px;
+	-webkit-transition: 0.3s ease-out;
+	-moz-transition: 0.3s ease-out;
+	-o-transition: 0.3s ease-out;
+	transition: 0.3s ease-out;
+}
+.gsf-field-switch-button:after {
+	content: attr(data-switch-off);
+	position: absolute;
+	top: 0px;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	padding-left: 26px;
+	padding-right: 5px;
+	text-align: center;
+	-webkit-transition: 0.3s ease-out;
+	-moz-transition: 0.3s ease-out;
+	-o-transition: 0.3s ease-out;
+	transition: 0.3s ease-out;
+}
+.gsf-field-switch-inner input:checked + .gsf-field-switch-button {
+	background-color: #4A89DC;
+}
+.gsf-field-switch-inner input:checked + .gsf-field-switch-button:before {
+	left: 100%;
+	color: #4A89DC;
+}
+.gsf-field-switch-inner input:checked + .gsf-field-switch-button:after {
+	content: attr(data-switch-on);
+	-webkit-transform: translateX(-21px);
+	-moz-transform: translateX(-21px);
+	-ms-transform: translateX(-21px);
+	-o-transform: translateX(-21px);
+	transform: translateX(-21px);
+}

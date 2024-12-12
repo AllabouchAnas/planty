@@ -1,0 +1,138 @@
+@import "../../../../assets/scss/mixin";
+.gsf-countdown {
+	.countdown-section {
+		display: inline-block;
+		position: relative;
+	}
+	.countdown-style-01 {
+		.countdown-value,
+		.countdown-text {
+			display: block;
+			text-align: center;
+		}
+		.countdown-value {
+			font-size: 100px;
+			font-weight: 300;
+			line-height: 1;
+			margin-bottom: 22px;
+			position: relative;
+		}
+		.countdown-text {
+			opacity: 0.7;
+			font-size: 16px;
+			font-weight: bold;
+			line-height: 1.5;
+			letter-spacing: 3px;
+			text-transform: uppercase;
+		}
+		.countdown-section + .countdown-section {
+			padding-left: 80px;
+			.countdown-value:before {
+				content: ':';
+				display: block;
+				position: absolute;
+				font-size: 40px;
+				left: -42px;
+				top: 30px;
+			}
+		}
+	}
+	.countdown-style-02 {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: flex;
+		@include flex-flow(row wrap);
+		.countdown-section {
+			display: -webkit-flex;
+			display: -moz-flex;
+			display: -ms-flex;
+			display: flex;
+			@include align-items-start();
+		}
+		.countdown-value {
+			font-size: 56px;
+			font-weight: 300;
+			line-height: 1;
+			position: relative;
+		}
+		.countdown-text {
+			opacity: 0.7;
+			font-size: 14px;
+			font-weight: bold;
+			line-height: 1.5;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			padding-top: 10px;
+		}
+		.countdown-section + .countdown-section {
+			padding-left: 30px;
+			&:before {
+				content: ':';
+				display: block;
+				position: absolute;
+				font-size: 24px;
+				left: 14px;
+				bottom: 0;
+			}
+		}
+	}
+	&.gsf-countdown-hide-day .countdown-day {
+		display: none !important;
+		+ .countdown-section {
+			padding-left: 0;
+			padding-right: 0;
+			&:before {
+				display: none;
+			}
+		}
+	}
+}
+
+@media (max-width: 991px) {
+	.gsf-countdown {
+		.countdown-style-01 {
+			.countdown-value {
+				font-size: 80px;
+			}
+			.countdown-text {
+				font-size: 14px;
+			}
+			.countdown-section + .countdown-section {
+				padding-left: 60px;
+				.countdown-value:before {
+					left: -32px;
+					top: 25px;
+				}
+			}
+		}
+	}
+}
+@media (max-width: 767px) {
+	.gsf-countdown {
+		.countdown-style-01 {
+			.countdown-value {
+				font-size: 64px;
+			}
+			.countdown-section + .countdown-section {
+				padding-left: 40px;
+				.countdown-value:before {
+					left: -22px;
+					top: 15px;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 575px) {
+	.gsf-countdown {
+		.countdown-section:nth-child(3) {
+			padding-left: 0 !important;
+			&:before,
+			.countdown-value:before {
+				display: none !important;
+			}
+		}
+	}
+}

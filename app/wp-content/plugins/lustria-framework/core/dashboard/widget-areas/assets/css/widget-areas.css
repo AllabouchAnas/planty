@@ -1,0 +1,54 @@
+#gsf-add-widget {
+	padding: 8px;
+	text-align: center;
+	width: 100%;
+}
+#gsf-add-widget .sidebar-name {
+	pointer-events: none;
+	cursor: default;
+	font-size: 20px;
+	line-height: 2em;
+}
+#gsf-add-widget .regular-text {
+	width: 100%;
+	text-align: center;
+	height: 40px;
+	border: 1px solid #ccc;
+	margin-bottom: 15px;
+}
+.gsf-widget-area-delete {
+	position: absolute;
+	top: 0;
+	right: 35px;
+	padding: 12px 10px;
+	cursor: pointer;
+}
+
+.gsf-widget-area-delete:before {
+	font-family: "dashicons";
+	content: "\f182";
+	font: 400 20px/1 dashicons;
+	speak: none;
+	display: inline-block;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-decoration: none!important;
+	color: #aaa;
+}
+
+.gsf-sidebars-row {
+	display: flex;
+}
+
+.gsf-sidebars-col-left,
+.gsf-sidebars-col-right {
+	flex: 1 1 50%;
+	background-color: #fff;
+	border: solid 1px #ccc;
+	padding: 25px;
+}
+
+.gsf-sidebars-col-left {
+	display: flex;
+	padding: 20px;
+}

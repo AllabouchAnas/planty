@@ -1,0 +1,32 @@
+.ube-social-share{
+	li{
+		cursor: pointer;
+	}
+}
+
+.ube-social-text-background li{
+	.ube-text-social{
+		padding: 4px 10px;
+	}
+	&.ube-social-outline{
+		.ube-text-social{
+			padding-left: 0;
+		}
+	}
+	&:not(.ube-social-outline){
+		color: var(--e-global-color-primary-foreground);
+		.ube-text-social{
+			background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.12)), to(rgba(0, 0, 0, 0)));
+			background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0));
+			background-image: linear-gradient(to right, rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0));
+		}
+	}
+	&:hover{
+		.ube-text-social{
+			color: var(--e-global-color-primary-foreground);
+		}
+	}
+	svg,i{
+		margin: 0 10px;
+	}
+}

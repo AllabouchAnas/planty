@@ -1,0 +1,35 @@
+/** Divide Field **/
+.gsf-field-divide {
+	text-align: center;
+	margin: 15px 0;
+}
+.gsf-field-divide > div {
+	border-top: solid 1px #ddd;
+}
+.gsf-divide-style-large {
+	margin-bottom: 30px;
+}
+.gsf-divide-style-large > div {
+	border-top: none;
+}
+.gsf-divide-style-large > div > span {
+	position: relative;
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	border: solid 1px #ddd;
+	background-color: #fcfcfc;
+}
+.gsf-divide-style-large > div > span:before,
+.gsf-divide-style-large > div > span:after {
+	content: '';
+	position: absolute;
+	border-top: solid 1px #ddd;
+	width: 15em;
+	left: 100%;
+	top: 5px;
+}
+.gsf-divide-style-large > div > span:before {
+	right: 100%;
+	left: auto;
+}

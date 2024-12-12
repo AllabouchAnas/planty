@@ -1,0 +1,48 @@
+@import "../../../../assets/scss/mixin";
+.gsf-counter{
+	position: relative;
+	.counter-value {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.counter-title {
+		font-weight: 500;
+		font-size: 15px;
+		letter-spacing: 3px;
+		margin-top: 12px;
+	}
+	.ct-icon{
+		font-size: 56px;
+		height: 64px;
+		line-height: 64px;
+		display: inline-block;
+		width: 64px;
+		margin-bottom: 6px;
+		&:hover{
+			cursor: pointer;
+		}
+	}
+	&.counter-size-sm {
+		.counter-value {
+			font-size: 28px;
+		}
+	}
+	&.counter-size-md {
+		.counter-value {
+			font-size: 42px;
+		}
+	}
+	&.counter-size-lg {
+		.counter-value {
+			font-size: 55px;
+		}
+	}
+}
+@media (max-width: 425px) {
+	.gsf-counter{
+		.ct-content-right{
+			display: block;
+			margin: 0;
+		}
+	}
+}

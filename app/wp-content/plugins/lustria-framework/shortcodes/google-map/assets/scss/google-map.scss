@@ -1,0 +1,121 @@
+@import "../../../../assets/scss/mixin";
+
+.gsf-google-map {
+	.map-point-animate {
+		position: relative;
+		left: -10px;
+		top: -5px;
+		width: 20px;
+		height: 20px;
+		.map-point-center {
+			width: 100%;
+			height: 100%;
+			position: relative;
+			z-index: 2;
+			img {
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				@include transform(translate(-50%, -50%));
+			}
+			&:not(.has-icon) {
+				position: relative;
+				&:before {
+					position: absolute;
+					left: 50%;
+					top: 50%;
+					@include transform(translate(-50%, -50%));
+					font-family: "Font Awesome 5 Pro";
+					content: "\f3c5";
+					font-weight: 900;
+					font-size: 32px;
+				}
+			}
+		}
+		.map-point-signal,
+		.map-point-signal2 {
+			width: 200px;
+			height: 200px;
+			pointer-events: none;
+			border-radius: 50%;
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			opacity: 0;
+			@include transform(translate(-50%, -50%));
+			-webkit-animation: animationSignal linear 2s;
+			animation: animationSignal linear 2s;
+			@include transform-origin(50%,50%);
+			-webkit-animation-fill-mode: forwards;
+			animation-fill-mode: forwards;
+			-webkit-animation-iteration-count: infinite;
+			animation-iteration-count: infinite;
+			-webkit-animation-delay: .5s;
+			animation-delay: .5s;
+			z-index: 1;
+		}
+		.map-point-signal {
+			border: 2px solid;
+		}
+		.map-point-signal2 {
+			-webkit-animation-delay: 1s;
+			animation-delay: 1s;
+		}
+	}
+	.gm-style-pbc + div > div > div:last-child > div:last-child {
+		z-index: 3 !important;
+	}
+	.gmap-marker-wrap {
+		text-align: center;
+		padding: 20px 30px;
+		.gmap-marker-title {
+			color: #333;
+			margin-top: 0;
+			margin-bottom: 5px;
+		}
+	}
+}
+
+
+@-webkit-keyframes animationSignal {
+	0% {
+		opacity: 0;
+		@include transform(translate(-50%, -50%) scale(0.3));
+	}
+
+	1% {
+		@include transform(translate(-50%, -50%) scale(0.32));
+		opacity: 0.1;
+	}
+
+	20% {
+		opacity: 0.5;
+		@include transform(translate(-50%, -50%) scale(0.0.45));
+	}
+
+	60% {
+		@include transform(translate(-50%, -50%) scale(0.75));
+		opacity: 0.35;
+	}
+}
+@keyframes animationSignal {
+	0% {
+		opacity: 0;
+		@include transform(translate(-50%, -50%) scale(0.3));
+	}
+
+	1% {
+		@include transform(translate(-50%, -50%) scale(0.32));
+		opacity: 0.1;
+	}
+
+	20% {
+		opacity: 0.5;
+		@include transform(translate(-50%, -50%) scale(0.0.45));
+	}
+
+	60% {
+		@include transform(translate(-50%, -50%) scale(0.75));
+		opacity: 0.35;
+	}
+}

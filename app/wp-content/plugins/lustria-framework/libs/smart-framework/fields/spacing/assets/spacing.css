@@ -1,0 +1,19 @@
+.gsf-spacing-item {
+	display: inline-block;
+	position: relative;
+}
+
+.gsf-spacing-item > div {
+	float: left;
+	background: #eee;
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+}
+.gsf-spacing-item > input {
+	float: left;
+	width: 75px!important;
+	margin-left: -1px;
+	margin-top: 0;
+	margin-bottom: 0;
+}

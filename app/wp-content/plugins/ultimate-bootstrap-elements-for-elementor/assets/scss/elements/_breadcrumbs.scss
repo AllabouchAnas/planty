@@ -1,0 +1,61 @@
+.breadcrumbs {
+	.breadcrumb-item {
+		@include d-flex();
+		@include align-items-center();
+
+		a, + .breadcrumb-item::before {
+			color: inherit;
+		}
+	}
+}
+
+.breadcrumb-icon {
+	padding-right: 5px;
+	font-size: 0.8em;
+}
+.breadcrumbs {
+	.breadcrumb-item + .breadcrumb-item {
+		&:before{
+			font-family: var(--ube-font-icon);
+			font-size: 0.8em;
+		}
+	}
+}
+
+.separator-angle-double {
+	.breadcrumb-item + .breadcrumb-item::before {
+		content: '\f101';
+	}
+}
+
+.separator-caret {
+	.breadcrumb-item + .breadcrumb-item::before {
+		content: '\f0da';
+	}
+}
+
+.separator-arrow {
+	.breadcrumb-item + .breadcrumb-item::before {
+		content: '\f054';
+	}
+}
+
+.separator-arrow-alt {
+	.breadcrumb-item + .breadcrumb-item::before {
+		content: '\f138';
+	}
+}
+
+.separator-square {
+	.breadcrumb-item + .breadcrumb-item::before {
+		content: '\f33b';
+	}
+}
+.separator-dot {
+	.breadcrumb-item + .breadcrumb-item::before {
+		content: '\f192';
+		font-family: "FontAwesome";
+		font-size: 0.5em;
+	}
+}
+

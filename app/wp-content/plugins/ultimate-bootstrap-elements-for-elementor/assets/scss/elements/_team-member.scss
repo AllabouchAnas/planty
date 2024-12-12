@@ -1,0 +1,210 @@
+.ube-team-member {
+	@include border-radius(0);
+	border: none;
+	&.card{
+		background-color: transparent;
+	}
+	.card {
+		@include border-radius(0);
+		border: none;
+		background-color: transparent;
+	}
+
+	.card-body {
+		padding: 0;
+	}
+
+	.ube-tm-image {
+		width: 100%;
+		.g5core__lazy-image,
+		.card-img {
+			width: 100%;
+			display: block;
+		}
+		img {
+			width: 100%;
+		}
+	}
+
+	.ube-tm-name {
+		margin-top: 0;
+		margin-bottom: 5px;
+		font-size: 20px;
+		a {
+			color: inherit;
+		}
+	}
+
+	.ube-tm-pos {
+		margin-bottom: 0.5rem;
+	}
+
+	.ube-tm-desc {
+		margin: 0;
+	}
+
+}
+
+.ube-tm-social {
+	margin-top: 1rem;
+	.elementor-icon {
+		font-size: 16px;
+	}
+
+	.elementor-icon + .elementor-icon {
+		margin-left: 10px;
+	}
+}
+
+.ube-tm-style-01 {
+	.ube-tm-image {
+		margin-bottom: 15px;
+	}
+}
+
+.ube-tm-style-02 {
+	overflow: hidden;
+	.card-body {
+		position: absolute;
+		bottom: 25px;
+		left: 25px;
+		right: 25px;
+		padding: 20px 25px;
+		z-index: 1;
+		opacity: 0;
+		@include transform(translate(265px, 145px) rotate(45deg));
+		@include transition(all 0.5s ease-in-out);
+		//color: #fafafa;
+		background-color: var(--e-global-color-accent);
+		color: var(--e-global-color-accent-foreground);
+		* {
+			color: inherit;
+			/*&:hover {
+				color: #fff;
+			}*/
+		}
+
+	}
+	&:hover {
+		.card-body {
+			opacity: 1;
+			@include transform(translate(0px, 0px) rotate(0deg));
+		}
+	}
+}
+
+
+.ube-tm-style-03 {
+	.ube-tm-inner {
+		@include flex-grow-1();
+	}
+	.ube-tm-image {
+		@include border-radius(100%);
+		background-size: cover;
+		background-repeat: no-repeat;
+		position: relative;
+		z-index: 1;
+		&:before {
+			content: '';
+			display: block;
+			padding-top: 100%;
+		}
+	}
+
+	.ube-tm-pos {
+		margin-bottom: 0;
+	}
+
+	.card-body {
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		top: 0;
+		@include d-flex();
+		@include flex-column();
+		@include align-items-center();
+		@include justify-content-center();
+		@include border-radius(100%);
+		//background-color: var(--e-global-color-accent);
+		background-color: var(--e-global-color-accent);
+		//color: #fafafa;
+		color: var(--e-global-color-accent-foreground);
+		* {
+			color: inherit;
+			/*&:hover {
+				color: #fff;
+			}*/
+		}
+	}
+
+	&.ube-tm-hover-default {
+		.card-body {
+			margin: 10px;
+			@include transition(all 0.4s ease-in-out 0s);
+			opacity: 0;
+			z-index: 2;
+			* {
+				@include transform(translateX(-100%));
+				@include transition(all 0.35s ease-in-out);
+			}
+		}
+		&:hover {
+			.card-body {
+				opacity: 1;
+				* {
+					@include transform(translateX(0));
+				}
+			}
+		}
+
+	}
+
+	&.ube-tm-hover-top {
+		.ube-tm-image {
+			@include transition(transform 0.5s ease-in-out);
+			@include transform-origin(50%, 0);
+		}
+		&:hover {
+			.ube-tm-image {
+				@include transform(rotate3d(1, 0, 0, 180deg));
+			}
+		}
+	}
+
+	&.ube-tm-hover-bottom {
+		.ube-tm-image {
+			@include transition(transform 0.5s ease-in-out);
+			@include transform-origin(0, 100%);
+		}
+		&:hover {
+			.ube-tm-image {
+				@include transform(rotate3d(1, 0, 0, 180deg));
+			}
+		}
+	}
+
+	&.ube-tm-hover-left {
+		.ube-tm-image {
+			@include transition(transform 0.5s ease-in-out);
+			@include transform-origin(0, 50%);
+		}
+		&:hover {
+			.ube-tm-image {
+				@include transform(rotate3d(0, 1, 0, -180deg));
+			}
+		}
+	}
+
+	&.ube-tm-hover-right {
+		.ube-tm-image {
+			@include transition(transform 0.5s ease-in-out);
+			@include transform-origin(100%, 50%);
+		}
+		&:hover {
+			.ube-tm-image {
+				@include transform(rotate3d(0, 1, 0, 180deg));
+			}
+		}
+	}
+}

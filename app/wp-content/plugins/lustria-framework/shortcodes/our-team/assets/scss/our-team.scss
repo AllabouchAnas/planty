@@ -1,0 +1,61 @@
+@import "../../../../assets/scss/mixin";
+.gsf-our-team {
+	img {
+		width: 100%;
+	}
+	.ourteam-thumb {
+		.ourteam-thumb-inner {
+			position: relative;
+			overflow: hidden;
+			&:before {
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				content: '';
+				@include transition(all 0.3s);
+				z-index: 1;
+				opacity: 0;
+			}
+			&:hover:before{
+				cursor: pointer;
+				opacity: 0.5;
+			}
+			@include transition(all 0.3s);
+
+		}
+	}
+	.ourteam-content {
+		text-align: center;
+		.ourteam-name {
+			margin-top: 18px;
+			height: 28px;
+			font-size: 22px;
+			font-weight: 500;
+			color: #282727;
+			margin-bottom: 5px;
+			a {
+				@include transition(0.3s);
+			}
+		}
+		.ourteam-position{
+			font-size: 17px;
+		}
+		.ourteam-socials{
+			margin-top: 10px;
+			a{
+				width: 17px;
+				height: 18px;
+				font-size: 18px;
+				letter-spacing: 1.2px;
+				color: #bbbbbb;
+				padding-right: 18px;
+			}
+			a:last-child{
+				padding-right: 0;
+			}
+		}
+	}
+
+}

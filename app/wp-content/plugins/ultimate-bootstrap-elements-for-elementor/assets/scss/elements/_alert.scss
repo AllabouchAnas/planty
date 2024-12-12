@@ -1,0 +1,23 @@
+.ube-alert {
+	margin-bottom: 0;
+	&.alert-dismissible {
+		.close{
+			font-size: 1.5rem;
+			font-weight: 700;
+			color: inherit;
+			background-color: transparent;
+		}
+	}
+	.alert-heading {
+		margin-top: 0;
+	}
+	.alert-description {
+		*:last-child {
+			margin-bottom: 0;
+		}
+		hr {
+			margin-top: 1rem;
+			margin-bottom: 1rem;
+		}
+	}
+}
