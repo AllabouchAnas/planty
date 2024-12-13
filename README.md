@@ -5,6 +5,7 @@ Ce projet WordPress utilise WooCommerce pour créer une boutique en ligne spéci
 
 ## Thème utilisé
 Lustria : Un thème moderne et responsive, conçu spécifiquement pour les sites de commerce en ligne. Il offre une présentation claire et soignée des produits avec des options de personnalisation avancées.
+
 ## Plugins utilisés
 - 1.WooCommerce : Plugin principal pour la gestion de la boutique en ligne, la gestion des produits, des commandes et des paiements.
 - 2.Contact Form 7 : Plugin pour la gestion des formulaires de contact sur le site. Il permet aux utilisateurs de poser des questions ou de demander des informations sur les plantes.
@@ -16,7 +17,6 @@ Lustria : Un thème moderne et responsive, conçu spécifiquement pour les sites
 - 8.Lustria Framework : Framework qui complète le thème Lustria, offrant des fonctionnalités avancées pour personnaliser les pages et les sections du site.
 
 ## Prérequis
-
 1. **XAMPP installé sur votre machine** :
    Vous pouvez télécharger XAMPP à partir du [site officiel](https://www.apachefriends.org/download.html) et l'installer selon votre système d'exploitation.
 
@@ -84,6 +84,17 @@ Si vous avez importé une base de données provenant d'un autre environnement, v
 1. Ouvrez votre navigateur et allez à `http://localhost`.
 2. Vous devriez voir votre site WordPress en fonctionnement.
 
+## Identifiants Administrateur
+
+Voici les identifiants de connexion pour l'admin et un utilisateur standard :
+
+### Admin
+- **Nom d'utilisateur** : admin
+- **Mot de passe** : admin
+
+### Utilisateur
+- **Nom d'utilisateur** : user
+- **Mot de passe** : user
 
 ## Conclusion
 Votre projet WordPress est maintenant installé et prêt à être utilisé sur XAMPP !
