@@ -92,9 +92,13 @@ Voici les identifiants de connexion pour l'admin et un utilisateur standard :
 - **Nom d'utilisateur** : admin
 - **Mot de passe** : admin
 
-### Utilisateur
-- **Nom d'utilisateur** : user
-- **Mot de passe** : user
+### Contributeur
+- **Nom d'utilisateur** : userc
+- **Mot de passe** : userc
+
+### Éditeur
+- **Nom d'utilisateur** : usere
+- **Mot de passe** : usere
 
 ## Conclusion
 Votre projet WordPress est maintenant installé et prêt à être utilisé sur XAMPP !
